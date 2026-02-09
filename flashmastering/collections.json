@@ -23,35 +23,38 @@
   {
     "id": "financial_literacy_en",
     "name": "Financial Literacy",
-    "description": "Budgeting, credit, and everyday money skills",
+    "description": "Budgeting, credit, investing, and everyday money skills",
     "iconName": "dollarsign.circle.fill",
     "colorName": "green",
     "stableDeckIds": [
       "budget_basics_everyday_money",
-      "debt_credit_basics"
+      "debt_credit_basics",
+      "investing_basics_wealth_building"
     ],
     "language": "en"
   },
   {
     "id": "financial_literacy_fr",
     "name": "Éducation financière",
-    "description": "Budget, crédit et gestion de l'argent au quotidien",
+    "description": "Budget, crédit, investissement et gestion de l'argent",
     "iconName": "dollarsign.circle.fill",
     "colorName": "green",
     "stableDeckIds": [
       "budget_personnel_bases",
-      "dette_credit_bases"
+      "dette_credit_bases",
+      "investissement_epargne_bases"
     ],
     "language": "fr"
   },
   {
     "id": "health_essentials_en",
     "name": "Health Essentials",
-    "description": "Nutrition, body systems, and wellness basics",
+    "description": "Nutrition, body systems, mental health, and wellness basics",
     "iconName": "heart.fill",
     "colorName": "red",
     "stableDeckIds": [
       "human_body_energy_basics",
+      "mental_health_wellbeing_basics",
       "nutrition_science_basics"
     ],
     "language": "en"
@@ -59,38 +62,67 @@
   {
     "id": "health_essentials_fr",
     "name": "Santé & Bien-être",
-    "description": "Nutrition, corps humain et bases du bien-être",
+    "description": "Nutrition, corps humain, santé mentale et bien-être",
     "iconName": "heart.fill",
     "colorName": "red",
     "stableDeckIds": [
       "corps_humain_energie_bases",
-      "nutrition_science_bases"
+      "nutrition_science_bases",
+      "sante_mentale_bien_etre_bases"
     ],
     "language": "fr"
   },
   {
     "id": "scientific_literacy_en",
     "name": "Scientific Literacy",
-    "description": "Scientific method, evidence, and data reasoning",
+    "description": "Scientific method, climate science, and data reasoning",
     "iconName": "flask.fill",
     "colorName": "purple",
     "stableDeckIds": [
       "scientific_method_evidence",
-      "reasoning_with_data_science_lit"
+      "reasoning_with_data_science_lit",
+      "climate_environment_science"
     ],
     "language": "en"
   },
   {
+    "id": "scientific_literacy_fr",
+    "name": "Culture scientifique",
+    "description": "Méthode scientifique, climat et raisonnement avec les données",
+    "iconName": "flask.fill",
+    "colorName": "purple",
+    "stableDeckIds": [
+      "methode_scientifique_preuves",
+      "raisonner_avec_donnees",
+      "climat_environnement_science"
+    ],
+    "language": "fr"
+  },
+  {
     "id": "digital_literacy_en",
     "name": "Digital Literacy",
-    "description": "Internet, cybersecurity, and digital privacy essentials",
+    "description": "Internet basics, AI literacy, cybersecurity, and digital privacy",
     "iconName": "lock.shield.fill",
     "colorName": "cyan",
     "stableDeckIds": [
       "digital_internet_web_basics",
-      "cybersecurity_privacy_essentials"
+      "cybersecurity_privacy_essentials",
+      "ai_literacy_essentials"
     ],
     "language": "en"
+  },
+  {
+    "id": "digital_literacy_fr",
+    "name": "Culture numérique",
+    "description": "Internet, IA, cybersécurité et vie privée numérique",
+    "iconName": "lock.shield.fill",
+    "colorName": "cyan",
+    "stableDeckIds": [
+      "numerique_internet_web_bases",
+      "cybersecurite_vie_privee_essentiels",
+      "litteratie_ia_essentiels"
+    ],
+    "language": "fr"
   },
   {
     "id": "stem_foundations_en",
@@ -112,47 +144,25 @@
   {
     "id": "general_culture_en",
     "name": "General Culture",
-    "description": "Geography, history, and civics essentials",
+    "description": "Geography, history, civics, and philosophy essentials",
     "iconName": "globe",
     "colorName": "orange",
     "stableDeckIds": [
       "general_culture_geography_world_basics",
-      "general_culture_history_civics"
+      "general_culture_history_civics",
+      "general_culture_philosophy_thinking"
     ],
     "language": "en"
   },
   {
-    "id": "scientific_literacy_fr",
-    "name": "Culture scientifique",
-    "description": "Méthode scientifique, preuves et raisonnement avec les données",
-    "iconName": "flask.fill",
-    "colorName": "purple",
-    "stableDeckIds": [
-      "methode_scientifique_preuves",
-      "raisonner_avec_donnees"
-    ],
-    "language": "fr"
-  },
-  {
-    "id": "digital_literacy_fr",
-    "name": "Culture numérique",
-    "description": "Internet, cybersécurité et vie privée numérique",
-    "iconName": "lock.shield.fill",
-    "colorName": "cyan",
-    "stableDeckIds": [
-      "numerique_internet_web_bases",
-      "cybersecurite_vie_privee_essentiels"
-    ],
-    "language": "fr"
-  },
-  {
     "id": "general_culture_fr",
     "name": "Culture générale",
-    "description": "Géographie, histoire et repères essentiels",
+    "description": "Géographie, philosophie et repères essentiels",
     "iconName": "globe",
     "colorName": "orange",
     "stableDeckIds": [
       "culture_generale_geographie_monde",
+      "culture_generale_philosophie_pensee",
       "culture_generale_reperes_essentiels"
     ],
     "language": "fr"
@@ -164,7 +174,11 @@
     "iconName": "desktopcomputer",
     "colorName": "red",
     "stableDeckIds": [
-      "computer_science_cs50_foundations"
+      "computer_science_cs50_foundations",
+      "cs50_arrays_algorithms",
+      "cs50_c_programming_basics",
+      "cs50_memory_data_structures",
+      "cs50_python_sql_web"
     ],
     "language": "en"
   },
@@ -175,29 +189,37 @@
     "iconName": "desktopcomputer",
     "colorName": "red",
     "stableDeckIds": [
-      "informatique_fondements_cs50"
+      "informatique_fondements_cs50",
+      "cs50_programmation_c_bases",
+      "cs50_tableaux_algorithmes",
+      "cs50_memoire_structures_donnees",
+      "cs50_python_sql_web_fr"
     ],
     "language": "fr"
   },
   {
     "id": "web3_blockchain_en",
     "name": "Web3 & Blockchain",
-    "description": "Foundations of blockchain, Web3, and tokenomics",
+    "description": "Blockchain foundations, smart contracts, DeFi, and governance",
     "iconName": "link.circle.fill",
     "colorName": "purple",
     "stableDeckIds": [
-      "web3_blockchain_basics"
+      "web3_blockchain_basics",
+      "web3_smart_contracts_ethereum",
+      "web3_defi_governance"
     ],
     "language": "en"
   },
   {
     "id": "web3_blockchain_fr",
     "name": "Web3 & Blockchain",
-    "description": "Bases de la blockchain, du Web3 et de la tokenomics",
+    "description": "Blockchain, contrats intelligents, DeFi et gouvernance",
     "iconName": "link.circle.fill",
     "colorName": "purple",
     "stableDeckIds": [
-      "web3_blockchain_bases"
+      "web3_blockchain_bases",
+      "web3_contrats_intelligents_ethereum",
+      "web3_defi_gouvernance"
     ],
     "language": "fr"
   }
