@@ -235,5 +235,20 @@
       "command_line_mastery_macos"
     ],
     "language": "en"
+  },
+  {
+    "id": "code_route_fr",
+    "name": "Code de la Route",
+    "description": "Panneaux, priorités, vitesses, sécurité et éco-conduite pour réussir l'examen français.",
+    "iconName": "steeringwheel",
+    "colorName": "orange",
+    "stableDeckIds": [
+      "code_route_panneaux_signalisation",
+      "code_route_priorites_intersections",
+      "code_route_vitesse_distances_conditions",
+      "code_route_securite_vehicule_premiers_secours",
+      "code_route_ecoconduite_partage_route"
+    ],
+    "language": "fr"
   }
 ]

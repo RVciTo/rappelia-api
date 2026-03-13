@@ -15118,5 +15118,1701 @@
         "externalLinkURL": "https://missing.csail.mit.edu/"
       }
     ]
+  },
+  {
+    "stableId": "code_route_panneaux_signalisation",
+    "name": "Panneaux et signalisation routière",
+    "description": "Reconnaître les principaux panneaux du code de la route français et adopter la bonne réaction de conduite.",
+    "color": "red",
+    "category": "Driving",
+    "language": "fr",
+    "difficulty": "Beginner",
+    "tags": [
+      "code",
+      "route",
+      "panneaux",
+      "signalisation",
+      "conduite"
+    ],
+    "cards": [
+      {
+        "front": "Que signifie un panneau triangulaire à bord rouge ?",
+        "back": "Il annonce un danger et demande au conducteur d’adapter sa vitesse et sa vigilance.",
+        "hint": "Triangle = danger."
+      },
+      {
+        "front": "Que signifie un panneau rond à bord rouge ?",
+        "back": "Il indique une interdiction, une limitation ou une défense particulière.",
+        "hint": "Le rouge interdit."
+      },
+      {
+        "front": "Que signifie un panneau rond bleu ?",
+        "back": "Il indique une obligation imposée aux usagers.",
+        "hint": "Bleu = action imposée."
+      },
+      {
+        "front": "Que signifie un panneau carré ou rectangulaire bleu ?",
+        "back": "Il donne une indication utile, un service ou une information de direction.",
+        "hint": "Bleu d’information."
+      },
+      {
+        "front": "Que signifie le panneau STOP ?",
+        "back": "Il impose un arrêt complet avant la ligne d’effet ou avant l’intersection.",
+        "hint": "On s’arrête totalement."
+      },
+      {
+        "front": "Que signifie un panneau 'Cédez le passage' ?",
+        "back": "Il impose de laisser passer les usagers prioritaires sans obligation d’arrêt complet si la voie est libre.",
+        "hint": "Triangle pointe en bas."
+      },
+      {
+        "front": "Que signifie le losange jaune sur fond blanc ?",
+        "back": "Il annonce une route à caractère prioritaire.",
+        "hint": "Losange jaune = priorité."
+      },
+      {
+        "front": "Que signifie le losange jaune barré de noir ?",
+        "back": "Il indique la fin d’une route prioritaire.",
+        "hint": "La priorité se termine."
+      },
+      {
+        "front": "Que signifie un panneau sens interdit ?",
+        "back": "Il interdit l’accès aux véhicules dans ce sens de circulation.",
+        "hint": "Fond rouge, barre blanche."
+      },
+      {
+        "front": "Que signifie le panneau d’interdiction de tourner à gauche ?",
+        "back": "Il interdit d’effectuer un virage à gauche à l’endroit indiqué.",
+        "hint": "Flèche barrée."
+      },
+      {
+        "front": "Que signifie le panneau d’interdiction de demi-tour ?",
+        "back": "Il interdit de faire demi-tour sur la chaussée à cet endroit.",
+        "hint": "U barré."
+      },
+      {
+        "front": "Que signifie un panneau limité à 30 ?",
+        "back": "Il fixe une vitesse maximale autorisée de 30 km/h.",
+        "hint": "Nombre dans cercle rouge."
+      },
+      {
+        "front": "Que signifie le panneau de fin de limitation de vitesse ?",
+        "back": "Il annonce que la limitation précédente n’est plus applicable.",
+        "hint": "Nombre barré."
+      },
+      {
+        "front": "Que signifie le panneau stationnement interdit ?",
+        "back": "Il interdit de laisser son véhicule en stationnement à cet endroit.",
+        "hint": "Trait rouge unique."
+      },
+      {
+        "front": "Que signifie le panneau arrêt et stationnement interdits ?",
+        "back": "Il interdit à la fois l’arrêt volontaire et le stationnement.",
+        "hint": "Croix rouge et bleue."
+      },
+      {
+        "front": "Que signifie le panneau passage piéton ?",
+        "back": "Il signale un passage réservé aux piétons ou son approche.",
+        "hint": "Bandes de traversée."
+      },
+      {
+        "front": "Que signifie le panneau enfants ?",
+        "back": "Il avertit d’un endroit fréquenté par des enfants, souvent près d’une école.",
+        "hint": "Silhouette d’enfants."
+      },
+      {
+        "front": "Que signifie le panneau chaussée glissante ?",
+        "back": "Il avertit d’un risque de perte d’adhérence, surtout en cas d’intempéries.",
+        "hint": "Voiture qui dérape."
+      },
+      {
+        "front": "Que signifie le panneau virage dangereux à droite ?",
+        "back": "Il annonce un virage serré vers la droite nécessitant une allure adaptée.",
+        "hint": "Courbe à droite."
+      },
+      {
+        "front": "Que signifie le panneau succession de virages ?",
+        "back": "Il annonce plusieurs virages rapprochés sur la route.",
+        "hint": "Plusieurs courbes."
+      },
+      {
+        "front": "Que signifie le panneau rétrécissement de chaussée ?",
+        "back": "Il avertit que la largeur de la chaussée diminue.",
+        "hint": "Chaussée qui se resserre."
+      },
+      {
+        "front": "Que signifie le panneau travaux ?",
+        "back": "Il annonce une zone de chantier ou de travaux sur ou près de la chaussée.",
+        "hint": "Ouvrier dans triangle."
+      },
+      {
+        "front": "Que signifie le panneau projection de gravillons ?",
+        "back": "Il avertit d’un risque de gravillons pouvant réduire l’adhérence ou endommager le véhicule.",
+        "hint": "Petits points projetés."
+      },
+      {
+        "front": "Que signifie le panneau dos-d’âne ou ralentisseur ?",
+        "back": "Il avertit d’une déformation de la chaussée qui impose de ralentir.",
+        "hint": "Bosse."
+      },
+      {
+        "front": "Que signifie le panneau pente dangereuse descendante ?",
+        "back": "Il annonce une forte descente nécessitant une gestion prudente de la vitesse.",
+        "hint": "Pourcentage vers le bas."
+      },
+      {
+        "front": "Que signifie le panneau côte dangereuse ?",
+        "back": "Il annonce une forte montée pouvant nécessiter une adaptation de l’allure et du rapport.",
+        "hint": "Pourcentage vers le haut."
+      },
+      {
+        "front": "Que signifie le panneau passage à niveau sans barrière ?",
+        "back": "Il annonce un croisement ferroviaire dépourvu de barrières.",
+        "hint": "Train sans barrière."
+      },
+      {
+        "front": "Que signifie le panneau passage à niveau avec barrières ?",
+        "back": "Il annonce un passage à niveau protégé par des barrières ou demi-barrières.",
+        "hint": "Train + barrière."
+      },
+      {
+        "front": "Que signifie le panneau carrefour à sens giratoire ?",
+        "back": "Il annonce un rond-point où les véhicules déjà engagés sont généralement prioritaires.",
+        "hint": "Flèches en cercle."
+      },
+      {
+        "front": "Que signifie le panneau intersection où s’applique la priorité à droite ?",
+        "back": "Il avertit que le prochain carrefour n’est pas réglé par une priorité spécifique.",
+        "hint": "Croix noire."
+      },
+      {
+        "front": "Que signifie le panneau route à chaussées séparées ?",
+        "back": "Il indique l’entrée sur une route dont les sens de circulation sont séparés.",
+        "hint": "Deux chaussées."
+      },
+      {
+        "front": "Que signifie le panneau autoroute ?",
+        "back": "Il indique l’entrée sur une autoroute et l’application de ses règles spécifiques.",
+        "hint": "Symbole autoroute."
+      },
+      {
+        "front": "Que signifie le panneau fin d’autoroute ?",
+        "back": "Il annonce la fin du régime autoroutier.",
+        "hint": "Autoroute barrée."
+      },
+      {
+        "front": "Que signifie le panneau route pour automobiles ?",
+        "back": "Il indique une route réservée aux véhicules motorisés suffisamment rapides.",
+        "hint": "Voiture blanche sur bleu."
+      },
+      {
+        "front": "Que signifie le panneau fin de route pour automobiles ?",
+        "back": "Il annonce la fin des règles propres à la route pour automobiles.",
+        "hint": "Voiture barrée."
+      },
+      {
+        "front": "Que signifie le panneau parking ?",
+        "back": "Il indique un emplacement ou une aire de stationnement autorisée.",
+        "hint": "Lettre P."
+      },
+      {
+        "front": "Que signifie le panneau station-service ?",
+        "back": "Il indique la présence d’un point de ravitaillement en carburant.",
+        "hint": "Pompe à carburant."
+      },
+      {
+        "front": "Que signifie le panneau hôpital ?",
+        "back": "Il signale la présence d’un établissement de soins ou d’une zone sensible au bruit.",
+        "hint": "H bleu."
+      },
+      {
+        "front": "Que signifie le panneau téléphone de secours ?",
+        "back": "Il indique un poste d’appel d’urgence.",
+        "hint": "Combiné téléphonique."
+      },
+      {
+        "front": "Que signifie le panneau aire de repos ?",
+        "back": "Il signale un lieu où l’on peut s’arrêter pour faire une pause.",
+        "hint": "Banc ou repos."
+      },
+      {
+        "front": "Que signifie le panneau restaurant ?",
+        "back": "Il signale un service de restauration à proximité.",
+        "hint": "Fourchette/couteau."
+      },
+      {
+        "front": "Que signifie le panneau tunnel ?",
+        "back": "Il annonce l’entrée d’un tunnel et la nécessité d’appliquer les règles spécifiques.",
+        "hint": "Voûte de tunnel."
+      },
+      {
+        "front": "Que signifie le panneau risque d’embouteillage ?",
+        "back": "Il avertit d’un risque de ralentissement important ou de bouchon.",
+        "hint": "Files de voitures."
+      },
+      {
+        "front": "Que signifie le panneau vent latéral ?",
+        "back": "Il avertit que des rafales peuvent déporter le véhicule.",
+        "hint": "Manche à air."
+      },
+      {
+        "front": "Que signifie le panneau traversée d’animaux domestiques ?",
+        "back": "Il avertit d’un passage possible d’animaux d’élevage sur la chaussée.",
+        "hint": "Vache."
+      },
+      {
+        "front": "Que signifie le panneau traversée d’animaux sauvages ?",
+        "back": "Il avertit d’un risque de passage de gibier.",
+        "hint": "Cervidé."
+      },
+      {
+        "front": "Que signifie le panneau interdit aux véhicules de transport de marchandises ?",
+        "back": "Il interdit l’accès aux poids lourds ou à certaines catégories de véhicules de marchandises.",
+        "hint": "Camion dans cercle rouge."
+      },
+      {
+        "front": "Que signifie le panneau interdit aux piétons ?",
+        "back": "Il interdit aux piétons d’emprunter la voie concernée.",
+        "hint": "Piéton barré."
+      },
+      {
+        "front": "Que signifie le panneau piste ou bande cyclable obligatoire ?",
+        "back": "Il impose aux cyclistes d’emprunter l’aménagement indiqué.",
+        "hint": "Vélo sur fond bleu."
+      },
+      {
+        "front": "Que signifie le panneau voie sans issue ?",
+        "back": "Il annonce que la route ne permet pas de déboucher plus loin.",
+        "hint": "Impasse."
+      },
+      {
+        "front": "Que signifie le panneau zone 30 ?",
+        "back": "Il indique l’entrée dans une zone où la vitesse est limitée à 30 km/h et où l’aménagement favorise les usagers vulnérables.",
+        "hint": "Régime de zone."
+      },
+      {
+        "front": "Que signifie le panneau fin de zone 30 ?",
+        "back": "Il annonce la fin des règles propres à la zone 30.",
+        "hint": "Zone 30 barrée."
+      },
+      {
+        "front": "Que signifie le panneau zone de rencontre ?",
+        "back": "Il indique une zone où les piétons sont prioritaires et la vitesse est très limitée.",
+        "hint": "Espace partagé."
+      },
+      {
+        "front": "Que signifie le panneau aire piétonne ?",
+        "back": "Il indique une zone réservée principalement aux piétons, avec accès très encadré pour les véhicules autorisés.",
+        "hint": "Priorité piétons."
+      },
+      {
+        "front": "Que signifie le panneau limitation due à la pollution ou aux circonstances locales ?",
+        "back": "Il annonce une limitation spécifique temporaire ou localement imposée, à respecter comme toute limitation réglementaire.",
+        "hint": "Règle locale."
+      }
+    ],
+    "sampleIdeas": [
+      {
+        "name": "Lire les formes et couleurs en un coup d'œil",
+        "textDescription": "Les familles de panneaux français utilisent un code visuel à base de formes et de couleurs pour déclencher un réflexe immédiat. Triangle bordé de rouge pour le danger, rond rouge pour la contrainte, rond bleu pour l'obligation, carré ou rectangle bleu pour l'information : retenir cette grammaire évite l'hésitation en situation.\n\nAssocier chaque forme à une action concrète renforce la mémorisation. Devant un triangle, on se prépare à ralentir; devant un rond rouge, on vérifie la contrainte détaillée; devant un carré bleu, on recherche l'indication utile (passage piéton, stationnement, services). Cette conversion perception→action est exactement ce que l'examen attend.\n\nLes erreurs viennent souvent de panneaux vus trop tard ou confondus avec un marquage temporaire. En conduite accompagnée, entraînez-vous à annoncer à voix haute la famille et la réponse attendue dès l'apparition du panneau : cela transforme la reconnaissance passive en décision active.\n\nPour aller plus loin, consultez la synthèse officielle de la signalisation française et analysez les exemples photographiques afin de relier les cartes à des situations réelles.",
+        "videoURL": null,
+        "externalLinkURL": "https://fr.wikipedia.org/wiki/Signalisation_routi%C3%A8re_en_France",
+        "linkedCardIndices": [
+          0,
+          1,
+          2,
+          3,
+          15,
+          16
+        ]
+      },
+      {
+        "name": "Anticiper les panneaux de danger",
+        "textDescription": "Les panneaux triangulaires placés à 150 ou 50 mètres selon l'environnement annoncent un danger précis et imposent d'ajuster l'allure avant même de voir l'obstacle. Chaussée glissante, virages successifs, gravillons, travaux ou dos-d'âne : chacun signale une perte d'adhérence potentielle si la vitesse reste inchangée.\n\nL'astuce consiste à traduire mentalement le pictogramme en une consigne simple : ralentir, garder les deux mains sur le volant, choisir un rapport court ou allonger la distance de sécurité. Sur pente ou côte dangereuse, un coup d'œil au rétroplanificateur aide à choisir le frein moteur plutôt que le frein de service continu.\n\nLes passages à niveau ou carrefours particuliers s'annoncent eux aussi par ce triangle rouge. Même si les barrières sont ouvertes, le panneau rappelle qu'il faut contrôler visuellement les rails, les voies latérales ou les priorités.\n\nRévisez la liste des principaux panneaux de danger et entraînez-vous à les dessiner de mémoire : cette méthode active renforce l'association pictogramme→comportement.",
+        "videoURL": null,
+        "externalLinkURL": "https://fr.wikipedia.org/wiki/Panneau_de_signalisation_de_danger",
+        "linkedCardIndices": [
+          17,
+          18,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ]
+      },
+      {
+        "name": "Identifier directions, services et tunnels",
+        "textDescription": "Les panneaux bleus carrés ou rectangulaires structurent l'information : parkings, stations-service, hôpitaux, téléphones d'urgence ou aires de repos. Sur autoroute, ils préparent plusieurs kilomètres à l'avance la répartition des files afin d'éviter les changements brutaux à la dernière minute.\n\nLes panneaux spécifiques aux infrastructures (tunnels, routes à chaussées séparées, autoroutes, routes pour automobiles) imposent une vérification ciblée : éclairage allumé avant un tunnel, clignotants anticipés avant un giratoire, distances de sécurité renforcées en zone confinée.\n\nLe conducteur qui sait lire la signalisation directionnelle gagne du temps et réduit le stress. Au lieu de fixer son GPS, il balaye la signalisation physique, repère les chevrons de file et confirme la manœuvre prévue.\n\nÉtudiez les planches dédiées à la signalisation directionnelle française pour faire le lien entre couleurs de fond, numéros d'axes et services disponibles sur chaque aire.",
+        "videoURL": null,
+        "externalLinkURL": "https://fr.wikipedia.org/wiki/Signalisation_directionnelle_en_France",
+        "linkedCardIndices": [
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41
+        ]
+      },
+      {
+        "name": "Comprendre les zones réglementées",
+        "textDescription": "Les zones 30, zones de rencontre, aires piétonnes ou restrictions temporaires liées à la pollution sont signalées par des panneaux spécifiques souvent complétés par des panonceaux horaires. Il faut retenir qu'une zone impose une règle continue jusqu'au panneau de fin, même si la chaussée change plusieurs fois d'apparence.\n\nCes zones protègent les usagers vulnérables et la qualité de l'air. Rouler trop vite y est non seulement sanctionné mais aussi dangereux parce que les piétons et cyclistes y circulent parfois au milieu de la chaussée.\n\nLes panneaux d'interdiction d'accès (poids lourds, piétons, pistes cyclables obligatoires) fonctionnent comme des filtres. Les ignorer oblige à faire demi-tour et augmente le risque d'accrochage avec ceux qui y ont droit.\n\nReprenez chaque panneau de zone et notez dans un tableau la vitesse maximale, la priorité de passage et les restrictions d'accès afin de consolider vos automatismes.",
+        "videoURL": null,
+        "externalLinkURL": "https://fr.wikipedia.org/wiki/Zone_30",
+        "linkedCardIndices": [
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54
+        ]
+      }
+    ]
+  },
+  {
+    "stableId": "code_route_priorites_intersections",
+    "name": "Règles de priorité et intersections",
+    "description": "Maîtriser les priorités, les carrefours et les comportements sûrs aux intersections.",
+    "color": "orange",
+    "category": "Driving",
+    "language": "fr",
+    "difficulty": "Beginner",
+    "tags": [
+      "priorite",
+      "intersection",
+      "code",
+      "route",
+      "circulation"
+    ],
+    "cards": [
+      {
+        "front": "Quand la priorité à droite s’applique-t-elle ?",
+        "back": "Elle s’applique lorsqu’aucune signalisation ni règle particulière ne fixe une autre priorité.",
+        "hint": "Règle par défaut."
+      },
+      {
+        "front": "Que doit faire un conducteur face à un panneau 'Cédez le passage' ?",
+        "back": "Il doit laisser passer les usagers prioritaires avant de s’engager.",
+        "hint": "Pas d’arrêt si voie libre."
+      },
+      {
+        "front": "Que doit faire un conducteur face à un panneau STOP ?",
+        "back": "Il doit marquer un arrêt complet, puis céder le passage.",
+        "hint": "Arrêt total."
+      },
+      {
+        "front": "Qui est prioritaire dans un carrefour à sens giratoire classique ?",
+        "back": "Les véhicules déjà engagés dans l’anneau sont prioritaires.",
+        "hint": "Déjà dans le giratoire."
+      },
+      {
+        "front": "Qui est prioritaire sur une route prioritaire ?",
+        "back": "Les véhicules circulant sur cette route conservent la priorité aux intersections annoncées.",
+        "hint": "Losange jaune."
+      },
+      {
+        "front": "Quand perd-on le bénéfice de la route prioritaire ?",
+        "back": "À la fin de priorité ou lorsqu’une signalisation fixe une autre règle.",
+        "hint": "Losange barré."
+      },
+      {
+        "front": "Qui est prioritaire à un feu vert ?",
+        "back": "Le conducteur qui a le feu vert peut passer, à condition que l’intersection soit libre et que les usagers vulnérables soient respectés.",
+        "hint": "Vert n’autorise pas tout."
+      },
+      {
+        "front": "Que faire à un feu jaune fixe ?",
+        "back": "S’arrêter sauf si ce freinage créerait un danger immédiat.",
+        "hint": "Orange = on s’arrête si possible."
+      },
+      {
+        "front": "Que faire à un feu rouge ?",
+        "back": "S’arrêter avant la ligne d’arrêt, le passage piéton ou l’intersection.",
+        "hint": "Rouge = arrêt."
+      },
+      {
+        "front": "Que faire si les feux ne fonctionnent plus ?",
+        "back": "Appliquer les panneaux existants ou, à défaut, la priorité à droite.",
+        "hint": "Retour aux règles générales."
+      },
+      {
+        "front": "Qui est prioritaire entre un train et une voiture à un passage à niveau ?",
+        "back": "Le train est toujours prioritaire.",
+        "hint": "Jamais devant un train."
+      },
+      {
+        "front": "Qui est prioritaire lorsqu’un agent règle la circulation ?",
+        "back": "Les indications de l’agent priment sur les feux et panneaux.",
+        "hint": "L’agent passe avant la signalisation."
+      },
+      {
+        "front": "Le piéton est-il prioritaire sur un passage piéton ?",
+        "back": "Oui, dès qu’il est engagé ou manifeste clairement l’intention de traverser.",
+        "hint": "Usager vulnérable."
+      },
+      {
+        "front": "Avant de tourner à gauche, à qui faut-il céder le passage ?",
+        "back": "Aux véhicules venant en sens inverse et allant tout droit ou tournant à droite, sauf signalisation contraire.",
+        "hint": "Croisement des trajectoires."
+      },
+      {
+        "front": "Lors d’une insertion sur autoroute, qui est prioritaire ?",
+        "back": "Les véhicules déjà engagés sur l’autoroute.",
+        "hint": "Voie d’accélération."
+      },
+      {
+        "front": "En sortant d’un stationnement, qui est prioritaire ?",
+        "back": "Tous les usagers déjà en circulation sur la chaussée.",
+        "hint": "On repart sans priorité."
+      },
+      {
+        "front": "En quittant un chemin de terre ou une propriété privée, qui est prioritaire ?",
+        "back": "Les usagers circulant déjà sur la route ouverte à la circulation.",
+        "hint": "On s’insère sans priorité."
+      },
+      {
+        "front": "En marche arrière, a-t-on la priorité ?",
+        "back": "Non, on doit s’assurer de ne gêner ni mettre en danger personne.",
+        "hint": "Manœuvre = prudence maximale."
+      },
+      {
+        "front": "Dans une zone de rencontre, qui est prioritaire ?",
+        "back": "Les piétons sont prioritaires sur les véhicules.",
+        "hint": "Espace partagé."
+      },
+      {
+        "front": "Dans une aire piétonne, quelle logique de priorité s’applique ?",
+        "back": "Les piétons circulent librement et les véhicules autorisés doivent leur céder la priorité.",
+        "hint": "Piétons d’abord."
+      },
+      {
+        "front": "Que signifient les triangles blancs peints au sol ?",
+        "back": "Ils annoncent un cédez-le-passage.",
+        "hint": "Marquage au sol."
+      },
+      {
+        "front": "Une ligne d’effet STOP peut-elle être franchie sans arrêt ?",
+        "back": "Non, l’arrêt est obligatoire avant la ligne ou avant la chaussée traversée.",
+        "hint": "STOP = arrêt."
+      },
+      {
+        "front": "Peut-on s’engager dans une intersection si l’on risque d’y rester bloqué ?",
+        "back": "Non, il faut attendre que la sortie soit dégagée.",
+        "hint": "Ne pas bloquer le carrefour."
+      },
+      {
+        "front": "À un carrefour sans visibilité, quel comportement adopter même si l’on est prioritaire ?",
+        "back": "Ralentir et vérifier que les autres usagers ont compris la situation.",
+        "hint": "La priorité n’empêche pas le danger."
+      },
+      {
+        "front": "Qui est prioritaire entre un cycliste sur bande cyclable et une voiture qui tourne ?",
+        "back": "La voiture doit vérifier la bande cyclable et céder le passage au cycliste si sa trajectoire le coupe.",
+        "hint": "Regarder à droite."
+      },
+      {
+        "front": "En présence d’un sas vélo au feu, quel devoir a l’automobiliste ?",
+        "back": "Il ne doit pas s’y arrêter et doit respecter la position avancée des cyclistes.",
+        "hint": "Espace réservé."
+      },
+      {
+        "front": "Qu’impose la flèche verte complémentaire pour cyclistes au feu ?",
+        "back": "Elle autorise les cyclistes à franchir le feu rouge dans la direction indiquée après avoir cédé le passage.",
+        "hint": "Exception pour cycles."
+      },
+      {
+        "front": "Qui est prioritaire à la sortie d’une zone de stationnement ou d’une aire de service ?",
+        "back": "Les véhicules circulant sur la voie ouverte à la circulation.",
+        "hint": "Réinsertion."
+      },
+      {
+        "front": "Quand deux véhicules se font face sur une chaussée rétrécie, comment décider de la priorité ?",
+        "back": "On suit la signalisation ; à défaut, celui qui peut le plus facilement se ranger facilite le passage.",
+        "hint": "Étroit = courtoisie et signalisation."
+      },
+      {
+        "front": "Un véhicule de police, pompier ou SAMU en intervention est-il prioritaire ?",
+        "back": "Oui, s’il utilise ses avertisseurs spéciaux, il bénéficie de facilités de passage.",
+        "hint": "Sirène + gyrophare."
+      },
+      {
+        "front": "Que doit faire un conducteur en approchant un véhicule prioritaire en intervention ?",
+        "back": "Il doit dégager le passage sans mettre en danger les autres usagers.",
+        "hint": "Libérer l’espace."
+      },
+      {
+        "front": "Qui est prioritaire sur un passage pour piétons à proximité d’un bus scolaire à l’arrêt ?",
+        "back": "Le piéton reste prioritaire ; le conducteur doit redoubler de vigilance.",
+        "hint": "Enfants possibles."
+      },
+      {
+        "front": "Sur un rond-point à plusieurs voies, que faut-il vérifier avant de sortir ?",
+        "back": "L’angle mort, les rétroviseurs et la présence de deux-roues ou de véhicules sur la voie extérieure.",
+        "hint": "Sortie = contrôle."
+      },
+      {
+        "front": "À une intersection avec panneau de priorité ponctuelle, que devient la priorité après le carrefour ?",
+        "back": "Elle ne vaut que pour le carrefour annoncé, sauf indication de route prioritaire.",
+        "hint": "Ponctuelle, pas permanente."
+      },
+      {
+        "front": "Faut-il céder le passage à un bus quittant son arrêt en agglomération ?",
+        "back": "Oui, lorsque le bus signale son intention de repartir et peut le faire sans danger.",
+        "hint": "Priorité facilitée du bus."
+      },
+      {
+        "front": "Dans un bouchon, peut-on s’engager sur un passage piéton ou un carrefour ?",
+        "back": "Non, il faut laisser libres les traversées et intersections.",
+        "hint": "Ne pas immobiliser la zone."
+      },
+      {
+        "front": "À un stop à quatre branches sans autre signalisation, dans quel ordre repart-on ?",
+        "back": "Selon l’ordre d’arrivée, tout en cédant à droite si les arrivées sont simultanées.",
+        "hint": "Arrivée + droite."
+      },
+      {
+        "front": "Que faire si un autre conducteur vous cède volontairement le passage alors qu’il est prioritaire ?",
+        "back": "S’assurer que le geste est clair et que les autres usagers ont la même lecture avant de s’engager.",
+        "hint": "Rester prudent."
+      },
+      {
+        "front": "Qui est prioritaire entre un tramway et une voiture ?",
+        "back": "Le tramway est généralement prioritaire, sauf signalisation contraire.",
+        "hint": "Voie ferrée urbaine."
+      },
+      {
+        "front": "Avant de franchir une piste cyclable en tournant à droite, quel contrôle est indispensable ?",
+        "back": "Le contrôle du rétroviseur droit et de l’angle mort.",
+        "hint": "Risque cycliste."
+      },
+      {
+        "front": "Peut-on dépasser à proximité immédiate d’une intersection ?",
+        "back": "Seulement si la visibilité et la signalisation le permettent, sans compromettre les priorités.",
+        "hint": "Intersection = prudence."
+      },
+      {
+        "front": "Que faire si la chaussée traversée paraît libre mais la visibilité latérale est masquée ?",
+        "back": "S’avancer très prudemment après s’être assuré de pouvoir s’arrêter.",
+        "hint": "Visibilité réduite."
+      },
+      {
+        "front": "Dans un carrefour très encombré, quel principe prime ?",
+        "back": "Ne jamais s’engager sans être certain de pouvoir dégager l’intersection.",
+        "hint": "Fluidité et sécurité."
+      },
+      {
+        "front": "Dans une cour ou un parking public, la priorité à droite peut-elle s’appliquer ?",
+        "back": "Oui, si le lieu est ouvert à la circulation publique et qu’aucune signalisation n’indique autre chose.",
+        "hint": "Ouvert à la circulation."
+      },
+      {
+        "front": "À l’approche d’une école, même prioritaire, quelle attitude adopter ?",
+        "back": "Ralentir et anticiper un comportement imprévisible des enfants.",
+        "hint": "Danger particulier."
+      },
+      {
+        "front": "Qui est prioritaire lorsqu’un véhicule sort d’un chemin forestier non ouvert normalement à la circulation ?",
+        "back": "Le véhicule qui circule sur la route.",
+        "hint": "Sortie sans priorité."
+      },
+      {
+        "front": "Que faire si la signalisation verticale contredit votre intuition sur la priorité ?",
+        "back": "Appliquer la signalisation en place.",
+        "hint": "Le panneau décide."
+      },
+      {
+        "front": "Quand la courtoisie ne doit-elle jamais remplacer la règle ?",
+        "back": "Quand elle crée de l’ambiguïté ou met en danger les autres usagers.",
+        "hint": "Clarté avant gentillesse."
+      },
+      {
+        "front": "Pourquoi faut-il ralentir avant un carrefour, même connu ?",
+        "back": "Parce que la priorité n’empêche ni l’erreur d’autrui ni l’arrivée d’un usager vulnérable.",
+        "hint": "Anticipation."
+      },
+      {
+        "front": "Quelle est la bonne attitude générale aux intersections ?",
+        "back": "Observer, ralentir, vérifier les priorités et ne s’engager que si la situation est comprise et sûre.",
+        "hint": "Méthode systématique."
+      }
+    ],
+    "sampleIdeas": [
+      {
+        "name": "Priorité à droite et signaux réglementaires",
+        "textDescription": "La priorité à droite reste la règle de base dès qu'aucun feu, panneau ou marquage ne prévoit autre chose. Cela vaut dans les villages, les zones résidentielles et même sur certains parkings ouverts. Comprendre que STOP, Cédez le passage, route prioritaire ou feu tricolore sont des exceptions simplifie l'analyse d'un carrefour.\n\nAvant de tourner, on combine trois actions : observation des panneaux, contrôle visuel des voies adjacentes et annonce avec clignotant. Même prioritaire, on ralentit légèrement et on vérifie qu'aucun usager vulnérable (piéton, cycliste) n'entre sur la chaussée.\n\nLes erreurs fréquentes concernent les sorties de stationnement, de chemins privés ou les reculs : ces situations font perdre automatiquement la priorité. Entraînez-vous à classer mentalement chaque intersection rencontrée en « je suis prioritaire » ou « je dois céder », puis vérifiez si la signalisation confirme ce diagnostic.\n\nRelisez les articles officiels sur la priorité à droite et associez chaque carte au panneau correspondant pour mémoriser les exceptions autorisées.",
+        "videoURL": null,
+        "externalLinkURL": "https://fr.wikipedia.org/wiki/Priorit%C3%A9_%C3%A0_droite",
+        "linkedCardIndices": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ]
+      },
+      {
+        "name": "Maîtriser giratoires et intersections complexes",
+        "textDescription": "Un giratoire moderne inverse la priorité traditionnelle : ceux déjà engagés restent prioritaires tandis que les entrants doivent céder. La clé est d'anticiper son choix de voie, de se placer tôt et de signaler correctement la sortie pour ne pas surprendre les voisins.\n\nLes carrefours multi-voies cumulent souvent feux, panneaux directionnels, sas vélo et lignes d'effet. Procédez toujours dans le même ordre (observation, positionnement, communication) pour éviter l'effet tunnel qui fait oublier un piéton ou un cycliste déjà engagé.\n\nEn présence d'une flèche verte ou d'un sas vélo, la priorité revient aux cyclistes qui démarrent. Sur autoroute ou voie rapide, l'insertion ne donne pas priorité : ajustez votre vitesse pour vous fondre dans le trafic existant.\n\nÉtudiez le fonctionnement détaillé des giratoires français pour retenir les distances d'annonce, l'utilisation des clignotants et les pièges fréquents lors des contrôles.",
+        "videoURL": null,
+        "externalLinkURL": "https://fr.wikipedia.org/wiki/Carrefour_%C3%A0_sens_giratoire",
+        "linkedCardIndices": [
+          3,
+          14,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          39
+        ]
+      },
+      {
+        "name": "Observation active et communication",
+        "textDescription": "Une intersection réussie se prépare avant la ligne d'effet : contrôle des angles morts, clignotant franc, adaptation de vitesse et regard loin devant. Se placer correctement sur sa voie évite les changements brusques qui surprennent les autres usagers.\n\nLes bus quittant leur arrêt en agglomération, les tramways ou les piétons à proximité d'un bus scolaire bénéficient de priorités spécifiques. Les ignorer constitue à la fois une faute au code et un danger réel.\n\nOn ne dépasse pas à l'approche immédiate d'un carrefour et l'on ne franchit pas une piste cyclable sans un dernier coup d'œil par-dessus l'épaule. Face à un doute sur la signalisation ou à un conducteur trop conciliant, on privilégie toujours la règle écrite plutôt que la courtoisie improvisée.\n\nLes guides du Code de la route détaillent ces comportements attendus : relisez-les pour associer chaque geste (clignotant, coup d'œil, ralentissement) à une situation concrète.",
+        "videoURL": null,
+        "externalLinkURL": "https://fr.wikipedia.org/wiki/Code_de_la_route_en_France",
+        "linkedCardIndices": [
+          24,
+          25,
+          26,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          46,
+          47,
+          48,
+          49
+        ]
+      },
+      {
+        "name": "Gérer urgence et fluidité",
+        "textDescription": "Dans un carrefour encombré ou un bouchon, l'objectif est de ne jamais créer de blocage supplémentaire. On s'engage uniquement si l'on peut dégager complètement la zone, quitte à patienter même avec un feu vert.\n\nLes véhicules prioritaires doivent être identifiés tôt (sirènes, gyrophares) afin de libérer un couloir. On ralentit, on serre à droite si possible et on évite tout freinage brutal qui surprendrait ceux qui suivent.\n\nLes passages à niveau et intersections masquées exigent une vigilance accrue : même si la voie paraît libre, on regarde des deux côtés et on se tient prêt à s'arrêter. Les abords d'écoles ou d'aires piétonnes nécessitent aussi un ralentissement anticipé, priorité ou non.\n\nLes statistiques d'accidents montrent que la plupart des collisions aux intersections viennent d'une mauvaise anticipation. Utilisez ces cartes pour bâtir un protocole personnel : observation, analyse, décision, communication.",
+        "videoURL": null,
+        "externalLinkURL": "https://fr.wikipedia.org/wiki/Accident_de_la_route",
+        "linkedCardIndices": [
+          10,
+          18,
+          19,
+          22,
+          23,
+          27,
+          28,
+          29,
+          30,
+          31,
+          41,
+          42,
+          43,
+          44,
+          45
+        ]
+      }
+    ]
+  },
+  {
+    "stableId": "code_route_vitesse_distances_conditions",
+    "name": "Vitesse, distances et conditions",
+    "description": "Comprendre les limitations, garder ses distances et adapter sa conduite aux conditions.",
+    "color": "blue",
+    "category": "Driving",
+    "language": "fr",
+    "difficulty": "Beginner",
+    "tags": [
+      "vitesse",
+      "distances",
+      "securite",
+      "conditions",
+      "freinage"
+    ],
+    "cards": [
+      {
+        "front": "Quelle est la vitesse maximale générale en agglomération ?",
+        "back": "50 km/h sauf signalisation particulière.",
+        "hint": "Ville = 50."
+      },
+      {
+        "front": "Quelle vitesse s’applique souvent en zone 30 ?",
+        "back": "30 km/h maximum.",
+        "hint": "Nom de la zone."
+      },
+      {
+        "front": "Quelle vitesse maximale générale s’applique sur route hors agglomération à double sens sans séparateur central ?",
+        "back": "80 km/h pour les conducteurs ordinaires, sauf signalisation contraire.",
+        "hint": "Route classique."
+      },
+      {
+        "front": "Quelle vitesse maximale générale s’applique sur route à deux chaussées séparées par un terre-plein central ?",
+        "back": "110 km/h sauf signalisation contraire.",
+        "hint": "Chaussées séparées."
+      },
+      {
+        "front": "Quelle vitesse maximale générale s’applique sur autoroute ?",
+        "back": "130 km/h par temps sec, sauf signalisation contraire.",
+        "hint": "Autoroute = 130."
+      },
+      {
+        "front": "Quelle vitesse maximale s’applique sur autoroute par temps de pluie ?",
+        "back": "110 km/h.",
+        "hint": "Pluie = on baisse de 20."
+      },
+      {
+        "front": "Quelle vitesse maximale s’applique sur une route à deux chaussées séparées par temps de pluie ?",
+        "back": "100 km/h.",
+        "hint": "Pluie sur voie rapide."
+      },
+      {
+        "front": "Pourquoi faut-il adapter sa vitesse même sous la limite autorisée ?",
+        "back": "Parce que la limite est un maximum ; il faut tenir compte du trafic, de la météo, de la visibilité et de l’état de la route.",
+        "hint": "Maximum, pas objectif."
+      },
+      {
+        "front": "Quelle distance minimale conseille la règle des deux secondes ?",
+        "back": "Une distance permettant de compter au moins deux secondes avec le véhicule qui précède.",
+        "hint": "Comptez « mille un, mille deux »."
+      },
+      {
+        "front": "À quoi sert la distance de sécurité ?",
+        "back": "À disposer du temps et de l’espace nécessaires pour freiner sans collision.",
+        "hint": "Espace vital."
+      },
+      {
+        "front": "De quoi dépend principalement la distance d’arrêt ?",
+        "back": "De la distance de réaction et de la distance de freinage.",
+        "hint": "Deux composantes."
+      },
+      {
+        "front": "Qu’est-ce que la distance de réaction ?",
+        "back": "La distance parcourue entre la perception du danger et le début du freinage.",
+        "hint": "Temps de cerveau."
+      },
+      {
+        "front": "Qu’est-ce qui augmente la distance de réaction ?",
+        "back": "La fatigue, l’alcool, les drogues, la distraction et la vitesse élevée.",
+        "hint": "Temps de réponse."
+      },
+      {
+        "front": "Qu’est-ce qui augmente la distance de freinage ?",
+        "back": "La vitesse, l’usure des pneus, une chaussée mouillée ou glacée et un véhicule chargé.",
+        "hint": "Adhérence + vitesse."
+      },
+      {
+        "front": "Que se passe-t-il si la vitesse double ?",
+        "back": "La distance de freinage augmente beaucoup plus que proportionnellement, environ par quatre à conditions égales.",
+        "hint": "Relation quadratique."
+      },
+      {
+        "front": "Pourquoi le brouillard impose-t-il de réduire fortement la vitesse ?",
+        "back": "Parce que la visibilité est réduite et le temps disponible pour réagir diminue.",
+        "hint": "On voit tard."
+      },
+      {
+        "front": "Quel éclairage utiliser dans un brouillard épais ?",
+        "back": "Les feux de croisement et, si nécessaire, les feux antibrouillard appropriés.",
+        "hint": "Pas les pleins phares."
+      },
+      {
+        "front": "Pourquoi les pleins phares sont-ils mauvais dans le brouillard ?",
+        "back": "La lumière se réfléchit dans les gouttelettes et réduit encore la visibilité.",
+        "hint": "Mur blanc."
+      },
+      {
+        "front": "Que faut-il faire sous une forte pluie ?",
+        "back": "Réduire la vitesse, augmenter les distances et éviter les manœuvres brusques.",
+        "hint": "Adhérence plus faible."
+      },
+      {
+        "front": "Qu’est-ce que l’aquaplanage ?",
+        "back": "La perte de contact partielle ou totale des pneus avec la route à cause d’une pellicule d’eau.",
+        "hint": "Roues sur eau."
+      },
+      {
+        "front": "Que faire en cas d’aquaplanage ?",
+        "back": "Relâcher progressivement l’accélérateur, tenir le volant droit et éviter de freiner brutalement.",
+        "hint": "Pas de geste brusque."
+      },
+      {
+        "front": "Pourquoi la nuit faut-il augmenter sa marge de sécurité ?",
+        "back": "Parce que la visibilité est limitée et les obstacles sont perçus plus tard.",
+        "hint": "Champ visuel réduit."
+      },
+      {
+        "front": "Quand utiliser les feux de route ?",
+        "back": "La nuit hors agglomération lorsque la route n’est pas éclairée et qu’aucun usager n’est ébloui.",
+        "hint": "Phares longs."
+      },
+      {
+        "front": "Quand repasser en feux de croisement ?",
+        "back": "Quand on croise ou suit un autre usager pour éviter l’éblouissement.",
+        "hint": "Respect visuel."
+      },
+      {
+        "front": "Pourquoi faut-il ralentir à l’approche d’un sommet de côte ?",
+        "back": "Parce que la visibilité sur ce qui suit est limitée.",
+        "hint": "Zone cachée."
+      },
+      {
+        "front": "Pourquoi faut-il ralentir avant un virage ?",
+        "back": "Parce que la trajectoire, la visibilité et l’adhérence y sont plus délicates.",
+        "hint": "Virage = anticipation."
+      },
+      {
+        "front": "Quel risque existe-t-il à suivre de trop près un deux-roues ?",
+        "back": "Il peut freiner ou éviter un obstacle rapidement, et vous laisser sans marge.",
+        "hint": "Usager fragile."
+      },
+      {
+        "front": "Quelle prudence adopter derrière un poids lourd ?",
+        "back": "Augmenter la distance car la visibilité est réduite et la distance d’arrêt peut varier.",
+        "hint": "On voit moins loin."
+      },
+      {
+        "front": "Pourquoi la charge du véhicule influence-t-elle la conduite ?",
+        "back": "Elle peut allonger la distance de freinage et modifier la tenue de route.",
+        "hint": "Poids supplémentaire."
+      },
+      {
+        "front": "Comment aborder une chaussée verglacée ?",
+        "back": "Très lentement, sans accélération, freinage ni volant brusques.",
+        "hint": "Douceur absolue."
+      },
+      {
+        "front": "Pourquoi la vitesse doit-elle être réduite près d’une école ou d’un arrêt de bus ?",
+        "back": "Parce qu’un piéton, souvent un enfant, peut surgir de façon imprévisible.",
+        "hint": "Risque humain."
+      },
+      {
+        "front": "Que signifie conduire à allure adaptée ?",
+        "back": "Choisir une vitesse compatible avec la situation réelle, pas seulement avec le panneau.",
+        "hint": "Adapter > appliquer mécaniquement."
+      },
+      {
+        "front": "Sur autoroute, pourquoi garder une grande distance est-il essentiel ?",
+        "back": "Parce que les vitesses élevées allongent considérablement la distance d’arrêt.",
+        "hint": "Plus vite = plus loin."
+      },
+      {
+        "front": "Faut-il maintenir la même vitesse sur route sèche et route mouillée ?",
+        "back": "Non, il faut réduire sa vitesse sur chaussée mouillée.",
+        "hint": "Adhérence réduite."
+      },
+      {
+        "front": "Quelle est la bonne attitude si un véhicule derrière vous colle votre pare-chocs ?",
+        "back": "Garder son calme, augmenter sa propre distance de sécurité et éviter tout freinage injustifié.",
+        "hint": "Ne pas se laisser entraîner."
+      },
+      {
+        "front": "Pourquoi un téléphone au volant augmente-t-il le risque même avec kit mains libres ?",
+        "back": "Parce qu’il détourne l’attention et dégrade la perception du danger.",
+        "hint": "Charge mentale."
+      },
+      {
+        "front": "Qu’est-ce qu’une vitesse excessive ?",
+        "back": "Une vitesse inadaptée à la situation, même si elle reste sous la limite autorisée.",
+        "hint": "Sous la limite mais trop vite."
+      },
+      {
+        "front": "Comment vérifier la règle des deux secondes ?",
+        "back": "Repérer un point fixe franchi par le véhicule devant et compter au moins deux secondes avant d’y arriver.",
+        "hint": "Méthode simple."
+      },
+      {
+        "front": "Pourquoi les tunnels demandent-ils une distance supérieure ?",
+        "back": "Parce que l’espace est confiné, la visibilité change et un incident s’y propage vite.",
+        "hint": "Marge accrue."
+      },
+      {
+        "front": "Que faire si vous êtes fatigué sur autoroute ?",
+        "back": "Faire une pause dès que possible, idéalement toutes les deux heures.",
+        "hint": "Pause sécurité."
+      },
+      {
+        "front": "À quelle allure approcher un passage piéton masqué par un véhicule stationné ?",
+        "back": "À allure réduite permettant de s’arrêter immédiatement.",
+        "hint": "Piéton caché."
+      },
+      {
+        "front": "Pourquoi la vitesse doit-elle être modérée dans un parking ?",
+        "back": "Parce que les manœuvres, angles morts et piétons y sont nombreux.",
+        "hint": "Beaucoup d’imprévus."
+      },
+      {
+        "front": "Que faut-il faire avant de dépasser par conditions difficiles ?",
+        "back": "Renoncer si la visibilité, l’adhérence ou l’espace de sécurité ne sont pas suffisants.",
+        "hint": "Le meilleur dépassement peut être celui qu’on ne fait pas."
+      },
+      {
+        "front": "Comment la pluie des premières minutes influence-t-elle l’adhérence ?",
+        "back": "Elle peut rendre la chaussée particulièrement glissante en mélangeant eau, poussières et résidus gras.",
+        "hint": "Début de pluie dangereux."
+      },
+      {
+        "front": "Quel est l’objectif général des limitations et distances ?",
+        "back": "Laisser au conducteur le temps et l’espace nécessaires pour éviter ou réduire la gravité d’un accident.",
+        "hint": "Temps + espace."
+      }
+    ],
+    "sampleIdeas": [
+      {
+        "name": "Limites générales et météo",
+        "textDescription": "Les limitations françaises varient selon le type de voie (agglomération, route bidirectionnelle, route à chaussées séparées, autoroute) et selon la météo. Retenir le couple 50/80/110/130, puis retrancher 20 km/h sous la pluie, permet de répondre instantanément aux questions du code.\n\nMais ces chiffres restent un plafond. Un conducteur responsable ajuste son allure à la visibilité, au trafic local et aux travaux en cours. C'est particulièrement vrai à l'approche des zones 30, des écoles ou des arrêts de bus : la vitesse « autorisée » y devient rapidement excessive.\n\nRépétez les limites à voix haute lors de vos trajets quotidiens et vérifiez si la signalisation confirme vos attentes. Cette gymnastique mentale évite les pièges des questions qui mélangent type de voie et conditions météo.\n\nLe récapitulatif des limitations officielles constitue un bon aide-mémoire : gardez-le à portée de main lors de vos révisions.",
+        "videoURL": null,
+        "externalLinkURL": "https://fr.wikipedia.org/wiki/R%C3%A9glementation_de_la_vitesse_en_France",
+        "linkedCardIndices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          30,
+          31,
+          33,
+          34,
+          36,
+          44
+        ]
+      },
+      {
+        "name": "Distances de sécurité et freinage",
+        "textDescription": "La règle des deux secondes constitue la base des distances de sécurité. Elle correspond au temps minimal pour réagir puis freiner sans percuter le véhicule qui précède. Plus la vitesse augmente, plus la distance parcourue pendant ces deux secondes s'allonge.\n\nLa distance d'arrêt additionne distance de réaction et distance de freinage. Fatigue, alcool, distractions ou pneus sous-gonflés allongent l'une ou l'autre des composantes. Doubler sa vitesse multiplie presque par quatre l'énergie cinétique, d'où des freinages beaucoup plus longs.\n\nLes tunnels, les poids lourds et les conditions dégradées justifient une distance encore plus grande. Entraînez-vous à compter « mille un, mille deux » lorsque le véhicule devant passe un repère (poteau, panneau) : si vous atteignez le même repère avant deux secondes, augmentez votre écart.\n\nLes ressources officielles sur la distance de sécurité donnent des abaques utiles. Comparez-les avec les valeurs apprises pour ancrer les ordres de grandeur.",
+        "videoURL": null,
+        "externalLinkURL": "https://fr.wikipedia.org/wiki/Distance_de_s%C3%A9curit%C3%A9",
+        "linkedCardIndices": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          32,
+          37,
+          38
+        ]
+      },
+      {
+        "name": "Rouler dans des conditions difficiles",
+        "textDescription": "Brouillard, pluie, verglas ou averse soudaine réduisent l'adhérence et la visibilité. On adapte donc allure, éclairage et placement : feux adaptés, vitesse réduite, trajectoire douce, regard plus loin que d'habitude.\n\nL'aquaplanage survient lorsque le pneu flotte sur un film d'eau. Il faut lever le pied, maintenir le volant droit et laisser la voiture ralentir sans freinage brusque. Sur verglas ou neige, l'accélérateur et le frein deviennent des commandes ultra-douces, et le frein moteur prime.\n\nLes tunnels exigent un allumage automatique des feux, une distance accrue et l'interdiction de s'arrêter en dehors des niches d'urgence. Les premières minutes d'averse sont les plus dangereuses car l'eau décolle les poussières et hydrocarbures.\n\nRévisez les conseils pratiques liés à ces phénomènes pour connaître les réactions correctes avant d'y être confronté sur route ouverte.",
+        "videoURL": null,
+        "externalLinkURL": "https://fr.wikipedia.org/wiki/Aquaplanage",
+        "linkedCardIndices": [
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          38,
+          42,
+          43
+        ]
+      },
+      {
+        "name": "Vigilance et anticipation",
+        "textDescription": "Adapter sa vitesse, c'est aussi gérer sa vigilance. Fatigue, téléphone, distraction visuelle ou stress modifient la perception du risque et rallongent les réactions. Une pause toutes les deux heures reste la meilleure protection sur autoroute.\n\nÊtre suivi de trop près ou talonné incite à accélérer, mais la bonne réponse consiste à garder une allure stable et à faciliter le dépassement lorsque c'est possible. Dans un parking ou près d'un passage piéton masqué, on réduit l'allure pour pouvoir s'arrêter instantanément.\n\nAvant de dépasser sous la pluie ou par vent latéral, on réévalue la distance restante, la visibilité et l'état du revêtement. La vitesse « adaptée » est celle qui laisse une marge pour tout imprévu, même si elle est bien inférieure à la limite affichée.\n\nConsultez les dossiers de la sécurité routière sur la vigilance au volant pour compléter ces cartes par des stratégies concrètes (micro-pauses, hydratation, organisation des bagages).",
+        "videoURL": null,
+        "externalLinkURL": "https://fr.wikipedia.org/wiki/S%C3%A9curit%C3%A9_routi%C3%A8re_en_France",
+        "linkedCardIndices": [
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44
+        ]
+      }
+    ]
+  },
+  {
+    "stableId": "code_route_securite_vehicule_premiers_secours",
+    "name": "Sécurité du véhicule et premiers secours",
+    "description": "Vérifier l’état du véhicule et connaître les premiers gestes en cas d’urgence.",
+    "color": "green",
+    "category": "Driving",
+    "language": "fr",
+    "difficulty": "Beginner",
+    "tags": [
+      "vehicule",
+      "securite",
+      "entretien",
+      "secours",
+      "urgence"
+    ],
+    "cards": [
+      {
+        "front": "Pourquoi faut-il faire le tour du véhicule avant de partir ?",
+        "back": "Pour repérer un obstacle, un enfant, un animal ou un dommage apparent.",
+        "hint": "Contrôle visuel complet."
+      },
+      {
+        "front": "Que faut-il vérifier sur les pneus ?",
+        "back": "L’état, l’usure, l’absence de déformation et une pression adaptée.",
+        "hint": "Contact avec la route."
+      },
+      {
+        "front": "Pourquoi la pression des pneus est-elle importante ?",
+        "back": "Parce qu’elle influence l’adhérence, le freinage, l’usure et la consommation.",
+        "hint": "Ni trop ni trop peu."
+      },
+      {
+        "front": "Quand faut-il contrôler la pression des pneus ?",
+        "back": "À froid, régulièrement et avant un long trajet.",
+        "hint": "Mesure fiable à froid."
+      },
+      {
+        "front": "Pourquoi faut-il vérifier les niveaux ?",
+        "back": "Pour assurer le bon fonctionnement mécanique et éviter une panne ou une détérioration.",
+        "hint": "Prévention."
+      },
+      {
+        "front": "Quels niveaux sont particulièrement importants ?",
+        "back": "Huile moteur, liquide de refroidissement, lave-glace et parfois liquide de frein selon le véhicule.",
+        "hint": "Les essentiels."
+      },
+      {
+        "front": "Pourquoi le liquide lave-glace est-il un élément de sécurité ?",
+        "back": "Parce qu’une visibilité sale ou gênée augmente le risque d’accident.",
+        "hint": "Voir = sécurité."
+      },
+      {
+        "front": "Que faut-il contrôler sur l’éclairage ?",
+        "back": "Le fonctionnement des feux avant, arrière, stop, clignotants et plaque.",
+        "hint": "Être vu et voir."
+      },
+      {
+        "front": "Pourquoi des feux stop défectueux sont-ils dangereux ?",
+        "back": "Parce que les usagers derrière perçoivent moins bien le ralentissement.",
+        "hint": "Information de freinage."
+      },
+      {
+        "front": "Quand faut-il utiliser les clignotants ?",
+        "back": "Avant toute manœuvre ou changement de direction suffisamment tôt et clairement.",
+        "hint": "Informer avant agir."
+      },
+      {
+        "front": "Pourquoi le pare-brise doit-il être propre et en bon état ?",
+        "back": "Parce qu’une fissure ou des salissures dégradent la visibilité.",
+        "hint": "Vision nette."
+      },
+      {
+        "front": "Quand faut-il remplacer des essuie-glaces usés ?",
+        "back": "Dès qu’ils laissent des traces, sautent ou nettoient mal.",
+        "hint": "Balais inefficaces."
+      },
+      {
+        "front": "Pourquoi le réglage du siège est-il un enjeu de sécurité ?",
+        "back": "Parce qu’il conditionne l’accès aux commandes, la visibilité et la maîtrise du véhicule.",
+        "hint": "Position de conduite."
+      },
+      {
+        "front": "Pourquoi régler correctement les rétroviseurs ?",
+        "back": "Pour réduire les angles morts et mieux surveiller l’environnement.",
+        "hint": "Voir autour."
+      },
+      {
+        "front": "Comment doit-on porter la ceinture de sécurité ?",
+        "back": "Plaquée sur le bassin et l’épaule, sans torsion ni passage sous le bras.",
+        "hint": "Bassin + épaule."
+      },
+      {
+        "front": "Pourquoi tous les passagers doivent-ils être attachés ?",
+        "back": "Parce qu’un passager non attaché met sa propre vie et celle des autres en danger.",
+        "hint": "Projectile humain."
+      },
+      {
+        "front": "Comment transporter un enfant en voiture ?",
+        "back": "Avec un dispositif homologué adapté à son âge, son poids et sa taille.",
+        "hint": "Siège adapté."
+      },
+      {
+        "front": "Pourquoi ne faut-il pas laisser d’objets lourds non arrimés ?",
+        "back": "Parce qu’ils peuvent devenir des projectiles en cas de freinage ou choc.",
+        "hint": "Ranger ou arrimer."
+      },
+      {
+        "front": "Que signifie un voyant rouge au tableau de bord ?",
+        "back": "Une alerte grave nécessitant souvent un arrêt rapide en sécurité.",
+        "hint": "Rouge = danger."
+      },
+      {
+        "front": "Que signifie généralement un voyant orange ?",
+        "back": "Un avertissement ou un défaut à faire contrôler sans tarder.",
+        "hint": "Orange = anomalie."
+      },
+      {
+        "front": "Que faire si un voyant de pression d’huile s’allume en roulant ?",
+        "back": "S’arrêter dès que possible en sécurité et couper le moteur.",
+        "hint": "Risque moteur grave."
+      },
+      {
+        "front": "Que faire en cas de crevaison ou de panne sur autoroute ?",
+        "back": "Allumer les feux de détresse, se garer sur la bande d’arrêt d’urgence si possible, sortir côté droit et se mettre derrière la glissière.",
+        "hint": "Protection d’abord."
+      },
+      {
+        "front": "Pourquoi le triangle de présignalisation n’est-il pas toujours utilisé sur autoroute ?",
+        "back": "Parce que le poser peut être trop dangereux ; la priorité est de se mettre à l’abri.",
+        "hint": "Sécurité personnelle."
+      },
+      {
+        "front": "Quand utiliser les feux de détresse ?",
+        "back": "Pour signaler un danger, un arrêt d’urgence ou un fort ralentissement inhabituel.",
+        "hint": "Clignotement d’alerte."
+      },
+      {
+        "front": "Quel numéro appeler en cas d’urgence en Europe ?",
+        "back": "Le 112.",
+        "hint": "Numéro unique européen."
+      },
+      {
+        "front": "Quelle première information donner en appelant les secours ?",
+        "back": "Le lieu précis de l’accident ou de l’urgence.",
+        "hint": "Où d’abord."
+      },
+      {
+        "front": "Avant de secourir, quelle règle essentielle faut-il respecter ?",
+        "back": "Se protéger soi-même, protéger la zone puis alerter.",
+        "hint": "PPA : protéger, prévenir, agir."
+      },
+      {
+        "front": "Que faire face à une victime inconsciente qui respire ?",
+        "back": "La placer si possible en position latérale de sécurité et surveiller sa respiration.",
+        "hint": "PLS."
+      },
+      {
+        "front": "Que faire face à une victime inconsciente qui ne respire pas normalement ?",
+        "back": "Alerter et débuter immédiatement la réanimation cardio-pulmonaire si l’on sait faire.",
+        "hint": "RCP."
+      },
+      {
+        "front": "À quoi sert un défibrillateur automatisé externe ?",
+        "back": "À analyser le rythme cardiaque et, si nécessaire, délivrer un choc guidé.",
+        "hint": "DAE."
+      },
+      {
+        "front": "Que faire devant une hémorragie externe abondante ?",
+        "back": "Comprimer immédiatement la plaie avec protection adaptée et alerter.",
+        "hint": "Compression directe."
+      },
+      {
+        "front": "Pourquoi ne faut-il pas donner à boire à une victime accidentée ?",
+        "back": "Parce qu’elle peut nécessiter une prise en charge urgente et présenter un risque d’étouffement.",
+        "hint": "Rien par la bouche."
+      },
+      {
+        "front": "Pourquoi ne faut-il pas déplacer une victime sauf danger immédiat ?",
+        "back": "Parce qu’un déplacement peut aggraver une lésion, notamment de la colonne.",
+        "hint": "Sauf urgence absolue."
+      },
+      {
+        "front": "Que faire si un incendie débute dans le véhicule ?",
+        "back": "S’arrêter en sécurité, couper le moteur, évacuer les passagers et utiliser un extincteur si possible sans se mettre en danger.",
+        "hint": "Évacuation rapide."
+      },
+      {
+        "front": "Pourquoi faut-il vérifier la validité du contrôle technique si le véhicule y est soumis ?",
+        "back": "Parce qu’il participe au maintien d’un niveau minimal de sécurité mécanique.",
+        "hint": "Obligation réglementaire."
+      },
+      {
+        "front": "À quoi sert l’ABS ?",
+        "back": "À éviter le blocage des roues lors d’un freinage appuyé pour conserver de la direction.",
+        "hint": "Freiner sans bloquer."
+      },
+      {
+        "front": "À quoi sert l’ESP ou contrôle de stabilité ?",
+        "back": "À aider le conducteur à garder la trajectoire en cas de perte d’adhérence.",
+        "hint": "Stabilité électronique."
+      },
+      {
+        "front": "Pourquoi le chargement sur le toit doit-il être limité et arrimé ?",
+        "back": "Parce qu’il modifie le centre de gravité et peut devenir dangereux s’il se détache.",
+        "hint": "Poids en hauteur."
+      },
+      {
+        "front": "Que faut-il faire avant un long trajet ?",
+        "back": "Vérifier le véhicule, préparer l’itinéraire, se reposer et prévoir des pauses.",
+        "hint": "Préparation complète."
+      },
+      {
+        "front": "Pourquoi la fatigue est-elle une question de sécurité du véhicule et du conducteur ?",
+        "back": "Parce qu’un conducteur fatigué réagit plus lentement et commet davantage d’erreurs.",
+        "hint": "Machine + humain."
+      },
+      {
+        "front": "Quand un gilet de haute visibilité est-il utile ?",
+        "back": "Lorsqu’on doit sortir du véhicule immobilisé dans une situation dangereuse.",
+        "hint": "Être vu."
+      },
+      {
+        "front": "Pourquoi faut-il laisser les documents du véhicule accessibles ?",
+        "back": "Pour pouvoir les présenter rapidement lors d’un contrôle ou d’une situation d’urgence.",
+        "hint": "Organisation."
+      },
+      {
+        "front": "Que faire si le capot s’ouvre partiellement en roulant ?",
+        "back": "Ralentir sans freiner brutalement, se guider grâce à la visibilité restante et s’arrêter dès que possible en sécurité.",
+        "hint": "Rester calme."
+      },
+      {
+        "front": "Pourquoi un bon entretien préventif vaut mieux qu’une réparation d’urgence ?",
+        "back": "Parce qu’il réduit les pannes, les coûts et le risque d’accident.",
+        "hint": "Prévenir plutôt que subir."
+      },
+      {
+        "front": "Quel est l’objectif général de la sécurité du véhicule ?",
+        "back": "S’assurer que le véhicule, son équipement et le conducteur sont prêts à circuler sans mettre en danger.",
+        "hint": "Sécurité globale."
+      }
+    ],
+    "sampleIdeas": [
+      {
+        "name": "Inspection extérieure et pneumatiques",
+        "textDescription": "Avant chaque départ, un tour complet du véhicule permet de détecter obstacle, fuite ou pneu à plat. Cette vérification rapide évite de découvrir un problème une fois installé au volant, lorsque la visibilité est plus limitée.\n\nLes pneus concentrent l'adhérence : contrôle d'usure, pression à froid et absence de déformation sont indispensables. Un pneu sous-gonflé allonge les distances de freinage, chauffe et augmente la consommation.\n\nProfitez de cette tournée pour regarder les feux, le pare-brise, les essuie-glaces et les niveaux visibles. Un simple chiffon peut rendre un feu lisible et éviter un refus d'obtempérer lors d'un contrôle.\n\nLes guides d'entretien automobile rappellent les fréquences de vérification : utilisez-les pour créer votre propre checklist avant trajet.",
+        "videoURL": null,
+        "externalLinkURL": "https://fr.wikipedia.org/wiki/Entretien_automobile",
+        "linkedCardIndices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          21,
+          22,
+          23
+        ]
+      },
+      {
+        "name": "Poste de conduite et alertes",
+        "textDescription": "Un poste de conduite bien réglé permet d'actionner les commandes sans effort, de voir correctement et de rester protégé par les airbags et ceintures. Réglage du siège, des rétroviseurs et port de la ceinture concernent tous les occupants, pas seulement le conducteur.\n\nLes voyants du tableau de bord se répartissent en deux familles : rouge = arrêt immédiat, orange = anomalie à traiter rapidement. Ignorer un voyant de pression d'huile ou de frein peut détruire le moteur en quelques kilomètres.\n\nLes dispositifs d'aide (ABS, ESP) n'annulent pas les lois de la physique. Ils corrigent une trajectoire mais exigent un véhicule entretenu et des pneus adaptés. Limitez aussi les objets lourds non arrimés qui deviennent des projectiles en cas de choc.\n\nLes fiches sur les équipements de sécurité automobile détaillent chaque système : associez-les aux cartes pour retenir rôle et limites.",
+        "videoURL": null,
+        "externalLinkURL": "https://fr.wikipedia.org/wiki/%C3%89quipement_de_s%C3%A9curit%C3%A9_automobile",
+        "linkedCardIndices": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          34,
+          35,
+          36,
+          37,
+          42
+        ]
+      },
+      {
+        "name": "Gestes de premiers secours",
+        "textDescription": "En cas d'accident, la priorité est de se protéger soi-même avant d'aider : baliser, couper le contact, éloigner les passagers du danger. Un triangle n'est pas utilisé sur autoroute mais le gilet haute visibilité l'est dès la sortie du véhicule.\n\nL'appel au 112 nécessite de rester calme : lieu précis, nombre de victimes, état apparent et dangers persistants. Les secours guideront ensuite les gestes à adopter.\n\nPosition latérale de sécurité, massage cardiaque, usage d'un défibrillateur, compression d'une hémorragie : mieux vaut les connaître avant d'en avoir besoin. Ne donnez ni boisson ni médicament et ne déplacez pas une victime sauf danger immédiat.\n\nLes ressources officielles sur les premiers secours (Croix-Rouge, Protection civile) proposent des fiches et tutoriels à revisiter régulièrement.",
+        "videoURL": null,
+        "externalLinkURL": "https://fr.wikipedia.org/wiki/Premiers_secours",
+        "linkedCardIndices": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          40
+        ]
+      },
+      {
+        "name": "Préparer véhicule et conducteur",
+        "textDescription": "Un long trajet se prépare : planification des pauses, vérification du chargement, contrôle technique à jour et documents accessibles. Un capot mal verrouillé, une surcharge sur la galerie ou des bagages flottants deviennent des risques majeurs en roulage.\n\nLa fatigue fait partie de la sécurité du véhicule car elle altère la maîtrise des commandes. Prévoir un relais, s'arrêter au moindre signe de somnolence et dormir suffisamment la veille préviennent la plupart des sorties de route.\n\nLes plans d'entretien préventif coûtent moins cher qu'une panne sur autoroute. Ils incluent filtres, liquides, contrôle des freins et calibrage des aides à la conduite.\n\nConsultez les ressources officielles sur le contrôle technique et l'entretien périodique pour aligner vos vérifications personnelles avec les obligations réglementaires.",
+        "videoURL": null,
+        "externalLinkURL": "https://fr.wikipedia.org/wiki/Contr%C3%B4le_technique_en_France",
+        "linkedCardIndices": [
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          41,
+          43,
+          44
+        ]
+      }
+    ]
+  },
+  {
+    "stableId": "code_route_ecoconduite_partage_route",
+    "name": "Éco-conduite et partage de la route",
+    "description": "Conduire de façon économique, souple et respectueuse des autres usagers.",
+    "color": "purple",
+    "category": "Driving",
+    "language": "fr",
+    "difficulty": "Beginner",
+    "tags": [
+      "ecoconduite",
+      "partage",
+      "route",
+      "cyclistes",
+      "mobilite"
+    ],
+    "cards": [
+      {
+        "front": "Qu’est-ce que l’éco-conduite ?",
+        "back": "Une conduite souple, anticipée et efficace qui réduit consommation, usure et émissions.",
+        "hint": "Économie + sécurité."
+      },
+      {
+        "front": "Pourquoi l’anticipation réduit-elle la consommation ?",
+        "back": "Parce qu’elle évite les accélérations et freinages inutiles.",
+        "hint": "Voir loin."
+      },
+      {
+        "front": "Pourquoi une conduite souple améliore-t-elle aussi la sécurité ?",
+        "back": "Parce qu’elle laisse plus de temps pour réagir et limite les manœuvres brusques.",
+        "hint": "Fluidité = sécurité."
+      },
+      {
+        "front": "À quoi sert de passer les rapports sans faire monter excessivement le moteur dans les tours ?",
+        "back": "À limiter la consommation de carburant et l’usure mécanique.",
+        "hint": "Régime modéré."
+      },
+      {
+        "front": "Pourquoi un véhicule chargé consomme-t-il plus ?",
+        "back": "Parce qu’il faut plus d’énergie pour le déplacer et le freiner.",
+        "hint": "Poids = énergie."
+      },
+      {
+        "front": "Pourquoi faut-il retirer une galerie ou un coffre de toit inutilisé ?",
+        "back": "Parce qu’ils augmentent la résistance à l’air et donc la consommation.",
+        "hint": "Aérodynamique."
+      },
+      {
+        "front": "Quel effet a une mauvaise pression des pneus sur la consommation ?",
+        "back": "Elle augmente la résistance au roulement et donc la consommation.",
+        "hint": "Pneus sous-gonflés."
+      },
+      {
+        "front": "Pourquoi couper le moteur lors d’un arrêt prolongé peut-il être utile ?",
+        "back": "Parce que laisser tourner inutilement le moteur consomme du carburant et pollue.",
+        "hint": "Ralenti inutile."
+      },
+      {
+        "front": "Pourquoi l’usage excessif de la climatisation augmente-t-il la consommation ?",
+        "back": "Parce qu’elle demande de l’énergie au moteur ou au système électrique.",
+        "hint": "Confort énergivore."
+      },
+      {
+        "front": "Pourquoi regarder loin devant aide-t-il à conduire économiquement ?",
+        "back": "Parce qu’on peut lever le pied tôt et éviter un freinage tardif.",
+        "hint": "Anticiper les événements."
+      },
+      {
+        "front": "Pourquoi vaut-il mieux maintenir une allure régulière ?",
+        "back": "Parce qu’une vitesse stable consomme généralement moins que des variations constantes.",
+        "hint": "Stabilité."
+      },
+      {
+        "front": "Quel lien existe-t-il entre vitesse élevée et consommation ?",
+        "back": "Plus la vitesse augmente, plus la résistance de l’air et la consommation augmentent.",
+        "hint": "L’air freine."
+      },
+      {
+        "front": "Pourquoi l’éco-conduite réduit-elle aussi le bruit ?",
+        "back": "Parce qu’elle évite les hauts régimes, les accélérations brutales et les coups de frein.",
+        "hint": "Moins d’agressivité."
+      },
+      {
+        "front": "Pourquoi entretenir régulièrement le véhicule fait-il partie de l’éco-conduite ?",
+        "back": "Parce qu’un véhicule bien entretenu fonctionne plus efficacement et pollue moins.",
+        "hint": "Entretien = rendement."
+      },
+      {
+        "front": "Pourquoi éviter de transporter des objets inutiles dans le coffre ?",
+        "back": "Parce que le surpoids augmente la consommation.",
+        "hint": "Chaque kilo compte."
+      },
+      {
+        "front": "Quelle attitude adopter dans un embouteillage pour rester éco-conducteur ?",
+        "back": "Garder ses distances, avancer doucement et éviter les à-coups.",
+        "hint": "Souplesse dans le trafic."
+      },
+      {
+        "front": "Pourquoi le covoiturage participe-t-il au partage de la route ?",
+        "back": "Parce qu’il réduit le nombre de véhicules en circulation pour un même déplacement.",
+        "hint": "Moins de voitures."
+      },
+      {
+        "front": "Pourquoi faut-il respecter particulièrement les usagers vulnérables ?",
+        "back": "Parce qu’ils subissent plus gravement les conséquences d’un choc.",
+        "hint": "Piétons, cyclistes, deux-roues."
+      },
+      {
+        "front": "Quelle distance latérale faut-il viser en dépassant un cycliste ?",
+        "back": "Une distance de sécurité suffisante, plus importante hors agglomération.",
+        "hint": "Laisser de l’air."
+      },
+      {
+        "front": "Pourquoi vérifier l’angle mort avant d’ouvrir une portière ?",
+        "back": "Pour ne pas heurter un cycliste ou un deux-roues arrivant.",
+        "hint": "Risque de portière."
+      },
+      {
+        "front": "Pourquoi faut-il éviter de stationner sur une piste cyclable ou un trottoir ?",
+        "back": "Parce que cela met en danger les usagers concernés et gêne leur circulation.",
+        "hint": "Respect des espaces."
+      },
+      {
+        "front": "Pourquoi les piétons âgés ou enfants demandent-ils une vigilance renforcée ?",
+        "back": "Parce que leurs réactions peuvent être plus lentes ou imprévisibles.",
+        "hint": "Fragilité particulière."
+      },
+      {
+        "front": "Comment partager la route avec les motocyclistes ?",
+        "back": "En vérifiant les angles morts, en signalant ses intentions tôt et en gardant des distances adaptées.",
+        "hint": "Deux-roues plus discrets."
+      },
+      {
+        "front": "Pourquoi les poids lourds demandent-ils de la prudence ?",
+        "back": "Parce qu’ils ont des angles morts importants et des distances de freinage élevées.",
+        "hint": "Gabarit et angles morts."
+      },
+      {
+        "front": "Pourquoi ne faut-il pas rester dans l’angle mort d’un poids lourd ?",
+        "back": "Parce que le conducteur peut ne pas vous voir.",
+        "hint": "Invisible pour lui."
+      },
+      {
+        "front": "Quel est l’intérêt d’utiliser les transports collectifs quand c’est possible ?",
+        "back": "Ils réduisent le trafic, les émissions et la pression sur le stationnement.",
+        "hint": "Mobilité partagée."
+      },
+      {
+        "front": "Pourquoi l’éco-conduite est-elle compatible avec le respect des limitations ?",
+        "back": "Parce qu’elle repose justement sur une vitesse adaptée et raisonnable.",
+        "hint": "Pas de performance."
+      },
+      {
+        "front": "Pourquoi un départ progressif est-il préférable à une forte accélération ?",
+        "back": "Parce qu’il consomme moins et préserve l’adhérence.",
+        "hint": "Démarrage doux."
+      },
+      {
+        "front": "Quel comportement adopter en ville pour conduire économiquement ?",
+        "back": "Lire le trafic, profiter du frein moteur et éviter les accélérations inutiles entre deux feux.",
+        "hint": "Ville = anticipation."
+      },
+      {
+        "front": "Pourquoi garder ses distances aide-t-il aussi l’éco-conduite ?",
+        "back": "Parce qu’on peut ralentir progressivement au lieu de freiner fort.",
+        "hint": "Tampon de sécurité."
+      },
+      {
+        "front": "Pourquoi les trajets très courts sont-ils moins efficaces ?",
+        "back": "Parce que le moteur et les systèmes atteignent moins vite leur température optimale.",
+        "hint": "Moteur froid."
+      },
+      {
+        "front": "Comment réduire l’impact environnemental d’un trajet ?",
+        "back": "En choisissant un trajet pertinent, en groupant les déplacements et en conduisant souplement.",
+        "hint": "Moins de kilomètres inutiles."
+      },
+      {
+        "front": "Pourquoi faut-il couper la musique ou les distractions si elles gênent l’attention ?",
+        "back": "Parce qu’une conduite efficace commence par une conduite attentive.",
+        "hint": "Économie sans distraction."
+      },
+      {
+        "front": "Pourquoi une bonne planification du trajet fait-elle partie de l’éco-conduite ?",
+        "back": "Parce qu’elle évite les détours, le stress et certaines phases de conduite inefficaces.",
+        "hint": "Préparer avant partir."
+      },
+      {
+        "front": "Quel rapport entre courtoisie et partage de la route ?",
+        "back": "La courtoisie rend les interactions plus lisibles, réduit le stress et améliore la sécurité globale.",
+        "hint": "Conduite apaisée."
+      },
+      {
+        "front": "Pourquoi faut-il ralentir avant de croiser des piétons ou cyclistes sous pluie ou vent ?",
+        "back": "Parce qu’ils peuvent être déstabilisés et moins protégés.",
+        "hint": "Conditions difficiles."
+      },
+      {
+        "front": "Pourquoi les passages piétons doivent-ils être abordés avec retenue ?",
+        "back": "Parce qu’un piéton peut s’y engager à tout moment et reste prioritaire.",
+        "hint": "Prudence urbaine."
+      },
+      {
+        "front": "En quoi l’éco-conduite réduit-elle l’usure du véhicule ?",
+        "back": "Elle ménage les freins, les pneus, l’embrayage et la mécanique en général.",
+        "hint": "Moins de contraintes."
+      },
+      {
+        "front": "Pourquoi partager la route implique-t-il de communiquer clairement ?",
+        "back": "Parce que des intentions lisibles grâce aux clignotants et au positionnement évitent les conflits.",
+        "hint": "Être prévisible."
+      },
+      {
+        "front": "Quel est l’objectif général de l’éco-conduite et du partage de la route ?",
+        "back": "Réduire l’impact du déplacement tout en circulant de manière sûre, fluide et respectueuse des autres.",
+        "hint": "Économie, sécurité, respect."
+      }
+    ],
+    "sampleIdeas": [
+      {
+        "name": "Fondamentaux de l'éco-conduite",
+        "textDescription": "L'éco-conduite repose sur l'anticipation, la souplesse et la sobriété mécanique. Regarder loin, accélérer progressivement, stabiliser son allure et couper le moteur lors d'arrêts prolongés sont des réflexes qui réduisent consommation et stress.\n\nPasser les rapports tôt, éviter les hauts régimes et maintenir une vitesse constante préservent aussi le moteur. L'idée n'est pas de rouler lentement mais de limiter les pics d'énergie inutiles.\n\nMême dans un embouteillage, on peut rester éco-conducteur : garder ses distances, éviter les coups d'accélérateur, profiter de l'inertie et préparer la reprise.\n\nLes ressources dédiées à l'éco-conduite détaillent ces techniques et donnent des repères chiffrés pour mesurer les gains potentiels.",
+        "videoURL": null,
+        "externalLinkURL": "https://fr.wikipedia.org/wiki/%C3%89co-conduite",
+        "linkedCardIndices": [
+          0,
+          1,
+          2,
+          3,
+          7,
+          8,
+          9,
+          10,
+          11,
+          27,
+          28,
+          29
+        ]
+      },
+      {
+        "name": "Poids, entretien et équipements",
+        "textDescription": "Un véhicule entretenu consomme moins : pneus correctement gonflés, filtres propres, vidanges à jour et accessoires inutiles retirés. Chaque kilo superflu ou galerie oubliée sur le toit augmente la résistance à l'air ou au roulement.\n\nLimiter la climatisation, retirer les objets inutiles du coffre et vérifier la pression des pneus sont des gestes simples mais efficaces. Ils améliorent aussi la sécurité en conservant la meilleure adhérence possible.\n\nL'éco-conduite réduit le bruit, l'usure des freins et la fatigue du conducteur. Elle s'inscrit dans une logique d'entretien préventif plutôt que de réparation d'urgence.\n\nConsultez les guides sur la consommation de carburant pour relier chaque réglage (pression, charge, accessoires) à son impact mesurable.",
+        "videoURL": null,
+        "externalLinkURL": "https://fr.wikipedia.org/wiki/Consommation_de_carburant",
+        "linkedCardIndices": [
+          4,
+          5,
+          6,
+          8,
+          12,
+          13,
+          14,
+          15,
+          30,
+          31,
+          37
+        ]
+      },
+      {
+        "name": "Respect des usagers vulnérables",
+        "textDescription": "Partager la route signifie adapter son comportement aux piétons, cyclistes, motocyclistes et poids lourds. Les distances latérales (1 m en ville, 1,5 m hors agglomération) doivent être respectées scrupuleusement.\n\nOn évite d'ouvrir sa portière sans vérifier l'angle mort, on ne s'arrête pas sur une piste cyclable et l'on annonce tôt sa manœuvre. Les piétons âgés ou enfants traversent plus lentement : ralentir d'avance évite les réactions brusques.\n\nLes poids lourds possèdent des angles morts gigantesques : rester dans leur sillage ou les dépasser sans conviction expose à des risques majeurs. Mieux vaut accélérer franchement pour sortir de la zone d'ombre ou rester à distance.\n\nLes dossiers sur la sécurité routière détaillent les précautions pour chaque profil d'usager : combinez-les avec ces cartes pour mémoriser les marges à respecter.",
+        "videoURL": null,
+        "externalLinkURL": "https://fr.wikipedia.org/wiki/S%C3%A9curit%C3%A9_routi%C3%A8re_en_France",
+        "linkedCardIndices": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          34,
+          35,
+          36,
+          38
+        ]
+      },
+      {
+        "name": "Planification et mobilité partagée",
+        "textDescription": "L'éco-conduite commence avant de démarrer : choisir un itinéraire fluide, regrouper les déplacements, privilégier le covoiturage ou les transports collectifs quand c'est possible. Les trajets très courts consomment plus car le moteur n'a pas le temps d'atteindre sa température optimale.\n\nPlanifier réduit aussi le stress et laisse le temps d'adapter sa conduite aux conditions locales (pluie, vent, événements). Une bonne communication avec les autres usagers par des signaux clairs renforce la courtoisie et la sécurité.\n\nRéduire l'impact environnemental passe par la modération de la vitesse, la gestion des charges et la limitation des distractions (musique trop forte, téléphone). Cette cohérence globale améliore autant la qualité de vie que le budget carburant.\n\nInspirez-vous des principes de la mobilité durable pour intégrer ces habitudes dans vos trajets quotidiens.",
+        "videoURL": null,
+        "externalLinkURL": "https://fr.wikipedia.org/wiki/Mobilit%C3%A9_durable",
+        "linkedCardIndices": [
+          16,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          39
+        ]
+      }
+    ]
   }
 ]
