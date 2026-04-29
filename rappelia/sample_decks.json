@@ -10470,9 +10470,20 @@
     ],
     "cards": [
       {
-        "front": "Qu'est-ce qu'un argument valide et comment différencier d'une affirmation vraie ?",
-        "back": "Argument : prémisses → conclusion. Valide = si prémisses vraies, conclusion forcément vraie (logiquement). Vrai = correspond à réalité. Différence critique : un argument peut être valide mais faux. Exemple : « Tous les chevaux sont bleus. Ceci est un cheval. Donc ceci est bleu. » Valide (logique formelle correcte) mais faux (chevaux pas bleus). Inverse : argument peut être invalide mais vraie conclusion. Exemple : « Les oiseaux volent. Les pingouins sont oiseaux. Donc pingouins volent. » Logique invalide (tous oiseaux ne volent pas) mais conclusion fausse (pingouins ne volent pas). Implication : validité logique ≠ truth value. Vous devez vérifier deux : (1) Structure argument logiquement valide ? (2) Prémisses sont vraies ? Cas idéal : valide + vraies prémisses = conclusion vraie certaine.",
-        "hint": "Logique vs factuel, structure vs contenu"
+        "front": "Qu'est-ce qu'un argument ?",
+        "back": "Une suite de prémisses qui mènent à une conclusion. Exemple : « Il pleut. Quand il pleut, le sol est mouillé. Donc le sol est mouillé. »"
+      },
+      {
+        "front": "Quelle est la différence entre un argument « valide » et un argument « vrai » ?",
+        "back": "Valide = si les prémisses sont vraies, la conclusion l'est forcément (question de logique). Vrai = correspond à la réalité. Un argument peut être valide sans être vrai."
+      },
+      {
+        "front": "Donnez un exemple d'argument valide mais faux.",
+        "back": "« Tous les chevaux sont bleus. Ceci est un cheval. Donc ceci est bleu. » La logique est correcte (valide), mais la première prémisse est fausse — donc la conclusion est fausse."
+      },
+      {
+        "front": "Comment évaluer correctement un argument ?",
+        "back": "Posez deux questions : (1) La structure est-elle logiquement valide ? (2) Les prémisses sont-elles vraies ? Si oui aux deux, la conclusion est certaine."
       },
       {
         "front": "Pourquoi l'ad hominem est sophisme logique courant et comment la détecter ?",
