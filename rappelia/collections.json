@@ -249,6 +249,7 @@
       "code_route_securite_vehicule_premiers_secours",
       "code_route_ecoconduite_partage_route"
     ],
-    "language": "fr"
+    "language": "fr",
+    "isActive": false
   }
 ]

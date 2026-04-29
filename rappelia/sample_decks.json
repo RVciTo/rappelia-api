@@ -15487,7 +15487,8 @@
           54
         ]
       }
-    ]
+    ],
+    "isActive": false
   },
   {
     "stableId": "code_route_priorites_intersections",
@@ -15852,7 +15853,8 @@
           45
         ]
       }
-    ]
+    ],
+    "isActive": false
   },
   {
     "stableId": "code_route_vitesse_distances_conditions",
@@ -16183,7 +16185,8 @@
           44
         ]
       }
-    ]
+    ],
+    "isActive": false
   },
   {
     "stableId": "code_route_securite_vehicule_premiers_secours",
@@ -16513,7 +16516,8 @@
           44
         ]
       }
-    ]
+    ],
+    "isActive": false
   },
   {
     "stableId": "code_route_ecoconduite_partage_route",
@@ -16813,6 +16817,7 @@
           39
         ]
       }
-    ]
+    ],
+    "isActive": false
   }
 ]
