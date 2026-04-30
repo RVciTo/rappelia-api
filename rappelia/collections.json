@@ -226,7 +226,7 @@
   {
     "id": "developer_foundations_en",
     "name": "Developer Power Foundations",
-    "description": "Essential tech skills for developers: cybersecurity, operating systems, and command line mastery",
+    "description": "Level up your security, OS, and command-line skills.",
     "iconName": "terminal.fill",
     "colorName": "indigo",
     "stableDeckIds": [
