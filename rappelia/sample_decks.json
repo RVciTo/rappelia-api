@@ -12440,43 +12440,91 @@
         "name": "How Scratch teaches algorithm thinking without syntax stress",
         "textDescription": "Scratch removes syntax (confusing punctuation and grammar) so learners focus on logic. You don't worry about semicolons or parentheses; you snap blocks together. This is powerful because algorithms are hard enough without fighting the language.\n\nOnce you understand algorithm design in Scratch—loops, conditions, decomposition—learning a text language becomes easier. You already know what code should do; you just learn how to write it in Python or C. Many students struggle with C's syntax, but if they've mastered the concepts in Scratch first, syntax is just a tool.\n\nScratch also enforces good practices naturally. Custom blocks (functions) exist in Scratch, so learners experience why functions matter before memorizing function syntax rules. This bottom-up learning is how CS50 builds strong foundations.",
         "videoURL": "https://www.youtube.com/watch?v=3LPJfIKxwWc",
-        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/0/"
+        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/0/",
+        "linkedCardIndices": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
       },
       {
         "name": "Why binary and number systems matter in CS",
         "textDescription": "Understanding binary illuminates how computers actually work. When you see 1010 = 10 in decimal, you grasp that numbers are representations, not magic. This transfers to other encodings: ASCII (letters as numbers), RGB (colors as three numbers), even how computers store negative numbers (two's complement).\n\nMany programmers skip this and regret it. Buffer overflows happen because people don't realize that a byte holds 0–255; they try to store 1000 in it, causing overflow. Integer limits in different languages (32-bit vs 64-bit) confuse people who didn't learn binary. Understanding the hardware-level representation prevents these mistakes.\n\nFurthermore, understanding bases and encoding helps with real tasks: color manipulation in graphics, bit manipulation in low-level code, even cybersecurity (where encoding tricks mask attacks).",
         "videoURL": "https://www.youtube.com/watch?v=3LPJfIKxwWc",
-        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/0/"
+        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/0/",
+        "linkedCardIndices": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
       },
       {
         "name": "Decomposition as the foundation of scalability",
         "textDescription": "A 100-line script is hard to maintain. A 10,000-line script is nearly impossible without decomposition. Decomposition isn't optional—it's how large systems exist.\n\nCS50 emphasizes decomposition early through Scratch's custom blocks and C's functions because this habit, formed early, becomes automatic. When you design a feature, you naturally ask: 'What are the sub-problems?' and 'Can I solve each separately?'\n\nA common mistake is writing one giant function. It works for 50 lines, but at 200 lines it's unmaintainable. By contrast, a program with ten well-designed functions is clearer even if it's 1000 lines total. Each function is testable, reusable, and understandable. This skill transfers to every language and every problem.",
         "videoURL": "https://www.youtube.com/watch?v=cwtpLIWylAw",
-        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/1/"
+        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/1/",
+        "linkedCardIndices": [
+          16,
+          18,
+          21,
+          27
+        ]
       },
       {
         "name": "Abstraction as a mental tool, not just a buzzword",
         "textDescription": "Abstraction lets you work at different levels. When you use the 'move' block in Scratch, you don't think about pixels or the graphics pipeline; you just move. This mental compression is abstraction.\n\nWithout abstraction, every program would be overwhelming. A web developer doesn't rewrite the browser engine; they use HTML assuming the browser handles rendering. A game developer doesn't rewrite physics; they use a game engine. Each layer of abstraction lets you focus on the layer above.\n\nThe risk of over-abstraction (hiding so much that you can't debug) is real, but the power is undeniable. When you abstract well, complex systems become manageable. CS50 teaches you to abstract ruthlessly, knowing when to stop and peek under the hood when debugging.",
         "videoURL": "https://www.youtube.com/watch?v=cwtpLIWylAw",
-        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/1/"
+        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/1/",
+        "linkedCardIndices": [
+          8,
+          17,
+          18,
+          19
+        ]
       },
       {
         "name": "Common mistake: confusing algorithm correctness with efficiency",
         "textDescription": "A correct algorithm produces right answers but might be slow. An efficient algorithm is both fast and correct. Beginners often conflate these.\n\nFor example, you might write a sorting algorithm that works on 10 items but takes 10 seconds for 10,000 items. It's correct (answers are right) but inefficient (too slow). A better algorithm might also be correct but take 0.1 seconds for 10,000 items.\n\nCS50 teaches Big-O notation to distinguish these. O(n²) algorithms work for small inputs but fail for large ones. When you know your algorithm is O(n²) and your input can be huge, switch to an O(n log n) algorithm. This reasoning happens after you have a correct solution, so solve correctly first, optimize second.",
         "videoURL": "https://www.youtube.com/watch?v=jZzyERW7h1A",
-        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/3/"
+        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/3/",
+        "linkedCardIndices": [
+          21,
+          22,
+          23,
+          24,
+          28
+        ]
       },
       {
         "name": "How pattern recognition prevents repetitive code",
         "textDescription": "If you find yourself copying and pasting code three times, stop and make a function. Repeated code is a red flag because: (1) each copy is a potential bug hiding spot, (2) changing the logic means changing it everywhere, and (3) it's hard to read.\n\nPattern recognition means noticing when you're repeating yourself. In Scratch, if three sprites do nearly the same thing, make a custom block with a parameter. In C, extract repeated code into a function. In any language, DRY (Don't Repeat Yourself) is a core principle.\n\nThe mistake beginners make is writing everything straight, then refactoring too late (or not at all). Better to refactor as you go: spot repetition, make a function, test it, move on. This keeps code clean from the start.",
         "videoURL": "https://www.youtube.com/watch?v=3LPJfIKxwWc",
-        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/0/"
+        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/0/",
+        "linkedCardIndices": [
+          3,
+          17,
+          19,
+          21
+        ]
       },
       {
         "name": "Debugging as a structured skill, not guessing",
         "textDescription": "Novices debug by changing random things, hoping one works. Experts debug systematically: reproduce the bug consistently, trace the code step-by-step, form a hypothesis, test it.\n\nCS50 teaches debugging early because it's a superpower. In Scratch, you can click code blocks to watch variables change in real-time. This visual tracing is invaluable. In C, you'll use tools like gdb (the debugger), which lets you pause execution and inspect memory.\n\nThe method is: (1) Write a minimal test case that triggers the bug, (2) Run it and observe the failure, (3) Look at the code path taken, (4) Find where the code diverges from expected behavior, (5) Fix it, (6) Test again. This methodical approach beats guessing every time and builds the detective skills you'll use for 40 years of programming.",
         "videoURL": "https://www.youtube.com/watch?v=cwtpLIWylAw",
-        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/1/"
+        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/1/",
+        "linkedCardIndices": [
+          9,
+          20,
+          22,
+          25
+        ]
       }
     ]
   },
@@ -12484,7 +12532,7 @@
     "name": "Arrays, Strings & Algorithms (CS50)",
     "stableId": "cs50_arrays_algorithms",
     "description": "Arrays, command-line arguments, searching, sorting, and Big-O analysis. Weeks 3-4 of CS50 Harvard.",
-    "color": "red",
+    "color": "orange",
     "category": "Technology",
     "language": "en",
     "difficulty": "Intermediate",
@@ -12659,49 +12707,103 @@
         "name": "Why array bounds checking is deferred to you in C",
         "textDescription": "C trusts the programmer; it doesn't check if arr[100] is valid on a 10-element array. You'll read garbage memory, crash, or worse, write data that corrupts other variables. This seems reckless, but it's by design.\n\nBounds checking costs CPU time and memory overhead. C prioritizes speed; if you want safety, use a language that checks. Learning to manage memory manually teaches discipline. You develop a habit of thinking: 'Is this index valid?' before accessing arrays.\n\nBuffer overflows, one of the most common security vulnerabilities, exploit unchecked array access. Understanding this danger early—by experiencing segfaults firsthand—is valuable. You learn to validate inputs, use assert() for debugging, and keep arrays sized generously.",
         "videoURL": "https://www.youtube.com/watch?v=4vU4aEFmTSo",
-        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/2/"
+        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/2/",
+        "linkedCardIndices": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
       },
       {
         "name": "Strings as arrays and the null terminator trap",
         "textDescription": "In C, strings are just char arrays ending with \\0. This design saves memory (no separate length field) and integrates naturally with arrays. But it's a trap: forget the null terminator, and functions overflow memory.\n\nFor example, char s[5]; strcpy(s, \"hello\"); is a buffer overflow: \"hello\" needs 6 bytes (including \\0), but s is only 5 bytes. Safer alternatives: char s[6]; or use strncpy(s, \"hello\", 5);.\n\nModern languages store length separately, avoiding this. But C teaches you the cost of memory efficiency. Every abstraction trades something (safety, speed, memory). Understanding these trade-offs makes you a better designer.",
         "videoURL": "https://www.youtube.com/watch?v=4vU4aEFmTSo",
-        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/2/"
+        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/2/",
+        "linkedCardIndices": [
+          5,
+          6,
+          7,
+          8
+        ]
       },
       {
         "name": "Why binary search requires sorted data and the consequences",
         "textDescription": "Binary search halves the search space each iteration by comparing the middle element. If the data isn't sorted, 'go left if smaller' might skip the target. For example, searching for 7 in [3, 7, 1, 9] fails because 7 is in the middle but 7 >= 7, so you don't check the middle.\n\nThis constraint means: if you'll do many searches, sort once (O(n log n)) then search many times (O(log n) each). If you'll search only once, linear search (O(n)) might be faster than sorting then searching. Problem-solving requires weighing options, not blindly choosing the 'fastest' algorithm.\n\nA practical example: a database with 1 million records. You'll search thousands of times, so indexing (sorting/structuring) pays off. A list you'll search once? Skip sorting.",
         "videoURL": "https://www.youtube.com/watch?v=jZzyERW7h1A",
-        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/3/"
+        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/3/",
+        "linkedCardIndices": [
+          10,
+          11,
+          12,
+          13
+        ]
       },
       {
         "name": "How Big-O hides constants and the real-world impact",
         "textDescription": "O(n) and O(2n) both simplify to O(n), but 2n is twice as slow. For small n, constants dominate: O(2n) might be faster than O(n log n). Big-O describes how algorithms scale, not their absolute speed.\n\nFor example, insertion sort is O(n²) but has small constants; for n < 50, it's faster than merge sort's O(n log n). Real systems tune based on data size: sorting algorithms choose insertion sort for small subarrays, merge sort for large ones.\n\nAnother trap: O(n) algorithms with huge constants (like n ∗ 1,000,000) are slower than O(n log n) for reasonable data sizes. Big-O is a heuristic, not gospel. Measure actual performance when it matters.",
         "videoURL": "https://www.youtube.com/watch?v=jZzyERW7h1A",
-        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/3/"
+        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/3/",
+        "linkedCardIndices": [
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          27
+        ]
       },
       {
         "name": "Merge sort as a practical algorithm and its trade-offs",
         "textDescription": "Merge sort is O(n log n) always—best, average, worst. It's stable and parallelizable. But it uses O(n) extra space for merging, and has higher constants than quicksort. In practice, many languages use Timsort (hybrid of merge and insertion sort) for its practical speed and stability.\n\nMerge sort teaches divide-and-conquer: break problems recursively, solve subproblems, combine solutions. This pattern applies far beyond sorting: finding the closest pair of points, multiplying large numbers (Karatsuba), and even parsing (merging parse trees).\n\nUnderstanding merge sort prepares you for advanced algorithms that use the same strategy.",
         "videoURL": "https://www.youtube.com/watch?v=jZzyERW7h1A",
-        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/3/"
+        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/3/",
+        "linkedCardIndices": [
+          16,
+          22,
+          23,
+          24,
+          25
+        ]
       },
       {
         "name": "Command-line arguments and program flexibility",
         "textDescription": "Programs that require user input can ask during execution or accept arguments. Arguments let programs integrate into scripts and pipelines. ./greet Alice is more flexible than running ./greet and typing \"Alice\" when prompted.\n\nUnix philosophy: small tools that do one thing well and can be chained together. grep searches; sort orders; cat concatenates. Each accepts input from the command line or standard input, making them composable.\n\nUnderstanding argc/argv lets you write flexible tools. It's not just CS50; it's how real systems work. Shell scripts, automation, and CI/CD pipelines depend on programs that accept arguments.",
         "videoURL": "https://www.youtube.com/watch?v=4vU4aEFmTSo",
-        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/2/"
+        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/2/",
+        "linkedCardIndices": [
+          8,
+          9,
+          30,
+          2
+        ]
       },
       {
         "name": "The practical importance of choosing the right algorithm",
         "textDescription": "Choosing bubble sort over merge sort for 1 million items means 10,000x slower performance. That's not optimization; it's negligence. Conversely, optimizing a O(log n) algorithm from 20 operations to 10 is pointless—choose the right algorithm first.\n\nCS50 emphasizes this: good algorithmic thinking beats clever coding. A student who chooses O(n log n) from the start outperforms one who optimizes O(n²) endlessly. This principle scales: architectural decisions (choosing the right data structure) matter more than microoptimizations.\n\nPractical wisdom: understand algorithms, profile your code (measure real performance), optimize the bottlenecks. Most code is fast enough; focus on the 10% that matters.",
         "videoURL": "https://www.youtube.com/watch?v=jZzyERW7h1A",
-        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/3/"
+        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/3/",
+        "linkedCardIndices": [
+          13,
+          16,
+          28,
+          29,
+          30
+        ]
       },
       {
         "name": "Analyzing custom algorithms using Big-O reasoning",
         "textDescription": "Not all algorithms are named (bubble sort, merge sort). You'll write custom loops: maybe searching a 2D array, filtering a list, or updating structures. Analyzing them requires the same thinking: count loop nesting and recursive depth.\n\nExamples: (1) for (int i = 0; i < n; i++) for (int j = 0; j < n; j++) is O(n²). (2) A function that halves its input recursively and processes it is O(n log n) (not O(2^n); exponential is different—each call branches into 2 or more subproblems). (3) A binary search in a sorted 2D array is O(n log m) where n and m are dimensions.\n\nDeveloping this intuition takes practice. Trace small examples by hand, count operations, estimate growth. Over time, you'll spot O(n log n) patterns instantly.",
         "videoURL": "https://www.youtube.com/watch?v=jZzyERW7h1A",
-        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/3/"
+        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/3/",
+        "linkedCardIndices": [
+          17,
+          19,
+          26,
+          27
+        ]
       }
     ]
   },
@@ -12709,7 +12811,7 @@
     "name": "C Programming Basics (CS50)",
     "stableId": "cs50_c_programming_basics",
     "description": "Data types, variables, operators, I/O, conditionals, loops, and functions in C. Weeks 1-2 of CS50 Harvard.",
-    "color": "red",
+    "color": "yellow",
     "category": "Technology",
     "language": "en",
     "difficulty": "Beginner",
@@ -12893,49 +12995,104 @@
         "name": "Why C forces you to think about types and memory",
         "textDescription": "In Python, you write x = 5 and don't worry about memory. In C, you must declare int x = 5, thinking about what int means (32 bits, signed). This seems annoying, but it's intentional.\n\nForcing type declarations makes you think early. What range do I need? Will negative numbers appear? Do I need decimals? These questions matter in real systems where memory is limited or precision matters. A financial system storing cents as integers is safer than floats because floats can't represent 0.1 exactly.\n\nC makes these trade-offs visible. You see that a char is 1 byte, an int is 4, a double is 8. This teaches you to design efficiently. In Python, you never think about it; in C, you can't ignore it.",
         "videoURL": "https://www.youtube.com/watch?v=cwtpLIWylAw",
-        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/1/"
+        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/1/",
+        "linkedCardIndices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
       },
       {
         "name": "How printf format codes prevent hidden bugs",
         "textDescription": "printf(\"%d\", 3.14) prints wrong because 3.14 is a float but %d expects an int. The compiler can't always catch this at compile time if you pass variables. Using the correct format code is critical.\n\nCommon mistakes: printing a pointer with %d (shows garbage), printing an int with %s (reads random memory as a string and crashes), printing a float with %d (loses decimals silently). Many languages handle this automatically; C makes you explicit, which teaches precision.\n\nBetter yet, modern compilers warn about mismatched format codes if you enable warnings (-Wall). Pay attention to those warnings—they catch real bugs before runtime.",
         "videoURL": "https://www.youtube.com/watch?v=cwtpLIWylAw",
-        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/1/"
+        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/1/",
+        "linkedCardIndices": [
+          8,
+          9,
+          10,
+          11
+        ]
       },
       {
         "name": "The = vs == mistake and why it's so common",
         "textDescription": "Beginners write if (x = 5) and wonder why the condition always succeeds. The problem: = assigns (sets x to 5), then the if checks if x is non-zero (which it is, so true). They meant == to compare.\n\nThis happens because both look similar. Some languages (like Python) forbid = in conditions, forcing ==. C doesn't, so you can introduce bugs silently. The fix: enable compiler warnings (-Wall) and read them. Many compilers warn about assignment in conditionals.\n\nAnother fix: develop a habit of writing if (5 == x) instead, so if you accidentally write if (5 = x), the compiler errors (can't assign to a literal). This style is odd but safe.",
         "videoURL": "https://www.youtube.com/watch?v=cwtpLIWylAw",
-        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/1/"
+        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/1/",
+        "linkedCardIndices": [
+          12,
+          13,
+          14,
+          32
+        ]
       },
       {
         "name": "Why function declarations are crucial in C",
         "textDescription": "In C, you must declare a function before calling it. If you write main() but define add() after main(), the code won't compile unless you declare add() beforehand. This seems tedious, but it serves a purpose.\n\nDeclaring first forces you to plan your function interfaces before writing details. You think: what inputs do I need? What should I return? This discipline improves design. Moreover, declarations let the compiler check that calls match signatures, catching type errors early.\n\nProto-tip: put all function declarations at the top of your file, then implementations below. Or put implementations in separate .c files with a .h header file declaring them. This scales well for large projects.",
         "videoURL": "https://www.youtube.com/watch?v=cwtpLIWylAw",
-        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/1/"
+        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/1/",
+        "linkedCardIndices": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ]
       },
       {
         "name": "Null-terminated strings as a design pattern",
         "textDescription": "Strings in C end with \\0 (null terminator), a special character marking the end. This design is elegant but easy to mess up. If you forget \\0, functions like strlen() or printf(\"%s\") read past the actual string into garbage memory, causing crashes or revealing secrets.\n\nWhy null-terminate? Because C has no 'length' data stored with a string. Functions don't know where the string ends except by finding \\0. This saves memory (no length field) but requires discipline.\n\nModern languages store length separately (Python strings, Java strings), avoiding this trap. But understanding null termination teaches you about hidden assumptions in data. Many buffer overflow exploits exploit null-terminator confusion.",
         "videoURL": "https://www.youtube.com/watch?v=cwtpLIWylAw",
-        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/1/"
+        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/1/",
+        "linkedCardIndices": [
+          4,
+          5,
+          6,
+          9
+        ]
       },
       {
         "name": "Common edge cases and how to test them",
         "textDescription": "Writing code for happy paths (reasonable inputs) is easy. Edge cases break code: zero, negative numbers, empty strings, very large inputs. For example, a loop for (int i = n; i > 0; i--) breaks if n is 0 (doesn't run); that might be correct or a bug.\n\nAlways test: boundary values (0, 1, n-1, n), negative values, empty strings, maximum values. A function expecting positive integers should be tested with 0 and negative inputs, even if the spec says 'positive'.\n\nIn CS50, testing is emphasized because skipping it feels fast but catches bugs late (or not at all). Take 10% of your time to think of test cases; it saves 90% debugging time.",
         "videoURL": "https://www.youtube.com/watch?v=cwtpLIWylAw",
-        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/1/"
+        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/1/",
+        "linkedCardIndices": [
+          28,
+          30,
+          31,
+          29
+        ]
       },
       {
         "name": "Compiler warnings are your friends, not noise",
         "textDescription": "Run clang -Wall filename.c -o filename to enable all warnings. The compiler will warn about unused variables, implicit type conversions, and other suspicious patterns. Beginners ignore warnings and ship bugs; professionals treat warnings as errors.\n\nFor example, int x; printf(\"%s\", x); compiles with a warning but crashes at runtime because x is uninitialized and printf treats it as a string pointer. The warning says 'format and type mismatch', catching the bug early.\n\nA habit to build: never ignore a compiler warning. Either fix the code or, if you understand the warning and choose to ignore it, suppress it explicitly. This keeps your project clean and forces you to be intentional.",
         "videoURL": "https://www.youtube.com/watch?v=cwtpLIWylAw",
-        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/1/"
+        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/1/",
+        "linkedCardIndices": [
+          29,
+          30,
+          31,
+          8
+        ]
       },
       {
         "name": "Pass-by-value and why you can't modify function arguments",
         "textDescription": "When you call add(x, y), C makes copies of x and y and passes the copies. Changes inside add don't affect the originals. Many beginners expect swap(a, b) to swap a and b, but it doesn't—swap modifies its copies.\n\nTo modify a variable in a function, you need a pointer (next week's topic). For now, understand that pass-by-value is the default: you can't accidentally modify caller variables, but you also can't modify them intentionally without pointers.\n\nThis design is a feature: functions can't have surprising side effects. They're like math functions: f(x) = x + 1 doesn't change x; it returns a new value. C enforces this discipline, teaching good habits.",
         "videoURL": "https://www.youtube.com/watch?v=cwtpLIWylAw",
-        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/1/"
+        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/1/",
+        "linkedCardIndices": [
+          23,
+          24,
+          25,
+          21
+        ]
       }
     ]
   },
@@ -12943,7 +13100,7 @@
     "name": "Memory, Pointers & Data Structures (CS50)",
     "stableId": "cs50_memory_data_structures",
     "description": "Hexadecimal, pointers, dynamic memory, and data structures (linked lists, hash tables, tries, stacks, queues). Weeks 5-6 of CS50 Harvard.",
-    "color": "red",
+    "color": "pink",
     "category": "Technology",
     "language": "en",
     "difficulty": "Intermediate",
@@ -13128,49 +13285,108 @@
         "name": "Why C forces you to manage memory manually",
         "textDescription": "Languages like Python and Java auto-free memory via garbage collection. C makes you call free() explicitly. This seems burdensome, but it's empowering: you control when memory is freed, ensuring timely cleanup. Garbage collection pauses program execution periodically, bad for real-time systems (flight controllers, medical devices).\n\nMoreover, understanding malloc/free teaches discipline. You learn to think about memory ownership: who allocated this? who should free it? These questions improve design. In Rust (modern systems language), ownership rules enforce memory safety at compile time without garbage collection.\n\nThe cost: debugging memory errors is hard. Segfaults and leaks are painful to track. But the lessons are invaluable: respect memory, be deliberate, verify assumptions.",
         "videoURL": "https://www.youtube.com/watch?v=F9-yqoS7b8w",
-        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/4/"
+        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/4/",
+        "linkedCardIndices": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          30
+        ]
       },
       {
         "name": "How pointers make dynamic data structures possible",
         "textDescription": "Fixed-size arrays can't grow. Pointers solve this: malloc(size) allocates exactly the amount needed, and pointers link data together. Without pointers, linked lists, trees, and graphs wouldn't exist.\n\nThe downside: pointer bugs are common and catastrophic. Null dereference, use-after-free (accessing freed memory), double-free (freeing twice), buffer overflow. These are the #1 source of security vulnerabilities.\n\nModern languages avoid pointers (users see references, not addresses), but systems programmers (kernel, embedded, performance-critical) still use C and pointers. Learning pointers in CS50 teaches the hazards and virtues. You respect them, and they give you power.",
         "videoURL": "https://www.youtube.com/watch?v=F9-yqoS7b8w",
-        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/4/"
+        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/4/",
+        "linkedCardIndices": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          13
+        ]
       },
       {
         "name": "Linked lists as a gateway to recursive thinking",
         "textDescription": "Arrays are linear; you access by index. Linked lists are recursive: a list is either empty (NULL) or a node plus a list. This recursive structure naturally leads to recursive code: process the current node, recurse on the next.\n\nThis thinking scales: trees are the same (a tree is either empty or a node with child trees). Graphs are too. Learning recursion on linked lists prepares you for complex structures. Many beginners struggle with recursion; practicing on linked list traversal makes it concrete.\n\nA mental model: to process a linked list, write 'if it's null, stop; otherwise, do something to the current node, then call yourself on the next node'. That pattern, once understood, applies to all recursive data structures.",
         "videoURL": "https://www.youtube.com/watch?v=0euvEdPwQnQ",
-        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/5/"
+        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/5/",
+        "linkedCardIndices": [
+          14,
+          15,
+          16,
+          17,
+          29,
+          30
+        ]
       },
       {
         "name": "Hash tables and the power of indexing",
         "textDescription": "Linear search is O(n); hash tables are O(1). The secret: map keys to indices using a hash function. Instead of checking every element, compute an index directly. The cost: hash collisions require resolution (chaining, open addressing), and designing good hash functions is an art.\n\nHash tables are everywhere: dictionaries in Python, maps in Java, object properties in JavaScript. Understanding the underlying mechanism—hash function, collision handling, resizing—makes you a better programmer. You know when to use hash tables and when they're overkill.\n\nA common mistake: assuming O(1) always. In the worst case (many collisions), hash tables degrade to O(n). Good implementations keep load factors low, rehashing as needed, to maintain O(1) average.",
         "videoURL": "https://www.youtube.com/watch?v=0euvEdPwQnQ",
-        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/5/"
+        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/5/",
+        "linkedCardIndices": [
+          18,
+          19,
+          20,
+          21
+        ]
       },
       {
         "name": "Why tries excel at prefix-based searches",
         "textDescription": "To implement autocomplete (given 'hel', find 'hello', 'help'), you could use a hash table with O(1) lookup per word, but you'd need to check all words starting with 'hel'. A trie lets you walk the tree following 'h' → 'e' → 'l', reaching all words with that prefix in O(k) where k is the prefix length.\n\nTries are memory-hungry (many node pointers), so they're not always better than hash tables. But for prefix operations, they're unbeatable. They're also used in IP routing (IP prefixes), spell-checking, and DNA sequence matching.\n\nThe lesson: different data structures excel at different tasks. Arrays: random access. Linked lists: insertion/deletion. Hash tables: lookups. Tries: prefix searches. Choosing well is an art learned through experience.",
         "videoURL": "https://www.youtube.com/watch?v=0euvEdPwQnQ",
-        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/5/"
+        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/5/",
+        "linkedCardIndices": [
+          22,
+          23,
+          18,
+          19
+        ]
       },
       {
         "name": "Stacks and queues as operational patterns",
         "textDescription": "Stacks and queues aren't just data structures; they're operational patterns found everywhere. Browser back button (stack). Print jobs (queue). Function call stack (stack: each call pushed, local vars allocated; function returns, popped). Breadth-first search (queue). Depth-first search (stack).\n\nUnderstanding them lets you recognize and apply them in new contexts. 'I need to process items in order received' → queue. 'I need to undo actions in reverse order' → stack. Many interview problems reduce to recognizing the right pattern.\n\nImplementing them efficiently (using arrays with clever indexing or linked lists) is a practical skill. A circular queue (using modulo) is trickier than it first appears; getting it right requires careful thinking.",
         "videoURL": "https://www.youtube.com/watch?v=0euvEdPwQnQ",
-        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/5/"
+        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/5/",
+        "linkedCardIndices": [
+          24,
+          25,
+          26,
+          27
+        ]
       },
       {
         "name": "Buffer overflows and why even 'safe' code can fail",
         "textDescription": "Buffer overflow: write past array bounds, corrupting adjacent memory. Severity ranges from crashes to arbitrary code execution (security exploits). C doesn't check bounds, so buffer overflows are on the programmer.\n\nExample: char buffer[10]; strcpy(buffer, \"a very long string\");. The string is longer than 10 bytes, so strcpy writes past the buffer. If you're lucky, it crashes. If unlucky, it overwrites a return address and hijacks program flow.\n\nDefenses: use safer functions (strncpy, which limits length), validate inputs, use compiler flags (-Wformat -Wstrict-prototypes). Modern systems use stack canaries (magic values near buffers; check if corrupted before returning). Learning buffer overflows early teaches defensive programming.",
         "videoURL": "https://www.youtube.com/watch?v=F9-yqoS7b8w",
-        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/4/"
+        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/4/",
+        "linkedCardIndices": [
+          10,
+          11,
+          12,
+          32
+        ]
       },
       {
         "name": "Choosing data structures based on operation frequency",
         "textDescription": "No single data structure is best for all operations. Array: O(1) read, O(n) insertion. Linked list: O(n) read, O(1) insertion. Hash table: O(1) average read/write, poor for range queries. Which do you choose? It depends on your workload.\n\nWill you search often? Use hash tables or sorted arrays (binary search). Will you insert/delete often? Linked lists or balanced trees. Need both fast searches and insertions? Balanced BSTs (B-trees, AVL trees).\n\nThis decision—made at design time—often determines your program's performance. Optimizing a bad structure wastes effort. Learning multiple structures and their trade-offs makes you a designer, not just a coder.",
         "videoURL": "https://www.youtube.com/watch?v=0euvEdPwQnQ",
-        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/5/"
+        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/5/",
+        "linkedCardIndices": [
+          14,
+          18,
+          22,
+          24,
+          25,
+          28,
+          31
+        ]
       }
     ]
   },
@@ -13178,7 +13394,7 @@
     "name": "Python, SQL & Web Development (CS50)",
     "stableId": "cs50_python_sql_web",
     "description": "Python, SQL databases, HTML/CSS/JavaScript, HTTP, Flask, and cybersecurity. Weeks 7-10 of CS50 Harvard.",
-    "color": "red",
+    "color": "teal",
     "category": "Technology",
     "language": "en",
     "difficulty": "Intermediate",
@@ -13385,7 +13601,7 @@
       },
       {
         "front": "What is HTTPS and why is it important?",
-        "back": "HTTPS is HTTP over TLS (encryption). Without HTTPS, passwords and data are sent in plaintext, vulnerable to eavesdropping. HTTPS encrypts the connection, protecting user data. Modern sites use HTTPS; avoid http:// URLs.",
+        "back": "HTTPS is HTTP over TLS (encryption). Without HTTPS, passwords and data are sent in plaintext, vulnerable to eavesdropping. HTTPS encrypts the connection, protecting user data. Modern sites use HTTPS; avoid plain HTTP.",
         "hint": "Encrypted HTTP"
       },
       {
@@ -13399,49 +13615,100 @@
         "name": "Why Python is a relief after C",
         "textDescription": "In C, you manage memory, declare types, and deal with pointers. In Python, the interpreter handles memory, infers types, and abstracts pointers away. Writing Python feels faster.\n\nThe downside: Python is slower than C. You don't see memory allocation and can write inefficient code accidentally. But for most applications, Python's speed is fine. The trade-off is real: readability and speed of development versus raw performance.\n\nCS50's progression—C first, then Python—teaches both sides. You appreciate Python's convenience because you've suffered C's rigor. You write better Python because you understand the memory model beneath. You know when to use C (systems, performance) and when Python suffices (scripts, web servers, data analysis).",
         "videoURL": "https://www.youtube.com/watch?v=EHi0RDZ31VA",
-        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/6/"
+        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/6/",
+        "linkedCardIndices": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
       },
       {
         "name": "Lists vs dictionaries and picking the right structure in Python",
         "textDescription": "Python lists are arrays (indexed by position). Dictionaries are hash tables (indexed by key). For 'give me item at position 5', use a list. For 'give me the user named Alice', use a dictionary.\n\nListof dictionaries: [{'name': 'Alice', 'age': 30}, {'name': 'Bob', 'age': 25}] combines both. Iterate over it to find Bob, or use a dict-of-dicts: {'Alice': {'age': 30}, 'Bob': {'age': 25}} for O(1) lookups.\n\nChoosing wisely affects readability and performance. Many beginners overuse lists and iterate linearly when a dictionary would be faster. Conversely, dictionaries use more memory, so lists are fine for small data.",
         "videoURL": "https://www.youtube.com/watch?v=EHi0RDZ31VA",
-        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/6/"
+        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/6/",
+        "linkedCardIndices": [
+          2,
+          3,
+          4,
+          5
+        ]
       },
       {
         "name": "CSV as a gateway to databases",
         "textDescription": "CSV is simple: load, parse, use. But it's not scalable. To search 1 million records in CSV, you load the entire file into memory—slow and memory-hungry. Databases index data, query specific records instantly.\n\nCS50 starts with CSV to teach data handling without SQL complexity. Once you're comfortable, SQL feels natural: SELECT is like filtering a CSV in-memory. The lesson: understand the fundamentals (data structure, searching, formatting) before optimization (databases, indexing).\n\nIn practice, you'd use Python's csv module for small datasets (< 100MB), SQLite for medium (your laptop), and PostgreSQL/MySQL for production (servers). The concepts transfer; only the tools change.",
         "videoURL": "https://www.youtube.com/watch?v=zrCLRC3Ci1c",
-        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/7/"
+        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/7/",
+        "linkedCardIndices": [
+          5,
+          6,
+          7,
+          8
+        ]
       },
       {
         "name": "SQL injection as a teaching moment in security",
         "textDescription": "SQL injection is an exploit where malicious input becomes part of a SQL query. Example: login as admin' --; if you concatenate directly into a query, the -- comments out the password check. You're logged in without credentials.\n\nThis is why parameterized queries exist. Instead of building strings, you pass values separately. The database driver escapes them, ensuring user input can't escape the value context.\n\nBeyond SQL injection, the lesson generalizes: never trust user input, always validate/sanitize, and use libraries designed for security. Many breaches stem from this single principle being violated.",
         "videoURL": "https://www.youtube.com/watch?v=zrCLRC3Ci1c",
-        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/7/"
+        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/7/",
+        "linkedCardIndices": [
+          17,
+          18,
+          33,
+          34
+        ]
       },
       {
         "name": "HTML/CSS/JavaScript separation of concerns",
         "textDescription": "HTML is structure (what's on the page). CSS is style (how it looks). JavaScript is behavior (what it does). Separating them keeps code clean. <div id=\"button\"></div> is structure, #button { background: blue; } is styling, document.getElementById('button').onclick = ... is behavior.\n\nBeginnersoften mix them: <div style=\"color: red;\" onclick=\"alert('x')\">. It works but becomes unmanageable at scale. Separating concerns makes changes easier: modify CSS without touching HTML, add interactivity without touching CSS.\n\nThis pattern—separation of concerns—applies everywhere: database separate from business logic, business logic separate from UI. Master it in web development, and you'll apply it throughout your career.",
         "videoURL": "https://www.youtube.com/watch?v=alnzFK-4xMY",
-        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/8/"
+        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/8/",
+        "linkedCardIndices": [
+          19,
+          20,
+          21,
+          22
+        ]
       },
       {
         "name": "HTTP as the web's fundamental protocol",
         "textDescription": "HTTP is request-response: you send a request (GET /users), the server responds with status and body. Simple, stateless (each request is independent), and widely supported. HTTPS adds encryption.\n\nUnderstanding HTTP—methods (GET, POST, PUT, DELETE), status codes (200, 404, 500), headers (Accept, Content-Type)—helps you debug web issues and design APIs. Network tabs in browser dev tools show HTTP traffic; reading it clarifies what your code is actually doing.\n\nREST (Representational State Transfer) is an HTTP-based architecture: use GET to read, POST to create, PUT to update, DELETE to remove. It's not a requirement but a convention that makes APIs intuitive.",
         "videoURL": "https://www.youtube.com/watch?v=alnzFK-4xMY",
-        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/8/"
+        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/8/",
+        "linkedCardIndices": [
+          23,
+          24,
+          25,
+          26
+        ]
       },
       {
         "name": "Flask as a minimal yet complete web framework",
         "textDescription": "Flask is tiny—you can understand the whole library in an afternoon. This makes it ideal for learning: no magic, no hidden behavior. Yet it's powerful enough for production (companies like Airbnb built with Flask).\n\nNontrivial frameworks like Django provide batteries (ORM, admin, auth). Flask lets you build these yourself (or add them), teaching you how they work. You learn why middleware exists (to process requests/responses), why templates matter (separation of logic and presentation), why routing is crucial.\n\nLater, picking up Django, FastAPI, or other frameworks is easy because you understand the underlying concepts. You're not memorizing framework-specific idioms; you're grasping web development fundamentals.",
         "videoURL": "https://www.youtube.com/watch?v=oVA0fNwGqB0",
-        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/9/"
+        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/9/",
+        "linkedCardIndices": [
+          27,
+          28,
+          29,
+          30,
+          31
+        ]
       },
       {
         "name": "Password security, hashing, and salt",
         "textDescription": "Beginners store passwords plaintext: user['password'] = input. If the database leaks, all passwords are compromised. Hashing helps: hash the input, store the hash, compare hashes on login.\n\nBut attackers precompute hashes of common passwords (rainbow tables). Salt solves this: random data per user prevents precomputation. With salt, cracking 1 million password hashes requires recomputing for each—infeasible.\n\nFurther: use slow hash functions (bcrypt, scrypt, Argon2) that take time even for computers. This makes brute-force expensive. A good password system uses a modern hash function with salt and high computational cost, not simple MD5.",
         "videoURL": "https://www.youtube.com/watch?v=eFwtPujBbKM",
-        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/10/"
+        "externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/cybersecurity/",
+        "linkedCardIndices": [
+          35,
+          36,
+          37,
+          38,
+          39
+        ]
       }
     ]
   },
