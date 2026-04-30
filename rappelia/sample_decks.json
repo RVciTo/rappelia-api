@@ -8518,7 +8518,7 @@
       {
         "name": "Bias in AI: How Training Data Becomes Discrimination",
         "textDescription": "AI systems inherit and amplify human biases from training data. This isn't a hypothetical problem—it's documented in hiring algorithms, facial recognition, criminal justice, medical diagnosis, and lending. Understanding the mechanism prevents being fooled by 'color-blind' AI claims.\n\nHiring algorithm example: a company trains a model on past hiring data (who was hired, who was promoted) to screen resumes. Historically, the company had fewer women, especially in technical roles. The training data reflects this imbalance. The model learns: 'when features match past male hires, predict 'good fit.'' It recommends mostly male candidates. The company says 'we're using objective AI,' but the model learned subjective historical bias.\n\nWorse is the feedback loop. The biased model recommends mostly men. The company hires mostly men. The next training data reflects this new hiring, encoding even stronger bias. Over iterations, bias intensifies. This is how algorithms can make discrimination worse than human decision-makers, who at least have conscience and legal fear.\n\nFacial recognition bias: models trained mostly on light-skinned faces (because training data came from light-skinned countries with large datasets) have 30%+ higher error rates on dark-skinned faces. Deployed in criminal justice systems (searching for suspects), this biased accuracy cascades to arresting more innocent people of color. The AI is blamed for 'technical issues,' not racism, but the outcome is racist.\n\nHow to detect: audit algorithms for performance across demographic groups. If accuracy for women is 85% and for men is 95%, the algorithm is biased. But companies often don't audit or publish results (opaque algorithms). Demand transparency.\n\nHow to mitigate: diverse training data (but this alone doesn't fix biased labeling), fair labeling (training data annotators must be diverse and trained to avoid bias), algorithmic fairness testing (regularly audit for disparate impacts), and human oversight (don't let algorithms make final decisions on consequential outcomes like hiring, lending, justice).",
-        "videoURL": "https://www.youtube.com/watch?v=gV0_bCTEwKA",
+        "videoURL": "https://www.youtube.com/watch?v=5q87K1WaoFI",
         "externalLinkURL": "https://bidenwhitehouse.archives.gov/ostp/ai-bill-of-rights/",
         "linkedCardIndices": [
           10,
@@ -8532,7 +8532,7 @@
       {
         "name": "Deepfakes: The Threat and the Reality",
         "textDescription": "Deepfakes—synthetic videos of people saying/doing things they never said/did—are a rising concern. Understanding the technology, current capabilities, and limitations prevents both panic and complacency.\n\nHow deepfakes work: generative AI models (specifically GANs—Generative Adversarial Networks) learn from thousands of videos of a person. One network generates fake videos; another network tries to detect fakes. They compete, improving iteratively. Eventually, generated videos become visually convincing. Audio synthesis creates matching voice, and text-to-speech can script it all.\n\nCurrent limitations: good deepfakes require extensive video of the target (you can't fake someone from one photo easily), significant compute (not phone-level yet), and the deepfakes visible in-the-wild are often mediocre if examined closely. But the technology is improving rapidly. In a few years, deepfakes indistinguishable from reality will be routine.\n\nDetection methods: frame-by-frame analysis (spotting inconsistencies in lighting, reflections, eye movements that AI struggles with), audio forensics (detecting synthesis artifacts in voice), digital signatures (cryptographic fingerprints of authentic videos), and detection AI (models trained to spot generative patterns). But detection is an arms race: as generative models improve, detection falls behind.\n\nThe real threat isn't just deception—it's erosion of trust. If video evidence can't be believed, how do we establish truth? Courts, journalism, and public discourse depend on shared reality. Deepfakes undermine this. Solution: authenticated media (digital signatures proving origin and lack of editing), source verification (trust comes from source, not video itself), and media literacy (critical consumption of video).\n\nCurrent impact: modest but growing. Most deepfakes are used for non-consensual intimate imagery or political manipulation. They're concerning but not yet the mass-scale problem some fear. The bigger danger is psychological: knowing deepfakes exist makes people skeptical of all video, giving liars plausible deniability ('that's a deepfake') even when showing real evidence.",
-        "videoURL": "https://www.youtube.com/watch?v=mUG21wjYt7E",
+        "videoURL": "https://www.youtube.com/watch?v=AmUC4m6w1wo",
         "externalLinkURL": "https://www.ibm.com/topics/deepfakes",
         "linkedCardIndices": [
           13,
@@ -8557,7 +8557,7 @@
       {
         "name": "AI and Employment: Historical Lessons and Future Uncertainty",
         "textDescription": "AI will disrupt employment. The question is: how? Historical automation provides mixed lessons and no guarantees about the future.\n\nHistorical context: mechanization (1800s) displaced farmworkers—unemployment spiked, standards of living fell for a generation, then recovered as new sectors (manufacturing, services) emerged. Factory automation (1960s-2000s) displaced assembly workers—similar disruption and eventual recovery. But each time, transition was painful: displaced workers didn't automatically find new jobs; geographic relocation, retraining, and generational shifts were needed. Some never recovered economically.\n\nCurrent AI disruption: likely to affect knowledge workers (software engineers, writers, analysts, accountants) and creative professionals—middle-class jobs, not just low-skill jobs. This is more disruptive because middle-class stability is central to social cohesion. Taxi drivers and radiologists may be displaced simultaneously, something automation hasn't done.\n\nTwo scenarios: (1) Replacement: AI does jobs entirely, eliminating roles. Companies need fewer workers. Widespread unemployment unless new jobs emerge. (2) Augmentation: AI assists workers, increasing their productivity. Radiologists aided by AI-enhanced imaging read more cases with better accuracy. Salary pressure may increase competition and lower wages, but roles persist.\n\nHistorically, replacement followed by new job creation is the pattern. But AI is different: it's general-purpose (learns any task from data), potentially surpassing human performance across domains. Replacement could be comprehensive and swift, faster than human retraining. And 'what new jobs emerge if AI does everything better than humans?' is an open question.\n\nPolicy implications: education (training for AI-assisted work), social support (unemployment insurance, income floors), and deliberate job creation (public works, UBI) may be necessary. The economy will adapt eventually—humans are creative problem-solvers—but the transition decades will be turbulent for displaced workers.",
-        "videoURL": "https://www.youtube.com/watch?v=6Ub_bUFMa7c",
+        "videoURL": "https://www.youtube.com/watch?v=EUjc1WuyPT8",
         "externalLinkURL": "https://oecd.ai/en/work-innovation-productivity-skills",
         "linkedCardIndices": [
           15,
@@ -8570,7 +8570,7 @@
       {
         "name": "Practical AI Literacy: How to Evaluate and Use AI Systems",
         "textDescription": "Understanding AI fundamentals helps you use AI systems well and avoid common pitfalls. Here's practical advice for AI literacy.\n\nWhen to trust AI outputs: straightforward tasks where training data is likely good (translating between languages, classifying images, generating text in a specific style). AI excels at pattern matching, so if the task is 'find patterns,' trust AI. When to verify: anything involving facts (AI hallucinates), decisions affecting people (hiring, medical, legal), or novel situations (AI has no training data for context).\n\nHow to use AI effectively: be specific in prompts (vague requests yield vague outputs), provide context (example of desired style/format), ask for reasoning steps (chain-of-thought prompts yield better reasoning), and verify critical outputs. Treat AI as a brainstorming partner, not an authority.\n\nRed flags in AI systems: claims of infallibility ('our AI is 100% accurate'), lack of transparency (no explanation for decisions), overconfidence without uncertainty quantification, and promises of replacing human judgment in high-stakes domains. Good AI systems acknowledge uncertainty, explain reasoning, and preserve human oversight.\n\nBias detection: evaluate performance across demographic groups. If an AI loan approval system approves 80% of white applicants but 60% of Black applicants with identical finances, it's biased. Demand audits and public results from companies.\n\nMisinformation evaluation: verify AI-generated claims by checking against multiple credible sources. Don't accept AI output as fact without external verification. Use AI to generate ideas; use humans and research to verify.\n\nSociety-level: advocate for regulation requiring transparency, fairness audits, and accountability. Demand that AI used in consequential domains (criminal justice, hiring, lending) undergo independent evaluation. Support education in AI literacy so more people understand capabilities and limitations. The future of AI safety depends on informed citizens and policy, not just researchers.",
-        "videoURL": "https://www.youtube.com/watch?v=UAcqW5C5kvA",
+        "videoURL": "https://www.youtube.com/watch?v=wjZofJX0v4M",
         "externalLinkURL": "https://ai.google/education/",
         "linkedCardIndices": [
           9,
@@ -8743,7 +8743,7 @@
       {
         "name": "Permissions and least privilege on phones",
         "textDescription": "Apps often request more access than they need. Limiting permissions reduces what can be leaked.\n\nRegularly review camera, microphone, location, and contacts access.\n\nPrefer “only while using” for location.\n\nLess data exposure means less damage if something goes wrong.",
-        "videoURL": "https://www.youtube.com/watch?v=Yiwbr14Rgp8",
+        "videoURL": null,
         "externalLinkURL": "https://support.apple.com/en-us/HT203033",
         "linkedCardIndices": [
           6,
@@ -8933,7 +8933,7 @@
       {
         "name": "2FA and password hygiene that works",
         "textDescription": "Credential stuffing (using leaked password lists to try logins) works only if you reuse passwords. A password manager lets you create unique strong ones for every site—and remember them all.\n\n2FA adds a second barrier: even if a password leaks, an attacker can't log in without the second factor.\n\nPriority order: (1) Unique password via manager. (2) 2FA on any account tied to email/payment. (3) Prefer app-based 2FA or device prompts; SMS is weaker (can be intercepted).\n\nThis combination stops the vast majority of account takeovers.",
-        "videoURL": "https://www.youtube.com/watch?v=KX6rF12d7fY",
+        "videoURL": "https://www.youtube.com/watch?v=0mvCeNsTa1g",
         "externalLinkURL": "https://consumer.ftc.gov/articles/password-checklist",
         "linkedCardIndices": [
           11,
@@ -11130,7 +11130,7 @@
       {
         "name": "Development: GDP, HDI, and beyond simple metrics",
         "textDescription": "GDP measures economic output, not well-being. A country can have high GDP but poor health, education, inequality (high nominal GDP, low quality of life).\n\nThe Human Development Index (HDI) adds life expectancy and education to GDP per capita, offering a more nuanced view.\n\nBetter yet: understand context. A 'developing' nation might have lower GDP per capita but strong social systems. A 'developed' nation might have high GDP but severe inequality or environmental damage.\n\nDevelopment is multidimensional: economic, social, environmental, and political. Avoid labeling regions as simply 'developed' or 'developing'—it's vague and often Eurocentric (assumes Western model is the goal).\n\nExample: Bhutan measures 'Gross National Happiness' over GDP, prioritizing well-being, sustainability, and culture.",
-        "videoURL": "https://www.youtube.com/watch?v=mvskMrYxTzc",
+        "videoURL": "https://www.youtube.com/watch?v=5SnR-e0S6Ic",
         "externalLinkURL": "https://hdr.undp.org/",
         "linkedCardIndices": [
           12,
@@ -11146,7 +11146,7 @@
       {
         "name": "Trade networks: from ancient Silk Road to modern BRICS",
         "textDescription": "Trade is not a modern invention. The Silk Road (2nd century BCE–15th century) connected Asia, Middle East, and Europe, moving goods and ideas. Swahili city-states traded along East Africa (9th–18th centuries). Indian Ocean trade linked Africa, Arabia, India, Southeast Asia.\n\nThese historical networks show: non-Western regions were dynamic, interconnected, wealthy. European dominance (16th–20th centuries) temporarily reordered trade, but is not the natural state.\n\nToday, BRICS and regional alliances (ASEAN, AfCFTA) reassert non-Western economic power. Understanding historical trade corrects the myth that Western commerce is 'natural' or inevitable.\n\nKey lesson: trace trade routes through history. It reveals wealth, power dynamics, cultural exchange, and contemporary geopolitical alignments.",
-        "videoURL": "https://www.youtube.com/watch?v=2-pMwXz75qE",
+        "videoURL": "https://www.youtube.com/watch?v=vfe-eNq-Qyg",
         "externalLinkURL": "https://www.worldhistory.org/Silk_Road/",
         "linkedCardIndices": [
           16,
@@ -11180,7 +11180,7 @@
       {
         "name": "Migration: causes, flows, and integration challenges",
         "textDescription": "Migration is not random. People move for economic opportunity (rural to cities, poor to rich nations), safety (fleeing conflict/persecution), or family reunion.\n\nMajor flows: Global South to Global North (seeking higher wages), within developing regions (urban migration), and among wealthy nations (skilled workers, quality of life).\n\nEffects: Migrants send remittances (money home), filling labor gaps, bringing skills and diversity. But: local workers may face wage pressure, cultural tensions arise, and migrants often face discrimination and exploitation.\n\nCommon misconception: migrants 'steal jobs.' Reality is complex: they fill gaps (care, agriculture), start businesses, contribute taxes. Over time, migration usually benefits both origin and destination economically—but distribution of benefits is unequal.\n\nKey: Distinguish between migration (generally long-term) and refugee flows (forced by danger). Policies differ, and conflating them obscures the distinct causes and needs.",
-        "videoURL": "https://www.youtube.com/watch?v=NKbE7q8tWEY",
+        "videoURL": "https://www.youtube.com/watch?v=s_iwrt7D5OA",
         "externalLinkURL": "https://www.un.org/en/global-issues/population",
         "linkedCardIndices": [
           14,
@@ -11418,7 +11418,7 @@
       {
         "name": "Silk Road: more than merchandise",
         "textDescription": "The Silk Road (2nd century BCE–15th century CE) was not a single road but a vast network of overland and maritime routes connecting China, Central Asia, Persia, India, and Europe.\n\nMerchants traded silk, spices, ceramics, and metals. But equally important: technologies like printing and gunpowder moved westward; religions (Buddhism, Islam) traveled eastward; architectural and artistic styles blended.\n\nStudying the Silk Road reveals that globalization is ancient, not modern. It also shows how intermediary regions (Central Asia, Persia) were hubs of wealth and culture, not just peripheries.\n\nUse the Silk Road to understand: trade creates cultural exchange; distance is relative; non-Western regions were dynamic centers.",
-        "videoURL": "https://www.youtube.com/watch?v=2-pMwXz75qE",
+        "videoURL": "https://www.youtube.com/watch?v=vfe-eNq-Qyg",
         "externalLinkURL": "https://www.worldhistory.org/Silk_Road/",
         "linkedCardIndices": [
           20,
@@ -11429,7 +11429,7 @@
       {
         "name": "African kingdoms: Mali and Songhai",
         "textDescription": "West Africa, 13th–16th centuries, was home to powerful, organized states controlling trans-Saharan gold and salt trade.\n\nMali (1230–1600) and Songhai (1464–1591) were not isolated tribal societies but empires with administrative systems, armies, and centers of Islamic learning (Timbuktu had a university).\n\nThey were disrupted partly by Portuguese exploration and slave trade, illustrating how external pressures altered African trajectories.\n\nKey misconception: Africa had 'no history' before European contact. In fact, pre-colonial Africa had complex states, trade networks, and intellectual traditions. Learning these corrects a profound Eurocentric bias.",
-        "videoURL": "https://www.youtube.com/watch?v=1EnWnuC-Mz4",
+        "videoURL": "https://www.youtube.com/watch?v=jvnU0v6hcUo",
         "externalLinkURL": "https://www.worldhistory.org/Mali/",
         "linkedCardIndices": [
           24,
@@ -11441,7 +11441,7 @@
       {
         "name": "Mughal Empire: Islamic science and governance in Asia",
         "textDescription": "The Mughal Empire (1526–1857) ruled much of South Asia with a multicultural, administratively sophisticated system.\n\nMughals synthesized Persian, Islamic, and Indian cultures. They sponsored architecture (Taj Mahal, Delhi's Red Fort), patronized scholars, and built trade networks extending to Europe and Southeast Asia.\n\nTheir administrative system influenced later British colonial governance.\n\nWhy it matters: it challenges the assumption that Asia was static before Western contact. The Mughals show thriving empires, intellectual exchange, and complex statecraft rivaling Europe. Understanding this corrects textbook Eurocentric narratives.",
-        "videoURL": "https://www.youtube.com/watch?v=nC5SDOelImU",
+        "videoURL": "https://www.youtube.com/watch?v=nbuM0aJjVgE",
         "externalLinkURL": "https://www.worldhistory.org/Mughal_Empire/",
         "linkedCardIndices": [
           21,
@@ -11452,7 +11452,7 @@
       {
         "name": "Meiji Restoration: modernization without Westernization",
         "textDescription": "Japan, post-1868, faced a choice: resist the West or adapt? The Meiji chose strategic adoption.\n\nThey imported railroads, steel mills, bureaucratic systems, and military technology. But they preserved Shinto traditions, Japanese language education, and hierarchical values.\n\nBy 1910, Japan was a major power—not by full Westernization but by selective, controlled borrowing.\n\nKey lesson: modernization does not require Westernization. Non-Western societies can innovate while maintaining identity. This breaks the false binary of 'traditional vs. modern.' Also shows how rapid transformation is possible with centralized decision-making and cultural coherence.",
-        "videoURL": "https://www.youtube.com/watch?v=J0uZFSAHy2I",
+        "videoURL": "https://www.youtube.com/watch?v=Nosq94oCl_M",
         "externalLinkURL": "https://en.wikipedia.org/wiki/Meiji_Restoration",
         "linkedCardIndices": [
           22,
@@ -11463,7 +11463,7 @@
       {
         "name": "Decolonization: the end of empire",
         "textDescription": "From 1945–1975, most colonial territories gained independence. This was not inevitable: empires fought to retain power (French Indochina, Algeria; British Kenya). It succeeded through nationalist movements, international law (UN Charter), and the weakening of European powers post-WWII.\n\nDecolonization reshaped the world: new nations joined the UN, Cold War competed for their allegiance, and many struggled with imposed borders and extractive economies.\n\nUnderstanding decolonization is key to modern geopolitics. Today's conflicts often reflect colonial legacy (artificial borders, resource extraction, mistrust of institutions). It also shows how historical power shifts—empires, once seemingly permanent, crumbled rapidly.",
-        "videoURL": "https://www.youtube.com/watch?v=HBgOhWiKC0U",
+        "videoURL": "https://www.youtube.com/watch?v=T_sGTspaF4Y",
         "externalLinkURL": "https://www.un.org/en/global-issues/decolonization",
         "linkedCardIndices": [
           26,
@@ -11475,7 +11475,7 @@
       {
         "name": "Imperialism and its lasting effects",
         "textDescription": "19th and early 20th centuries: European powers divided Africa, Asia, and parts of Americas through military force, legal claims, and economic dominance.\n\nImperialism was justified by racist ideology ('civilization mission,' Social Darwinism) and competitive power politics.\n\nEffects: extracted resources; created artificial borders; imposed languages and religions; disrupted local economies; sowed nationalist resentment.\n\nToday's global inequality, conflict zones (Middle East, Africa), and language/cultural dominance (English, French) partly trace to imperialism. Recognizing this pattern helps explain modern geopolitics and reduces Eurocentric assumptions about 'natural' hierarchies or cultural superiority.",
-        "videoURL": "https://www.youtube.com/watch?v=iKJcA3dHhvo",
+        "videoURL": "https://www.youtube.com/watch?v=alJaltUmrGo",
         "externalLinkURL": "https://en.wikipedia.org/wiki/Imperialism",
         "linkedCardIndices": [
           27,
@@ -11487,7 +11487,7 @@
       {
         "name": "Enlightenment ideas and modern democracy",
         "textDescription": "17th–18th centuries: European thinkers (Locke, Montesquieu, Rousseau) argued that political authority comes from reason, natural rights, and the people—not divine right or tradition.\n\nThese ideas justified revolutions (American 1776, French 1789) and shaped modern constitutions, separation of powers, and universal rights concepts.\n\nBut here's the nuance: Enlightenment thinkers were products of their time. Many supported slavery, colonialism, and gender hierarchies. Also, similar ideas developed independently in non-Western contexts.\n\nLesson: trace the intellectual roots of modern politics; recognize Enlightenment contributions while critiquing their limitations; avoid assuming Western ideas are inherently superior—compare with Islamic jurisprudence, Chinese philosophy, etc.",
-        "videoURL": "https://www.youtube.com/watch?v=HbeEJ7BG2Q4",
+        "videoURL": "https://www.youtube.com/watch?v=NnoFj2cMRLY",
         "externalLinkURL": "https://plato.stanford.edu/entries/enlightenment/",
         "linkedCardIndices": [
           4,
@@ -11660,7 +11660,7 @@
       {
         "name": "Understanding Logical Arguments: How to Evaluate Claims Critically",
         "textDescription": "Most people believe things for poor reasons—'I read it online,' 'my friend said so,' 'it sounds right.' Understanding how to evaluate arguments is foundational to critical thinking. It's not about winning debates; it's about believing true things and rejecting false ones.\n\nAn argument consists of premises (claims offered as support) and a conclusion (what's being argued for). Example: 'All humans are mortal. Socrates is human. Therefore, Socrates is mortal.' The strength of an argument depends on logical structure and truth of premises.\n\nValidity measures structure: does the conclusion necessarily follow from premises? In the Socrates example, if premises are true, conclusion must be true. The argument is valid. But consider: 'All dogs are animals. Fido is an animal. Therefore, Fido is a dog.' Same structure, but now the conclusion doesn't necessarily follow (Fido might be a cat). Validity concerns logical form, not content.\n\nSoundness requires both valid structure and true premises. A valid argument with false premises is unsound: 'All cats are dogs. Fluffy is a cat. Therefore, Fluffy is a dog.' Valid structure (if premises were true, conclusion would follow) but unsound (cats aren't dogs).\n\nWhen evaluating claims, ask: (1) Is the argument logically valid? Does the conclusion follow from premises? (2) Are the premises true? Could the premises be false? (3) Are there unstated assumptions? What's left unsaid?\n\nExample of hidden assumptions: 'Exercise improves health. Therefore, you should exercise.' Unstated: health is valuable to you, exercise is feasible for you. These seem obvious but aren't universal.\n\nMost disputes aren't actually about logic; they're about premises. Two people disagree on immigration policy. One believes immigrants commit crimes at high rates (empirical premise). The other believes they commit crimes at low rates. Same ethical logic; different premises yield different conclusions. Identifying disagreement at the premise level clarifies discussion.\n\nThis is why critical thinking matters: it forces clarity about what you're actually disagreeing about, making productive discourse possible.",
-        "videoURL": "https://www.youtube.com/watch?v=5-QA0I-6DmU",
+        "videoURL": "https://www.youtube.com/watch?v=NKEhdsnKKHs",
         "externalLinkURL": "https://plato.stanford.edu/entries/logic-classical/",
         "linkedCardIndices": [
           0,
@@ -11672,7 +11672,7 @@
       {
         "name": "Logical Fallacies: Common Thinking Errors That Fool Smart People",
         "textDescription": "Logical fallacies are common errors in reasoning. Understanding them prevents you from fooling yourself and makes you harder to manipulate.\n\nAd hominem attacks the person, not the argument. Example: 'You believe in climate change, but you drive a car—hypocrite!' Whether someone is hypocritical doesn't determine if climate change is real. This is persuasive because inconsistency bothers us emotionally, but it's logically irrelevant. The argument stands or falls on its merits, not the arguer's purity.\n\nStraw man misrepresents the opponent's position to make it easier to attack. Someone argues: 'We should have stronger regulations on pollution.' You respond: 'They want to shut down all industry!' You've distorted their position into something indefensible. This prevents real debate because you're not engaging with their actual claim.\n\nFalse dilemma presents only two options when more exist. 'You're either with us or against us' ignores neutral positions. 'Either you support unlimited immigration or you're racist' ignores nuanced stances. This is persuasive because it forces people to choose sides, preventing middle-ground discussion.\n\nAppeal to authority uses someone's status to justify a claim without evidence. 'A celebrity said this product works, so it does' misuses authority. Authority matters only in relevant domains: trust climate scientists on climate, not celebrity opinions. Even legitimate authorities can be wrong; authority should supplement evidence, not replace it.\n\nSlippery slope claims one event inevitably leads to worse consequences. 'If we allow gay marriage, next is marrying animals!' Fallacious without mechanism. But valid slippery slope: 'If we allow government power X without limits, future governments may extend it.' Distinguish speculative fears from real precedent concerns.\n\nCircular reasoning assumes the conclusion in the premises. 'The Bible is true because it says so' assumes the Bible is reliable to prove the Bible is reliable. Circular reasoning feels persuasive because the conclusion and premises seem different, but they're actually the same claim dressed differently.\n\nFalse causality assumes one event caused another without evidence. 'I got sick after eating spicy food, so spicy food made me sick' ignores: I was already sick, it was a coincidence, or something else caused it. Correlation (both happened) isn't causation.\n\nThese fallacies work because they exploit psychological biases and emotional reasoning. Recognizing them is the first step to resisting manipulation.",
-        "videoURL": "https://www.youtube.com/watch?v=OxHy7K1iapI",
+        "videoURL": "https://www.youtube.com/watch?v=1A_CAkYt3GY",
         "externalLinkURL": "https://iep.utm.edu/fallacy/",
         "linkedCardIndices": [
           2,
@@ -11687,7 +11687,7 @@
       {
         "name": "Ethical Frameworks: How Philosophers Think About Right and Wrong",
         "textDescription": "When facing moral dilemmas, people often say 'I just feel it's wrong.' But why do you feel it's wrong? Different philosophical frameworks give different answers, and understanding them clarifies moral reasoning.\n\nUtilitarianism: the right action maximizes overall happiness/well-being. Stealing food to feed a starving family is justified because it prevents worse suffering. Simple calculation: one person's inconvenience (stolen food) vs. a family's survival. The math favors theft. Strength: utilitarianism is intuitive (everyone cares about consequences). Weakness: it can justify harmful acts ('torture one innocent person to prevent greater suffering for five') and struggles with justice ('punish innocent people if it makes society happier').\n\nDeontology: morality depends on duties and rules independent of consequences. Some acts are inherently right (keeping promises) or wrong (lying), regardless of outcomes. From a deontological view, lying to save a life might still be wrong because lying violates a duty. Strength: deontology respects individual rights and prohibits some intuitively terrible acts. Weakness: it struggles with conflicting duties (when saving lives requires breaking promises).\n\nVirtue ethics: morality is about developing good character, not following rules or calculating outcomes. Rather than 'What action maximizes happiness?' ask 'What would a virtuous person do?' A virtuous person is courageous, honest, compassionate, etc. This focuses on who you become, not just what you do. Strength: virtue ethics captures intuition that character matters. Weakness: it's vague—'what is virtue?' differs across cultures.\n\nPractical example: you find money someone dropped. Utilitarian: return it if the owner values it more than the finder (calculate). Deontologist: return it because you have a duty not to steal. Virtue ethicist: a virtuous person shows honesty and compassion by returning it.\n\nMost people use hybrid approaches: consider consequences (utilitarian), respect duties and rights (deontological), and develop character (virtue). Understanding these frameworks helps articulate why something feels right or wrong, and enables serious moral discussion.",
-        "videoURL": "https://www.youtube.com/watch?v=QFgcqB3IY9E",
+        "videoURL": "https://www.youtube.com/watch?v=-a739VjqdSI",
         "externalLinkURL": "https://plato.stanford.edu/entries/ethics-virtue/",
         "linkedCardIndices": [
           13,
@@ -11700,7 +11700,7 @@
       {
         "name": "Confirmation Bias and Motivated Reasoning: Why Smart People Believe False Things",
         "textDescription": "Confirmation bias is the tendency to seek, interpret, and remember information confirming existing beliefs while dismissing contradicting information. It's perhaps the most dangerous thinking error because it operates unconsciously in intelligent people.\n\nExample: you believe supplement X improves memory. When you try it, you remember times it seemed to help (confirmation), forget times it didn't work (ignoring disconfirming evidence), and interpret ambiguous results as supporting it. A friend reports no benefit; you explain it away ('maybe they didn't use it right'). Over time, your initial belief is reinforced despite weak evidence.\n\nWhy is confirmation bias so pernicious? It feels like reasoning. You're examining evidence, but you're unconsciously filtering and interpreting it to preserve existing beliefs. Smart people are better at this filtering—they can generate sophisticated justifications for believing false things. Ironically, intelligence without awareness of bias makes you worse at truth-seeking.\n\nMotivated reasoning extends this: you're motivated to believe things for emotional, financial, or social reasons. Political beliefs are prime example: liberals interpret studies as supporting progressive policies; conservatives interpret the same studies as supporting conservative policies. Each side genuinely believes it's being objective, unaware of emotional motivation. Climate denial is widespread partly because people are motivated (emotionally or financially) to disbelieve it.\n\nCountering confirmation bias: (1) Actively seek disconfirming evidence. What would prove you wrong? (2) Steel-man opposing views (represent them charitably). (3) Expose yourself to different sources and communities. (4) Evaluate evidence statistically, not anecdotally. (5) Assume you're biased; examine your beliefs for motivated reasoning. (6) Trust expert consensus over personal judgment; experts have processes countering bias.\n\nHumility is essential: the more intelligent you are, the better you can rationalize false beliefs. Recognizing this vulnerability is the first step to overcoming it. Science works because it's a social process with checks against individual bias—peer review, replication, open debate. Don't trust your isolated judgment; trust systematic processes.",
-        "videoURL": "https://www.youtube.com/watch?v=vKA4w2O61Xo",
+        "videoURL": "https://www.youtube.com/watch?v=AYkhlXronNk",
         "externalLinkURL": "https://en.wikipedia.org/wiki/Cognitive_bias",
         "linkedCardIndices": [
           10,
@@ -11724,7 +11724,7 @@
       {
         "name": "Epistemology: How Do You Know What You Know?",
         "textDescription": "Epistemology studies knowledge: what it is, how you acquire it, and what justifies belief. It seems abstract, but it's foundational to critical thinking and determines what you should believe.\n\nBasic question: what makes a belief justified? Three conditions seem necessary: (1) You believe it. (2) It's true. (3) You have adequate reasons for believing it (justified true belief). But these don't seem sufficient. Imagine you believe it will rain because you heard a groundhog prediction. It does rain. You believed it, it was true, but the prediction wasn't a justified reason.\n\nJustification comes from sources: (1) Perception: 'I see a tree.' Perception seems reliable but can deceive (optical illusions). (2) Memory: 'I remember my childhood.' Memory can be fallible and prone to distortion. (3) Logic/reason: 'If A implies B and A is true, then B is true.' Logic seems most reliable but only works given premises. (4) Testimony: 'An expert says....' Relies on trusting others.\n\nHow much evidence justifies belief? This depends on stakes. Believing 'it might rain' needs minimal evidence (weather report). Believing 'a defendant is guilty' requires much higher evidence (beyond reasonable doubt). Scientific claims require replicable evidence. Religious claims require... what? This is contested.\n\nThe burden of proof is crucial: whoever claims something unusual bears responsibility for evidence. 'Aliens exist' requires evidence; 'aliens don't exist' needs no evidence. This prevents endless debates where you must prove negatives. Extraordinary claims require extraordinary evidence.\n\nSkepticism challenges: how do you know you're not dreaming? That the external world is real? That your memory is accurate? These are logically unanswerable but practically irrelevant. David Hume argued we can't logically justify induction (the sun rose today, so it will tomorrow), yet we must rely on it. This shows: some foundational beliefs can't be proven but must be assumed.\n\nImplication: justified belief requires evidence, but also acknowledgment of uncertainty. Smart people hold beliefs provisionally, updating when evidence changes. This is rationality.",
-        "videoURL": "https://www.youtube.com/watch?v=k3kF1qJbsWQ",
+        "videoURL": "https://www.youtube.com/watch?v=kXhJ3hHK9hQ",
         "externalLinkURL": "https://plato.stanford.edu/entries/epistemology/",
         "linkedCardIndices": [
           8,
@@ -11739,7 +11739,7 @@
       {
         "name": "The Socratic Method: How to Think Better Through Questions",
         "textDescription": "Socrates, ancient Athenian philosopher, didn't write books or give lectures. Instead, he walked around asking questions. His method—the Socratic method—is powerful for developing critical thinking and uncovering truth.\n\nThe method: rather than telling someone they're wrong, ask probing questions that reveal contradictions in their beliefs. Example: someone claims 'courage is standing your ground in battle.' Socrates asks: 'Is a general who retreats to better position cowardly?' 'What about someone standing ground but fighting for an unjust cause—is that courageous?' Through questions, they realize their definition is incomplete.\n\nWhy is this effective? First, it's persuasive. People who reach conclusions themselves are convinced; people told they're wrong become defensive. Second, it reveals hidden assumptions. Most people haven't fully examined their beliefs. Questions force explicit articulation, revealing gaps and contradictions. Third, it's collaborative, not combative—you're thinking together, not winning a debate.\n\nFor critical thinking, this translates to: ask clarifying questions before disagreeing. 'What do you mean by justice?' 'Can you give an example?' 'How does that fit with your claim that...?' This forces precision and reveals whether disagreement is fundamental or semantic.\n\nModern applications: in science, the Socratic method appears as dialectical reasoning (thesis, antithesis, synthesis). In dialogue, good conversation involves questions more than declarations. In therapy, the therapist asks questions helping clients reach insights. In education, Socratic seminars engage students in questioning texts rather than lecturing about them.\n\nLimitations: the Socratic method works if people are genuinely open to questioning. Socrates was executed partly because his questions threatened Athenian authorities. Some people reject questioning, preferring certainty. Also, the method can be manipulative—appearing to ask genuine questions while leading toward predetermined conclusions ('Did you consider...?'). True Socratic method requires genuine uncertainty.\n\nThe deeper point: critical thinking develops through questioning—your own beliefs and others'. Confidence without examination is unexamined dogmatism. Socratic questioning is philosophy's fundamental tool.",
-        "videoURL": "https://www.youtube.com/watch?v=rvKc8-chPao",
+        "videoURL": "https://www.youtube.com/watch?v=-wrCpLJ1XAw",
         "externalLinkURL": "https://plato.stanford.edu/entries/socrates/",
         "linkedCardIndices": [
           17,
@@ -15175,7 +15175,7 @@
   {
     "name": "Web3 & Blockchain Fundamentals",
     "stableId": "web3_blockchain_basics",
-    "description": "Deep dive into blockchain mechanics: blocks, consensus, mining, validation, and comparative analysis of Bitcoin vs Ethereum architectures.",
+    "description": "Dive into blockchain mechanics: blocks, consensus, mining, validation, and Bitcoin vs Ethereum.",
     "color": "purple",
     "category": "Technology",
     "language": "en",
@@ -15333,52 +15333,103 @@
       {
         "name": "How Block Construction and Hashing Create Immutability",
         "textDescription": "Understanding block structure is foundational to grasping blockchain security. Each block contains a header (previous block hash, Merkle root, timestamp, nonce) and transactions. The header's hash depends on all its contents; changing even one bit changes the hash entirely. Because each block references the previous hash, altering historical data would break every subsequent hash, making detection trivial.\n\nMiners search for a nonce value that produces a hash below the difficulty target. This computational work is expensive—for Bitcoin, the network does ~10^21 hashes per second. An attacker must redo this work for every block they want to alter, while the honest network continues extending the true chain.\n\nThe beauty is that hash collision is cryptographically impossible; no shortcut exists to fake work. This economic cost—not cryptography alone—secures the ledger. Ethereum's Merkle tree structure further enables light clients to verify specific transactions without downloading entire blocks, making the system efficient while maintaining cryptographic integrity.",
-        "videoURL": "https://www.youtube.com/watch?v=xIDL_akzsV0",
-        "externalLinkURL": "https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch09.asciidoc"
+        "videoURL": "https://www.youtube.com/watch?v=SSo_EIwHSd4",
+        "externalLinkURL": "https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch09.asciidoc",
+        "linkedCardIndices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          21
+        ]
       },
       {
         "name": "Proof of Work vs Proof of Stake: Economics and Security Models",
         "textDescription": "PoW and PoS secure networks through opposing mechanisms, each with distinct tradeoffs. PoW miners invest electricity and hardware, making attacks expensive if profitable theft is impossible. If Bitcoin's price drops, mining becomes uneconomical, potentially weakening security. PoS validators lock capital (stake); slashing rules destroy their collateral if they misbehave, making attacks expensive for a different reason: validator loss.\n\nPoW generates new supply (block rewards) to incentivize miners; this dilutes holders but incentivizes security. PoS uses fewer resources but concentrates power among wealthy validators. The key insight is that both systems make attacks economically irrational, but the cost structure differs.\n\nDifficulty adjustment in PoW ensures consistent block times as hashpower fluctuates. PoS finality (cryptographic certainty a block won't revert) is faster and more direct. Ethereum's transition to PoS reduced energy use by 99.95% while maintaining security through slashing. Neither is universally superior; they reflect different design priorities.",
         "videoURL": "https://www.youtube.com/watch?v=M3EFi_POhps",
-        "externalLinkURL": "https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/"
+        "externalLinkURL": "https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/",
+        "linkedCardIndices": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          17,
+          24
+        ]
       },
       {
         "name": "Understanding Finality and the Risk of Chain Reversions",
         "textDescription": "Finality is the guarantee that a confirmed transaction is irreversible. Bitcoin uses probabilistic finality: after six confirmations (~1 hour), the cost to revert exceeds the transaction value for legitimate amounts, making reversions economically irrational. But theoretically, with unlimited 51% hashpower, Bitcoin could revert arbitrarily deep history.\n\nEthereum PoS implements deterministic finality: after 2/3+ validators justify a block, then the next justified block finalizes it, reverting is cryptographically impossible without destroying 1/3+ of total stake. If that stake is worth billions, reverting is economically catastrophic, not just expensive.\n\nThis distinction matters for finality assumptions. Bitcoin exchanges typically require 6 confirmations; Ethereum PoS requires one finality epoch (~15 minutes). Understanding finality helps explain why reversal attacks are rare in practice: the economic irrationality is overwhelming. When finality fails (chain splits or finalization bugs), it signals severe protocol or social problems.",
-        "videoURL": "https://www.youtube.com/watch?v=4V8zxvNLI5s",
-        "externalLinkURL": "https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/#finality"
+        "videoURL": "https://www.youtube.com/watch?v=x83EVUZ_EWo",
+        "externalLinkURL": "https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/#finality",
+        "linkedCardIndices": [
+          3,
+          5,
+          6,
+          17,
+          22
+        ]
       },
       {
         "name": "The Role of Full Nodes in Blockchain Security",
         "textDescription": "Full nodes validate every rule of the protocol, rejecting invalid transactions and blocks. They secure a blockchain not by mining or validating (that's mining/validators' role) but by enforcing consensus rules, making censorship expensive. If a powerful entity tries to censor you by excluding your transactions, a full node proves they're violating rules.\n\nFull nodes require resources: bandwidth to sync, storage for historical blocks, CPU to verify. Light clients reduce these costs by trusting that the majority of validators is honest, downloading only block headers. But light clients cannot independently verify all rules; they depend on node operators being honest.\n\nThis creates a tension: full nodes secure the network but cost money to run, limiting participation. If only a few entities run full nodes, centralization increases. Ethereum's focus on \"stateless clients\" and Danksharding aims to reduce full node costs so more individuals can run them, strengthening decentralization.",
-        "videoURL": "https://www.youtube.com/watch?v=jceC6wSZQTU",
-        "externalLinkURL": "https://bitcoin.org/en/full-node"
+        "videoURL": "https://www.youtube.com/watch?v=pyaIppMhuic",
+        "externalLinkURL": "https://bitcoin.org/en/full-node",
+        "linkedCardIndices": [
+          7,
+          8,
+          18,
+          26
+        ]
       },
       {
         "name": "Soft Forks vs Hard Forks: Protocol Evolution and Chain Splits",
         "textDescription": "Blockchains must evolve, but changes risk breaking consensus. A soft fork tightens rules; old nodes still consider soft fork blocks valid, so they follow the new chain without upgrading. If 95% of miners adopt a soft fork, the remaining 5% eventually follow the majority. Soft forks are backward compatible and low-risk.\n\nA hard fork loosens or changes rules fundamentally. Old nodes reject new blocks as invalid, creating a permanent chain split if adoption is incomplete. Bitcoin's 2017 block size debate produced a hard fork (Bitcoin Cash): legacy Bitcoin refused to recognize it, creating two separate chains. Neither is \"wrong\"—they're different social contracts.\n\nHard forks require near-universal agreement, limiting their use. Ethereum used hard forks to fix the DAO hack and transition to PoS because the community consensus was clear. The key lesson is that forks are not bugs—they're a feature enabling protocol evolution. But coordination is required to avoid accidentally splitting the network.",
-        "videoURL": "https://www.youtube.com/watch?v=oVR-wPu1Nzo",
-        "externalLinkURL": "https://bitcoin.org/en/glossary/fork"
+        "videoURL": "https://www.youtube.com/watch?v=Bu1GcyyFZ7w",
+        "externalLinkURL": "https://bitcoin.org/en/glossary/fork",
+        "linkedCardIndices": [
+          9,
+          10,
+          22,
+          23
+        ]
       },
       {
         "name": "State Explosion: Why Ethereum's Account Model Challenges Scalability",
         "textDescription": "Bitcoin's UTXO model is stateless: transactions consume old outputs and create new ones, similar to transferring physical coins. No account balance needs tracking; history proves ownership. This is simple and parallelizable but awkward for contracts and balance queries.\n\nEthereum's account model is intuitive: each account has a balance, like a bank ledger. Transactions modify balances directly. This is simple to reason about but creates state that accumulates forever. Every node must store the entire state (billions of accounts) to verify new blocks, raising hardware costs and limiting decentralization.\n\nState explosion is why Ethereum researches solutions: state rent (charging for historical state), state pruning (archiving old data), and Layer 2 scaling (moving state off-chain). Understanding this tradeoff illuminates why Bitcoin stayed stateless while Ethereum accepted higher state costs for programmability. Future Ethereum may use \"state expiry\" to reclaim unused accounts, reducing storage while maintaining security.",
         "videoURL": "https://www.youtube.com/watch?v=w-CH_5il9aU",
-        "externalLinkURL": "https://ethereum.org/en/developers/docs/accounts/"
+        "externalLinkURL": "https://ethereum.org/en/developers/docs/accounts/",
+        "linkedCardIndices": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          25
+        ]
       },
       {
         "name": "Merkle Trees and Efficient Verification Without Downloading Everything",
         "textDescription": "A Merkle tree is a binary tree where each node is the hash of its two children. Bitcoin transactions are grouped in blocks and hashed pairwise until a single root hash remains. To verify that a specific transaction is in a block, you need the transaction, its sibling hash, its parent's sibling hash, etc., up to the root—only ~10-15 hashes for a million transactions.\n\nThis enables \"Simplified Payment Verification\" (SPV): a light client downloads only block headers (80 bytes each) and Merkle proofs, trusting that miners won't fake them (because proof-of-work is expensive). Bitcoin mobile wallets use SPV to sync quickly without downloading 500GB of blockchain.\n\nThe limitation: light clients don't independently validate rule changes. If miners tried to increase Bitcoin's supply limit via a consensus rule change, SPV wallets wouldn't catch it without upgrading. This is why full nodes matter: they validate rules light clients assume. Merkle trees enable efficient verification but depend on honest majority validators.",
-        "videoURL": "https://www.youtube.com/watch?v=gUwXHTRTqmw",
-        "externalLinkURL": "https://bitcoin.org/en/glossary/merkle-tree"
+        "videoURL": "https://www.youtube.com/watch?v=3QCykHU89To",
+        "externalLinkURL": "https://bitcoin.org/en/glossary/merkle-tree",
+        "linkedCardIndices": [
+          2,
+          7,
+          18,
+          26,
+          27
+        ]
       }
     ]
   },
   {
     "name": "DeFi, Tokenomics & Governance",
     "stableId": "web3_defi_governance",
-    "description": "Automated Market Makers, liquidity pools, impermanent loss, lending protocols, stablecoins, token supply mechanics, DAOs, and MEV extraction.",
-    "color": "purple",
+    "description": "Explore DeFi: AMMs, liquidity pools, lending, stablecoins, tokenomics, DAOs, and MEV.",
+    "color": "blue",
     "category": "Technology",
     "language": "en",
     "difficulty": "Intermediate",
@@ -15532,52 +15583,104 @@
       {
         "name": "Constant Product AMMs and the Math Behind Decentralized Exchanges",
         "textDescription": "Automated Market Makers revolutionized trading by replacing order books with mathematical formulas. The most common formula is x*y=k (constant product): if a pool has x units of token A and y units of token B, their product k remains constant after any trade.\n\nWhen you swap A for B, you add A to the pool (increasing x), and withdraw some B (decreasing y). The formula forces the price to adjust: price = y/x. Larger swaps cause larger price impacts because the ratio changes more. This creates an automated price discovery mechanism.\n\nLiquidity providers deposit equal value of both tokens and earn a percentage of swap fees. But they face impermanent loss: if token prices diverge significantly, LPs end up with less than if they'd held the tokens without the pool. Understanding this dynamic is crucial for calculating farming returns and predicting when IL exceeds fee gains.",
-        "videoURL": "https://www.youtube.com/watch?v=1PbZMd-abrier",
-        "externalLinkURL": "https://uniswap.org/docs/v2/advanced-topics/pricing/"
+        "videoURL": "https://www.youtube.com/watch?v=1PbZMudPP5E",
+        "externalLinkURL": "https://docs.uniswap.org/concepts/protocol/swaps",
+        "linkedCardIndices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          18
+        ]
       },
       {
         "name": "Lending Protocols: Collateral, Liquidation, and Credit Risk",
         "textDescription": "DeFi lending protocols (Aave, Compound) enable borrowing without credit checks. You deposit collateral (ETH, stablecoins) and borrow a different asset, paying interest. The protocol requires overcollateralization: deposit $1500 to borrow $1000. This buffer ensures solvency if collateral price drops.\n\nLiquidation occurs when collateral value falls below the minimum ratio. Liquidators (bots monitoring the chain) immediately repay the loan and seize collateral at a discount, pocketing the spread. This removes bad debt quickly. Borrowers face liquidation risk if they use volatile collateral or high leverage.\n\nSustainability requires stable interest rates reflecting credit risk. If collateral is volatile, the interest rate must be high to compensate for liquidation risk. If an asset is risky, its loan-to-value ratio decreases, reducing borrowing capacity. Protocols set these parameters carefully; poor calibration causes insolvencies (e.g., Celsius lending protocols without sufficient collateral). Understanding these mechanics prevents losses.",
-        "videoURL": "https://www.youtube.com/watch?v=sTOUqC43My0",
-        "externalLinkURL": "https://aave.com/docs/v2/the-protocol/"
+        "videoURL": "https://www.youtube.com/watch?v=WwE3lUq51gQ",
+        "externalLinkURL": "https://aave.com/docs",
+        "linkedCardIndices": [
+          5,
+          6,
+          7,
+          10,
+          11
+        ]
       },
       {
         "name": "Stablecoins: Achieving Decentralized Dollar Equivalence",
         "textDescription": "Stablecoins aim to hold $1 value, enabling DeFi loans in predictable units. Three models exist: fiat-backed (USDC, USDT), crypto-collateralized (DAI), and algorithmic (UST failed).\n\nFiat-backed stablecoins maintain peg by holding reserves; users can redeem $1 stablecoin for $1 cash. This requires trust in reserves and regulators. USDC is fully audited; USDT's backing was historically opaque. Crypto-collateralized stablecoins (DAI) use overcollateralized loans: $150 ETH for $100 DAI. This avoids fiat dependencies but requires more collateral.\n\nAlgorithmic stablecoins tried maintaining peg through token incentives alone (UST/LUNA). When confidence wavered, arbitrageurs exploited the system, causing hyperinflation and collapse. This demonstrated the fundamental problem: stablecoins need external backing or strong trust. The future may involve hybrid models combining collateral with incentives more conservatively.",
-        "videoURL": "https://www.youtube.com/watch?v=mKiHc_Z2rlc",
-        "externalLinkURL": "https://makerdao.com/en/"
+        "videoURL": "https://www.youtube.com/watch?v=pGzfexGmuVw",
+        "externalLinkURL": "https://makerdao.com/en/",
+        "linkedCardIndices": [
+          7,
+          8,
+          9,
+          10
+        ]
       },
       {
         "name": "Token Supply Mechanics: Inflation, Deflation, and Vesting",
         "textDescription": "A token's long-term viability depends on supply mechanics. Inflation (increasing supply) funds security and incentives; excessive inflation causes price collapse. Ethereum inflates by ~3% annually; if demand grows faster, ETH appreciates. Bitcoin inflates slower every 4 years (halving); if demand exceeds supply, price rises.\n\nDeflation (burning tokens) reduces supply permanently. Ethereum burns transaction fees post-Merge; this creates scarcity but may incentivize hoarding over usage. Vesting schedules release tokens gradually, preventing founders from selling immediately. Poor vesting enables rug pulls; good vesting aligns long-term incentives.\n\nBad tokenomics cause death spirals: yield farms offer 1000% APY through token inflation, attracting LPs. Token price crashes due to inflation; LPs withdraw. Inflation remains, but liquidity disappears, and the token becomes worthless. Learning to evaluate tokenomics prevents losses in new protocols.",
-        "videoURL": "https://www.youtube.com/watch?v=Kc3fqmWkHfI",
-        "externalLinkURL": "https://blog.coinbase.com/what-is-tokenomics-12e76e1e64c4"
+        "videoURL": "https://www.youtube.com/watch?v=S7-rfvpEpJs",
+        "externalLinkURL": "https://ethereum.org/en/developers/docs/standards/tokens/",
+        "linkedCardIndices": [
+          11,
+          12,
+          13,
+          14,
+          24,
+          25
+        ]
       },
       {
         "name": "DAOs and Decentralized Governance at Scale",
         "textDescription": "DAOs coordinate humans through smart contracts and token voting. Members propose changes; token holders vote; if approved, contracts execute automatically. This eliminates central management but introduces challenges: low participation (voter apathy), whale dominance (large holders control outcomes), and delay (consensus is slow).\n\nDelegation addresses participation: instead of voting directly, you assign your voting power to a representative. This enables informed voting (delegates specialize) while reducing barriers. However, delegates can abandon their duties or diverge from constituents' interests.\n\nVoting mechanisms affect outcomes: simple majority (51% votes) favors big changes; supermajority (66%+) favors status quo. Quorum requirements (minimum participation) prevent small cabals from controlling governance. Snapshot voting (off-chain, free) increases participation but requires manual on-chain execution. Most successful DAOs (Uniswap, Aave) use hybrid governance, balancing participation and efficiency.",
-        "videoURL": "https://www.youtube.com/watch?v=V4ebfEh3bAI",
-        "externalLinkURL": "https://ethereum.org/en/dao/"
+        "videoURL": "https://www.youtube.com/watch?v=KHm0uUPqmVE",
+        "externalLinkURL": "https://ethereum.org/en/dao/",
+        "linkedCardIndices": [
+          15,
+          16,
+          17,
+          21,
+          22,
+          23,
+          24
+        ]
       },
       {
         "name": "MEV and the Hidden Costs of Decentralized Finance",
         "textDescription": "Maximal Extractable Value is the difference between the current state and a prospective state of the blockchain that could be created by a block producer. A validator sees pending transactions and can reorder them for profit. Front-running (executing before a user) is the simplest MEV: a validator sees a large buy order, includes their own buy first, pushing prices up, then exits. Users pay more; the validator profits.\n\nFlash loans enable complex MEV attacks: borrow a large amount from a lending pool, manipulate a price oracle (which depends on on-chain price), execute profitable swaps, and repay the loan with profits. The entire attack occurs in one transaction; lenders are safe because if repayment fails, the transaction reverts.\n\nMEV is inherent to blockchains where transaction order matters. Complete elimination is impossible. Mitigations include encrypted mempools (hide pending transactions), fair ordering services (sequence transactions randomly), and Layer 2 solutions (different architectures). Current estimates suggest MEV redistributes billions annually from users to validators/miners, making MEV a key consideration in DeFi.",
-        "videoURL": "https://www.youtube.com/watch?v=s0eYdbGQ9bw",
-        "externalLinkURL": "https://ethereum.org/en/developers/docs/mev/"
+        "videoURL": "https://www.youtube.com/watch?v=8yifD9y_Eo8",
+        "externalLinkURL": "https://ethereum.org/en/developers/docs/mev/",
+        "linkedCardIndices": [
+          18,
+          19,
+          20,
+          2,
+          6
+        ]
       },
       {
         "name": "Liquidity Mining and the Boom-Bust Cycle of DeFi Incentives",
         "textDescription": "Liquidity mining offers high APY to bootstrap protocol liquidity. Uniswap v3 launched in 2021 without native incentives; new competitors (Curve) offered 1000%+ APY, capturing liquidity. Uniswap responded with Uni token incentives, redistributing Uni to LPs. High yield attracted billions in capital.\n\nThis works initially: high yields attract LPs, liquidity deepens, more users trade (generating fees), and the protocol succeeds. But many farms are unsustainable: 1000% APY means tokens must appreciate infinitely, which is impossible. When yields drop below farmer expectations, they withdraw, causing token prices to collapse.\n\nSuccessful protocols (Aave, Curve) eventually reduce incentives and shift to fee-based sustainability. Users earn swap fees and lending interest instead of token rewards. This is healthier long-term but less exciting for speculators. The lesson: distinguish between high yield (temporary, speculative) and sustainable yield (protocols generating real fees). Farming high yields requires exiting before the collapse.",
-        "videoURL": "https://www.youtube.com/watch?v=bU8FfpRR13s",
-        "externalLinkURL": "https://compound.finance/"
+        "videoURL": "https://www.youtube.com/watch?v=ClnnLI1SClA",
+        "externalLinkURL": "https://docs.compound.finance/",
+        "linkedCardIndices": [
+          3,
+          4,
+          11,
+          25,
+          26
+        ]
       }
     ]
   },
   {
     "name": "Smart Contracts & Ethereum EVM",
     "stableId": "web3_smart_contracts_ethereum",
-    "description": "Master Solidity contracts, EVM mechanics, token standards (ERC-20/721/1155), gas models, vulnerabilities, and Layer 2 scaling solutions.",
-    "color": "purple",
+    "description": "Master Solidity, EVM, token standards (ERC-20/721/1155), gas, vulnerabilities, and Layer 2.",
+    "color": "indigo",
     "category": "Technology",
     "language": "en",
     "difficulty": "Intermediate",
@@ -15736,43 +15839,91 @@
         "name": "Understanding EVM Gas Mechanics and Why Storage is Expensive",
         "textDescription": "Gas is the EVM's fuel: every operation consumes a fixed amount. A simple addition costs 3 gas; writing to storage costs 20,000 gas. This 6,600x difference reflects reality: computation is ephemeral, but storage persists forever across thousands of nodes.\n\nWhen you call a contract function, you specify a gas limit and gas price. Gas price (measured in gwei, 1 gwei = 10^-9 ETH) is multiplied by actual gas used to get the total fee. If actual usage exceeds the limit, the transaction reverts and you lose all gas.\n\nThis design incentivizes efficient code. A contract that inefficiently loops through storage reads could exceed gas limits, making transactions impossible. Well-designed contracts minimize storage operations. The 2300 gas stipend for fallback functions prevents reentrancy loops in simple contracts. Understanding gas is essential to writing functional, economical smart contracts.",
         "videoURL": "https://www.youtube.com/watch?v=e84V1MxRlYs",
-        "externalLinkURL": "https://ethereum.org/en/developers/docs/gas/"
+        "externalLinkURL": "https://ethereum.org/en/developers/docs/gas/",
+        "linkedCardIndices": [
+          0,
+          1,
+          2,
+          3,
+          14,
+          27
+        ]
       },
       {
         "name": "The Reentrancy Vulnerability and Defending Contracts",
         "textDescription": "Reentrancy is a classic vulnerability where a contract calls external code before updating state. In 2016, the DAO vulnerability exploited this: attackers withdrew funds, their fallback function called withdraw again, and the process repeated until all funds were stolen.\n\nThe exploit works because the withdrawal function sends ETH before updating the balance. When the attacker's fallback function calls withdraw again, the balance hasn't changed, so they withdraw again. Simple fix: update the balance before sending ETH.\n\nModern defenses include checks-effects-interactions pattern (update state, then call external contracts) and ReentrancyGuard, which prevents nested calls using a mutex. This vulnerability led to defensive programming practices: never call external contracts without protecting against callbacks. Understanding reentrancy prevents catastrophic losses.",
         "videoURL": "https://www.youtube.com/watch?v=4Mm3BCyHtDY",
-        "externalLinkURL": "https://solidity-by-example.org/hacks/re-entrancy/"
+        "externalLinkURL": "https://solidity-by-example.org/hacks/re-entrancy/",
+        "linkedCardIndices": [
+          12,
+          13,
+          21,
+          25,
+          26
+        ]
       },
       {
         "name": "ERC-20 Tokens and Building Fungible Assets",
         "textDescription": "ERC-20 is Ethereum's standard for fungible tokens. It defines balances (mapping from address to uint256), transfer functions, and approve-transferFrom allowances. Tokens like USDC, DAI, and USDT are ERC-20, holding billions in value.\n\nThe approve-transferFrom pattern is crucial: you approve a spender address for a certain amount, then they call transferFrom to move tokens on your behalf. This enables DEXs (Uniswap) to swap tokens without moving user ETH separately. Approve must be called before transferFrom; a common mistake is approving incorrectly.\n\nERC-20 vulnerabilities include front-running approve calls (changing approval between approve and transferFrom) and reentrancy in transfer hooks. Well-audited ERC-20 implementations handle these; custom implementations often don't. Always use battle-tested implementations or audited custom contracts.",
-        "videoURL": "https://www.youtube.com/watch?v=cqZhNzZoMh0",
-        "externalLinkURL": "https://ethereum.org/en/developers/docs/standards/tokens/erc-20/"
+        "videoURL": "https://www.youtube.com/watch?v=pyaIppMhuic",
+        "externalLinkURL": "https://ethereum.org/en/developers/docs/standards/tokens/erc-20/",
+        "linkedCardIndices": [
+          4,
+          5,
+          6,
+          7,
+          9
+        ]
       },
       {
         "name": "NFTs (ERC-721) and Non-Fungible Token Design",
         "textDescription": "ERC-721 tokens are unique: each has a tokenId and optional metadata (name, image, properties). Unlike ERC-20's balances, ERC-721 uses a mapping from tokenId to owner. This enables representing unique assets: art, real estate, domain names, or in-game items.\n\nMetadata is typically stored off-chain (IPFS) with on-chain URIs pointing to it. This reduces blockchain size but introduces centralization risk: if IPFS nodes disappear, metadata is lost. Some protocols (Ethereum Name Service) store metadata on-chain for permanence.\n\nERC-721 has limitations: no native batching, expensive transfers (higher gas than ERC-20). ERC-1155 fixes this, allowing batch transfers and mixed fungible/non-fungible tokens. Modern NFT protocols use ERC-1155 for efficiency, but ERC-721 remains the standard for single-use collectibles.",
-        "videoURL": "https://www.youtube.com/watch?v=P-tfAajrSUY",
-        "externalLinkURL": "https://ethereum.org/en/developers/docs/standards/tokens/erc-721/"
+        "videoURL": "https://www.youtube.com/watch?v=4dkl5O9LOKg",
+        "externalLinkURL": "https://ethereum.org/en/developers/docs/standards/tokens/erc-721/",
+        "linkedCardIndices": [
+          7,
+          8,
+          9,
+          10
+        ]
       },
       {
         "name": "Layer 2 Scaling: Rollups vs Sidechains and Trade-offs",
         "textDescription": "Ethereum processes ~12 transactions per second on-chain; demand is much higher. Layer 2 solutions move transactions off-chain, batching them and settling periodically on Ethereum.\n\nOptimistic rollups (Arbitrum, Optimism) assume transactions are valid by default, challenging only if suspected fraud. They're fast but have ~7-day withdrawal periods (time to dispute). ZK rollups (StarkNet, zkSync) prove validity cryptographically, eliminating dispute periods and enabling instant finality. But ZK proofs are computationally expensive, requiring specialized hardware.\n\nSidechains (Polygon) are independent blockchains that periodically checkpoint to Ethereum. They're faster but less secure: if a sidechain consensus is attacked, Ethereum can't help. Rollups inherit Ethereum's security; breaking a rollup requires breaking Ethereum itself. This security hierarchy matters for high-value assets.",
-        "videoURL": "https://www.youtube.com/watch?v=Y0dd1denbPs",
-        "externalLinkURL": "https://ethereum.org/en/layer-2/"
+        "videoURL": "https://www.youtube.com/watch?v=9pJjtEeq-N4",
+        "externalLinkURL": "https://ethereum.org/en/layer-2/",
+        "linkedCardIndices": [
+          15,
+          16,
+          17,
+          1,
+          3
+        ]
       },
       {
         "name": "The Oracle Problem and Chainlink's Solutions",
         "textDescription": "Smart contracts can't natively access external data: prices, weather, randomness. They're isolated in the EVM, which only sees previous blocks. This is the oracle problem: how do you securely feed data without trusting a single source?\n\nChainlink solves this by running multiple oracle nodes, each independently fetching data from exchanges, APIs, or other sources. A contract queries multiple oracles and uses the median (outliers are ignored). No single oracle can manipulate prices significantly; attacking requires controlling 51%+ of oracles, which is expensive.\n\nChainlink VRF (Verifiable Random Function) generates provably random numbers. Flash loans exploit simple price oracles within a single block; multiple oracles with delayed finality prevent this. Understanding oracle architecture is crucial: protocols like Curve, Aave, and Uniswap depend entirely on accurate oracle data for lending, liquidation, and swaps.",
-        "videoURL": "https://www.youtube.com/watch?v=ZJfskMHtSiM",
-        "externalLinkURL": "https://chain.link/"
+        "videoURL": "https://www.youtube.com/watch?v=uycQ7ReSt_c",
+        "externalLinkURL": "https://chain.link/",
+        "linkedCardIndices": [
+          18,
+          19,
+          20
+        ]
       },
       {
         "name": "Smart Contract Security: Formal Verification and Auditing",
         "textDescription": "Smart contract bugs cost billions. The DAO hack (2016) lost $50M; Ronin bridge (2022) lost $625M; Poly Network (2021) lost $600M. Unlike web apps where bugs are fixable, blockchain bugs are often permanent. \n\nFormal verification mathematically proves contract behavior. You specify invariants (e.g., total supply never changes) and prove the contract maintains them under any transaction. Major protocols like Uniswap and Curve spend hundreds of thousands on audits and formal verification.\n\nCommon vulnerability classes: reentrancy, integer overflow, unchecked calls, storage collisions in proxy contracts. Audits manually review code and run automated tools (Slither, Manticore) checking for known patterns. No audit eliminates all risks, but audits dramatically reduce bug probability. Always use audited contracts in production.",
-        "videoURL": "https://www.youtube.com/watch?v=E6OCxT4w-FM",
-        "externalLinkURL": "https://consensys.net/blog/smart-contracts/"
+        "videoURL": "https://www.youtube.com/watch?v=pWGLtjG-F5c",
+        "externalLinkURL": "https://docs.openzeppelin.com/contracts/5.x/api/security",
+        "linkedCardIndices": [
+          12,
+          13,
+          14,
+          21,
+          22,
+          26
+        ]
       }
     ]
   },
