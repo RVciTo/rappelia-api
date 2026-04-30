@@ -23,7 +23,7 @@
   {
     "id": "financial_literacy_en",
     "name": "Financial Literacy",
-    "description": "Budgeting, credit, investing, and everyday money skills",
+    "description": "Master budgeting, credit, and investing for everyday money decisions.",
     "iconName": "dollarsign.circle.fill",
     "colorName": "green",
     "stableDeckIds": [
@@ -170,7 +170,7 @@
   {
     "id": "computer_science_cs50_en",
     "name": "Computer Science (CS50)",
-    "description": "Core computer science concepts inspired by Harvard CS50",
+    "description": "Master core CS concepts the way Harvard CS50 teaches them.",
     "iconName": "desktopcomputer",
     "colorName": "red",
     "stableDeckIds": [
@@ -226,7 +226,7 @@
   {
     "id": "developer_foundations_en",
     "name": "Developer Power Foundations",
-    "description": "Essential tech skills for developers: cybersecurity, operating systems, and command line mastery",
+    "description": "Level up your security, OS, and command-line skills.",
     "iconName": "terminal.fill",
     "colorName": "indigo",
     "stableDeckIds": [
