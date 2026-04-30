@@ -557,7 +557,7 @@
       },
       {
         "front": "Où trouver la liste officielle des œuvres et parcours de l’année scolaire 2025-2026 ?",
-        "back": "Dans le Bulletin officiel qui publie le programme national d’œuvres pour l’enseignement du français. Réf : https://www.education.gouv.fr/bo/2025/Hebdo30/MENE2518792N",
+        "back": "Dans le Bulletin officiel, qui publie chaque année le programme national d’œuvres pour l’enseignement du français en Première.",
         "hint": "Le BO (programme national)."
       },
       {
@@ -567,12 +567,12 @@
       },
       {
         "front": "À l’oral du bac de français, que comprend la 1re partie de l’épreuve ?",
-        "back": "Une explication linéaire d’un texte tiré de ton descriptif, suivie d’une question de grammaire. Réf : https://www.education.gouv.fr/bo/20/Special7/MENE2019312N.htm",
+        "back": "Une explication linéaire d’un texte tiré de ton descriptif, suivie d’une question de grammaire portant sur ce texte.",
         "hint": "Texte + grammaire."
       },
       {
         "front": "À l’oral, que comprend la 2e partie de l’épreuve ?",
-        "back": "La présentation d’une œuvre choisie (souvent parmi celles étudiées) puis un entretien avec l’examinateur. Réf : https://www.education.gouv.fr/bo/20/Special7/MENE2019312N.htm",
+        "back": "La présentation d’une œuvre choisie (souvent parmi celles étudiées) puis un entretien avec l’examinateur.",
         "hint": "Œuvre choisie + entretien."
       }
     ],
@@ -581,61 +581,135 @@
         "name": "Vérifier la liste officielle 2025-2026 (œuvres/parcours)",
         "textDescription": "La première règle pour une révision fiable est de vérifier les œuvres et parcours dans un texte officiel. Le Bulletin officiel publie la liste nationale des œuvres et des parcours pour l'année scolaire: c'est la référence à partir de laquelle les manuels, fiches et vidéos se construisent.\n\nPourquoi c'est essentiel ? Parce que des listes circulent en ligne sans préciser l'année scolaire, ou mélangent voie générale et technologique. Une seule source te garantit de ne pas préparer de mauvais repères.\n\nMéthode pratique: (1) ouvre le BO de l'année, (2) repère tes objets d'étude, (3) compare avec ton descriptif de classe, (4) fixe une liste \"ton année\" et organise tes fiches autour.\n\nEnsuite, tu peux utiliser des ressources pédagogiques pour approfondir — mais le point de départ reste la liste officielle.",
         "videoURL": "https://www.youtube.com/watch?v=MFtMwFkw8lI",
-        "externalLinkURL": "https://www.education.gouv.fr/bo/2025/Hebdo30/MENE2518792N"
+        "externalLinkURL": "https://eduscol.education.fr/729/presentation-du-grand-oral",
+        "linkedCardIndices": [
+          3,
+          4,
+          45,
+          46
+        ]
       },
       {
         "name": "Ton descriptif: transformer une liste en arme de révision",
         "textDescription": "Le descriptif est ta \"carte d'identité\" pour l'oral, mais beaucoup d'élèves l'oublient une fois imprimé. Transforme-le en outil vivant: pour chaque texte, crée une fiche rapide (1 texte = 1 demi-page) avec: 1 enjeu central, 2 procédés clés, 1 citation courte, et 1 lien au parcours.\n\nPour les œuvres, crée une fiche d'une page par œuvre (format exact décrit dans la sampleIdea suivante). Pour les lectures cursives, c'est plus léger: juste 3 idées, 2 scènes utiles, et le lien au parcours.\n\nLe secret est la répétition active: tire un texte au hasard, fais un plan d'explication en 5 minutes sans le relire, puis récite ta réponse en 2 minutes. Cet exercice te montre vite ce que tu maîtrises et ce qui te bloque.\n\nAprès 20 répétitions, tu seras surpris: ton stress diminue et tes réponses deviennent fluides parce que tu as vraiment mémorisé, pas juste survolé.",
         "videoURL": "https://www.youtube.com/watch?v=_dcyQwIeSyw",
-        "externalLinkURL": "https://www.education.gouv.fr/bo/20/Special7/MENE2019312N.htm"
+        "externalLinkURL": "https://eduscol.education.fr/1726/programmes-et-ressources-en-langues-vivantes-voie-gt",
+        "linkedCardIndices": [
+          3,
+          4,
+          41,
+          42,
+          43,
+          47,
+          48
+        ]
       },
       {
         "name": "Fiche d'œuvre 1 page: format concret qui marche vraiment",
         "textDescription": "Une fiche doit tenir sur une page (pas plus), sinon tu ne l'utilises pas. Voici le modèle exact: 1) résumé 5 lignes (situation, personnages, enjeu central), 2) 3 enjeux (chacun en 1 phrase), 3) 3 scènes clés (pour chaque: titre/lieu, 1 détail, 1 citation courte), 4) 5 mots-clés (thèmes, registre, style).\n\nChoisis tes 3 scènes pour qu'elles couvrent différents enjeux. Exemple pour un roman: une scène d'exposition (pose le décor et l'enjeu), une scène de crise (le personnage face à un dilemme), une scène de dénouement (résolution et sens).\n\nLes citations sont réutilisables: chacune doit pouvoir illustrer au moins 2 arguments différents. Apprends-les par cœur (elles sont courtes).\n\nTest de validation: peux-tu présenter l'œuvre en 3 minutes sans la fiche ? Si non, ta fiche est trop chargée. Simplifie jusqu'à ce que tu sois autonome.",
         "videoURL": "https://www.youtube.com/watch?v=kgFrQkeiihg",
-        "externalLinkURL": "https://www.lumni.fr/dossier/les-oeuvres-au-bac-de-francais"
+        "externalLinkURL": "https://www.lumni.fr/dossier/les-oeuvres-au-bac-de-francais",
+        "linkedCardIndices": [
+          5,
+          7,
+          8,
+          9,
+          11,
+          12,
+          41
+        ]
       },
       {
         "name": "Citations: la différence entre décor et preuve",
         "textDescription": "Une citation est une preuve seulement si tu l'exploites. Trois erreurs fréquentes: citer sans commentaire (juste poser la citation), citer quelque chose qui n'illustre pas ton idée (décor), ou citer une longue phrase (trop à mémoriser, perd l'effet).\n\nMéthode d'apprentissage: écris chaque citation courte (max 20 mots), puis écris dessous: (1) ce qu'elle veut dire en tes mots, (2) quelle idée elle prouve, (3) où elle apparaît (acte/scene, chapitre, vers). Ensuite, construis une phrase complète: \"Quand le personnage dit 'XXX', cela montre que... parce que...\"\n\nEn oral d'entretien, utilise la structure \"citation + contexte + interprétation\". Exemple: \"Dans la scène Y, quand le personnage dit 'XXX', on voit sa transformation parce que...\" Cette structure te prend 15 secondes et te fait paraître très préparé.\n\nMieux vaut 3 citations maîtrisées et mobilisables que 10 apprises par cœur mais jamais utilisées.",
         "videoURL": "https://www.youtube.com/watch?v=Y0cyTDoaomM",
-        "externalLinkURL": "https://www.lumni.fr/dossier/les-oeuvres-au-bac-de-francais"
+        "externalLinkURL": "https://www.assistancescolaire.com/eleve/1L/francais",
+        "linkedCardIndices": [
+          9,
+          10,
+          11,
+          12
+        ]
       },
       {
         "name": "Parcours: passer du théorique au concret",
         "textDescription": "Le parcours n'est PAS un concept abstrait à réciter. C'est un angle d'interprétation de l'œuvre. Si tu dis \"le parcours met en avant X\", l'examinateur attend immédiatement: \"Dans l'œuvre, où voit-on ça concrètement?\"\n\nMéthode: pour chaque parcours, repère 2-3 passages (ou scènes, ou poèmes) qui incarnent les idées du parcours. Écris pour chacun: la scène + 1 détail précis + ce qu'il prouve. Exemple: Parcours \"Modernité\": passage où le texte critique la tradition, où il introduit une technologie nouvelle, où il affirme une liberté d'expression contemporaine.\n\nAu bac, si on te pose une question sur le parcours, tu réponds toujours par: définition rapide du parcours → passage concret → ce que le passage prouve. En 2 minutes, tu as une réponse solide et substantielle.\n\nBon indice que tu maîtrises: tu peux changer le passage et la formulation sans changer l'idée centrale. Cela montre que tu as vraiment compris, pas juste mémorisé une réponse.",
         "videoURL": "https://www.youtube.com/watch?v=RR8Bq0f4iFE",
-        "externalLinkURL": "https://eduscol.education.fr/1712/programmes-et-ressources-en-francais-voie-gt"
+        "externalLinkURL": "https://eduscol.education.fr/1712/programmes-et-ressources-en-francais-voie-gt",
+        "linkedCardIndices": [
+          1,
+          11,
+          13,
+          40,
+          44
+        ]
       },
       {
         "name": "Théâtre: didascalies = preuves, pas décoration",
         "textDescription": "Au théâtre, beaucoup d'élèves ignorent les didascalies (indications scéniques) parce qu'elles ne sont pas des \"paroles.\" Erreur grave: les didascalies créent du sens. \"Il sort\" peut être une fuite honteuse ou une sortie triomphale selon le contexte. \"En colère\" change tout l'effet d'une réplique.\n\nMéthode d'analyse: quand tu analyzes une scène, repère 1 didascalie importante et pose-toi: qu'est-ce qu'elle montre sur le personnage ou l'atmosphère ? Exemple de Molière: la didascalie \"Aside\" (à part) révèle ce qu'un personnage pense vraiment, créant une ironie entre ce qu'il dit et ce qu'il pense.\n\nChaque scène clés du théâtre doit inclure: la réplique clé, 1 didascalie révélatrice, et 1 phrase interpretative. Exemple pour une scène de conflit: \"Quand A crie 'Sortez!', la didascalie montre qu'il est tremblant, donc c'est de la peur, pas de la colère.\"\n\nÀ l'oral, cite les didascalies avec les répliques: \"Le personnage dit X, et la didascalie dit Y, donc...\" Cela te paraît élémentaire, mais peu d'élèves le font, et cela impressionne vraiment.",
         "videoURL": "https://www.youtube.com/watch?v=F5Qz4kJ3jps",
-        "externalLinkURL": "https://fr.wikipedia.org/wiki/Double_%C3%A9nonciation"
+        "externalLinkURL": "https://fr.wikipedia.org/wiki/Double_%C3%A9nonciation",
+        "linkedCardIndices": [
+          14,
+          17,
+          18,
+          19
+        ]
       },
       {
         "name": "Roman: construire une interprétation via le narrateur",
         "textDescription": "Beaucoup d'élèves confondent le narrateur et l'auteur, ou oublient que le narrateur a un point de vue. Cela coûte des points. Le narrateur est une \"voix construite\": première personne, troisième personne, omniscient, limité. Chaque choix crée un effet différent.\n\nExemple concret: si le narrateur est en \"je\", le lecteur vit de l'intérieur les sentiments du personnage (proximité, subjectivité). Si c'est une troisième personne omnisciente, le lecteur sait plus que les personnages (distance, ironie possible). Si c'est une \"caméra\" externe, le lecteur ne sait que ce qu'il voit (mystère, détachement).\n\nMéthode: prends 2 passages de ton roman: un où la focalisation est clairement interne (tu entres dans la tête d'un personnage) et un où elle change. Explique: qu'est-ce que ce changement nous révèle ? Pourquoi l'auteur choisit-il cet effet ?\n\nCette compétence est très valorisée car elle montre une vraie compréhension de la construction littéraire, pas seulement un résumé de l'histoire.",
         "videoURL": "https://www.youtube.com/watch?v=EJ5n5y3t2is",
-        "externalLinkURL": "https://fr.wikipedia.org/wiki/Focalisation"
+        "externalLinkURL": "https://fr.wikipedia.org/wiki/Focalisation",
+        "linkedCardIndices": [
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ]
       },
       {
         "name": "Poésie: rythme ET sens (ne sépare pas les deux)",
         "textDescription": "L'erreur classique en poésie: analyser la \"technique\" (syllabes, rimes) sans expliquer l'effet. Un alexandrin régulier crée de l'harmonie; l'alexandrin brisé crée de la tension. Un blanc entre deux vers crée du silence. Ces observations ne sont utiles que si tu les relies au sens du poème.\n\nMéthode concrète: prends 12 vers. Compte les syllabes (c'est technique mais rapide). Puis lis le passage à voix haute: entends-tu une rupture, un rythme saccadé, une fluidité ? Demande-toi: pourquoi ce rythme ici ? Si c'est un poème d'amour, un rythme haché crée peut-être de l'agitation, de la passion. Si c'est une critique, l'effet peut être de la dénonciation.\n\nIdem pour les images (comparaisons, métaphores): ne les nomme pas seulement, dis ce qu'elles prouvent sur le thème du poème. Si le poète compare l'amour à une tempête, c'est pour montrer quoi ? La violence ? L'inévitabilité ? L'instabilité ?\n\nEn révision, analyse 10 courtes poésies (moins de 20 vers) avec cette structure: forme → sens → effet sur le lecteur. Tu seras rapide et précis le jour du bac.",
         "videoURL": "https://www.youtube.com/watch?v=E0xQv6C81-w",
-        "externalLinkURL": "https://fr.wikipedia.org/wiki/Alexandrin"
+        "externalLinkURL": "https://fr.wikipedia.org/wiki/Alexandrin",
+        "linkedCardIndices": [
+          31,
+          32,
+          33,
+          34
+        ]
       },
       {
         "name": "Littérature d'idées: ironie cachée, arguments explicites",
         "textDescription": "En texte d'idées, le piège est de confondre ce que l'auteur dit clairement et ce qu'il critique par ironie. Un texte ironique affirme le contraire de ce qu'il pense: \"Oh oui, c'est une excellente idée d'ignorer la pauvreté!\" (en réalité, l'auteur la dénonce).\n\nMéthode: lis le premier paragraphe et demande-toi: \"Que défend l'auteur explicitement?\" Puis: \"Est-ce que le ton laisse deviner une critique ?\" Les indices d'ironie: exagération, exemples ridicules, questions rhétoriques qui contredisent la thèse affirmée.\n\nExemple: si l'auteur dit \"Bien sûr, les Femmes devraient rester à la maison, c'est la nature!\" mais que le contexte (époque, autres arguments) suggère une critique, c'est ironique. L'auteur défend en réalité l'égalité.\n\nEn copie, sois prudent: dis \"L'auteur critique... en affirmant ironiquement que...\" Cela prouve que tu as compris la stratégie argumentative, ce que très peu d'élèves font.\n\nEntraînement: lis 5 textes d'idées et identifie pour chacun: thèse explicite + procédé (ironie, question rhétorique, exemples, etc.) + ce que le procédé prouve sur l'intention réelle de l'auteur.",
         "videoURL": "https://www.youtube.com/watch?v=2E5J9_9h0mM",
-        "externalLinkURL": "https://fr.wikipedia.org/wiki/Argumentation"
+        "externalLinkURL": "https://fr.wikipedia.org/wiki/Argumentation",
+        "linkedCardIndices": [
+          26,
+          27,
+          28,
+          35,
+          36
+        ]
       },
       {
         "name": "Oral: simuler l'entretien dès maintenant",
         "textDescription": "L'entretien surprend parce qu'il arrive après ta présentation d'œuvre, quand tu es déjà fatigué. L'examinateur pose des questions sur des détails précis, sur tes choix, sur des comparaisons avec d'autres textes ou la lecture cursive. Tu dois répondre en 1–2 minutes, pas plus.\n\nMéthode de préparation: une semaine avant le bac, ne récite PLUS ton exposé d'œuvre. À la place, prépare une \"banque de 20 questions\" par œuvre (personnages, scènes clés, style, morale, liens au parcours, etc.) et réponds à chacune en 1 minute. Enregistre-toi et évalue: ai-je donné un exemple ? Ai-je lié au parcours ? Ma réponse est-elle claire ou confuse ?\n\nBon indice de préparation: tu peux changer l'ordre des idées dans ta réponse sans perdre la qualité. Cela montre que tu maîtrises vraiment le contenu, pas que tu récites.\n\nDernier conseil: en oral d'entretien, sois honnête si tu ne sais pas. Reformule la question, propose une hypothèse, puis relie à ce que tu sais. Cela impressionne beaucoup plus que d'inventer.",
         "videoURL": "https://www.youtube.com/watch?v=6XIe9opcRGc",
-        "externalLinkURL": "https://www.lumni.fr/dossier/l-oral-du-bac-de-francais"
+        "externalLinkURL": "https://www.lumni.fr/dossier/l-oral-du-bac-de-francais",
+        "linkedCardIndices": [
+          5,
+          6,
+          7,
+          41,
+          42,
+          43,
+          47,
+          48
+        ]
       }
     ],
     "stableId": "bac_francais_oeuvres_parcours",
@@ -983,7 +1057,7 @@
       },
       {
         "front": "Qu'est-ce qu'une ZEE ?",
-        "back": "Une zone maritime (jusqu'à 200 milles nautiques) où un État a des droits souverains d'exploitation des ressources. Réf : https://www.un.org/depts/los/convention_agreements/texts/unclos/unclos_e.pdf",
+        "back": "Une zone maritime (jusqu'à 200 milles nautiques) où un État côtier détient des droits souverains d'exploitation des ressources, définie par la convention de Montego Bay (1982).",
         "hint": "200 milles."
       },
       {
@@ -1043,7 +1117,7 @@
       },
       {
         "front": "Qu'est-ce qu'un PMA (pays les moins avancés) ?",
-        "back": "Catégorie de l'ONU regroupant des pays très vulnérables (faible revenu, indicateurs sociaux faibles, fragilité économique). Réf : https://www.un.org/development/desa/dpad/least-developed-country-category.html",
+        "back": "Catégorie de l'ONU regroupant des pays très vulnérables (faible revenu, indicateurs sociaux faibles, fragilité économique).",
         "hint": "Catégorie ONU."
       },
       {
@@ -1143,7 +1217,7 @@
       },
       {
         "front": "Où trouver des définitions fiables et des dossiers de géographie (Terminale) ?",
-        "back": "Sur Géoconfluences (ENS) et Éduscol, ressources de référence. Réf : https://geoconfluences.ens-lyon.fr/ et https://eduscol.education.fr/1667/programmes-et-ressources-en-histoire-geographie-voie-gt",
+        "back": "Sur Géoconfluences (ENS de Lyon) pour les définitions et études de cas, et sur Éduscol pour le programme officiel de Terminale.",
         "hint": "Géoconfluences / Éduscol."
       }
     ],
@@ -1152,55 +1226,127 @@
         "name": "Mondialisation concrète: flux + acteurs + hiérarchies visibles",
         "textDescription": "La mondialisation n'est pas abstraite: elle se voit dans les flux. Trois points clés: (1) LES FLUX (marchandises, capitaux, personnes, données) se concentrent sur certains corridors. Par exemple, 90% du commerce passe par les mers. (2) LES ACTEURS clés (États, FTN, organisations) organisent ces flux par des réseaux. (3) LES HIÉRARCHIES: certains lieux (métropoles globales, hubs portuaires) commandent, d'autres subissent.\n\nExemple concret: Le port de Shanghai. Pourquoi? C'est un HUB (93 millions de conteneurs par an). Qui? Les FTN chinoises, américaines, européennes. Effet? Shanghai devient un centre de commandement dans l'économie mondiale.\n\nPour une bonne copie: toujours relier notion + flux concret + exemple localisé + acteur. \"La FTN Apple organise sa chaîne de valeur: conception en Californie, fabrication en Chine via sous-traitants (Foxconn), logistique par Shanghai.\" C'est une phrase qui montre le mécanisme.\n\nEntraînement: 10 produits (téléphone, chaussure, voiture), pour chacun: d'où viennent les étapes, qui les organise, par quels flux.",
         "videoURL": "https://www.youtube.com/watch?v=8Bbe0E41xzs",
-        "externalLinkURL": "https://geoconfluences.ens-lyon.fr/glossaire/mondialisation"
+        "externalLinkURL": "https://geoconfluences.ens-lyon.fr/glossaire/mondialisation",
+        "linkedCardIndices": [
+          0,
+          1,
+          2,
+          3,
+          8,
+          14,
+          21
+        ]
       },
       {
         "name": "Métropoles et réseaux: pas d'isolation (connectivité)",
         "textDescription": "Une métropole aujourd'hui n'existe pas seule. Elle est un NŒUD dans des réseaux: aérien (hubs internationaux), maritime (façades portuaires), ferroviaire, numérique. Ces connexions font sa puissance.\n\nExemple: Paris. Elle n'est pas puissante par sa taille seule (2,2M habitants en ville). Elle est puissante par: (1) finance (La Défense), (2) sièges d'organisations (UNESCO), (3) culture mondiale, (4) connexions: aéroport Charles de Gaulle (100M passagers), gares vers l'Europe (TGV). \n\nAutre exemple: Singapour (6M hab). Elle est un HUB stratégique: contrôle le détroit de Malacca, est port de transbordement, centre financier. Sa puissance vient de sa POSITION et ses CONNEXIONS, pas de sa taille.\n\nBonne méthode: pour chaque métropole étudiée, demande-toi: quels sont ses 3 réseaux clés (aérien, maritime, etc.)? Et quels flux elle commande (finance, tech, culture)?",
         "videoURL": "https://www.youtube.com/watch?v=9VwG5b0x3gA",
-        "externalLinkURL": "https://geoconfluences.ens-lyon.fr/glossaire/metropolisation"
+        "externalLinkURL": "https://geoconfluences.ens-lyon.fr/glossaire/metropolisation",
+        "linkedCardIndices": [
+          4,
+          5,
+          6,
+          7,
+          22,
+          23,
+          34,
+          35
+        ]
       },
       {
         "name": "Mers: 90% du commerce, contrôle politique, enjeux futurs",
         "textDescription": "Les mers ne sont pas du \"vide\". Elles sont le cœur du commerce mondial: conteneurs, pétrole, LNG (gaz liquéfié), câbles de données. 90% du commerce transite par mer.\n\nMais les mers sont aussi DISPUTÉES: ZEE qui se chevauchent (mer de Chine), détroits stratégiques (Malacca: 30% du trafic maritime mondial passe par 900km de détroit), câbles sous-marins (99% des communications internationales passent par là). Un sabotage de câble peut paralyser une région.\n\nExemples rentables: (1) Malacca: si bloqué, le commerce Asie-Europe doit contourner l'Afrique (+20% de trajet). (2) Ormuz: 30% du pétrole mondial passe par là. (3) Suez: raccourcie le trajet Europe-Asie de 7000km.\n\nBonne approche: pour chaque détroit/câble important, note: % du trafic mondial + enjeu (commerce, énergie, données) + qui pourrait le contrôler (État côtier, puissance militaire). C'est rentable pour le bac.",
         "videoURL": "https://www.youtube.com/watch?v=j1IPvZAjMlQ",
-        "externalLinkURL": "https://www.un.org/depts/los/convention_agreements/texts/unclos/unclos_e.pdf"
+        "externalLinkURL": "https://geoconfluences.ens-lyon.fr/glossaire/montego-bay",
+        "linkedCardIndices": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          48
+        ]
       },
       {
         "name": "Façades et ports: concentration, hiérarchies, inégalités",
         "textDescription": "Les littoraux concentrent une part énorme de l'économie mondiale. Pas par hasard: ce sont les INTERFACES avec le monde. La Northern Range européenne (Le Havre–Hambourg) est une façade majeure car elle concentre: (1) ports de classe mondiale (Rotterdam: 475M tonnes/an), (2) ZIP (zones industrialo-portuaires), (3) connexions terrestres (rail, routes vers l'intérieur).\n\nMais cette concentration crée des inégalités: certains ports \"gagnent\" (Shanghai, Singapour, Rotterdam deviennent très riches), d'autres \"perdent\" (ports d'Afrique restent peu intégrés, peu de valeur ajoutée).\n\nAstuce pour le bac: ne dis pas juste \"il y a un port\". Dis: \"Ce port est un hub parce qu'il concentre X conteneurs/an, est relié par X routes intérieures, organise Y FTN. Cela fait que...\"\n\nExemples à maîtriser: Northern Range, Shanghai/Ningbo, Singapour, Suez (canal), Panama (canal).",
         "videoURL": "https://www.youtube.com/watch?v=nf8S1uCkAG8",
-        "externalLinkURL": "https://geoconfluences.ens-lyon.fr/glossaire/facade-maritime"
+        "externalLinkURL": "https://geoconfluences.ens-lyon.fr/glossaire/facade",
+        "linkedCardIndices": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          42
+        ]
       },
       {
         "name": "UE: dorsale = puissance, périphéries = fragilités",
         "textDescription": "L'UE n'est pas homogène. La DORSALE EUROPÉENNE (Londres–Benelux–Rhénanie–Suisse–Nord Italie) concentre 80% du PIB. C'est là que sont: New York-like finance, centres R&D, métropoles, réseaux denses.\n\nAilleus: Méditerranée fragilisée (Grèce, Portugal, Italie du sud), Europe de l'Est en rattrapage, périphéries méditerranéennes (Maghreb) peu intégrées.\n\nCette géographie crée: (1) revenus inégaux (Suisse 90k€ par habitant vs Bulgarie 12k€), (2) migrations intérieures vers la dorsale, (3) tensions politiques (« Les riches du Nord n'aident pas le Sud »).\n\nBonne copie: ne dis pas juste \"l'UE\". Dis: \"Le cœur riche de l'UE (dorsale) concentre finance + R&D, tandis que les périphéries restent moins intégrées. Cela produit inégalités et tensions politiques.\"\n\nExemples clés: Paris, Francfort, Amsterdam (centres) vs Varsovie, Athènes (rattrapage) vs Maghreb (périphérie).",
         "videoURL": "https://www.youtube.com/watch?v=GTof_Wlc2lo",
-        "externalLinkURL": "https://geoconfluences.ens-lyon.fr/glossaire/dorsale-europeenne"
+        "externalLinkURL": "https://geoconfluences.ens-lyon.fr/glossaire/dorsale-europeenne",
+        "linkedCardIndices": [
+          43,
+          44,
+          45,
+          46,
+          47
+        ]
       },
       {
         "name": "Développement: IDH, inégalités, trajectoires différentes",
         "textDescription": "Le développement n'est pas linéaire. Trois catégories: (1) PAYS DÉVELOPPÉS (Occident, Japon): revenu élevé, santé/éducation bon. (2) PAYS ÉMERGENTS (Inde, Brésil, Vietnam): croissance rapide MAIS inégalités internes fortes (métropoles riches vs campagnes pauvres). (3) PMA (Pays les moins avancés): trappes de pauvreté (faible revenu, services publics faibles, fragilité).\n\nL'IDH (PNUD) synthétise revenu + espérance de vie + éducation. C'est utile car il montre que \"revenu élevé\" ne signifie pas « qualité de vie » (Arabie Saoudite riche mais IDH moyen).\n\nLes inégalités sont AUSSI INTERNES: à l'intérieur d'un pays émergent, les métropoles peuvent être riches tandis que l'arrière-pays reste pauvre. C'est un enjeu clé.\n\nBonne approche: pour chaque territoire, donne 3 données: PIB/hab, IDH, inégalités internes. Cela peint un tableau complet.\n\nExemples: Suisse (PIB 92k, IDH 0.95, faibles inégalités) vs Inde (PIB 2.5k, IDH 0.63, très fortes inégalités).",
         "videoURL": "https://www.youtube.com/watch?v=6SXm7k8cQxM",
-        "externalLinkURL": "https://hdr.undp.org/"
+        "externalLinkURL": "https://geoconfluences.ens-lyon.fr/glossaire/indice-developpement-humain",
+        "linkedCardIndices": [
+          25,
+          26,
+          27,
+          28,
+          29,
+          39
+        ]
       },
       {
         "name": "Villes: gentrification et ségrégation (mécanismes réels)",
         "textDescription": "Les grandes villes connaissent des dynamiques contradictoires: (1) GENTRIFICATION: un quartier ancien se transforme (rénovation, prix montent, population aisée arrive, population pauvre part). Exemple: Paris: Le Marais était populaire, est devenu chic. (2) SÉGRÉGATION SOCIO-SPATIALE: les groupes sociaux se séparent géographiquement (riches = centre-ouest/ouest, pauvres = banlieues Nord/Est/Sud).\n\nDeux mécanismes: (a) ÉTALEMENT URBAIN: les classes moyennes/aisées s'éloignent vers la périphérie (maisons, jardins, calme), créant des couronnes inégales. (b) ABANDON: le centre-ville devient trop cher, devient touristique/commercial, la population locale part.\n\nEffets: (1) INÉGALITÉS DE MOBILITÉ: sans voiture, tu es bloqué en banlieue. (2) GHETTOS: concentration de pauvreté augmente le stress social. (3) SÉGRÉGATION SCOLAIRE: enfants du riche et du pauvre ne se mélangent pas.\n\nBonne copie: ne dis pas juste \"il y a de la ségrégation\". Dis: \"Dans Paris, les riches concentrent le 7e/8e (ouest), les pauvres occupent les banlieues (Seine-Saint-Denis). Ce modèle produit inégalités d'accès à l'emploi et à l'éducation.\"\n\nExemples: Paris, Lyon, Marseille (gentrification/ségrégation = phénomènes visibles).",
         "videoURL": "https://www.youtube.com/watch?v=HcJ7y7wGQh4",
-        "externalLinkURL": "https://geoconfluences.ens-lyon.fr/glossaire/periurbanisation"
+        "externalLinkURL": "https://geoconfluences.ens-lyon.fr/glossaire/periurbanisation",
+        "linkedCardIndices": [
+          30,
+          31,
+          32,
+          33,
+          36
+        ]
       },
       {
         "name": "Transitions énergétique et climatique: enjeux géopolitiques RÉELS",
         "textDescription": "La transition énergétique n'est pas qu'une question « écologique ». C'est GÉOPOLITIQUE: (1) COMPÉTITION POUR LES RESSOURCES (batteries lithium: Chine domine, Chili/Argentine contrôlent, USA veulent accès). (2) DÉPENDANCES NOUVELLES: énergies renouvelables demandent câbles, panneaux (dépendance Chine pour silicium). (3) PERDANTS: pays pétroliers (Arabie Saoudite, Nigeria, Russie) verront leurs revenus chuter.\n\nExemples rentables: (a) Lithium: Chine contrôle 60% de la transformation. Les USA/UE cherchent l'indépendance. (b) Pétrole: aujourd'hui, 80Mbbl/jour. Avec transition, cela baisse. Les OPEP cherchent à freiner la transition. (c) Éoliennes: Chine fabrique 60% des turbines.\n\nBonne copie: \"La transition énergétique n'est pas juste climat. Elle redistribue les puissances: la Chine devient clé (fabrication), les pétroliers déclinent. Cela crée des tensions géopolitiques (USA veut indépendance, Russie résiste).\"\n\nÀ retenir: transition = géopolitique + environnement + économie. Les trois ensembles.",
         "videoURL": "https://www.youtube.com/watch?v=4S4kq0XgWAE",
-        "externalLinkURL": "https://www.ipcc.ch/"
+        "externalLinkURL": "https://www.vie-publique.fr/fiches/274836-quest-ce-que-le-giec",
+        "linkedCardIndices": [
+          37,
+          38,
+          39,
+          40,
+          41
+        ]
       },
       {
         "name": "Géoconfluences: ta meilleure source de définitions et dossiers",
         "textDescription": "Géoconfluences (ENS Lyon) est LA référence pour les définitions fiables, les dossiers thématiques et les cartes. Elle couvre tous les sujets bac avec rigueur.\n\nComment l'utiliser: (1) cherche une notion (mondialisation, métropolisation, etc.), (2) lis la définition et l'article court, (3) note 1-2 exemples concrets, (4) regarde les cartes associées pour visualiser.\n\nExemples de dossiers excellents: \"Façades maritimes\", \"Mégalopoles\", \"Villes et développement durable\", \"Énergies et transition\".\n\nPour réviser: chaque jour, 3 notions. Lis la définition, écris ta version, note 1 exemple localisé. En 2 semaines, tu es très solide sur le vocabulaire et les concepts.\n\nBon réflexe: avant une copie, utilise Géoconfluences pour VÉRIFIER ta compréhension. Les définitions y sont toujours précises et à jour.",
         "videoURL": "https://www.youtube.com/watch?v=Vd1eU7m7u1A",
-        "externalLinkURL": "https://geoconfluences.ens-lyon.fr/"
+        "externalLinkURL": "https://geoconfluences.ens-lyon.fr/",
+        "linkedCardIndices": [
+          0,
+          1,
+          4,
+          5,
+          12,
+          49
+        ]
       }
     ],
     "stableId": "bac_geographie_reperes_territoires",
@@ -1601,7 +1747,7 @@
       },
       {
         "front": "Qu'est-ce qu'une ZEE et à quoi sert-elle ?",
-        "back": "Une zone (jusqu'à 200 milles nautiques) où l'État côtier a des droits d'exploitation des ressources; elle renforce les enjeux maritimes. Réf : https://www.un.org/depts/los/convention_agreements/texts/unclos/unclos_e.pdf",
+        "back": "Une zone (jusqu'à 200 milles nautiques) où l'État côtier détient des droits d'exploitation des ressources, instituée par la convention de Montego Bay (1982).",
         "hint": "200 milles."
       },
       {
@@ -1651,7 +1797,7 @@
       },
       {
         "front": "Qu'est-ce qu'une opération de maintien de la paix (OMP) ?",
-        "back": "Une mission onusienne visant à stabiliser une zone de conflit (protéger civils, soutenir accords, sécuriser), avec mandat et limites. Réf : https://peacekeeping.un.org/en",
+        "back": "Une mission onusienne visant à stabiliser une zone de conflit (protéger les civils, soutenir des accords, sécuriser un cessez-le-feu), avec un mandat et des limites précises.",
         "hint": "Casques bleus."
       },
       {
@@ -1681,7 +1827,7 @@
       },
       {
         "front": "Quel traité encadre la non-prolifération nucléaire (référence) ?",
-        "back": "Le Traité sur la non-prolifération (TNP), pilier du régime de non-prolifération. Réf : https://disarmament.unoda.org/wmd/nuclear/npt/",
+        "back": "Le Traité sur la non-prolifération (TNP), signé en 1968, pilier du régime international de non-prolifération nucléaire.",
         "hint": "TNP."
       },
       {
@@ -1691,7 +1837,7 @@
       },
       {
         "front": "Qu'est-ce que la CPI (Cour pénale internationale) ?",
-        "back": "Une juridiction internationale permanente jugeant certains crimes graves (génocide, crimes contre l'humanité, crimes de guerre) quand conditions remplies. Réf : https://www.icc-cpi.int/",
+        "back": "Une juridiction internationale permanente, créée en 2002 (statut de Rome), jugeant les crimes les plus graves (génocide, crimes contre l'humanité, crimes de guerre) sous conditions.",
         "hint": "Justice internationale."
       },
       {
@@ -1726,7 +1872,7 @@
       },
       {
         "front": "Qu'est-ce que l'Accord de Paris (2015) ?",
-        "back": "Un accord UNFCCC visant à limiter le réchauffement bien en dessous de 2°C et à poursuivre l'effort vers 1,5°C, via contributions nationales (NDC). Réf : https://unfccc.int/process-and-meetings/the-paris-agreement/the-paris-agreement",
+        "back": "Un accord climatique mondial (CCNUCC) visant à limiter le réchauffement bien en dessous de 2°C et à poursuivre l'effort vers 1,5°C, via des contributions nationales (NDC).",
         "hint": "2015, 1,5–2°C."
       },
       {
@@ -1796,12 +1942,12 @@
       },
       {
         "front": "Quelle source officielle donne le programme HGGSP Terminale (référence) ?",
-        "back": "Le programme officiel (annexe) publié par le Ministère. Réf : https://www.education.gouv.fr/sites/default/files/imported_files/document/spe254_annexe_1159180.pdf",
+        "back": "Le programme officiel (annexe au Bulletin officiel) publié par le ministère de l'Éducation nationale.",
         "hint": "PDF ministère."
       },
       {
         "front": "Où trouver des ressources pédagogiques fiables et mises à jour pour HGGSP ?",
-        "back": "Sur Éduscol (page dédiée HGGSP voie générale). Réf : https://eduscol.education.fr/1676/programmes-et-ressources-en-histoire-geographie-geopolitique-et-sciences-politiques-voie-g",
+        "back": "Sur Éduscol, page dédiée à HGGSP en voie générale, qui rassemble programmes et ressources d'accompagnement.",
         "hint": "Éduscol HGGSP."
       }
     ],
@@ -1810,61 +1956,130 @@
         "name": "Puissance: hard power vs soft power (exemples concrets actuels)",
         "textDescription": "La puissance n'est pas qu'une question militaire: elle combine hard power (armées, sanctions économiques) et soft power (diplomatie, culture, modèle de société).\n\nExemple concret (hard power): Les sanctions contre la Russie (2022) → embargo pétrolier/gaz, gèle des actifs → tentative d'affaiblir l'économie russe. Les États-Unis utilisent leur hégémonie monétaire pour exclure du système SWIFT.\n\nExemple concret (soft power): La Corée du Sud via K-pop et séries Netflix (Squid Game, 2021) → influence culturelle masseuse qui augmente la \"coolness\" du pays → affecte son prestige diplomatique.\n\nExemple concret (smart power): L'Union européenne combine règles commerciales (hard) avec promotion de l'État de droit (soft). L'Accord de Paris (2015) est un exercice de soft power climatique (négociation, inspiration).",
         "videoURL": "https://www.youtube.com/watch?v=GhGWq-YZ8J0",
-        "externalLinkURL": "https://eduscol.education.fr/1676/programmes-et-ressources-en-histoire-geographie-geopolitique-et-sciences-politiques-voie-g"
+        "externalLinkURL": "https://eduscol.education.fr/1676/programmes-et-ressources-en-histoire-geographie-geopolitique-et-sciences-politiques-voie-g",
+        "linkedCardIndices": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
       },
       {
-        "name": "Mers et océans: routes, détroits, ZEE, rivaux (HOY IT MATTERS)",
+        "name": "Mers et océans: routes, détroits, ZEE, rivalités",
         "textDescription": "Les mers portent 90% du commerce mondial: c'est l'épine dorsale de l'économie. Trois détroits critiques concentrent les enjeux: Malacca (entre Asie du SE et Moyen-Orient), Ormuz (pétrole iranien), Suez (route vers Europe).\n\nEnJEU GEOPOLITIQUE PRESENT: En 2024, les attaques de drones houthis contre navires du Golfe d'Aden perturbent le Suez, allongeant trajets et augmentant assurance fret. Pourquoi? Conflit Yémen + tensions Iran-USA.\n\nZEE (Zone Économique Exclusive): Chaque État côtier contrôle jusqu'à 200 milles. Cela crée des litiges: mer de Chine méridionale (Chine vs Vietnam, Japon) → ressources halieutiques + gaz. France en Asie-Pacifique via Réunion/Polynésie (5e ZEE mondiale).\n\nCables sous-marins: 99% données internationales. Infrastructure critique: 2023 coup possible sur Balttique via sabotage russe.\n\nPOURQUOI CA COMPTE AUJOURD'HUI: contrôler les routes = contrôler le commerce, l'énergie, l'information. C'est la nouvelle \"grande jeu\".",
         "videoURL": "https://www.youtube.com/watch?v=9JPydWTn4wQ",
-        "externalLinkURL": "https://www.un.org/depts/los/convention_agreements/texts/unclos/unclos_e.pdf"
+        "externalLinkURL": "https://geoconfluences.ens-lyon.fr/glossaire/zone-economique-exclusive-zee",
+        "linkedCardIndices": [
+          8,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
       },
       {
         "name": "Espace comme nouvelle frontière (satellites, privatisation, tensions)",
         "textDescription": "L'espace n'est plus réservé aux États: SpaceX, Blue Origin privatisent les lancements. Constellations Starlink (15k satellites) = communications globales but aussi dépendance technologique.\n\nENJEU MILITAIRE: Satellites d'observation/reconnaissance = renseignement. Exemple: satellite américains décèlent mouvements troupes russes Ukraine 2022. Brouillage possible = guerre de l'espace.\n\nENJEU DE SOUVERAINETE: Nations cherchent indépendance de constellation US. ESA (Ariane 6) relance européenne. Inde, Japon, Chine tous lancent leurs systèmes.\n\nRISQUES ACTUELS (2024): débris spatiaux (crsh 2021 détruit 400 débris) + armes antisatellites testées (Inde 2019, Russie 2021). Une guerre spatiale pourrait paralyser GPS, financements, communications civiles = civilisation dépend espace.\n\nPOURQUOI MAINTENANT: militarisation espace + privatisation crée vide régulation. ONU faible. Compétition USA-Chine pour domination.",
         "videoURL": "https://www.youtube.com/watch?v=LEIV-D-816I",
-        "externalLinkURL": "https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/introouterspacetreaty.html"
+        "externalLinkURL": "https://www.vie-publique.fr/eclairage/286198-france-europe-quelles-politiques-spatiales",
+        "linkedCardIndices": [
+          15,
+          16
+        ]
       },
       {
         "name": "Conflits asymétriques et terrorisme (Ukraine, Moyen-Orient 2023-24)",
-        "textDescription": "Guerre asymétrique = forces inégales. Exemple cleqr: Ukraine 2022 vs Russie → Ukraine plus petite mais mobilise civils, utilise drones civils modifiés, cyberattaques. Compense par créativité vs puissance brute.\n\nExemple préhistorique: Syrie 2011-2024 → multilatéralisé (USA, Russie, Iran, Turquie) + acteurs non étatiques (ISIS, HTS). Même format conflit: États traditionn + groupes armés = brouillage acteurs.\n\nTerrorisme comme stratégie: Attaques Hamas oct 2023 vs Israël → asymétrie extrême (groupe armé vs État militarisé) mais impact politique + humanitaire énorme. Objectif: créer peur/paralysie politique.\n\nCYBER comme asymétrique: États-unis/Israël virus Stuxnet (2010) contre Iraniens (nucléaire) = détruire sans troupes. Exemple 2024: APT (advanced persistent threats) hacker états → vole données sensibles, déstabilise sans attaque kinétique.\n\nPOURQUOI IMPORTANT: asymétrique est NORME maintenant. Guerres \"classiques\" (deux armées) rares. Enjeu: faire face à adversaires non traditionnels.",
+        "textDescription": "Guerre asymétrique = forces inégales. Exemple clair: Ukraine 2022 vs Russie → Ukraine plus petite mais mobilise civils, utilise drones civils modifiés, cyberattaques. Compense par créativité vs puissance brute.\n\nExemple préhistorique: Syrie 2011-2024 → multilatéralisé (USA, Russie, Iran, Turquie) + acteurs non étatiques (ISIS, HTS). Même format conflit: États traditionn + groupes armés = brouillage acteurs.\n\nTerrorisme comme stratégie: Attaques Hamas oct 2023 vs Israël → asymétrie extrême (groupe armé vs État militarisé) mais impact politique + humanitaire énorme. Objectif: créer peur/paralysie politique.\n\nCYBER comme asymétrique: États-unis/Israël virus Stuxnet (2010) contre Iraniens (nucléaire) = détruire sans troupes. Exemple 2024: APT (advanced persistent threats) hacker états → vole données sensibles, déstabilise sans attaque kinétique.\n\nPOURQUOI IMPORTANT: asymétrique est NORME maintenant. Guerres \"classiques\" (deux armées) rares. Enjeu: faire face à adversaires non traditionnels.",
         "videoURL": "https://www.youtube.com/watch?v=TEjAtdHGGNM",
-        "externalLinkURL": "https://peacekeeping.un.org/en"
+        "externalLinkURL": "https://www.vie-publique.fr/fiches/271674-quest-ce-quune-operation-de-maintien-de-la-paix",
+        "linkedCardIndices": [
+          19,
+          20,
+          21,
+          22,
+          23
+        ]
       },
       {
         "name": "Dissuasion nucléaire et prolifération (Iran, RPDC, perspectives)",
         "textDescription": "Dissuasion = si tu m'attaques je te détruis → tu n'attaques pas. France, USA, Russie, Chine, UK = dissuasion mutuelle. Enjeu stabilité (peur de l'autre = pas de guerre) mais aussi instabilité (un accident = catastrophe).\n\nProlifération ACTUELLE: Iran contourne TNP, enrichit uranium (accord 2015 dénoncé USA 2018 → Iran reprend enrichissement). RPDC (Corée N) possède 30+ armes nucléaires depuis 2017 (malgré TNP). Enjeu régional: Asie redoute escalade.\n\nNOUVEAU: armes hypersoniques russes + AI = moins de temps décision. Cyber attaque sur codes lancement = scénario horreur.\n\nLimites dissuasion: pas marche contre terrorisme (groupe sans territoire = pas adresse tir). Pas efficace si adversaire \"fou\" ou prêt à suicide. Crise Cuba 1962 presque devenu nucléaire par escalade escalade (Kennedy vs Khrouchtchev à 30min de guerre).\n\nPOURQUOI MAINTENANT: régimes instables (RPDC) + USA-Chine rivalry = TNP en danger. Armes hypersoniques crépitent délais décisions. Monde + danger qu'avant de glisser vers conflit nucléaire accidentel.",
         "videoURL": "https://www.youtube.com/watch?v=bfIfEYTdV6w",
-        "externalLinkURL": "https://disarmament.unoda.org/wmd/nuclear/npt/"
+        "externalLinkURL": "https://www.vie-publique.fr/rapport/37547-monde-arme-nucleaire-apres-traite-sur-la-non-proliferation-nucleaire-tnp",
+        "linkedCardIndices": [
+          24,
+          25,
+          26
+        ]
       },
       {
         "name": "Histoire/Mémoire vs Justice: cas français (Shoah, Algérie, Rwandaise)",
         "textDescription": "Différence crucial: HISTOIRE = chercheur vérifie sources, date, cause; MÉMOIRE = groupe dit \"voilà ce que c'était pour NOUS\" (souvent sélectif).\n\nCas français: Shoah → loi Gayssot 1990 pénalise négation Holocaust. Débat: liberté recherche vs prévention révisionnisme. Mémoire collective dit \"jamais oublier\"; histoire dit \"comprendre mécanisme\".\n\nAlgérie (1954-1962): France colonisait, guerre 1M morts. Mémoire algérienne = trauma indépendance volée. Mémoire française = pertes militaires. Histoire essaie expliquer contexte: Algérie française depuis 1830, violences massives décolonisation, pourquoi indépendance inévitable.\n\nRwanda 1994: génocide tutsis (800k). Justice transitionnelle = Tribunal Pénal International Rwanda + commissions vérité-réconciliation. Mémoire des survivants vs mémoire des auteurs = pas facile réconciliation.\n\nPOURQUOI IMPORTANT: mémoire politique = débats élections (légitimité présent). Histoire universitaire = compréhension. Confusion = chacun sa \"vérité\" = démolition démocratie.",
         "videoURL": "https://www.youtube.com/watch?v=yZ2-nmo5938",
-        "externalLinkURL": "https://www.icc-cpi.int/"
+        "externalLinkURL": "https://www.vie-publique.fr/infographie/300010-infographie-quel-est-le-role-de-la-cour-penale-internationale-cpi",
+        "linkedCardIndices": [
+          27,
+          28,
+          29,
+          30,
+          31,
+          32
+        ]
       },
       {
         "name": "Accord de Paris (2015) et enjeux coopération climatique",
         "textDescription": "Accord de Paris = tous pays s'engagent réduire émissions, objectif +1,5°C (difficile, +2°C réaliste). Contributions Nationales Déterminées = chaque pays fixe ses réductions.\n\nRéalité 2024: Promesses pas tenues. Émissions CONTINUENT augmenter, déjà +1,1°C. Pourquoi? Fossiles + riches = plus difficile transition. COP28 (Dubaï 2023) parla \"transition énergies fossiles\" (première fois) mais vague.\n\nINEGALITES JUSTICE: pays pauvres (Bangladesh, Îles Pacifique) SUBISSENT inondations/famine mais n'ont PAS causé CO2. Riche (USA, Chine, India) émettent +60%. Or qui finance transition verte? Débat Fonds climat = USA refuse payer \"réparations\".\n\nChine: producteur #1 renouvelables (panneaux solaires) MAIS aussi #1 charbon. Dépend coal pour électricité. Dilemme croissance/climat = pour pays pauvres = impossible choisir.\n\nPOURQUOI MAINTENANT: climat = seul bien commun. Aucun État seul réussit. Mais coopération = difficile car sacrifices coûtent electoralement. Chacun veut autre réduise en premier.",
         "videoURL": "https://www.youtube.com/watch?v=QBCsuAZZBFg",
-        "externalLinkURL": "https://unfccc.int/process-and-meetings/the-paris-agreement/the-paris-agreement"
+        "externalLinkURL": "https://www.vie-publique.fr/fiches/274839-quest-ce-que-laccord-de-paris-sur-le-climat",
+        "linkedCardIndices": [
+          33,
+          34,
+          35
+        ]
       },
       {
         "name": "Désinformation: campagnes russes 2016/2020, TikTok Chine 2024",
         "textDescription": "Désinformation = diffuser volontairement faux pour influencer. Pas juste \"fake news\" mais STRATEGIE d'État.\n\nRUSSIE 2016 (Trump): IRA (Internet Research Agency) Moscou crée 1000s comptes faux Facebook/Twitter, amplifie divisions USA (racisme, anti-immigrants, femmes). Pas inventer entièrement: amplifier tensions réelles. Résultat: 126M Américains exposés propaganda russe.\n\n2020: Biden attaqué de faux \"documents\" Hunter Biden (vrai ordinateur mais contexte faux). Russes amplifiaient désinformation, créaient comptes bots.\n\nCHINE 2024 (TikTok): 170M utilisateurs USA. Algorithme chinois = peut favoriser certains contenus politiques → influencer opinions. États-Unis banned 2025 car \"risque sécurité nationale\" (donnée américains + influence politique).\n\nTECHNIQUE MODERNE: deepfake (vidéo fake AI-generated, indetectable). Biden deepfake 2024 (faux appel electorat disant pas voter).\n\nPOURQUOI MAINTENANT: information = arme. Plus efficace/moins détectable qu'attaque militaire. Chaque démocratie vulnérable (pays pauvres media = manipulé jà avant; riches pense \"libres media\" donc moins vigilant).",
         "videoURL": "https://www.youtube.com/watch?v=w6XtiubJY2c",
-        "externalLinkURL": "https://en.unesco.org/fightfakenews"
+        "externalLinkURL": "https://www.vie-publique.fr/loi/21026-loi-manipulation-de-linformation-loi-fake-news",
+        "linkedCardIndices": [
+          38,
+          39,
+          40,
+          41,
+          42
+        ]
       },
       {
         "name": "Cyberespace: conflits latents, souveraineté numérique",
         "textDescription": "Cyberespace = nouveau domaine conflit. États attaquent infrastructure autre État sans déclarer guerre (seuil gris).\n\nEXEMPLE: Estonie 2007 (attaque DDoS contre banques/gouvernement) → Russie jamais admet. Estimé coûté millions. Qui attaque? Impossible prouver. Enjeu: cyber = attaque sans signature.\n\n2020: SolarWinds compromise (software russes infiltré) → accès 18k organisations USA (Pentagon, Trésor, etc.). Comment découvert? Hasard. Enjeu: supplychaim attack = via logiciel fiable → invisible.\n\n2023-24: Balkans, Europe de l'Est = cibles cyberattaques (Ukraine pipelines, Pologne données militaires). Russie/Iran testent nouvelle guerre.\n\nSOUVERAINETE: pays dépend cloud USA (Amazon, Microsoft, Google) = données sensibles USA. Chine/Russie/UE cherche cloud national. But: pas dépendre tiers. Problème: fragmentation internet = fin universalité.\n\nNORMES MANQUENT: pas accord international cyber-warfare (contrairement nucléaire/chimique). Chacun définit \"red line\". Ukraine 2022 = Russie attaque civils cyber (hospitals offline) = criminel mais non judiciarisé.",
         "videoURL": "https://www.youtube.com/watch?v=H6vnLv4FtkM",
-        "externalLinkURL": "https://www.ssi.gouv.fr/"
+        "externalLinkURL": "https://www.ssi.gouv.fr/",
+        "linkedCardIndices": [
+          43,
+          44,
+          45
+        ]
       },
       {
         "name": "Méthode HGGSP: composition + utilisation des notions",
         "textDescription": "Bonne copie HGGSP ≠ liste définitions. Besoin RAISONNEMENT: définition → exemple concret → WHY MATTERS TODAY → limite/débat.\n\nSTRUCTURE idéale intro: accroche (actualité/tension), définitions (mots clés), problématique. Corps: I) poser cadre (acteurs, espaces), II) analyser dynamiques (rivaltés, coopérations), III) discuter limites (changements, incertitudes).\n\nCHAQUE PARTIE = 2-3 exemples spécifiés: où? quand? qui? conséquences?\n\nERREUR FREQUENTE: \"Puissance c'est capacité influencer.\" (VRAI) Puis rien. Au lieu: \"Puissance c'est capacité influencer. Exemple: Russie sanctions 2022 → hard power (embargo) mais soft power affaibli (isolation). Donc smart power = combiner tactiques selon contexte. Enjeu 2024: Chine vs USA compétition multipolare = chacun cherche hard+soft mix\" = RICHE.\n\nConclude: répondre problématique + ouvrir débat futur (incertitude, alternatives).\n\nTechnique révision: pour CHAQUE notion: 1) définition 2 lignes. 2) 1 exemple géographique. 3) 1 enjeu actuel. 4) 1 limite/objection.",
         "videoURL": "https://www.youtube.com/watch?v=_3Dr5HbyyP4",
-        "externalLinkURL": "https://eduscol.education.fr/1676/programmes-et-ressources-en-histoire-geographie-geopolitique-et-sciences-politiques-voie-g"
+        "externalLinkURL": "https://eduscol.education.fr/document/24049/download",
+        "linkedCardIndices": [
+          0,
+          6,
+          7,
+          9,
+          17,
+          36,
+          37,
+          46,
+          48,
+          49,
+          50
+        ]
       }
     ],
     "stableId": "bac_hggsp_notions",
@@ -2096,7 +2311,7 @@
       },
       {
         "front": "2016: que signifie le vote du Brexit ?",
-        "back": "Référendum UK quitter UE (23 juin 2016): 52% votent OUT. Conséquence: négociations 3 ans, sortie offielle jan 2020. Signification: souveraineté nationale vs intégration, montée nationalisme Europe. Leçon: UE inégalement acceptée, fragments.",
+        "back": "Référendum UK quitter UE (23 juin 2016): 52% votent OUT. Conséquence: négociations 3 ans, sortie officielle jan 2020. Signification: souveraineté nationale vs intégration, montée nationalisme Europe. Leçon: UE inégalement acceptée, fragments.",
         "hint": "Fragmentations UE."
       },
       {
@@ -2140,55 +2355,117 @@
         "name": "Lire la chronologie comme chaîne cause-effet (pas liste)",
         "textDescription": "Erreur fréquente: apprendre dates isolées. Juste. Au lieu: voir POURQUOI date importante = elle transforme logique précédente.\n\nExemple chaîne 1947-1962: Truman/Marshall (1947) → division économique Europe. Berlin blocus (1948-49) → test détermination USA. OTAN (1949) → institutionnalise division. Guerre Korea (1950-53) → démontre bipolarité s'étend Asie. Indochine (1954) → France faible, USA engage. Cuba (1962) → risque nucléaire direct.\n\nLe SENS: chaque date = conséquence précédente + cause suivante = logique interne. 1945 = vacuum pouvoir. 1947 = USA remplit vacuum. 1948-49 = URSS teste frontières. 1950 = escalade certifiée.\n\nMéthode révision: pose question \"pourquoi cette date change-t-elle les règles du jeu?\". Puis identifie 2 conséquences. Alors tu as appris processus, pas juste date.",
         "videoURL": "https://www.youtube.com/watch?v=iWvPZQm6HrI",
-        "externalLinkURL": "https://www.education.gouv.fr/sites/default/files/imported_files/document/spe243_annexe1_1159172.pdf"
+        "externalLinkURL": "https://eduscol.education.fr/729/presentation-du-grand-oral",
+        "linkedCardIndices": [
+          0,
+          3,
+          4,
+          5,
+          6,
+          8,
+          9,
+          49
+        ]
       },
       {
         "name": "Guerre froide: frise logique (tensions → crises → détente → durcissement)",
         "textDescription": "Guerre froide = séquence 5 phases (chacune 5-8 ans): (1) Montée tensions (1947-49): doctrine/plans. (2) Crises chaudes (1950-62): Korea, Berlin, Cuba. (3) Détente (1963-75): coexistence, traités contrôle armements. (4) Durcissement (1976-85): Afghanistan, Reagan durcit. (5) Effondrement (1985-91): réformes URSS → implosion.\n\nChaque phase = repères différents qui NE S'ACCUMULENT PAS mais se REMPLACENT. 1962 Cuba = apogée tension, puis BAISSE (Kennedy-Krouchtchev détente 1963). 1979 Afghanistan = revirement complet: détente meurt.\n\nPourquoi structure cyclique? Cause: logique bipolarité est dynamique (escalade → peur → recul → rechargement), pas statique.\n\nTechnique: fais 5 boîtes (une par phase), chacune 3-4 dates + enjeu central. Voilà le \"sens\" Guerre froide, pas liste 20 dates confuse.",
         "videoURL": "https://www.youtube.com/watch?v=SZdncx-ghxM",
-        "externalLinkURL": "https://www.lumni.fr/dossier/la-guerre-froide"
+        "externalLinkURL": "https://www.lumni.fr/dossier/la-guerre-froide",
+        "linkedCardIndices": [
+          5,
+          6,
+          8,
+          14,
+          15,
+          17,
+          21,
+          23,
+          25
+        ]
       },
       {
         "name": "Décolonisations: processus décliné (pas événement ponctuel)",
         "textDescription": "Erreur: voir décolonisation comme 1962 Algérie. FAUX. C'est PROCESSUS 1945-1975: Asie d'abord rapide (India 1947, Indochine 1954, Indonesia 1945), Afrique lente (certains 1960, autres 1974-75).\n\nLogique causes: 1) métropoles affaiblies guerre 1939-45 (UK/France ruinées). 2) Idéologies anticoloniales (ONU charte droits, communisme, nationalisme). 3) Guerres locales (Vietnam, Algérie) trop chères → capitulation. 4) \"Effet domino\": indépendance 1 pays inspire autres.\n\nRésultats variables: certains chaotiques (Belgique Congo 1960, Algérie 1962 = guerres civiles), autres négociés (India 1947 Gandhiste, Maroc 1956 diplomatie).\n\nAu bac: pour CHAQUE cas, explique: POURQUOI guerre/négociation? Qu'est-ce qui différencie chemin?",
         "videoURL": "https://www.youtube.com/watch?v=i-sRU7OjQaI",
-        "externalLinkURL": "https://fr.wikipedia.org/wiki/D%C3%A9colonisation"
+        "externalLinkURL": "https://fr.wikipedia.org/wiki/D%C3%A9colonisation",
+        "linkedCardIndices": [
+          9,
+          12,
+          16
+        ]
       },
       {
         "name": "Construction européenne: étapes + logique (paix via intégration)",
         "textDescription": "UE pas tombée du ciel. Logique: 1) CECA 1951 (charbon/acier) = créer interdépendance industrielle → impossible guerre demain. 2) CEE 1957 (Rome) = élargir à économie complète. 3) Acte unique 1986 = marché unique vraiment. 4) Maastricht 1992 = union politique + monnaie. 5) Élargissement = intégrer Europe libérée (2004 Est).\n\nCHAQUE ÉTAPE = répond problème PRECEDENT. 1951 répond: comment assurer paix France-Allemagne après 3 guerres? Réponse: les rendre interdépendantes (charbon = acier = guerre impossible).\n\n1957 Rome: comment réduire inégalités régionales + créer marché compétitif? Réponse: élargir domaines (agriculture, énergie) + ouvrir marché.\n\nEnseigne: institutionnel lent mais solide. Intégration pas imposée (contrairement bloc de l'Est) = consentement = durable.",
         "videoURL": "https://www.youtube.com/watch?v=TyYBmTEqnN0",
-        "externalLinkURL": "https://www.lumni.fr/video/le-traite-de-rome"
+        "externalLinkURL": "https://www.lumni.fr/video/le-traite-de-rome",
+        "linkedCardIndices": [
+          13,
+          29,
+          31,
+          32,
+          34
+        ]
       },
       {
         "name": "France Vᵉ République: institutions stabilité (contexte crise Algérie)",
         "textDescription": "Pourquoi Vᵉ République 1958? Contexte: IVᵉ République croulait sous crises (guerres coloniales, instabilité). Gouvernements durent 8 mois en moyenne. Algérie 1954-1962 = militaires perdent confiance civils.\n\nDe Gaulle écrit Constitution concentrant pouvoir Président: peut dissoudre Parlement, nomme PM, dirige diplomatie. But: fin instabilité parlementaire = fort exécutif.\n\nConséquence paradoxale: Vᵉ République = plus stable que démocraties précédentes (60+ ans), MAIS renforce concentration pouvoir (Président = quasi-roi). Débat toujours: régime démocratique vs autoritaire?\n\nRéforme 1962 (suffrage universel Président) = démocratie directe contrebalance autoritarisme institutionnel.\n\nAu bac: comprendre Vᵉ pas juste date, mais LOGIQUE historique (crise → réforme institutions).",
         "videoURL": "https://www.youtube.com/watch?v=9x4WcXyHqS0",
-        "externalLinkURL": "https://fr.wikipedia.org/wiki/Cinqui%C3%A8me_R%C3%A9publique"
+        "externalLinkURL": "https://fr.wikipedia.org/wiki/Cinqui%C3%A8me_R%C3%A9publique",
+        "linkedCardIndices": [
+          16,
+          24,
+          45,
+          46,
+          47
+        ]
       },
       {
         "name": "1973 choc pétrolier: comment événement économique remodèle géopolitique",
         "textDescription": "1973 = peut paraître \"juste économique\" (prix pétrole ×4). MAIS: remodèle monde géopolitiquement.\n\nCONTEXTE: guerre Kippour oct 1973 (Israël vs Égypte/Syrie). OPEP (pays arabes producteurs) impose embargo pétrole USA/Europe soutiennent Israël.\n\nCONSEQUENCES en chaîne: 1) Inflation massive Europe/USA = crise économique (fin croissance post-1945). 2) Chômage → mouvements sociaux (grèves France, instabilité). 3) Crises politiques (UK grèves, USA crise 70s, France crise confiance). 4) Réalignment géopolitique: producers pétroliers (Arabie, Iran, Venezuela) deviennent puissants (soft power = énergie). 5) Course armements intensifie.\n\nLeçon: économie = arme géopolitique. Contrôler ressource = contrôler autres États. Enjeu restant (Ukraine gaz, Moyen-Orient pétrole).",
         "videoURL": "https://www.youtube.com/watch?v=6z0w4D4i4yQ",
-        "externalLinkURL": "https://fr.wikipedia.org/wiki/Choc_p%C3%A9trolier_de_1973"
+        "externalLinkURL": "https://fr.wikipedia.org/wiki/Choc_p%C3%A9trolier_de_1973",
+        "linkedCardIndices": [
+          20,
+          21,
+          22
+        ]
       },
       {
         "name": "1989-1991: comment s'effondre superpuissance (URSS)",
         "textDescription": "Beaucoup voient 1989-91 comme \"soudain\". FAUX. Effondrement = accumulation 30 ans faiblesse.\n\nCauses structurelles: 1) Économie stagnante (technologie arriérée, innovation 0, consommation bas). 2) Afghanistan \"Vietnam soviétique\" (100k troupes, 50k morts, non-gainable). 3) Réformes Gorbatchev (glasnost+perestroika) pas maîtrisées = libère frustrations. 4) Nationalisme républiques veut indépendance. 5) Légitimité idéologique communisme = morte (jeunes croit plus).\n\nCascade 1989: Pologne libre (élections libres), mur Berlin tombe, Allemagne réunifiée (1990), URSS implose (1991).\n\nREMARQUE: pas invasion externe. Effondrement INTERNE. Système affaibli par ses contradictions.\n\nLeçon géopolitique: superpuissance = fragilité cachée possible. USA today?",
         "videoURL": "https://www.youtube.com/watch?v=CgHItzaijSQ",
-        "externalLinkURL": "https://www.lumni.fr/video/la-guerre-froide"
+        "externalLinkURL": "https://www.lumni.fr/video/la-guerre-froide",
+        "linkedCardIndices": [
+          25,
+          26,
+          27,
+          28
+        ]
       },
       {
         "name": "2001-2008: chocs successifs remodèlent hiérarchie mondiale",
         "textDescription": "Deux chocs 2001 + 2008 changent monde irréversiblement.\n\n2001 (11 sept): Attentats Al-Qaïda → USA lance guerres Afghanistan/Irak. Conséquence 20 ans: 1M morts, Moyen-Orient déstabilisé, USA réputation endommagée, dette colossale. Révèle: superpuissance peut être vulnérable à acteurs non-étatiques.\n\n2008 (crise financière): subprimes USA → récession mondiale. Conséquence: USA affaiblie économiquement, Europe stagnante, Chine continue croissance (devient \"atelier monde\"). Révèle: interdépendance financière = contagion.\n\nCombinaison: US hard power affaiblie (guerres coûteuses, déficits énormes, infrastructure intérieure vieillie). Soft power atteinte (wars + recession = défiance alliés).\n\nRÉSULTAT: fin américain unipolaire. Entrée monde multipolare (Chine, Inde, Brésil montées, USA affaiblie).",
         "videoURL": "https://www.youtube.com/watch?v=6ZrK8o1wqcs",
-        "externalLinkURL": "https://fr.wikipedia.org/wiki/Attentats_du_11_septembre_2001"
+        "externalLinkURL": "https://fr.wikipedia.org/wiki/Attentats_du_11_septembre_2001",
+        "linkedCardIndices": [
+          33,
+          37,
+          38
+        ]
       },
       {
         "name": "2020-2024: mondes fragmentés (pandémie, polarisations, guerres)",
         "textDescription": "2020-2024 = transition monde postérieur multipolaire. Trois dynamiques:\n\n1) Covid-19 (2020) = révèle fragilité: chaînes logistiques disruption, États redécouvrent frontières, inégalités sanitaires (riches vs pauvres vaccins), démocraties vs autoritaires réponses différentes.\n\n2) USA-Chine rivalité = nouvelle Guerre froide? Guerre commerciale (tarifs 2018-2025), technologie (Huawei, semiconducteurs, IA), géographie (Taiwan, Taïwan = pomme discorde). Différence Guerre froide 1: économie interconnectée (pas blocs séparés). Différence 2: acteurs non-étatiques importants (multinationales, tech companies).\n\n3) Russie-Ukraine (2022) = geleé conflictualité. Montre: guerres \"classiques\" territoriales pas disparues. Alignements: Occident (USA+Europe) vs Russie-Chine. Mais nombreux pays refusent choisir (Inde, Brésil, Afrique = non-alignement nouveau).\n\nRÉSULTAT: monde fragmenté (pas bipolaire ni unipolaire) = multipolarité instable = guerres + coopérations = incertain.",
         "videoURL": "https://www.youtube.com/watch?v=4S4kq0XgWAE",
-        "externalLinkURL": "https://fr.wikipedia.org/wiki/Invasion_de_l%27Ukraine_par_la_Russie_en_2022"
+        "externalLinkURL": "https://fr.wikipedia.org/wiki/Invasion_de_l%27Ukraine_par_la_Russie_en_2022",
+        "linkedCardIndices": [
+          39,
+          40,
+          43,
+          44
+        ]
       }
     ],
     "stableId": "bac_histoire_reperes_chronologie",
@@ -2729,7 +3006,7 @@
       },
       {
         "front": "Combien de notions comporte le programme de philosophie en terminale générale ?",
-        "back": "Le programme officiel de terminale générale comporte 17 notions. Réf : https://www.education.gouv.fr/media/70302/download",
+        "back": "Le programme officiel de terminale générale comporte 17 notions, publiées au Bulletin officiel.",
         "hint": "Dix-sept notions."
       },
       {
@@ -2747,62 +3024,110 @@
       {
         "name": "Programme officiel 2025: notions, auteurs, repères (Éduscol)",
         "textDescription": "Pour réviser juste et éviter les hors-pistes, commence par le cadre officiel : le programme de terminale générale (Éduscol) précise les perspectives de travail, les 17 notions, les auteurs recommandés, et les repères (distinctions). Ce n'est pas un « cours », mais une carte : il indique ce qu'on attend que tu saches manipuler et mobiliser.\n\nStratégie efficace de révision : transforme le programme en plan de travail. Pour chaque notion, prépare : (1) une définition courte (< 30 mots), (2) deux distinctions (repères) utiles, (3) un exemple concret personnel (un cas où tu as observé ceci), (4) un auteur ou deux qu'on peut mobiliser.\n\nCes quatre éléments forment une « boîte à outils réutilisable ». Ils te permettront, le jour J, de construire un plan rapidement sur n'importe quel sujet tombant sur ces notions, sans improvisation.\n\nLes repères sont souvent sous-estimés. Pourtant, une distinction bien placée (ex : en fait vs en droit, relatif vs absolu) clarifie un sujet, gagne du crédit et montre que tu as pensé le problème plutôt que l'avoir plaqué.\n\nEnfin, garde ce lien en référence permanente. Le programme est stable ; il est ta ressource 100% de confiance.",
-        "videoURL": "https://www.lumni.fr/video/l-epreuve-de-philosophie-l-analyse-du-sujet",
-        "externalLinkURL": "https://eduscol.education.fr/1702/programmes-et-ressources-en-philosophie-voie-gt"
+        "videoURL": "https://www.youtube.com/watch?v=jGzTHOM0CV0",
+        "externalLinkURL": "https://eduscol.education.fr/1702/programmes-et-ressources-en-philosophie-voie-gt",
+        "linkedCardIndices": [
+          20,
+          21
+        ]
       },
       {
         "name": "Analyser le sujet: définir, présupposer, problématiser (Lumni)",
         "textDescription": "L'analyse du sujet est l'étape rentable qui te protège du hors-sujet et rend ton plan naturel. Elle procède en trois mouvements clairs.\n\nD'abord, définis les termes clés du sujet. Pas une simple énumération : montre que les termes peuvent avoir plusieurs sens. Exemple : « sujet » peut signifier « individu », « citoyen », ou « matière d'étude ». Problématise cette ambiguïté.\n\nEnsuite, repère les présupposés : ce que le sujet suppose déjà vrai et sans preuve. Exemple : « Comment donner un sens à la vie ? » suppose que la vie n'en a pas naturellement et qu'on doit le créer. Mettre au jour ce présupposé change ta réflexion.\n\nEnfin, fais apparaître la difficulté : une tension, une contradiction possible, ou un conflit entre deux exigences légitimes (ex : liberté vs égalité, justice vs compassion). Cette difficulté devient ta problématique.\n\nMéthode pratique rapide : reformule la question en phrase simple, puis propose une réponse « trop facile ». Demande-toi immédiatement : « Qu'est-ce qui la rendrait fausse ? Que répondrait un malin ? » Tu viens de trouver une objection, donc une vraie piste de plan.\n\nBon signe que ta problématique est solide : si elle change, ton plan doit changer aussi. Sinon, ta problématique est encore trop molle.",
-        "videoURL": "https://www.lumni.fr/video/comment-analyser-un-sujet-de-philosophie",
-        "externalLinkURL": "https://eduscol.education.fr/1702/programmes-et-ressources-en-philosophie-voie-gt"
+        "videoURL": "https://www.youtube.com/watch?v=uHXsTLlhLx0",
+        "externalLinkURL": "https://eduscol.education.fr/2320/philosophie",
+        "linkedCardIndices": [
+          2,
+          3,
+          4
+        ]
       },
       {
         "name": "Construire une problématique : du problème au plan (Lumni)",
         "textDescription": "Une problématique n'est pas la répétition du sujet avec un point d'interrogation. C'est la formulation de la difficulté : pourquoi la question n'a pas une réponse simple, et quelles options de réponse entrent en concurrence.\n\nMéthode de construction : (1) définis les termes et leurs ambiguïtés, (2) identifie une opposition ou une tension (exemple : aparence/réalité, en droit/en fait, subjectif/objectif, liberté/nécessité), (3) demande-toi ce qui est en jeu si la réponse est « oui » ou « non ». Ce « en jeu » révèle la profondeur du problème.\n\nEnsuite, transforme cette difficulté en question directrice. Ton plan devient alors une progression naturelle : une première réponse plausible, une objection qui la met en crise, puis un dépassement ou une réponse nuancée qui tient compte des deux côtés.\n\nL'important : ta problématique n'est pas une opinion. C'est une formulation de la difficulté conceptuelle. Le résultat attendu n'est pas une certitude, mais une réponse argumentée, nuancée, capable de rendre compte des limites.\n\nExemple : sujet « La conscience est-elle liberté ? » Une problématique peut être : « Si la conscience est la capacité à réfléchir avant d'agir, comment concilier cela avec le déterminisme scientifique (les neurosciences semblent montrer que nos décisions sont déterminées) ? »",
-        "videoURL": "https://lesbtuteurs.com/philosophie-premiere-et-terminale/construire-une-problematique",
-        "externalLinkURL": "https://eduscol.education.fr/document/24049/download"
+        "videoURL": "https://www.youtube.com/watch?v=aGKODrgFNyI",
+        "externalLinkURL": "https://eduscol.education.fr/document/24049/download",
+        "linkedCardIndices": [
+          2,
+          3,
+          8,
+          9
+        ]
       },
       {
         "name": "Faire un plan efficace sans schéma plaqué (Les Bons Profs)",
         "textDescription": "Le plan doit suivre les difficultés du problème. Un bon plan n'est pas un « pour/contre/synthèse » mécanique. Il est construit pour ce sujet précis et montre une progression rationnelle.\n\nProcédure concrète : écris deux réponses opposées possibles au sujet. Note un argument fort pour chacune et une objection à chacun. Tu obtiens naturellement trois moments : position 1, sa critique (objection), puis position 2 avec sa objection, puis reconstitution/dépassement.\n\nDans chaque partie, évite les catalogues. Vise 2 arguments solides maximum. Chacun doit être appuyé par un exemple concret et, si possible, une référence conceptuelle ou d'auteur. La clarté vaut beaucoup plus que la quantité d'informations.\n\nEnfin, annonce ton plan en introduction comme une trajectoire logique : « Nous verrons d'abord que X, mais cela implique paradoxalement Y, d'où la nécessité de dépasser… ». Montre le lien logique entre les étapes. Cela donne l'impression que le plan « coule de source » du problème.\n\nRedoutable aussi : lors de la rédaction, commence chaque partie par une phrase courte qui relie au problème et à la partie antérieure. Cela maintient la tension du devoir et évite que les parties semblent indépendantes.",
-        "videoURL": "https://www.youtube.com/watch?v=LesBonsProfs-philo-plan",
-        "externalLinkURL": "https://eduscol.education.fr/2320/philosophie"
+        "videoURL": "https://www.youtube.com/watch?v=n5BpkETXrLM",
+        "externalLinkURL": "https://eduscol.education.fr/document/61159/download",
+        "linkedCardIndices": [
+          6,
+          7,
+          8,
+          10,
+          11
+        ]
       },
       {
         "name": "Introduction de dissertation: accroche, définitions, problème, plan (Lumni)",
         "textDescription": "Une introduction réussie fait cinq choses dans un ordre stratégique : elle installe le sujet, clarifie les termes, pose le problème, annonce le plan, et montre leur cohérence.\n\nL'accroche doit être pertinente et brève. Pas une grande histoire : une situation, un constat, une pratique, une intuition qui rend le sujet pertinent. Exemple pour « Peut-on désirer ce qu'on ne connaît pas ? » : « Chaque jour, la publicité joue sur nos envies pour des produits que nous n'avions jamais pensé posséder ». Cela montre que le sujet est réel.\n\nEnsuite, définis les mots-clés (2-3 lignes par terme). Montre qu'il y a ambiguïté ou que le terme cache une difficulté. Reformule la question pour montrer que tu l'as comprise au-delà de sa surface.\n\nPuis, formule clairement ta problématique : la difficulté centrale qui explique pourquoi il faut réfléchir. Fais-la courte (2-3 lignes) et en français clair.\n\nEnfin, annonce le plan comme une progression logique répondant au problème. Si le plan est bon, son annonce paraît « évidente » parce qu'elle suit le problème. Pas de suspense; de la clarté.\n\nAstuce pratique : écris d'abord défini + problématique + plan, PUIS ajoute l'accroche à la fin. Tu éviteras la tentation du blabla et gagneras en précision.",
-        "videoURL": "https://www.lumni.fr/video/la-dissertation-de-philosophie-l-introduction",
-        "externalLinkURL": "https://www.lumni.fr/video/l-epreuve-de-philosophie-la-dissertation"
+        "videoURL": "https://www.youtube.com/watch?v=N8CyAKFoFfM",
+        "externalLinkURL": "https://fr.wikipedia.org/wiki/Probl%C3%A9matique",
+        "linkedCardIndices": [
+          12
+        ]
       },
       {
         "name": "Développement: argumenter, exemplifier, objecter sans confusion (Les Bons Profs)",
         "textDescription": "Dans le développement, chaque paragraphe est une mini-démonstration : une idée, un argument qui la soutient, un exemple qui l'éclaire, une analyse de cet exemple. C'est la structure gagnante.\n\nL'erreur la plus fréquente : poser une idée sans la justifier, ou empiler des exemples sans montrer ce qu'ils prouvent. Correct : « La liberté est une construction sociale (idée). En effet, les individus naissent dans un cadre culturel et légal qui définit ce qui est possible ou interdit (argument). Par exemple, la liberté vestimentaire varie selon les sociétés ; ce qu'on peut porter est un fait culturel, pas naturel (exemple). Cela montre que même nos choix les plus personnels sont façonnés socialement (analyse) ».\n\nFais vivre les objections. Ce ne sont pas des « avis personnels ». Ce sont des tests de solidité de ta position. Technique : renforce une objection à ta première position, puis réponds. Exemple : « On pourrait objecter que les individus violents contredisent cette règle, car ils font ce qu'ils veulent. Mais répondre à cela c'est montrer que la « liberté sauvage » n'existe pas ; la liberté est justement cette capacité à maîtriser ses impulsions ».\n\nLes auteurs servent à structurer la pensée, pas à décorer. Mobilise une idée claire, explique-la en une phrase (pas deux pages), puis applique-la au sujet. Si tu ne peux pas l'appliquer, ne l'insiste pas.\n\nEnfin, garde une progression : chaque partie doit faire avancer la réponse à la problématique. Pas d'accumulation d'infos.",
-        "videoURL": "https://lesbtuteurs.com/philosophie-premiere-et-terminale/rediger-le-developpement-dune-dissertation",
-        "externalLinkURL": "https://eduscol.education.fr/document/24049/download"
+        "videoURL": "https://www.youtube.com/watch?v=s0YxTa3jsGw",
+        "externalLinkURL": "https://www.cnrtl.fr/definition/philosophie",
+        "linkedCardIndices": [
+          6,
+          7,
+          8,
+          19
+        ]
       },
       {
         "name": "Conclusion: répondre, synthétiser, ouvrir sans rupture (Lumni)",
         "textDescription": "La conclusion répond à la problématique et synthétise la progression en 6-8 lignes. Elle n'introduit pas une grande idée nouvelle. Si une nouvelle idée apparaît, c'est qu'elle devait être dans le développement.\n\nStructure simple et efficace : (1) Répondre clairement à la question posée (une ou deux phrases). Pas un « oui » ou « non » brutal, mais une réponse nuancée. Exemple : « La conscience n'est pas simplement la liberté de faire ce qu'on veut, mais plutôt la capacité à réfléchir sur ses choix et à se donner des raisons ». (2) Rappel très bref des étapes de l'argumentation (une phrase). Montre que ta copie « se tient ». (3) Ouverture courte (limite, autre notion, autre question proche). L'ouverture doit rester cohérente avec ce que tu as montré, pas te sauter ailleurs.\n\nUne bonne conclusion donne l'impression que la copie « tient debout ». Elle ferme le raisonnement proprement. Elle est aussi l'occasion de montrer une nuance finale : conditions, limites, extensions légales du problème.\n\nEn entraînement, écris ta conclusion en 6-8 lignes maximum. Cela force la clarté et empêche la dispersion.",
-        "videoURL": "https://www.lumni.fr/video/la-dissertation-de-philosophie-la-conclusion",
-        "externalLinkURL": "https://www.lumni.fr/dossier/revisions-du-bac-philosophie"
+        "videoURL": "https://www.youtube.com/watch?v=JxEaaNIzZ6o",
+        "externalLinkURL": "https://fr.wikipedia.org/wiki/Dissertation_(philosophie)",
+        "linkedCardIndices": [
+          22
+        ]
       },
       {
         "name": "Explication de texte : ce qu'on attend vraiment (Les Bons Profs)",
         "textDescription": "L'explication de texte consiste à rendre intelligible la thèse du texte et le raisonnement qui la soutient. Le cœur du travail : identifier la question du texte, la thèse, les concepts clés, puis suivre rigoureusement les étapes argumentatives.\n\nParaphrase vs explication. Paraphrase = dire la même chose en d'autres mots sans comprendre. Explication = montrer COMMENT l'auteur arrive à sa conclusion. Pour l'éviter, appuie-toi sur les connecteurs logiques (« donc », « car », « mais », « alors que ») et demande-toi à chaque étape : « Que veut prouver l'auteur ici ? Pourquoi dit-il cela maintenant ? ».\n\nMéthode efficace : découpe le texte en 2-3 mouvements logiques (pas des paragraphes, mais des étapes du raisonnement). Puis pour chaque mouvement, explique : (1) l'idée/concept central, (2) l'argument qui le soutient, (3) le lien logique avec ce qui précède. Montre comment l'auteur construit son raisonnement étape par étape.\n\nVérification de cohérence : ta copie doit pouvoir résumer la thèse du texte en une phrase claire et sans contresens. Si c'est flou, tu as mal compris.\n\nAutre piège : rester collé au texte au point de devenir une paraphrase. Non, explique : « En montrant que… l'auteur établit que… ce qui signifie que… ». Pas : « L'auteur dit que… puis il dit que… ».",
         "videoURL": "https://www.youtube.com/watch?v=KKVnQKWQHMM",
-        "externalLinkURL": "https://www.education.gouv.fr/media/70302/download"
+        "externalLinkURL": "https://www.assistancescolaire.com/eleve/TL/philosophie",
+        "linkedCardIndices": [
+          1,
+          15,
+          17,
+          18
+        ]
       },
       {
         "name": "Explication de texte : introduction et stratégie de lecture (Lumni)",
         "textDescription": "L'introduction en explication de texte sert un but : préparer le lecteur à suivre ton analyse. Ne raconte pas la vie de l'auteur. Présente le thème du texte, sa question centrale, et sa thèse principale (la réponse qu'il apporte).\n\nUne lecture active du texte : (1) surligne les termes-clés et les notions qu'il utilise, (2) repère les CONNECTEURS LOGIQUES (ils sont la charpente de l'argument), (3) identifie où l'auteur définit ses concepts. Ces trois choses forment ta carte.\n\nEnsuite, avant de rédiger, divise mentalement le texte en mouvements : où démarre le raisonnement, où se renforce-t-il, où répond-il à une objection implicite, où conclut-il. Cette cartographie rend l'explication fluide et évite la lecture linéaire confuse.\n\nPour l'introduction, dis : « Le texte pose la question de X. L'auteur défend la thèse que Y. Pour cela, il argumente en montrant Z ». Trois phrases, c'est souvent assez.\n\nEntraîne-toi sur des textes courts (une page) : l'objectif est de voir vite la thèse et la structure, pas de tout comprendre au premier coup.",
-        "videoURL": "https://www.lumni.fr/video/comment-expliquer-un-texte-philosophique",
-        "externalLinkURL": "https://eduscol.education.fr/1702/programmes-et-ressources-en-philosophie-voie-gt"
+        "videoURL": "https://www.youtube.com/watch?v=9Jh04C_6LDA",
+        "externalLinkURL": "https://www.assistancescolaire.com/eleve/TES/philosophie",
+        "linkedCardIndices": [
+          16
+        ]
       },
       {
         "name": "Explication de texte : développement (thèse locale, arguments, concepts)",
         "textDescription": "Dans le développement, tu suis le raisonnement du texte en l'expliquant étape par étape. Pour chaque passage, trois réflexes.\n\nD'abord, clarifie les concepts : ce que l'auteur entend par tel mot, et comment cette définition soutient sa thèse globale. Exemple : si l'auteur dit « liberté », cherche sa définition implicite ou explicite dans le texte. Ne projette pas ta propre définition.\n\nEnsuite, formule la thèse locale du passage (la mini-conclusion de cette étape) en une phrase. Puis montre comment elle s'appuie sur une raison, une distinction, une définition, ou un exemple. « Parce que » et « par conséquent » sont tes meilleurs amis.\n\nAttention aux contresens. Ne projette pas tes idées sur le texte. Reste fidèle à ce qui est écrit et à sa logique interne. Relis constamment les passages pour vérifier que tu n'as pas glissé hors du sens de l'auteur.\n\nÀ la fin, ta copie doit rendre le texte plus transparent qu'au départ, comme si tu avais « déplié » son raisonnement. Un lecteur qui ignorerait le texte original devrait, en lisant ta copie, avoir saisi la thèse et le chemin qui y mène.",
         "videoURL": "https://www.youtube.com/watch?v=YJlKQvVBWdA",
-        "externalLinkURL": "https://www.lumni.fr/dossier/revisions-du-bac-philosophie"
+        "externalLinkURL": "https://www.lumni.fr/dossier/revisions-du-bac-philosophie",
+        "linkedCardIndices": [
+          13,
+          14,
+          17
+        ]
       }
     ],
     "stableId": "bac_philosophie_notions",
@@ -7753,7 +8078,7 @@
         "name": "Corrélation vs causalité : le piège des confusions",
         "textDescription": "Une corrélation peut apparaître sans lien causal direct. Un facteur de confusion peut influencer à la fois la “cause” et “l’effet”.\n\nPour parler de causalité, il faut des méthodes plus robustes : essais randomisés, quasi-expériences, ou analyses causales soigneuses.\n\nLe réflexe utile : “qu’est-ce qui pourrait expliquer autrement ce lien ?”.\n\nC’est une compétence transversale, utile en santé, économie et politique publique.",
         "videoURL": "https://www.youtube.com/watch?v=GtV-VYdNt_g",
-        "externalLinkURL": "https://fr.wikipedia.org/wiki/Corr%C3%A9lation_et_causalit%C3%A9",
+        "externalLinkURL": "https://fr.wikipedia.org/wiki/Corr%C3%A9lation_n%27implique_pas_causalit%C3%A9",
         "linkedCardIndices": [
           6,
           7,
@@ -8641,7 +8966,7 @@
         "name": "Phishing : l’entrée la plus fréquente",
         "textDescription": "Les attaques exploitent souvent l’urgence et l’autorité.\n\nVérifie via un canal indépendant, ne partage jamais de codes.\n\nÉvite de cliquer : va toi-même sur le site.\n\nFormer ces réflexes évite la majorité des incidents.",
         "videoURL": "https://www.youtube.com/watch?v=EZsaA0w_0z0",
-        "externalLinkURL": "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/bonnes-pratiques/hameconnage-phishing",
+        "externalLinkURL": "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/fiches-reflexes/hameconnage-phishing",
         "linkedCardIndices": [
           4,
           5,
@@ -9090,7 +9415,7 @@
         "name": "Phishing : la check-list rapide",
         "textDescription": "Le phishing exploite l'urgence (\"vérifie tout de suite\"), l'autorité (\"ta banque\"), ou la curiosité. Red flags : domaine ne correspond pas au vrai site, fautes d'orthographe, pièce jointe inattendue, ou \"clique maintenant\".\n\nMeilleure défense : ralentis et vérifie indépendamment. Ne clique pas le lien. Ouvre un nouvel onglet, navigue toi-même vers le vrai site, et cherche les infos depuis là.\n\nNe partage jamais ton code 2FA. Aucune institution ne le demande.\n\nSi doute, appelle le numéro officiel du site ou demande à ton IT.\n\nSignale le phishing pour protéger les autres.",
         "videoURL": "https://www.youtube.com/watch?v=EZsaA0w_0z0",
-        "externalLinkURL": "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/bonnes-pratiques/hameconnage-phishing",
+        "externalLinkURL": "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/fiches-reflexes/hameconnage-phishing",
         "linkedCardIndices": [
           12,
           13,
@@ -11563,42 +11888,77 @@
         "textDescription": "Logique formelle se préoccupe structure, pas contenu. Argument simple : (1) Tous A sont B. (2) X est A. (3) Donc X est B. Structure valide. Contenu peut être anything. Exemple 1 : Tous chats ont fourrure. Félix est chat. Félix a fourrure. Valide + vrai. Exemple 2 : Tous dragons volent. Boris est dragon. Boris vole. Valide mais irréaliste (dragons ?). Validité logique préserved. Cela montre : argument structure peut dépendre de contenu réalité. Deux aspects importants : (1) Validité logique : prémisse → conclusion suivent mathematically. (2) Solidité : prémisses vrais + logiquement valide = conclusion vraie. Vous devez check both : argument invalid content correct ≠ utile (conclusion fausse possible). Argument valid contenu faux ≠ utile (si prémisse fausse). Educé pensée critique demande examiner both structure et facts.",
         "videoURL": "https://www.youtube.com/watch?v=HZGCoVF3YvM",
         "externalLinkURL": "https://www.philomag.com/lexique/logique",
-        "linkedCardIndices": [0, 1, 2, 3]
+        "linkedCardIndices": [
+          0,
+          1,
+          2,
+          3
+        ]
       },
       {
         "name": "Les sophismes courants : arsenal pour débusquer mauvaise pensée",
         "textDescription": "Sophismes courants : ad hominem (attaque personne), homme de paille (déformation argument), pente glissante (causalité non-prouvée), faux dilemme (deux options seulement), appel à l'autorité (expertise non-appropriée), tu quoque (two wrongs). Vous les rencontrez daily. Débat politique : « Vous prétendez ambiente. Mais voiture polluante » = tu quoque. Médias populaires : « Docteur X dit Y. Croyez docteur X » = appel à l'autorité (docteur quel domaine ? criminaliste sur virology = zero credibilité). Débat personnel : « Si permit marijuana, société collapse » = pente glissante (Portugal légalisa, society ok). Reconnaître sophismes fortifie pensée. Technique : quand argument semble off, demander « Quelle sophisme c'est ? ». Si nommez, you've identified weakness. Débusquer sophismes n'annule pas argument (peut être valide), mais flagge need verify prémisses. Sophisme = red flag, not game-ender.",
         "videoURL": "https://www.youtube.com/watch?v=V6mKVRU1evU",
         "externalLinkURL": "https://www.philomag.com/lexique/dialectique",
-        "linkedCardIndices": [4, 5, 7, 8, 9, 12]
+        "linkedCardIndices": [
+          4,
+          5,
+          7,
+          8,
+          9,
+          12
+        ]
       },
       {
         "name": "Comment évaluer si source crédible : expertise, bias, consensus",
         "textDescription": "Trois critères évaluer source : (1) Expertise. Auteur a formation/experience domaine ? Docteur parle santé, mais quel docteur ? Cardiologue peut moins credible psychiatrie. Vérifier credentials. (2) Absence bias. Auteur a conflit intérêt ? Chercheur payé tobacco industry parlant smoking-safety = obvious bias. Mais subtile biases aussi existent (professional pride, tribal allegiance). Vous ne pouvez jamais eliminate, mais recognizing important. (3) Consensus. Qu'est-ce que scientific consensus ? 97% climatologues acceptent changement anthropique = strong consensus. 1 dissenter n'annule pas 97. Cela ne signifie scientifique wrong (paradigm shifts happen), mais burden of proof on dissenter. Application : évaluant article, demander : (A) Auteur expert ? (B) Intérêt apparent ? (C) Align consensus ou outlier ? Si expert + no clear bias + align consensus = credible. Si tout opposé = sceptique justified.",
         "videoURL": "https://www.youtube.com/watch?v=F6gT1PMSH0M",
         "externalLinkURL": "https://www.francetvinfo.fr/sciences/",
-        "linkedCardIndices": [4, 6, 8, 21]
+        "linkedCardIndices": [
+          4,
+          6,
+          8,
+          21
+        ]
       },
       {
         "name": "Épistémologie pratique : comment savez-vous ce que pensez savoir",
         "textDescription": "Épistémologie : théorie knowledge. Question simple mais deep : « Comment savez-vous ? ». Répondez vous-même : « COVID dangereuse. Comment sais ? ». Réponse possible : « Gouvernement dit ». Epistemically faible (autorité peut error). Meilleur : « Data publique montre deaths augmentent ». Encore meilleur : « J'ai analyzed datos moi-même ». Même meilleur : « Je suis epidemiologist entraîné ». Chaque level = epistemic foundation meilleur. Application : quand quelqu'un dit quelque chose, exiger justification. « Je le sais juste » = red flag (possible bias confirmation sans examen). « C'est consensus scientifique » = credible (mais vérifier : vraiment consensus ?). « C'était ma expérience » = anecdotal (peut être survivor bias). Cultic leadership uses epistemic manipulation : « Ne questionnez pas, croyez ». Penser critique demande demander comment vous savez, accepter justifications insufficient.",
         "videoURL": "https://www.youtube.com/watch?v=T9oCEosfeFM",
         "externalLinkURL": "https://eduscol.education.fr/",
-        "linkedCardIndices": [10, 11, 18, 19, 20]
+        "linkedCardIndices": [
+          10,
+          11,
+          18,
+          19,
+          20
+        ]
       },
       {
         "name": "Éthique appliquée : comment appliquer utilitarisme, déontologie, vertus à décisions réelles",
         "textDescription": "Trois cadres éthiques offrent perspectives différentes même situation. Exemple : vous trouvez portefeuille riche. Frameworks : (1) Utilitarianisme : rendre portefeuille maximise bonheur (owner + vous si recevez reward = net positive). (2) Déontologie : rendre obligatoire (ne pas voler, keeper, intrinsèquement droit). (3) Vertus : quelle vertueux personne fait ? (Honnêteté, intégrité, compassion = rendre). Tous trois guide rendre (outcome bon, action obligation, character droit). Mais différent situations divergent. Exemple 2 : you lying médecin pour sauver ami patient. Utilitarianisme : approverait (saving life = max bonheur). Déontologie : rejeté (mensonge intrinsèquement mal). Vertus : dépend (compassion suggest mensonge, honnêteté suggests révéler). Implication : no perfect cadre. Choisissez selon contexte. Utilisé ensemble = enrichit moral reasoning. Simplement utilitarianisme = peut justifier atrocités (sacrifice innocent). Simplement déontologie = peut être rigide (lie never ok). Simplement vertus = peut être vague (qui définit virtueux ?). Flexible moral reasoning = intégrer multiple frameworks.",
         "videoURL": "https://www.youtube.com/watch?v=ydegAGqCpC8",
         "externalLinkURL": "https://www.philomag.com/lexique/ethique",
-        "linkedCardIndices": [13, 14, 15, 16, 17]
+        "linkedCardIndices": [
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
       },
       {
         "name": "Le biais de confirmation : pourquoi vous pensez rationnel mais vous n'êtes pas",
         "textDescription": "Confirmation bias : tendance inconsciente seeking, interpreting, remembering evidence supportant croyances existantes. Vous croyez thérapie Z fonctionn. Client améliore → credit thérapie. Client détériore → external factors (stress). Même évidence interprétée supporting croyance. Scientifiques sujet : croyant hypothesis X important → design expérience favorisant X, interprète ambiguous résultats X. Politique : supporter candidate Y → voir forces Y, weakness opposition. Opposant candidate Y → voir weakness Y, forces opposition. Même news consommed, opposite interpretations. Cela explique pourquoi débat impossible (both sides convinced right, ignoring counter-evidence). Solution : intellectuelle honêteté. Quand lire article critiquant croyance, force complétement lire. Note points valides (non faciles). Si ne trouve AUCUN points valides = probable confirmation bias. Exercice : articuler argument opposite votre croyance honnêtement. Si simplement rejet = bias probable.",
         "videoURL": "https://www.youtube.com/watch?v=KX6rF12d7fY",
         "externalLinkURL": "https://www.philomag.com/articles",
-        "linkedCardIndices": [21, 22, 23, 24, 25]
+        "linkedCardIndices": [
+          21,
+          22,
+          23,
+          24,
+          25
+        ]
       }
     ]
   },
@@ -11806,56 +12166,104 @@
         "textDescription": "La Route de la Soie (IIe siècle avant J.-C.–XVe siècle) n'était pas une route unique mais un vaste réseau reliant Chine, Asie centrale, Perse, Inde et Europe.\n\nLe commerce de marchandises (soie, épices, céramiques, métaux) était crucial. Mais aussi important : les technologies ont voyagé (imprimerie, poudre à canon vers l'ouest ; technologies agricoles vers l'est), les religions se sont propagées (bouddhisme, islam), les styles architecturaux et artistiques se sont mélangés.\n\nÉtudier la Route de la Soie révèle que la mondialisation est ancienne, non moderne. Elle montre aussi comment les régions intermédiaires (Asie centrale, Perse) étaient des centres de richesse et de culture, pas seulement des périphéries.\n\nUtilisez la Route de la Soie pour comprendre : le commerce crée l'échange culturel ; la distance est relative ; les régions non-occidentales étaient des centres dynamiques.",
         "videoURL": "https://www.youtube.com/watch?v=2-pMwXz75qE",
         "externalLinkURL": "https://www.herodote.net/Route_de_la_soie-synthese-86.php",
-        "linkedCardIndices": [14, 17, 19, 22, 34]
+        "linkedCardIndices": [
+          14,
+          17,
+          19,
+          22,
+          34
+        ]
       },
       {
         "name": "Empires africains : Mali et Songhai",
         "textDescription": "L'Afrique de l'Ouest, XIIIe–XVIe siècles, abritait des États puissants et organisés contrôlant le commerce transsaharien d'or et de sel.\n\nMali (1230–1600) et Songhai (1464–1591) n'étaient pas des sociétés tribales isolées mais des empires avec systèmes administratifs, armées et centres d'apprentissage islamique. Tombouctou avait une université.\n\nIls ont été perturbés en partie par l'exploration portugaise et la traite d'esclaves, illustrant comment les pressions externes ont altéré les trajectoires africaines.\n\nIdée reçue clé : l'Afrique n'avait pas 'd'histoire' avant le contact européen. En réalité, l'Afrique précoloniale avait des États complexes, des réseaux commerciaux et des traditions intellectuelles. Apprendre ceci corrige un biais eurocentriste profond.",
         "videoURL": "https://www.youtube.com/watch?v=1EnWnuC-Mz4",
         "externalLinkURL": "https://www.herodote.net/Mali_l_empire_du_Mande-synthese-2410.php",
-        "linkedCardIndices": [17, 18, 19, 22, 34]
+        "linkedCardIndices": [
+          17,
+          18,
+          19,
+          22,
+          34
+        ]
       },
       {
         "name": "L'Empire moghol : science islamique et gouvernance en Asie",
         "textDescription": "L'Empire moghol (1526–1857) a gouverné le Sous-continent indien avec un système administratif multiculturel et sophistiqué.\n\nLes Moghols ont synthétisé les cultures persane, islamique et indienne. Ils ont patronné l'architecture (Taj Mahal, Fort Rouge de Delhi), les savants et ont construit des réseaux commerciaux s'étendant en Europe et Asie du Sud-Est.\n\nLeur système administratif a influencé la gouvernance coloniale britannique ultérieure.\n\nImportance : cela remet en question l'hypothèse que l'Asie était statique avant le contact occidental. Les Moghols montrent des empires prospères, des échanges intellectuels et une statecraft complexe rivalisant l'Europe. Comprendre ceci corrige les narratifs eurocentriques des manuels.",
         "videoURL": "https://www.youtube.com/watch?v=nC5SDOelImU",
         "externalLinkURL": "https://www.herodote.net/Empire_moghol-synthese-258.php",
-        "linkedCardIndices": [15, 17, 22, 34]
+        "linkedCardIndices": [
+          15,
+          17,
+          22,
+          34
+        ]
       },
       {
         "name": "Restauration Meiji : modernisation sans occidentalisation",
         "textDescription": "Le Japon, post-1868, faisait face à un choix : résister ou s'adapter à l'Occident ? Les Meiji ont choisi l'adoption stratégique.\n\nIls ont importé chemins de fer, aciéries, systèmes bureaucratiques et technologie militaire. Mais ils ont préservé les traditions shinto, l'éducation en langue japonaise et les valeurs hiérarchiques.\n\nParfois 1910, le Japon était une grande puissance—non par occidentalisation complète mais par emprunt contrôlé et sélectif.\n\nLeçon clé : la modernisation ne requiert pas l'occidentalisation. Les sociétés non-occidentales peuvent innover tout en maintenant l'identité. Ceci rompt le faux binaire de 'traditionnel vs moderne'. Montre aussi comment la transformation rapide est possible avec une décision centralisée et une cohérence culturelle.",
         "videoURL": "https://www.youtube.com/watch?v=J0uZFSAHy2I",
         "externalLinkURL": "https://www.herodote.net/Japon-synthese-2410.php",
-        "linkedCardIndices": [4, 16, 23, 26, 27]
+        "linkedCardIndices": [
+          4,
+          16,
+          23,
+          26,
+          27
+        ]
       },
       {
         "name": "Décolonisation : la fin de l'empire",
         "textDescription": "Entre 1945–1975, la plupart des territoires coloniaux ont gagné l'indépendance. Ceci n'était pas inévitable : les empires ont combattu pour conserver le pouvoir (Indochine française, Algérie ; Kenya britannique). Cela a réussi via mouvements nationalistes, droit international (Charte ONU) et l'affaiblissement post-WWII des puissances européennes.\n\nLa décolonisation a reconfiguré le monde : nouvelles nations ont rejoint l'ONU, la Guerre froide a compétitionné pour leur allégeance, et beaucoup ont lutté avec des frontières imposées et des économies extractivistes.\n\nComprendre la décolonisation est clé à la géopolitique moderne. Les conflits actuels reflètent souvent l'héritage colonial (frontières artificielles, extraction de ressources, méfiance envers les institutions). Cela montre aussi comment les shifts de pouvoir—les empires, autrefois permanents, se sont effondrés rapidement.",
         "videoURL": "https://www.youtube.com/watch?v=HBgOhWiKC0U",
         "externalLinkURL": "https://www.lumni.fr/dossier/la-decolonisation",
-        "linkedCardIndices": [20, 21, 22, 26, 30]
+        "linkedCardIndices": [
+          20,
+          21,
+          22,
+          26,
+          30
+        ]
       },
       {
         "name": "Impérialisme et ses effets durables",
         "textDescription": "XIXe et début XXe siècles : les puissances européennes ont divisé l'Afrique, l'Asie et parties des Amériques via la force militaire, revendications légales et domination économique.\n\nL'impérialisme a été justifié par idéologie raciste ('mission civilisatrice', darwinisme social) et politique de puissance compétitive.\n\nEffets : extraction de ressources ; création de frontières artificielles ; imposition de langues et religions ; disruption des économies locales ; semis de ressentiment nationaliste.\n\nL'inégalité mondiale actuelle, zones de conflit (Moyen-Orient, Afrique) et domination linguistique/culturelle (anglais, français) tracent partiellement à l'impérialisme. Reconnaître ce schéma aide à expliquer la géopolitique moderne et réduit les hypothèses eurocentriques sur les hiérarchies 'naturelles'.",
         "videoURL": "https://www.youtube.com/watch?v=iKJcA3dHhvo",
         "externalLinkURL": "https://www.herodote.net/Imperialisme-synthese-1817.php",
-        "linkedCardIndices": [21, 22, 26, 27, 30, 32, 34]
+        "linkedCardIndices": [
+          21,
+          22,
+          26,
+          27,
+          30,
+          32,
+          34
+        ]
       },
       {
         "name": "Lumières et démocratie moderne",
         "textDescription": "XVIIe–XVIIIe siècles : les penseurs européens (Locke, Montesquieu, Rousseau) ont soutenu que l'autorité politique vient de la raison, des droits naturels et du peuple—non du droit divin ou de la tradition.\n\nCes idées ont justifié les révolutions (américaine 1776, française 1789) et façonné les constitutions modernes, séparation des pouvoirs et concepts de droits universels.\n\nMais nuance : les penseurs des Lumières étaient produits de leur époque. Beaucoup soutenaient l'esclavage, le colonialisme et les hiérarchies de genre. Aussi, des idées similaires se sont développées indépendamment dans des contextes non-occidentaux.\n\nLeçon : tracez les racines intellectuelles de la politique moderne ; reconnaissez les contributions des Lumières tout en critiquant leurs limites ; évitez d'assumer que les idées occidentales sont supérieures—comparez avec la jurisprudence islamique, la philosophie chinoise, etc.",
         "videoURL": "https://www.youtube.com/watch?v=HbeEJ7BG2Q4",
         "externalLinkURL": "https://www.herodote.net/Les_Lumieres-synthese-1730.php",
-        "linkedCardIndices": [3, 5, 6, 23, 33]
+        "linkedCardIndices": [
+          3,
+          5,
+          6,
+          23,
+          33
+        ]
       },
       {
         "name": "Capitalisme vs socialisme : débat persistant",
         "textDescription": "Le capitalisme privilégie la propriété privée et les marchés. Le socialisme privilégie la propriété collective et la redistribution.\n\nEn réalité : la plupart des économies modernes sont mixtes. Les États-Unis (capitaliste) ont filets de sécurité sociale ; la Suède (social-démocrate) a marchés et entreprises privées.\n\nDebat : capitalisme crée innovation et efficacité, mais peut accumuler richesse et causer exploitations. Socialisme veut l'équité, mais historiquement a souvent eu déficits de performance ou autoritarisme.\n\nNuance : évitez les étiquettes binaires. Demandez : quels services sont privatisés vs publics, comment la richesse est distribuée, qui prend les décisions économiques ? Cela révèle les réalités complexes des systèmes économiques modernes.",
         "videoURL": "https://www.youtube.com/watch?v=9C72ISMF_D0",
         "externalLinkURL": "https://www.herodote.net/Capitalisme_et_socialisme-synthese-2105.php",
-        "linkedCardIndices": [7, 8, 24, 25]
+        "linkedCardIndices": [
+          7,
+          8,
+          24,
+          25
+        ]
       }
     ]
   },
