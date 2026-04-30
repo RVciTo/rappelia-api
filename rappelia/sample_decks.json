@@ -6056,49 +6056,108 @@
         "name": "Energy Balance Explained",
         "textDescription": "Energy balance is fundamental to understanding body composition changes. When intake equals expenditure over weeks, weight remains stable. A sustained surplus leads primarily to fat storage (3500 kcal ≈ 1 lb fat), while a deficit leads to weight loss.\n\nCommon mistake: expecting rapid changes. Body composition changes take weeks because daily fluctuations from water and glycogen are normal.\n\nExample: A 300-calorie daily deficit produces roughly 0.6 lb fat loss per week, not instant change. Consistency matters more than perfection.\n\nThis principle holds across diet styles—the macronutrient composition affects satiety and health, not just energy balance.",
         "videoURL": "https://www.youtube.com/watch?v=0z03xkwFbw4",
-        "externalLinkURL": "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight"
+        "externalLinkURL": "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight",
+        "linkedCardIndices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          15,
+          16
+        ]
       },
       {
         "name": "How Muscles Grow: Mechanisms",
         "textDescription": "Muscle growth (hypertrophy) requires three elements: mechanical tension from resistance training, adequate protein intake (0.7–1 g per lb bodyweight), and recovery through sleep.\n\nCommon mistake: thinking higher volume always means more growth. Recovery capacity limits gains—untrained people can handle less volume than advanced lifters.\n\nExample: A 20-rep set and a 5-rep set both trigger growth if performed near fatigue, but recovery demands differ.\n\nMuscle does not convert to fat when training stops. Instead, untrained muscle atrophies (shrinks) while dietary surplus promotes fat gain.",
         "videoURL": "https://www.youtube.com/watch?v=2tM1LFFxeKg",
-        "externalLinkURL": "https://www.ncbi.nlm.nih.gov/books/NBK499821/"
+        "externalLinkURL": "https://www.ncbi.nlm.nih.gov/books/NBK499821/",
+        "linkedCardIndices": [
+          5,
+          6,
+          7,
+          8,
+          38
+        ]
       },
       {
         "name": "Sleep Quality and Health Outcomes",
         "textDescription": "Sleep consolidates learning, repairs tissue damage, restores glycogen, and regulates hormones. Deep sleep is where growth hormone peaks and metabolic waste (like beta-amyloid) is cleared from the brain.\n\nCommon mistake: thinking all sleep is equal. Sleep architecture (stages) matters—consistently interrupted sleep or sleep with insufficient deep phases impairs recovery.\n\nExample: Two 8-hour nights with fragmentation may be worse than one solid 8-hour night because deep sleep is disrupted.\n\nChronic sleep loss increases risk of obesity, diabetes, cardiovascular disease, and cognitive decline.",
         "videoURL": "https://www.youtube.com/watch?v=5MuIMqhT8DM",
-        "externalLinkURL": "https://www.cdc.gov/sleep/about_sleep/how_much_sleep.html"
+        "externalLinkURL": "https://www.cdc.gov/sleep/about/index.html",
+        "linkedCardIndices": [
+          10,
+          11,
+          36,
+          37,
+          38
+        ]
       },
       {
         "name": "Stress Physiology and Chronic Effects",
         "textDescription": "Acute stress triggers helpful responses: increased focus, energy mobilization, and immune priming via cortisol and adrenaline. The problem: chronic stress without adequate recovery maintains high cortisol.\n\nCommon mistake: assuming all stress is bad. Short-term stress from training or challenge improves resilience; the issue is relentless stress without recovery.\n\nExample: An athlete handling training stress poorly (insufficient sleep, poor nutrition) experiences worse adaptation than one with strong recovery practices.\n\nChronic elevated cortisol is linked to abdominal fat gain, impaired immunity, and metabolic dysfunction.",
         "videoURL": "https://www.youtube.com/watch?v=hnpQrMqDoqE",
-        "externalLinkURL": "https://www.apa.org/topics/stress/body"
+        "externalLinkURL": "https://www.apa.org/topics/stress/body",
+        "linkedCardIndices": [
+          12,
+          13,
+          36,
+          37
+        ]
       },
       {
         "name": "Physical Activity Dose and Adaptation",
         "textDescription": "The WHO recommends 150 minutes of moderate-intensity aerobic activity weekly for adults, plus strength training 2+ days per week. Benefits include improved cardiovascular health, bone density, mental health, and reduced mortality.\n\nCommon mistake: thinking more is always better. Excessive training without recovery increases injury risk and can suppress immune function. Consistency beats intensity.\n\nExample: 30 minutes of brisk walking 5 days weekly is more effective for health than sporadic intense sessions without regularity.\n\nEven light activity (walking) reduces all-cause mortality compared to sedentary behavior.",
         "videoURL": "https://www.youtube.com/watch?v=VHyGqsPOUHs",
-        "externalLinkURL": "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+        "externalLinkURL": "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
+        "linkedCardIndices": [
+          9,
+          14,
+          18,
+          19,
+          32,
+          33,
+          38
+        ]
       },
       {
         "name": "Innate vs Adaptive Immunity",
         "textDescription": "The innate immune system responds immediately to any threat: physical barriers (skin, mucus), white blood cells (neutrophils, macrophages), and chemical signals (complement). No prior exposure needed.\n\nThe adaptive immune system takes 3–7 days to respond but generates specific antibodies and memory cells. After exposure, it responds faster and stronger.\n\nCommon mistake: thinking vaccination skips the immune system. Vaccines train the adaptive system without causing disease.\n\nExample: After COVID-19 infection or vaccination, antibodies and memory B/T cells provide faster protection against reinfection.",
         "videoURL": "https://www.youtube.com/watch?v=lXfEGSYqB9I",
-        "externalLinkURL": "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/vaccines.html"
+        "externalLinkURL": "https://www.cdc.gov/vaccines/index.html",
+        "linkedCardIndices": [
+          20,
+          21,
+          22
+        ]
       },
       {
         "name": "Cardiovascular System and Blood Pressure",
         "textDescription": "The heart pumps blood through arteries and capillaries to deliver oxygen and nutrients, then collects deoxygenated blood via veins. Blood pressure reflects the force of this flow.\n\nCommon mistake: thinking normal blood pressure is the same for everyone. Optimal is typically below 120/80 mmHg; persistently elevated pressure damages vessel walls and increases stroke/heart attack risk.\n\nExample: Someone at 140/90 mmHg has double the cardiovascular disease risk compared to someone at 120/80 mmHg.\n\nRegular exercise, lower sodium, and stress management help regulate blood pressure.",
         "videoURL": "https://www.youtube.com/watch?v=O8gIf5-J2a0",
-        "externalLinkURL": "https://www.heart.org/en/health-topics/high-blood-pressure"
+        "externalLinkURL": "https://www.heart.org/en/health-topics/high-blood-pressure",
+        "linkedCardIndices": [
+          9,
+          23,
+          24,
+          25,
+          30
+        ]
       },
       {
         "name": "Hormones and Metabolic Regulation",
         "textDescription": "Hormones are chemical messengers released by endocrine glands (pituitary, thyroid, pancreas, adrenals). They regulate metabolism, growth, reproduction, and stress response through feedback loops.\n\nCommon mistake: thinking one hormone is entirely responsible for body weight. Leptin, ghrelin, insulin, cortisol, and thyroid hormone all interact—isolated hormone supplementation rarely fixes problems.\n\nExample: Insulin resistance (common in obesity) means cells don't respond to insulin properly, making glucose control and weight management harder.\n\nFeedback loops prevent runaway hormonal changes: high glucose triggers insulin release, which lowers glucose, which reduces insulin stimulus.",
         "videoURL": "https://www.youtube.com/watch?v=zozQcxWaA3w",
-        "externalLinkURL": "https://www.ncbi.nlm.nih.gov/books/NBK470260/"
+        "externalLinkURL": "https://www.ncbi.nlm.nih.gov/books/NBK470260/",
+        "linkedCardIndices": [
+          17,
+          26,
+          27,
+          28,
+          29,
+          34,
+          35
+        ]
       }
     ],
     "stableId": "human_body_energy_basics",
@@ -6274,43 +6333,94 @@
         "name": "Understanding Anxiety: The Difference Between Normal Worry and Anxiety Disorders",
         "textDescription": "Anxiety exists on a spectrum. At the healthy end, worry about a job interview is normal—it motivates preparation and focus. At the disordered end, constant worry about unlikely future catastrophes, despite evidence that you're safe, becomes an anxiety disorder. Understanding this distinction prevents misdiagnosis and unnecessary alarm.\n\nNormal worry is proportional to the threat. If your car makes a strange noise, you consider getting it checked. Healthy worry prompts action, then subsides once addressed. Someone with generalized anxiety disorder (GAD) might lie awake for hours catastrophizing that the noise means an accident is inevitable, despite a mechanic clearing the car. The worry persists despite reassurance.\n\nAnxiety disorders involve physiological symptoms: racing heart, chest tightness, shortness of breath, dizziness, and gastrointestinal distress. People often seek emergency medical care convinced they're having a heart attack. These symptoms are real—the brain is triggering genuine fight-or-flight responses. But they're not caused by the feared scenario; they're caused by the anxiety itself.\n\nA key feature of anxiety disorders is the cycle of avoidance. Someone with social anxiety avoids parties, believing this prevents embarrassment. Avoiding reinforces the anxiety: 'I didn't go because it would have been terrible.' Over months, avoidance spreads—more situations feel threatening. Effective treatment reverses this: gradual exposure to feared situations (while managing anxiety through breathing or grounding) teaches the brain that the feared outcome doesn't happen.\n\nPhysiologically, anxiety disorders involve dysregulation in threat detection—the amygdala (fear center) overreacts to minor threats. Treatment (medication, therapy) recalibrates this system. The good news: anxiety disorders are highly treatable. CBT combined with exposure therapy and sometimes medication produces sustained improvement in 60-80% of cases.",
         "videoURL": "https://www.youtube.com/watch?v=SnVUmlZ33Gk",
-        "externalLinkURL": "https://www.nimh.nih.gov/health/topics/anxiety-disorders"
+        "externalLinkURL": "https://www.nimh.nih.gov/health/topics/anxiety-disorders",
+        "linkedCardIndices": [
+          2,
+          3,
+          5,
+          20,
+          23,
+          24,
+          27
+        ]
       },
       {
         "name": "Sleep Deprivation and Mental Health: The Vicious Cycle",
         "textDescription": "Sleep is not optional for mental health—it's foundational. During sleep, your brain consolidates emotional memories, resets cortisol (stress hormone), clears toxic proteins accumulated during wakefulness, and processes the day's events. Deprive yourself of sleep and mental health collapses.\n\nOne night of poor sleep impairs emotional regulation noticeably. You're irritable, moods swing easily, and anxiety spikes. Chronic sleep deprivation (weeks of poor sleep) increases depression and anxiety risk substantially. It's not just feeling tired; it's neurochemical chaos.\n\nThe cycle is vicious: anxiety disrupts sleep (racing thoughts, physical tension), poor sleep worsens anxiety (dysregulated amygdala overreacts to threats). Someone might sleep only 4 hours worrying about work, then be more anxious the next day due to sleep deprivation, creating more worry that night. Breaking this cycle requires prioritizing sleep.\n\nBlue light from screens suppresses melatonin (sleep hormone) production, delaying sleep onset by 1-2 hours. Caffeine after 2pm remains in your system 8+ hours, reducing sleep quality. Irregular bedtimes disrupt your circadian rhythm. These aren't minor issues—each significantly impacts sleep and mental health.\n\nPractical sleep improvements: consistent bedtime/wake time (even weekends), no screens 1 hour before bed, cool dark bedroom (65°F is ideal), no caffeine after 2pm, and exercise (but not within 3 hours of bed). Many people refuse medication for mental health anxiety but won't fix sleep—backwards thinking. Sleep comes first.\n\nFor severe insomnia, cognitive behavioral therapy for insomnia (CBT-I) is evidence-based and often more effective long-term than medication. It teaches sleep restriction (counterintuitively, spending less time in bed initially improves sleep efficiency), stimulus control, and thought management.",
         "videoURL": "https://www.youtube.com/watch?v=PBf1mlUWnDE",
-        "externalLinkURL": "https://www.cdc.gov/sleep/index.html"
+        "externalLinkURL": "https://www.cdc.gov/sleep/index.html",
+        "linkedCardIndices": [
+          7,
+          8,
+          9
+        ]
       },
       {
         "name": "Cognitive Distortions: The Thought Patterns Driving Your Anxiety",
         "textDescription": "Your thoughts don't always reflect reality. Cognitive distortions are systematic thinking errors that feel true but are exaggerated or false. Identifying and challenging these patterns is central to managing anxiety and depression.\n\nCatastrophizing: Your mind jumps from a minor negative to the worst possible outcome. You make a small mistake at work and immediately think, 'I'm going to be fired, lose my house, and die alone.' Logically impossible, but your brain presents it as likely. Recognizing this pattern (the thought is exaggerated, not a prediction) reduces its power.\n\nBlack-and-white thinking: You view things as all-good or all-bad with no middle ground. One rejection means you're unlovable; one failure means you're incompetent; one mistake means you're a failure. Nuance disappears. Reality is messier: people are mostly good with flaws, performances vary, and mistakes are learning opportunities.\n\nPersonalization: You assume others' behavior relates to you. A friend seems distant—you immediately think 'they're mad at me,' without considering they might be stressed, tired, or distracted by their own life. This fuels social anxiety and resentment. The truth: people are usually focused on themselves, not judging you.\n\nMind-reading: You assume you know what others think without evidence. 'They think I'm boring,' 'Everyone judges my appearance,' 'They regret inviting me.' You treat assumptions as facts. Reality: most people don't think about you as much as you think they do.\n\nCognitive Behavioral Therapy teaches the process: identify the thought ('I'm going to fail this exam'), examine evidence for/against it ('I studied, I understood the material, I've passed before'), and replace it with a realistic thought ('I prepared well; I'll probably do fine'). This rewires your automatic thoughts over weeks of practice. The change isn't from positive thinking (fake optimism) but from realistic thinking (evidence-based assessment).",
         "videoURL": "https://www.youtube.com/watch?v=WLVgFw1XpNI",
-        "externalLinkURL": "https://www.apa.org/helpcenter/cognitive-behavior"
+        "externalLinkURL": "https://www.apa.org/helpcenter/cognitive-behavior",
+        "linkedCardIndices": [
+          5,
+          6,
+          17,
+          23,
+          27
+        ]
       },
       {
         "name": "Exercise: The Mental Health Intervention That Works Like Medicine",
         "textDescription": "If exercise were a pill, it would be the most prescribed medication for mental health. Decades of research show that moderate exercise (30 minutes of walking, running, cycling, or strength training 3-5 times weekly) reduces anxiety and depression as effectively as medication for mild-to-moderate cases. Unlike pills, exercise has no negative side effects and provides multiple benefits.\n\nPhysiologically, exercise triggers endorphin release (natural pain-relieving and mood-elevating chemicals), reduces cortisol (stress hormone), and increases BDNF (brain-derived neurotrophic factor), which supports brain cell health. Exercise also improves sleep quality and body confidence, compounding mental health benefits.\n\nThe psychological effect matters too. Completing a workout builds self-efficacy (confidence in your ability to accomplish goals). This confidence extends beyond exercise—'I completed this hard workout; I can handle other challenges.' Regular exercise provides a sense of control and mastery, counteracting depression's helplessness.\n\nFor anxiety, exercise metabolizes excess adrenaline and cortisol produced by anxiety, directly reducing physical symptoms. Someone anxious before a workout often feels calmer after. This creates a positive feedback loop: exercise reduces anxiety, which increases motivation to exercise, which further reduces anxiety.\n\nSocial exercise (group fitness, team sports, walking clubs) adds social connection benefits, further enhancing mental health. Isolation + inactivity = worst for anxiety/depression. Movement + connection = most powerful intervention.\n\nCommon excuses fail scrutiny: 'I'm too tired' (exercise gives energy; depression causes fatigue that paradoxically improves with activity), 'I don't have time' (30-minute walks count; they often save time by improving focus), 'I hate the gym' (any movement works—dancing, hiking, gardening). Starting with any regular movement, even 10 minutes, begins the mental health benefits.",
         "videoURL": "https://www.youtube.com/watch?v=3qRAIB3BQ0w",
-        "externalLinkURL": "https://www.apa.org/science/about/psa/exercise"
+        "externalLinkURL": "https://www.apa.org/science/about/psa/exercise",
+        "linkedCardIndices": [
+          10,
+          11,
+          27
+        ]
       },
       {
         "name": "When to Seek Professional Help: Breaking the Stigma",
         "textDescription": "Mental health treatment is medical treatment. Just as you'd see a doctor for diabetes, you should see a therapist or psychiatrist for depression, anxiety, or other mental health conditions. Yet stigma prevents millions from seeking help, suffering needlessly for months or years.\n\nStigma has roots in outdated beliefs: mental illness is weakness, shame, or failure. Modern understanding: mental health conditions are biological (brain chemistry), environmental (stress, trauma), or both. They're not character flaws. Seeking help demonstrates strength and self-awareness, not weakness.\n\nCommon barriers to seeking help: 'I should be able to handle this myself' (mental illness isn't a personal failing; it's a medical condition), 'therapy is too expensive' (many therapists work on sliding scale; some employers offer free sessions), 'meds are only for severely ill people' (medication helps mild-moderate conditions too), 'I don't know where to start' (therapist directories, EAP programs, or your doctor can help).\n\nWhen to seek help: if anxious or depressed for 2+ weeks, if it interferes with work or relationships, if you have suicidal thoughts, or if previous mental health issues are returning. Don't wait hoping it passes; early treatment works faster and prevents conditions from worsening.\n\nTherapy works. Cognitive Behavioral Therapy combined with possible medication produces sustained improvement in 60-80% of people with anxiety and depression. The earlier you start, the faster you improve. Waiting is the real gamble—delaying treatment often extends suffering for months that therapy could have resolved in weeks.\n\nFinding help: start with your primary care doctor (they can refer you), use online directories (Psychology Today, TherapyDen), or contact your insurance company's mental health provider network. Virtual therapy (telehealth) makes access easier. Many therapists offer reduced rates. Cost is lower than the cost of untreated mental illness.",
         "videoURL": "https://www.youtube.com/watch?v=gFfBSGwMH3s",
-        "externalLinkURL": "https://www.who.int/campaigns/world-mental-health-day"
+        "externalLinkURL": "https://www.who.int/campaigns/world-mental-health-day",
+        "linkedCardIndices": [
+          4,
+          16,
+          17,
+          19,
+          21,
+          22,
+          25
+        ]
       },
       {
         "name": "Resilience: Building Your Capacity to Handle Adversity",
         "textDescription": "Resilience is the ability to bounce back from adversity, loss, or failure. It's not inborn—it's a skill built through experience and practice. People with high resilience aren't immune to stress; they handle it well and recover quickly.\n\nResilience has key components: realistic optimism (believing things will improve while acknowledging difficulty), problem-solving skills (facing problems directly rather than avoiding), emotional regulation (managing intense feelings without being controlled by them), and strong relationships (social support is critical for recovery).\n\nBuilding resilience requires facing manageable challenges. Someone who never struggles hasn't developed coping skills. Growth happens at the edge of your comfort zone. A child who tries and fails develops resilience; a child who is protected from all failure hasn't. This is why some overprotected people are fragile when facing real-world setbacks.\n\nPurpose and meaning amplify resilience. Someone with clear values and purpose handles adversity better than someone without direction. Purpose might be family, career, community service, creative pursuits, or spiritual practice. During difficult times, purpose provides reason to keep going.\n\nSocial connection is resilience's foundation. Isolated people break under stress; connected people bend but don't break. Relationships provide emotional support, practical help, and reminder that you're not alone. Building strong relationships during good times creates the foundation for resilience during hard times.\n\nSelf-compassion (treating yourself kindly during difficulty) rather than self-criticism (harsh judgment of failure) predicts better resilience. Someone who fails and thinks 'I'm stupid, I can't do anything right' spirals. Someone who thinks 'this is hard, I'm struggling, but I'll keep trying' bounces back. The difference is self-directed compassion.",
         "videoURL": "https://www.youtube.com/watch?v=7BRv4JlSl3w",
-        "externalLinkURL": "https://www.apa.org/science/about/psa/resilience"
+        "externalLinkURL": "https://www.apa.org/science/about/psa/resilience",
+        "linkedCardIndices": [
+          12,
+          13,
+          14,
+          15,
+          24,
+          26
+        ]
       },
       {
         "name": "Understanding Antidepressants: How They Work and Breaking the Stigma",
         "textDescription": "Antidepressants are medications that increase serotonin and other neurotransmitters in your brain. They work for moderate-to-severe depression and some anxiety disorders. Yet myths persist: that they're 'giving up,' 'making you numb,' or 'masking the real problem.' Truth: antidepressants are medicine, not weakness, and they often enable therapy to work better.\n\nHow they work: depression involves low serotonin (among other factors). SSRIs (Selective Serotonin Reuptake Inhibitors—Prozac, Zoloft, Lexapro) prevent your brain from reabsorbing serotonin, increasing its availability. This modest chemical change often significantly improves mood. Other classes (SNRIs, tricyclics) target different neurotransmitters.\n\nEffectiveness varies: antidepressants work for moderate-severe depression in 60-70% of people. For mild depression, therapy alone often works. They typically take 4-6 weeks to show effect (patients often stop too early). For best results, combine medication with therapy (CBT or other).\n\nCommon misconceptions: 'Meds just mask the problem' (false—they allow your brain to stabilize so you can actually engage in therapy and life). 'I'll be emotionally numb' (therapeutic doses don't numb emotions; some people do experience this side effect, in which case dosage or medication changes). 'I'll be dependent/addicted' (false—antidepressants aren't addictive, though discontinuation requires gradual tapering).\n\nSide effects are real but manageable: initial nausea, sexual dysfunction, or insomnia (often improve within weeks). Your doctor monitors this and can adjust. Untreated depression has worse side effects: lost relationships, missed opportunities, increased suicide risk.\n\nMedication decision: antidepressants are most appropriate for moderate-severe depression, persistent anxiety, or repeated episodes. Your doctor helps determine if medication is right. Using antidepressants is healthcare, not character failure.",
         "videoURL": "https://www.youtube.com/watch?v=FpZqzTMdKfg",
-        "externalLinkURL": "https://www.nimh.nih.gov/health/medications"
+        "externalLinkURL": "https://www.nimh.nih.gov/health/topics/mental-health-medications",
+        "linkedCardIndices": [
+          18,
+          4,
+          16,
+          17,
+          19,
+          25
+        ]
       }
     ]
   },
@@ -6472,49 +6582,100 @@
         "name": "Macronutrients Without Myths",
         "textDescription": "Macronutrients provide energy and structural components. None are inherently harmful; problems arise from imbalance or excess. Example: fat is essential for hormone production, but excessive intake contributes to weight gain.\n\nCommon mistake: eliminating carbs or fat entirely. Both are necessary for performance and health. Most healthy diets include 40–60% carbs, 20–35% fat, and 10–35% protein.\n\nBalance and total intake, not macronutrient source, predict health outcomes. A diet of whole grains, lean proteins, and healthy fats supports better outcomes than low-quality versions of the same macros.",
         "videoURL": "https://www.youtube.com/watch?v=5MuIMqhT8DM",
-        "externalLinkURL": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+        "externalLinkURL": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+        "linkedCardIndices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          13,
+          25
+        ]
       },
       {
         "name": "Fiber: The Overlooked Health Pillar",
         "textDescription": "Dietary fiber supports gut bacteria, slows glucose absorption, reduces blood cholesterol, increases satiety, and reduces colorectal cancer risk. Yet most populations consume half the recommended intake (25–38 g daily).\n\nCommon mistake: adding fiber too quickly. Rapid increases cause bloating and digestive discomfort. Increase gradually over weeks, and drink more water.\n\nExample: Someone consuming 15 g daily should add 2–3 g per week until reaching 30 g daily. Sources include fruits, vegetables, legumes, and whole grains.",
         "videoURL": "https://www.youtube.com/watch?v=2Yw6dFQBklA",
-        "externalLinkURL": "https://www.hsph.harvard.edu/nutritionsource/carbohydrates/fiber/"
+        "externalLinkURL": "https://www.hsph.harvard.edu/nutritionsource/carbohydrates/fiber/",
+        "linkedCardIndices": [
+          5,
+          15,
+          26,
+          17
+        ]
       },
       {
         "name": "Glycemic Index and Blood Sugar Control",
         "textDescription": "Glycemic index measures how rapidly food raises blood glucose. Lower GI foods (legumes, whole grains, most fruits) provide sustained energy and improve satiety. Higher GI foods (white bread, sugar) cause sharp spikes followed by crashes.\n\nCommon mistake: thinking all carbs are equal. A bowl of white rice (high GI) and a bowl of quinoa (lower GI) contain the same calories but affect blood glucose differently.\n\nExample: Eating an apple (low GI) with almond butter stabilizes glucose and keeps you fuller than apple juice (high GI) alone.",
         "videoURL": "https://www.youtube.com/watch?v=zozQcxWaA3w",
-        "externalLinkURL": "https://www.ncbi.nlm.nih.gov/books/NBK534846/"
+        "externalLinkURL": "https://www.ncbi.nlm.nih.gov/books/NBK534846/",
+        "linkedCardIndices": [
+          6,
+          14,
+          19,
+          24,
+          26,
+          9
+        ]
       },
       {
         "name": "Supplements: Evidence and Limitations",
         "textDescription": "Supplements can address specific deficiencies (iron deficiency anemia, vitamin D insufficiency in northern climates) or life stages (prenatal folate). However, mega-dosing is often ineffective or harmful.\n\nCommon mistake: treating supplements as insurance for a poor diet. A varied diet provides phytonutrients and synergies that isolated supplements cannot replicate.\n\nExample: Someone with adequate sun exposure and fatty fish intake likely doesn't need vitamin D supplementation. Testing deficiency first is more efficient than blind supplementation.",
         "videoURL": "https://www.youtube.com/watch?v=RrD1C4q5s0Q",
-        "externalLinkURL": "https://ods.od.nih.gov/factsheets/list-all/"
+        "externalLinkURL": "https://ods.od.nih.gov/factsheets/list-all/",
+        "linkedCardIndices": [
+          4,
+          11,
+          28,
+          7
+        ]
       },
       {
         "name": "Food Safety and Pathogen Prevention",
         "textDescription": "Foodborne illness from bacteria (E. coli, Salmonella, Listeria) causes significant illness. The danger zone (40°F–140°F) allows rapid bacterial growth. Safe practices include cooking to proper temperatures, separating raw and cooked foods, and refrigerating quickly.\n\nCommon mistake: washing raw chicken (spreads bacteria via splashing). Instead, cook it to 165°F to kill pathogens.\n\nExample: A cutting board used for raw chicken, then used for vegetables without washing, can contaminate the vegetables. Use separate boards or wash thoroughly between uses.",
         "videoURL": "https://www.youtube.com/watch?v=0z03xkwFbw4",
-        "externalLinkURL": "https://www.cdc.gov/foodsafety/"
+        "externalLinkURL": "https://www.cdc.gov/foodsafety/",
+        "linkedCardIndices": [
+          22,
+          23,
+          25
+        ]
       },
       {
         "name": "Omega Fatty Acids and Inflammation",
         "textDescription": "Omega-3 fatty acids (EPA, DHA from fatty fish; ALA from flaxseed) generally reduce inflammation and support heart and brain health. Omega-6 fatty acids (vegetable oils) are essential but can promote inflammation if consumed in excess relative to omega-3.\n\nCommon mistake: thinking all omega-6 is bad. Both are essential; the ratio matters. Western diets often have a 10:1 omega-6 to omega-3 ratio; a healthier target is closer to 4:1.\n\nExample: Adding fatty fish (salmon) twice weekly and reducing vegetable oil consumption improves the omega-3 to omega-6 balance.",
         "videoURL": "https://www.youtube.com/watch?v=9iMGFqMmUFs",
-        "externalLinkURL": "https://www.hsph.harvard.edu/nutritionsource/omega-3-fats/"
+        "externalLinkURL": "https://www.hsph.harvard.edu/nutritionsource/omega-3-fats/",
+        "linkedCardIndices": [
+          3,
+          16,
+          17,
+          28
+        ]
       },
       {
         "name": "Alcohol Metabolism and Health",
         "textDescription": "Alcohol is metabolized primarily by the liver at roughly one drink per hour. Chronic excess increases liver disease risk, impairs nutrient absorption, increases cancer risk, and increases triglycerides.\n\nCommon mistake: thinking any amount is safe. Moderate intake (up to one drink daily for women, two for men) is associated with slightly lower cardiovascular risk in some studies, but heavy intake negates this.\n\nExample: Someone drinking 4–5 drinks daily will develop fatty liver disease, while someone with 1 drink daily has minimal liver damage risk.",
         "videoURL": "https://www.youtube.com/watch?v=EwYg7j0YkS4",
-        "externalLinkURL": "https://www.cdc.gov/alcohol/health-effects.html"
+        "externalLinkURL": "https://www.cdc.gov/alcohol/about-alcohol-use/index.html",
+        "linkedCardIndices": [
+          20,
+          21,
+          27
+        ]
       },
       {
         "name": "Protein Intake and Muscle Adaptation",
         "textDescription": "Protein synthesis is maximized with adequate intake (0.7–1 g per pound bodyweight daily) distributed across meals. Total daily protein matters far more than post-workout timing.\n\nCommon mistake: thinking you must consume protein immediately after training. Consuming protein within 2 hours post-workout is sufficient; the key is hitting daily targets consistently.\n\nExample: Someone consuming 120 g protein daily distributed across 4 meals supports muscle growth equally well as consuming most immediately after training.",
         "videoURL": "https://www.youtube.com/watch?v=lXfEGSYqB9I",
-        "externalLinkURL": "https://www.ncbi.nlm.nih.gov/books/NBK499821/"
+        "externalLinkURL": "https://www.ncbi.nlm.nih.gov/books/NBK499821/",
+        "linkedCardIndices": [
+          2,
+          8,
+          18,
+          24
+        ]
       }
     ],
     "stableId": "nutrition_science_basics",
