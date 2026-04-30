@@ -10900,7 +10900,7 @@
   {
     "name": "General Culture: Geography & World Basics",
     "stableId": "general_culture_geography_world_basics",
-    "description": "Core geography concepts and world basics: maps, climate vs weather, trade, sustainability, and key terms. Includes non-Western trade networks, development patterns, and environmental systems.",
+    "description": "Map the world: maps, climate, trade networks, sustainability, and migration.",
     "color": "green",
     "category": "Geography",
     "language": "en",
@@ -11086,56 +11086,130 @@
         "name": "Maps: why projections matter and shape perception",
         "textDescription": "Any flat map must distort: Mercator projections exaggerate high latitudes (Greenland appears huge; Africa undersized), skewing geographic intuition.\n\nEqual-area projections preserve size but distort shapes. No projection is 'accurate'—each makes trade-offs.\n\nHistorically, Mercator dominated Western education, subtly reinforcing a Eurocentric worldview: Europe appears larger/more central than it is. The Gall-Peters projection (1970s) was created to 'correct' this bias.\n\nPractical lesson: Know that all maps lie. When comparing regions, use multiple projections or check actual areas/distances. This prevents misconceptions about size, importance, and geography. Map literacy is a form of media literacy.",
         "videoURL": "https://www.youtube.com/watch?v=kIID5FDi2JQ",
-        "externalLinkURL": "https://www.nationalgeographic.org/encyclopedia/map-projection/"
+        "externalLinkURL": "https://oceanservice.noaa.gov/education/tutorial_geodesy/geo05_mapproj.html",
+        "linkedCardIndices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          10,
+          11
+        ]
       },
       {
         "name": "Climate zones, agriculture, and human settlement",
         "textDescription": "Climate directly shapes where humans settle and how they earn. Tropical regions: high rainfall, suitable for diverse crops but vulnerable to disease. Temperate zones: variable seasons, good for grains. Arid zones: pastoral or irrigated agriculture.\n\nClimate also influences culture: architecture (mud brick in deserts, sloped roofs in snow regions), food systems, holiday timing.\n\nClimate change destabilizes these patterns: drought displaces farmers, shifting crop zones require adaptation. Understanding climate geography helps you interpret migration, famine, and development challenges—and see these as geographic/climatic, not cultural failures.\n\nAvoid determinism: climate influences, but does not determine. Societies adapt and innovate.",
         "videoURL": "https://www.youtube.com/watch?v=G4H1N_yXBiA",
-        "externalLinkURL": "https://climate.nasa.gov/"
+        "externalLinkURL": "https://climate.nasa.gov/",
+        "linkedCardIndices": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          24,
+          25,
+          30,
+          31
+        ]
       },
       {
         "name": "Global supply chains: how disruption goes planetary",
         "textDescription": "A smartphone contains semiconductors from Taiwan, rare earths from China, minerals from Africa, assembly in Vietnam, sales in the USA. COVID-19 disrupted this: chip shortages cascaded, car production slowed, prices rose globally.\n\nWhy? Supply chains are optimized for efficiency, not resilience. A single break point (port closure, factory fire, geopolitical tension) ripples globally.\n\nKey insight: 'globalization' means tightly coupled systems. Specialization creates gains but also vulnerabilities. This explains why local events (Ukrainian war affecting wheat prices) have global effects.\n\nPractical: When you see a price spike or shortage, trace it. Look for geographic/political disruptions affecting production, transport, or supply.\n\nAlso recognize: supply chains can be exploitative (low labor costs hide poor working conditions, environmental damage in low-regulation zones).",
         "videoURL": "https://www.youtube.com/watch?v=3ez10ADR_gM",
-        "externalLinkURL": "https://www.wto.org/english/thewto_e/whatis_e/whatis_e.htm"
+        "externalLinkURL": "https://www.wto.org/english/thewto_e/whatis_e/whatis_e.htm",
+        "linkedCardIndices": [
+          16,
+          17,
+          27,
+          28,
+          29
+        ]
       },
       {
         "name": "Development: GDP, HDI, and beyond simple metrics",
         "textDescription": "GDP measures economic output, not well-being. A country can have high GDP but poor health, education, inequality (high nominal GDP, low quality of life).\n\nThe Human Development Index (HDI) adds life expectancy and education to GDP per capita, offering a more nuanced view.\n\nBetter yet: understand context. A 'developing' nation might have lower GDP per capita but strong social systems. A 'developed' nation might have high GDP but severe inequality or environmental damage.\n\nDevelopment is multidimensional: economic, social, environmental, and political. Avoid labeling regions as simply 'developed' or 'developing'—it's vague and often Eurocentric (assumes Western model is the goal).\n\nExample: Bhutan measures 'Gross National Happiness' over GDP, prioritizing well-being, sustainability, and culture.",
-        "videoURL": "https://www.youtube.com/watch?v=kIID5FDi2JQ",
-        "externalLinkURL": "https://hdr.undp.org/"
+        "videoURL": "https://www.youtube.com/watch?v=mvskMrYxTzc",
+        "externalLinkURL": "https://hdr.undp.org/",
+        "linkedCardIndices": [
+          12,
+          13,
+          17,
+          21,
+          22,
+          27,
+          28,
+          29
+        ]
       },
       {
         "name": "Trade networks: from ancient Silk Road to modern BRICS",
         "textDescription": "Trade is not a modern invention. The Silk Road (2nd century BCE–15th century) connected Asia, Middle East, and Europe, moving goods and ideas. Swahili city-states traded along East Africa (9th–18th centuries). Indian Ocean trade linked Africa, Arabia, India, Southeast Asia.\n\nThese historical networks show: non-Western regions were dynamic, interconnected, wealthy. European dominance (16th–20th centuries) temporarily reordered trade, but is not the natural state.\n\nToday, BRICS and regional alliances (ASEAN, AfCFTA) reassert non-Western economic power. Understanding historical trade corrects the myth that Western commerce is 'natural' or inevitable.\n\nKey lesson: trace trade routes through history. It reveals wealth, power dynamics, cultural exchange, and contemporary geopolitical alignments.",
         "videoURL": "https://www.youtube.com/watch?v=2-pMwXz75qE",
-        "externalLinkURL": "https://www.worldhistory.org/Silk_Road/"
+        "externalLinkURL": "https://www.worldhistory.org/Silk_Road/",
+        "linkedCardIndices": [
+          16,
+          17,
+          20,
+          21,
+          22,
+          27,
+          28,
+          29
+        ]
       },
       {
         "name": "Sustainability: mechanisms, not buzzwords",
         "textDescription": "Sustainable development means meeting today's needs without harming future capacity. In practice, it balances three dimensions:\n\n1. Economic: Can we produce goods/services affordably?\n2. Environmental: Can Earth's systems support production?\n3. Social: Does the activity benefit/harm people fairly?\n\nTrade-offs exist: renewable energy requires minerals; agriculture competes with conservation.\n\nKey concepts: Life-cycle thinking (trace a product's full impact: mining, manufacturing, transport, use, disposal), externalities (costs borne by society, not producers: pollution, climate), circular economy (reuse, recycle rather than extract-dispose).\n\nAvoid greenwashing: companies claiming sustainability without real change. Ask: who benefits, who bears costs, and is it verifiable?\n\nThis framework helps evaluate policies, products, and claims—moving from vague 'eco-friendly' to specific, measurable commitments.",
-        "videoURL": "https://www.youtube.com/watch?v=G4H1N_yXBiA",
-        "externalLinkURL": "https://www.un.org/sustainabledevelopment/"
+        "videoURL": "https://www.youtube.com/watch?v=7V8oFI4GYMY",
+        "externalLinkURL": "https://www.un.org/sustainabledevelopment/",
+        "linkedCardIndices": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          24,
+          25,
+          26,
+          30,
+          31
+        ]
       },
       {
         "name": "Migration: causes, flows, and integration challenges",
         "textDescription": "Migration is not random. People move for economic opportunity (rural to cities, poor to rich nations), safety (fleeing conflict/persecution), or family reunion.\n\nMajor flows: Global South to Global North (seeking higher wages), within developing regions (urban migration), and among wealthy nations (skilled workers, quality of life).\n\nEffects: Migrants send remittances (money home), filling labor gaps, bringing skills and diversity. But: local workers may face wage pressure, cultural tensions arise, and migrants often face discrimination and exploitation.\n\nCommon misconception: migrants 'steal jobs.' Reality is complex: they fill gaps (care, agriculture), start businesses, contribute taxes. Over time, migration usually benefits both origin and destination economically—but distribution of benefits is unequal.\n\nKey: Distinguish between migration (generally long-term) and refugee flows (forced by danger). Policies differ, and conflating them obscures the distinct causes and needs.",
-        "videoURL": "https://www.youtube.com/watch?v=3ez10ADR_gM",
-        "externalLinkURL": "https://www.un.org/en/global-issues/population"
+        "videoURL": "https://www.youtube.com/watch?v=NKbE7q8tWEY",
+        "externalLinkURL": "https://www.un.org/en/global-issues/population",
+        "linkedCardIndices": [
+          14,
+          15,
+          32,
+          18,
+          22
+        ]
       },
       {
         "name": "Geopolitical regions: understanding conflict and cooperation zones",
         "textDescription": "Geopolitical regions share geography, interests, or conflicts. Examples:\n\nMiddle East: Oil wealth, sectarian tensions (Sunni-Shia), Israeli-Palestinian conflict, US military presence, recent regional competition (UAE, Iran, Saudi Arabia).\n\nSoutheast Asia: Major trade hub, South China Sea disputes (strategic waterway), rising China influence, ASEAN seeking unity amid great-power competition.\n\nSub-Saharan Africa: Resource-rich, rapid population growth, weak state institutions (legacy of colonialism, conflict), competing interests (China economic expansion, Western strategic presence).\n\nWhy regions matter: They help explain alliances (why nations vote together at UN), conflicts (shared borders, resources), and economic patterns (trade blocs).\n\nAvoid: Treating regions as monolithic. Within each are diverse nations with different interests. Also avoid simplistic 'civilizational' explanations (e.g., 'Islamic world is inherently X')—look at material interests, institutions, power dynamics instead.",
         "videoURL": "https://www.youtube.com/watch?v=9C72ISMF_D0",
-        "externalLinkURL": "https://www.cia.gov/the-world-factbook/"
+        "externalLinkURL": "https://www.cia.gov/the-world-factbook/",
+        "linkedCardIndices": [
+          13,
+          19,
+          20,
+          21,
+          22,
+          23
+        ]
       }
     ]
   },
   {
     "name": "General Culture: Key History & Civics",
     "stableId": "general_culture_history_civics",
-    "description": "A practical timeline of modern history + core civics and economic concepts for everyday literacy. Covers Western and non-Western civilizations, institutions, and global systems.",
+    "description": "Walk modern history with civics and economics: institutions, empires, ideologies, and global systems.",
     "color": "orange",
     "category": "History",
     "language": "en",
@@ -11345,50 +11419,94 @@
         "name": "Silk Road: more than merchandise",
         "textDescription": "The Silk Road (2nd century BCE–15th century CE) was not a single road but a vast network of overland and maritime routes connecting China, Central Asia, Persia, India, and Europe.\n\nMerchants traded silk, spices, ceramics, and metals. But equally important: technologies like printing and gunpowder moved westward; religions (Buddhism, Islam) traveled eastward; architectural and artistic styles blended.\n\nStudying the Silk Road reveals that globalization is ancient, not modern. It also shows how intermediary regions (Central Asia, Persia) were hubs of wealth and culture, not just peripheries.\n\nUse the Silk Road to understand: trade creates cultural exchange; distance is relative; non-Western regions were dynamic centers.",
         "videoURL": "https://www.youtube.com/watch?v=2-pMwXz75qE",
-        "externalLinkURL": "https://www.worldhistory.org/Silk_Road/"
+        "externalLinkURL": "https://www.worldhistory.org/Silk_Road/",
+        "linkedCardIndices": [
+          20,
+          4,
+          5
+        ]
       },
       {
         "name": "African kingdoms: Mali and Songhai",
         "textDescription": "West Africa, 13th–16th centuries, was home to powerful, organized states controlling trans-Saharan gold and salt trade.\n\nMali (1230–1600) and Songhai (1464–1591) were not isolated tribal societies but empires with administrative systems, armies, and centers of Islamic learning (Timbuktu had a university).\n\nThey were disrupted partly by Portuguese exploration and slave trade, illustrating how external pressures altered African trajectories.\n\nKey misconception: Africa had 'no history' before European contact. In fact, pre-colonial Africa had complex states, trade networks, and intellectual traditions. Learning these corrects a profound Eurocentric bias.",
         "videoURL": "https://www.youtube.com/watch?v=1EnWnuC-Mz4",
-        "externalLinkURL": "https://www.worldhistory.org/Mali/"
+        "externalLinkURL": "https://www.worldhistory.org/Mali/",
+        "linkedCardIndices": [
+          24,
+          25,
+          23,
+          28
+        ]
       },
       {
         "name": "Mughal Empire: Islamic science and governance in Asia",
         "textDescription": "The Mughal Empire (1526–1857) ruled much of South Asia with a multicultural, administratively sophisticated system.\n\nMughals synthesized Persian, Islamic, and Indian cultures. They sponsored architecture (Taj Mahal, Delhi's Red Fort), patronized scholars, and built trade networks extending to Europe and Southeast Asia.\n\nTheir administrative system influenced later British colonial governance.\n\nWhy it matters: it challenges the assumption that Asia was static before Western contact. The Mughals show thriving empires, intellectual exchange, and complex statecraft rivaling Europe. Understanding this corrects textbook Eurocentric narratives.",
         "videoURL": "https://www.youtube.com/watch?v=nC5SDOelImU",
-        "externalLinkURL": "https://www.worldhistory.org/Mughal_Empire/"
+        "externalLinkURL": "https://www.worldhistory.org/Mughal_Empire/",
+        "linkedCardIndices": [
+          21,
+          23,
+          22
+        ]
       },
       {
         "name": "Meiji Restoration: modernization without Westernization",
         "textDescription": "Japan, post-1868, faced a choice: resist the West or adapt? The Meiji chose strategic adoption.\n\nThey imported railroads, steel mills, bureaucratic systems, and military technology. But they preserved Shinto traditions, Japanese language education, and hierarchical values.\n\nBy 1910, Japan was a major power—not by full Westernization but by selective, controlled borrowing.\n\nKey lesson: modernization does not require Westernization. Non-Western societies can innovate while maintaining identity. This breaks the false binary of 'traditional vs. modern.' Also shows how rapid transformation is possible with centralized decision-making and cultural coherence.",
         "videoURL": "https://www.youtube.com/watch?v=J0uZFSAHy2I",
-        "externalLinkURL": "https://www.britannica.com/event/Meiji-Restoration"
+        "externalLinkURL": "https://en.wikipedia.org/wiki/Meiji_Restoration",
+        "linkedCardIndices": [
+          22,
+          17,
+          6
+        ]
       },
       {
         "name": "Decolonization: the end of empire",
         "textDescription": "From 1945–1975, most colonial territories gained independence. This was not inevitable: empires fought to retain power (French Indochina, Algeria; British Kenya). It succeeded through nationalist movements, international law (UN Charter), and the weakening of European powers post-WWII.\n\nDecolonization reshaped the world: new nations joined the UN, Cold War competed for their allegiance, and many struggled with imposed borders and extractive economies.\n\nUnderstanding decolonization is key to modern geopolitics. Today's conflicts often reflect colonial legacy (artificial borders, resource extraction, mistrust of institutions). It also shows how historical power shifts—empires, once seemingly permanent, crumbled rapidly.",
         "videoURL": "https://www.youtube.com/watch?v=HBgOhWiKC0U",
-        "externalLinkURL": "https://www.britannica.com/topic/Decolonization"
+        "externalLinkURL": "https://www.un.org/en/global-issues/decolonization",
+        "linkedCardIndices": [
+          26,
+          27,
+          28,
+          32
+        ]
       },
       {
         "name": "Imperialism and its lasting effects",
         "textDescription": "19th and early 20th centuries: European powers divided Africa, Asia, and parts of Americas through military force, legal claims, and economic dominance.\n\nImperialism was justified by racist ideology ('civilization mission,' Social Darwinism) and competitive power politics.\n\nEffects: extracted resources; created artificial borders; imposed languages and religions; disrupted local economies; sowed nationalist resentment.\n\nToday's global inequality, conflict zones (Middle East, Africa), and language/cultural dominance (English, French) partly trace to imperialism. Recognizing this pattern helps explain modern geopolitics and reduces Eurocentric assumptions about 'natural' hierarchies or cultural superiority.",
         "videoURL": "https://www.youtube.com/watch?v=iKJcA3dHhvo",
-        "externalLinkURL": "https://www.britannica.com/topic/Imperialism"
+        "externalLinkURL": "https://en.wikipedia.org/wiki/Imperialism",
+        "linkedCardIndices": [
+          27,
+          28,
+          32,
+          29
+        ]
       },
       {
         "name": "Enlightenment ideas and modern democracy",
         "textDescription": "17th–18th centuries: European thinkers (Locke, Montesquieu, Rousseau) argued that political authority comes from reason, natural rights, and the people—not divine right or tradition.\n\nThese ideas justified revolutions (American 1776, French 1789) and shaped modern constitutions, separation of powers, and universal rights concepts.\n\nBut here's the nuance: Enlightenment thinkers were products of their time. Many supported slavery, colonialism, and gender hierarchies. Also, similar ideas developed independently in non-Western contexts.\n\nLesson: trace the intellectual roots of modern politics; recognize Enlightenment contributions while critiquing their limitations; avoid assuming Western ideas are inherently superior—compare with Islamic jurisprudence, Chinese philosophy, etc.",
         "videoURL": "https://www.youtube.com/watch?v=HbeEJ7BG2Q4",
-        "externalLinkURL": "https://www.britannica.com/topic/Enlightenment"
+        "externalLinkURL": "https://plato.stanford.edu/entries/enlightenment/",
+        "linkedCardIndices": [
+          4,
+          5,
+          7,
+          8,
+          14,
+          15,
+          16,
+          29,
+          33
+        ]
       }
     ]
   },
   {
-    "name": "Philosophy & Critical Thinking",
+    "name": "General Culture: Philosophy & Critical Thinking",
     "stableId": "general_culture_philosophy_thinking",
-    "description": "Build critical thinking skills: identify logical fallacies, evaluate arguments, understand ethical frameworks, and apply philosophical reasoning to everyday decisions.",
+    "description": "Sharpen reasoning: spot fallacies, evaluate arguments, and apply ethical frameworks.",
     "color": "purple",
     "category": "General Culture",
     "language": "en",
@@ -11543,43 +11661,92 @@
         "name": "Understanding Logical Arguments: How to Evaluate Claims Critically",
         "textDescription": "Most people believe things for poor reasons—'I read it online,' 'my friend said so,' 'it sounds right.' Understanding how to evaluate arguments is foundational to critical thinking. It's not about winning debates; it's about believing true things and rejecting false ones.\n\nAn argument consists of premises (claims offered as support) and a conclusion (what's being argued for). Example: 'All humans are mortal. Socrates is human. Therefore, Socrates is mortal.' The strength of an argument depends on logical structure and truth of premises.\n\nValidity measures structure: does the conclusion necessarily follow from premises? In the Socrates example, if premises are true, conclusion must be true. The argument is valid. But consider: 'All dogs are animals. Fido is an animal. Therefore, Fido is a dog.' Same structure, but now the conclusion doesn't necessarily follow (Fido might be a cat). Validity concerns logical form, not content.\n\nSoundness requires both valid structure and true premises. A valid argument with false premises is unsound: 'All cats are dogs. Fluffy is a cat. Therefore, Fluffy is a dog.' Valid structure (if premises were true, conclusion would follow) but unsound (cats aren't dogs).\n\nWhen evaluating claims, ask: (1) Is the argument logically valid? Does the conclusion follow from premises? (2) Are the premises true? Could the premises be false? (3) Are there unstated assumptions? What's left unsaid?\n\nExample of hidden assumptions: 'Exercise improves health. Therefore, you should exercise.' Unstated: health is valuable to you, exercise is feasible for you. These seem obvious but aren't universal.\n\nMost disputes aren't actually about logic; they're about premises. Two people disagree on immigration policy. One believes immigrants commit crimes at high rates (empirical premise). The other believes they commit crimes at low rates. Same ethical logic; different premises yield different conclusions. Identifying disagreement at the premise level clarifies discussion.\n\nThis is why critical thinking matters: it forces clarity about what you're actually disagreeing about, making productive discourse possible.",
         "videoURL": "https://www.youtube.com/watch?v=5-QA0I-6DmU",
-        "externalLinkURL": "https://plato.stanford.edu/entries/logic-classical/"
+        "externalLinkURL": "https://plato.stanford.edu/entries/logic-classical/",
+        "linkedCardIndices": [
+          0,
+          1,
+          9,
+          23
+        ]
       },
       {
         "name": "Logical Fallacies: Common Thinking Errors That Fool Smart People",
         "textDescription": "Logical fallacies are common errors in reasoning. Understanding them prevents you from fooling yourself and makes you harder to manipulate.\n\nAd hominem attacks the person, not the argument. Example: 'You believe in climate change, but you drive a car—hypocrite!' Whether someone is hypocritical doesn't determine if climate change is real. This is persuasive because inconsistency bothers us emotionally, but it's logically irrelevant. The argument stands or falls on its merits, not the arguer's purity.\n\nStraw man misrepresents the opponent's position to make it easier to attack. Someone argues: 'We should have stronger regulations on pollution.' You respond: 'They want to shut down all industry!' You've distorted their position into something indefensible. This prevents real debate because you're not engaging with their actual claim.\n\nFalse dilemma presents only two options when more exist. 'You're either with us or against us' ignores neutral positions. 'Either you support unlimited immigration or you're racist' ignores nuanced stances. This is persuasive because it forces people to choose sides, preventing middle-ground discussion.\n\nAppeal to authority uses someone's status to justify a claim without evidence. 'A celebrity said this product works, so it does' misuses authority. Authority matters only in relevant domains: trust climate scientists on climate, not celebrity opinions. Even legitimate authorities can be wrong; authority should supplement evidence, not replace it.\n\nSlippery slope claims one event inevitably leads to worse consequences. 'If we allow gay marriage, next is marrying animals!' Fallacious without mechanism. But valid slippery slope: 'If we allow government power X without limits, future governments may extend it.' Distinguish speculative fears from real precedent concerns.\n\nCircular reasoning assumes the conclusion in the premises. 'The Bible is true because it says so' assumes the Bible is reliable to prove the Bible is reliable. Circular reasoning feels persuasive because the conclusion and premises seem different, but they're actually the same claim dressed differently.\n\nFalse causality assumes one event caused another without evidence. 'I got sick after eating spicy food, so spicy food made me sick' ignores: I was already sick, it was a coincidence, or something else caused it. Correlation (both happened) isn't causation.\n\nThese fallacies work because they exploit psychological biases and emotional reasoning. Recognizing them is the first step to resisting manipulation.",
         "videoURL": "https://www.youtube.com/watch?v=OxHy7K1iapI",
-        "externalLinkURL": "https://iep.utm.edu/fallacy/"
+        "externalLinkURL": "https://iep.utm.edu/fallacy/",
+        "linkedCardIndices": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          18
+        ]
       },
       {
         "name": "Ethical Frameworks: How Philosophers Think About Right and Wrong",
         "textDescription": "When facing moral dilemmas, people often say 'I just feel it's wrong.' But why do you feel it's wrong? Different philosophical frameworks give different answers, and understanding them clarifies moral reasoning.\n\nUtilitarianism: the right action maximizes overall happiness/well-being. Stealing food to feed a starving family is justified because it prevents worse suffering. Simple calculation: one person's inconvenience (stolen food) vs. a family's survival. The math favors theft. Strength: utilitarianism is intuitive (everyone cares about consequences). Weakness: it can justify harmful acts ('torture one innocent person to prevent greater suffering for five') and struggles with justice ('punish innocent people if it makes society happier').\n\nDeontology: morality depends on duties and rules independent of consequences. Some acts are inherently right (keeping promises) or wrong (lying), regardless of outcomes. From a deontological view, lying to save a life might still be wrong because lying violates a duty. Strength: deontology respects individual rights and prohibits some intuitively terrible acts. Weakness: it struggles with conflicting duties (when saving lives requires breaking promises).\n\nVirtue ethics: morality is about developing good character, not following rules or calculating outcomes. Rather than 'What action maximizes happiness?' ask 'What would a virtuous person do?' A virtuous person is courageous, honest, compassionate, etc. This focuses on who you become, not just what you do. Strength: virtue ethics captures intuition that character matters. Weakness: it's vague—'what is virtue?' differs across cultures.\n\nPractical example: you find money someone dropped. Utilitarian: return it if the owner values it more than the finder (calculate). Deontologist: return it because you have a duty not to steal. Virtue ethicist: a virtuous person shows honesty and compassion by returning it.\n\nMost people use hybrid approaches: consider consequences (utilitarian), respect duties and rights (deontological), and develop character (virtue). Understanding these frameworks helps articulate why something feels right or wrong, and enables serious moral discussion.",
         "videoURL": "https://www.youtube.com/watch?v=QFgcqB3IY9E",
-        "externalLinkURL": "https://plato.stanford.edu/entries/ethics/"
+        "externalLinkURL": "https://plato.stanford.edu/entries/ethics-virtue/",
+        "linkedCardIndices": [
+          13,
+          14,
+          15,
+          24,
+          25
+        ]
       },
       {
         "name": "Confirmation Bias and Motivated Reasoning: Why Smart People Believe False Things",
         "textDescription": "Confirmation bias is the tendency to seek, interpret, and remember information confirming existing beliefs while dismissing contradicting information. It's perhaps the most dangerous thinking error because it operates unconsciously in intelligent people.\n\nExample: you believe supplement X improves memory. When you try it, you remember times it seemed to help (confirmation), forget times it didn't work (ignoring disconfirming evidence), and interpret ambiguous results as supporting it. A friend reports no benefit; you explain it away ('maybe they didn't use it right'). Over time, your initial belief is reinforced despite weak evidence.\n\nWhy is confirmation bias so pernicious? It feels like reasoning. You're examining evidence, but you're unconsciously filtering and interpreting it to preserve existing beliefs. Smart people are better at this filtering—they can generate sophisticated justifications for believing false things. Ironically, intelligence without awareness of bias makes you worse at truth-seeking.\n\nMotivated reasoning extends this: you're motivated to believe things for emotional, financial, or social reasons. Political beliefs are prime example: liberals interpret studies as supporting progressive policies; conservatives interpret the same studies as supporting conservative policies. Each side genuinely believes it's being objective, unaware of emotional motivation. Climate denial is widespread partly because people are motivated (emotionally or financially) to disbelieve it.\n\nCountering confirmation bias: (1) Actively seek disconfirming evidence. What would prove you wrong? (2) Steel-man opposing views (represent them charitably). (3) Expose yourself to different sources and communities. (4) Evaluate evidence statistically, not anecdotally. (5) Assume you're biased; examine your beliefs for motivated reasoning. (6) Trust expert consensus over personal judgment; experts have processes countering bias.\n\nHumility is essential: the more intelligent you are, the better you can rationalize false beliefs. Recognizing this vulnerability is the first step to overcoming it. Science works because it's a social process with checks against individual bias—peer review, replication, open debate. Don't trust your isolated judgment; trust systematic processes.",
         "videoURL": "https://www.youtube.com/watch?v=vKA4w2O61Xo",
-        "externalLinkURL": "https://iep.utm.edu/cognbias/"
+        "externalLinkURL": "https://en.wikipedia.org/wiki/Cognitive_bias",
+        "linkedCardIndices": [
+          10,
+          11,
+          12,
+          18,
+          26
+        ]
       },
       {
         "name": "The Trolley Problem and Moral Intuitions: What Reveals Itself",
         "textDescription": "The trolley problem is a philosophical thought experiment revealing deep truths about morality. It's useful not because it has an obvious answer, but because different answers reveal conflicting moral intuitions.\n\nScenario 1: An out-of-control trolley will hit and kill five people. You can pull a lever, diverting it to a side track where it will kill one person. Should you pull the lever? Most people say yes—saving five at the cost of one death is good arithmetic.\n\nScenario 2: Same trolley, five people in danger. But now, a large person stands on a bridge. You can push them off, stopping the trolley with their body, saving five at the cost of one death. Same outcome (five saved, one killed), but most people say no—don't push.\n\nWhy the difference? Both scenarios result in one death preventing five deaths. If morality is purely about outcomes (utilitarian view), both should yield the same answer. But intuitions differ, suggesting outcome isn't all that matters.\n\nPhilosophers debate explanations: (1) Action vs. inaction: pulling a lever is indirect; pushing is direct. Morally, we distinguish (we're more responsible for active harm). (2) Using vs. hurting: in scenario 1, you divert harm; in scenario 2, you use the person's body as a tool. Using someone seems worse. (3) Intention: in scenario 1, they die as a side effect; in scenario 2, their death is the means to save others.\n\nThis reveals: our moral intuitions aren't purely utilitarian. We care about action types, intentions, and using people. But this creates problems: medical doctors perform actions that seem like scenario 2 (removing organs from a healthy person would kill them and save five patients needing organs). We prohibit this despite good consequences, showing non-utilitarian intuitions. Yet we allow pulling the lever despite scenario 2 intuitions conflicting with it.\n\nThe trolley problem illustrates why moral philosophy is hard: our intuitions are inconsistent. Pure consequentialism struggles with deontological intuitions; pure deontology struggles with utilitarian intuitions. Real moral reasoning requires balancing multiple values.",
         "videoURL": "https://www.youtube.com/watch?v=yg16u_bzjPE",
-        "externalLinkURL": "https://plato.stanford.edu/entries/trolley-problem/"
+        "externalLinkURL": "https://en.wikipedia.org/wiki/Trolley_problem",
+        "linkedCardIndices": [
+          14,
+          15,
+          13
+        ]
       },
       {
         "name": "Epistemology: How Do You Know What You Know?",
         "textDescription": "Epistemology studies knowledge: what it is, how you acquire it, and what justifies belief. It seems abstract, but it's foundational to critical thinking and determines what you should believe.\n\nBasic question: what makes a belief justified? Three conditions seem necessary: (1) You believe it. (2) It's true. (3) You have adequate reasons for believing it (justified true belief). But these don't seem sufficient. Imagine you believe it will rain because you heard a groundhog prediction. It does rain. You believed it, it was true, but the prediction wasn't a justified reason.\n\nJustification comes from sources: (1) Perception: 'I see a tree.' Perception seems reliable but can deceive (optical illusions). (2) Memory: 'I remember my childhood.' Memory can be fallible and prone to distortion. (3) Logic/reason: 'If A implies B and A is true, then B is true.' Logic seems most reliable but only works given premises. (4) Testimony: 'An expert says....' Relies on trusting others.\n\nHow much evidence justifies belief? This depends on stakes. Believing 'it might rain' needs minimal evidence (weather report). Believing 'a defendant is guilty' requires much higher evidence (beyond reasonable doubt). Scientific claims require replicable evidence. Religious claims require... what? This is contested.\n\nThe burden of proof is crucial: whoever claims something unusual bears responsibility for evidence. 'Aliens exist' requires evidence; 'aliens don't exist' needs no evidence. This prevents endless debates where you must prove negatives. Extraordinary claims require extraordinary evidence.\n\nSkepticism challenges: how do you know you're not dreaming? That the external world is real? That your memory is accurate? These are logically unanswerable but practically irrelevant. David Hume argued we can't logically justify induction (the sun rose today, so it will tomorrow), yet we must rely on it. This shows: some foundational beliefs can't be proven but must be assumed.\n\nImplication: justified belief requires evidence, but also acknowledgment of uncertainty. Smart people hold beliefs provisionally, updating when evidence changes. This is rationality.",
         "videoURL": "https://www.youtube.com/watch?v=k3kF1qJbsWQ",
-        "externalLinkURL": "https://plato.stanford.edu/entries/epistemology/"
+        "externalLinkURL": "https://plato.stanford.edu/entries/epistemology/",
+        "linkedCardIndices": [
+          8,
+          9,
+          10,
+          12,
+          19,
+          22,
+          26
+        ]
       },
       {
         "name": "The Socratic Method: How to Think Better Through Questions",
         "textDescription": "Socrates, ancient Athenian philosopher, didn't write books or give lectures. Instead, he walked around asking questions. His method—the Socratic method—is powerful for developing critical thinking and uncovering truth.\n\nThe method: rather than telling someone they're wrong, ask probing questions that reveal contradictions in their beliefs. Example: someone claims 'courage is standing your ground in battle.' Socrates asks: 'Is a general who retreats to better position cowardly?' 'What about someone standing ground but fighting for an unjust cause—is that courageous?' Through questions, they realize their definition is incomplete.\n\nWhy is this effective? First, it's persuasive. People who reach conclusions themselves are convinced; people told they're wrong become defensive. Second, it reveals hidden assumptions. Most people haven't fully examined their beliefs. Questions force explicit articulation, revealing gaps and contradictions. Third, it's collaborative, not combative—you're thinking together, not winning a debate.\n\nFor critical thinking, this translates to: ask clarifying questions before disagreeing. 'What do you mean by justice?' 'Can you give an example?' 'How does that fit with your claim that...?' This forces precision and reveals whether disagreement is fundamental or semantic.\n\nModern applications: in science, the Socratic method appears as dialectical reasoning (thesis, antithesis, synthesis). In dialogue, good conversation involves questions more than declarations. In therapy, the therapist asks questions helping clients reach insights. In education, Socratic seminars engage students in questioning texts rather than lecturing about them.\n\nLimitations: the Socratic method works if people are genuinely open to questioning. Socrates was executed partly because his questions threatened Athenian authorities. Some people reject questioning, preferring certainty. Also, the method can be manipulative—appearing to ask genuine questions while leading toward predetermined conclusions ('Did you consider...?'). True Socratic method requires genuine uncertainty.\n\nThe deeper point: critical thinking develops through questioning—your own beliefs and others'. Confidence without examination is unexamined dogmatism. Socratic questioning is philosophy's fundamental tool.",
         "videoURL": "https://www.youtube.com/watch?v=rvKc8-chPao",
-        "externalLinkURL": "https://plato.stanford.edu/entries/socrates/"
+        "externalLinkURL": "https://plato.stanford.edu/entries/socrates/",
+        "linkedCardIndices": [
+          17,
+          23,
+          12,
+          8
+        ]
       }
     ]
   },
