@@ -75,7 +75,7 @@
   {
     "id": "scientific_literacy_en",
     "name": "Scientific Literacy",
-    "description": "Scientific method, climate science, and data reasoning",
+    "description": "Reason like a scientist: evidence, data, and climate basics.",
     "iconName": "flask.fill",
     "colorName": "purple",
     "stableDeckIds": [

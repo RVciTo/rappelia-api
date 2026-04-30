@@ -7643,43 +7643,93 @@
         "name": "The Greenhouse Effect: Basic Physics That Explains Planet Warming",
         "textDescription": "The greenhouse effect is often presented as mysterious or debated, but it's straightforward physics discovered in the 1850s. Understanding it removes confusion about whether climate change is real.\n\nHere's how it works: the sun's energy constantly bathes Earth. Some reflects off clouds and ice (albedo), some absorbs in the atmosphere, and the rest heats Earth's surface. Earth then radiates this energy back toward space as infrared radiation (heat). Normally, this heat escapes, and Earth maintains a stable temperature. But greenhouse gases—CO2, methane, water vapor, and others—absorb infrared radiation and reradiate it in all directions, including back toward Earth. More greenhouse gas = more radiation trapped = hotter surface.\n\nThis isn't theoretical. In laboratory experiments, you can measure how much infrared radiation CO2 absorbs. It's measurable, reproducible physics. The effect is so well-understood that the magnitude of warming from a doubling of CO2 (from 280 to 560 ppm) can be calculated from basic physics: approximately 1-1.2°C of warming before considering feedback loops (which amplify it further).\n\nThe only scientific debate is on magnitude: exactly how much warming will occur and how fast? This depends on feedbacks (albedo, water vapor, clouds) and how much CO2 humans emit. The basic physics—that CO2 traps heat—is not debated in science because it's proven.\n\nA common misconception: 'CO2 is only 0.04% of the atmosphere, so it can't matter.' This is false logic. Small amounts matter if they're potent. A glass of water is 0.001% cyanide by volume, but it kills you. Potency matters more than abundance. CO2's heat-trapping potency is high, and it's cumulative—each additional molecule matters.",
         "videoURL": "https://www.youtube.com/watch?v=w8oeqF3A5fY",
-        "externalLinkURL": "https://climate.nasa.gov/evidence/"
+        "externalLinkURL": "https://climate.nasa.gov/evidence/",
+        "linkedCardIndices": [
+          0,
+          1,
+          5,
+          18,
+          23
+        ]
       },
       {
         "name": "The Carbon Cycle: How Humans Disrupted a Balanced System",
         "textDescription": "For millions of years, Earth's carbon cycle was relatively balanced. Carbon cycled through: atmosphere (CO2) → plants (photosynthesis) → animals (eating plants) → decomposition/respiration → back to atmosphere. Fossil fuels were carbon buried underground millions of years ago—not part of the modern cycle.\n\nHumans discovered these ancient carbon deposits (coal, oil, natural gas) and now burn them at unprecedented rates. We're releasing ~10 billion tons of carbon annually—carbon that was sequestered for millions of years. This is not part of the natural cycle; it's an enormous injection.\n\nNatural sinks (forests, oceans, soils) absorb some of this CO2—about 45% of emissions. But we're emitting faster than they can absorb. The result: CO2 atmospheric concentration increases ~2 ppm annually. Pre-industrial levels were 280 ppm; today we're over 420 ppm—a 50% increase in 170 years.\n\nThe consequences: more atmospheric CO2 → stronger greenhouse effect → faster warming. But also: more CO2 in oceans → ocean acidification, affecting marine life. Feedback loops amplify this: warming thaws permafrost (releasing methane, a potent greenhouse gas), melts ice (reducing albedo, increasing heat absorption), and strengthens water vapor feedback (warmer air holds more water vapor, a greenhouse gas).\n\nThe disturbing part: even if we stopped all emissions today, atmospheric CO2 would remain at 420 ppm for centuries (CO2 lifetime ~300 years). This means warming is committed for generations. Our only choice is how much further we warm by what we emit in the next decades. The carbon we released decades ago is still warming the planet today and will continue for centuries.",
         "videoURL": "https://www.youtube.com/watch?v=EqW_jRfEFEo",
-        "externalLinkURL": "https://climate.nasa.gov/vital-signs/carbon-dioxide/"
+        "externalLinkURL": "https://climate.nasa.gov/vital-signs/carbon-dioxide/",
+        "linkedCardIndices": [
+          2,
+          8,
+          9,
+          10,
+          16,
+          19,
+          22
+        ]
       },
       {
         "name": "Climate Feedback Loops: Why Warming Accelerates Itself",
         "textDescription": "Linear thinking about climate is dangerous. You might assume: 'We add some CO2, it warms a bit, no big deal.' This ignores feedback loops—processes that amplify initial warming, causing runaway acceleration.\n\nAlbedo feedback: White surfaces (ice, snow) reflect sunlight back to space; dark surfaces (ocean, forest) absorb it. As the planet warms, ice melts, exposing dark ocean and land. This exposed dark surface absorbs more heat, melting more ice in a self-reinforcing loop. The Arctic has warmed 2-3x faster than the global average because of albedo feedback.\n\nPermafrost feedback: Permafrost (frozen soil in Arctic regions) contains vast amounts of organic carbon from dead vegetation. As permafrost thaws due to warming, microbes decompose this carbon, releasing CO2 and methane. This increases atmospheric greenhouse gases, causing more warming, thawing more permafrost. This is a dangerous loop we may have triggered already.\n\nWater vapor feedback: Warmer air holds more water vapor (~7% more per 1°C of warming). Water vapor is a greenhouse gas. More warming → more water vapor → stronger greenhouse effect → more warming. This feedback roughly doubles the warming from CO2 alone.\n\nCloud feedback is complex: some clouds warm the planet (trap heat), others cool it (reflect sunlight). Climate models struggle with cloud behavior, creating uncertainty. But observations suggest net positive feedback (warming accelerates cloud behavior toward trapping more heat).\n\nThese feedback loops explain why early estimates of warming from doubling CO2 (1-1.2°C from basic physics) translate to actual warming of 3°C+ in climate models—feedbacks double or triple the direct effect. This is why small changes in forcing (greenhouse gases) can trigger large changes in climate. We're not on a linear path; we're risking acceleration.",
         "videoURL": "https://www.youtube.com/watch?v=nrPVWWHocN8",
-        "externalLinkURL": "https://www.ipcc.ch/report/ar6/wg1/"
+        "externalLinkURL": "https://www.ipcc.ch/report/ar6/wg1/",
+        "linkedCardIndices": [
+          3,
+          14,
+          15,
+          17
+        ]
       },
       {
         "name": "Evidence for Climate Change: Why Scientists Are Certain",
         "textDescription": "Climate change skeptics sometimes claim scientists are uncertain or data is unclear. This misrepresents the scientific consensus. Multiple independent lines of evidence converge on warming and human causation.\n\nTemperature records from 1850-present show clear warming: 1.1°C since pre-industrial times, with acceleration in recent decades. This is confirmed by: surface stations, satellites (since 1979), ocean buoys, and weather balloons. Different measurement methods all show the same warming trend. If data were flawed, we'd expect disagreement between methods, not agreement.\n\nSea levels have risen ~21cm since 1880, with acceleration (~3-4mm/year now). Cause: thermal expansion of warming water and melting land ice. This is measured by tide gauges and satellites with extreme precision. Coastal cities worldwide document more frequent 'nuisance flooding' and tidal inundation—observable impacts.\n\nGlaciers worldwide have retreated dramatically. Documented through: glacier length measurements (centuries of data), satellite imagery (recent decades), and loss of sea ice. Even non-climate people notice: alpine glaciers tourists once saw are now gone. This is measurable, observable evidence.\n\nCarbon isotope analysis proves CO2 comes from fossil fuels. CO2 has stable isotopes (12C and 13C) with different ratios. Fossil fuel carbon is enriched in 12C; atmospheric CO2 shows this enrichment since industrial era. This proves humans caused the increase, not natural sources like volcanoes or oceans.\n\nClimate models from 40 years ago predicted warming closely matching observed warming. If scientists didn't understand climate, models would miss the mark. That they predicted accurately suggests understanding is solid. The debate among scientists isn't whether warming happens or causes, but about precise magnitude of future impacts.",
         "videoURL": "https://www.youtube.com/watch?v=5xz4ZcLvqto",
-        "externalLinkURL": "https://climate.nasa.gov/scientific-consensus/"
+        "externalLinkURL": "https://climate.nasa.gov/scientific-consensus/",
+        "linkedCardIndices": [
+          5,
+          11,
+          12,
+          18,
+          23,
+          25
+        ]
       },
       {
         "name": "Biodiversity Loss: Why Species Extinction Matters for Ecosystems and Humans",
         "textDescription": "Biodiversity is often treated as an environmental luxury—nice to have, but not essential. This view is dangerously wrong. Biodiversity is the foundation of ecosystem function and human survival.\n\nEcosystems are intricate networks: pollinators (bees, butterflies, birds) pollinate 75% of crops and 90% of wild plants. Loss of pollinators cascades to crop failure and ecosystem collapse. Decomposers (fungi, bacteria) break down dead material, recycling nutrients that sustain plants. Predators control herbivores, preventing overgrazing. Plants produce oxygen and store carbon. Remove species and entire systems unravel.\n\nHumans are losing biodiversity at 100-1000x natural extinction rates. We're in the sixth mass extinction event, this time caused by humans. Drivers: habitat destruction (converting forests to agriculture), climate change, pollution, and overharvesting.\n\nWhy should we care? Practical reasons: many medicines derive from natural products (40% of pharmaceuticals). Destroyed species might have held cures for diseases. Wild crop relatives are genetic resources for breeding resilient varieties as climate changes. Intact ecosystems provide 'ecosystem services' we take for granted: pollination, water filtration, flood prevention, carbon storage. Degraded ecosystems fail these functions, imposing costs.\n\nEmotional reasons: species have intrinsic worth beyond usefulness to humans. Many people find meaning and beauty in nature. Driving species to extinction is a moral loss.\n\nBut here's the mechanism: biodiversity creates resilience. An ecosystem with 100 species can lose several without collapsing (others compensate). An ecosystem with 10 species may collapse with one loss. We've reduced diversity so severely that remaining ecosystems are fragile. Climate change compounds this: species must migrate to track suitable climate, but fragmented habitats prevent migration. The combination—habitat loss plus climate change—is causing collapse.",
         "videoURL": "https://www.youtube.com/watch?v=a1d5PdFR0yQ",
-        "externalLinkURL": "https://www.un.org/en/observances/biological-diversity-day"
+        "externalLinkURL": "https://www.un.org/en/observances/biological-diversity-day",
+        "linkedCardIndices": [
+          7,
+          8,
+          9,
+          21
+        ]
       },
       {
         "name": "Ocean Acidification: The Invisible Threat to Marine Life",
         "textDescription": "While climate change's effects (warming, extreme weather) grab headlines, ocean acidification—the 'other CO2 problem'—quietly devastates marine ecosystems.\n\nOceans absorb CO2 from the atmosphere. In seawater, CO2 dissolves forming carbonic acid, lowering pH (making water more acidic). Ocean pH has decreased 0.1 pH units since pre-industrial times. This might sound tiny, but pH is logarithmic: 0.1 units represents 30% increase in acidity.\n\nWhy is this catastrophic for marine life? Many organisms use calcium carbonate to build shells and skeletons: mollusks (clams, oysters), pteropods (sea snails), corals, echinoderms (sea stars, sea urchins), crustaceans. In acidified water, shells dissolve—it's like trying to build concrete in acid. Larval forms (most vulnerable) are failing to develop properly.\n\nPteropods are a bellwether: these tiny sea snails are primary food for salmon, whales, and seabirds. Pteropods in acidified waters of the Pacific show shell dissolution. This has cascaded: salmon facing food shortage, animals dependent on salmon struggling. The food web collapses from the bottom up.\n\nCoral reefs face double stress: warming causes bleaching (expulsion of symbiotic algae), acidification reduces their ability to build skeletons. Reefs are essentially dying. This threatens billions of people dependent on reefs for food and coastal protection.\n\nThe terrifying part: acidification is 'locked in' by past emissions. Even if we eliminate new emissions tomorrow, the CO2 already released will continue acidifying oceans for centuries as it equilibrates. We're committed to centuries of acidification. This makes past emissions mortgaging future marine systems.",
-        "videoURL": "https://www.youtube.com/watch?v=EqW_jRfEFEo",
-        "externalLinkURL": "https://www.noaa.gov/education/resource-collections/ocean-coasts/ocean-acidification"
+        "videoURL": "https://www.youtube.com/watch?v=dSLh6jc8YLI",
+        "externalLinkURL": "https://oceanservice.noaa.gov/facts/acidification.html",
+        "linkedCardIndices": [
+          4,
+          1,
+          6,
+          21
+        ]
       },
       {
         "name": "Evaluating Climate Claims: How to Distinguish Real Science from Denial",
         "textDescription": "With climate change, misinformation abounds. How do you evaluate claims and distinguish credible information from denial or misunderstanding?\n\nCheck the source: Is it published in peer-reviewed scientific journals and accepted by major scientific organizations (NASA, NOAA, IPCC), or is it opinion pieces and blogs? Peer review involves expert scrutiny; blogs don't. Scientists have reputational incentive to be right; media outlets and activists have incentive to grab attention. This doesn't mean activists are always wrong, but require higher standards of evidence.\n\nExamine conflicts of interest: Is the person funded by the fossil fuel industry or organizations it sponsors? Financial interest biases inquiry. Decades of leaked documents show fossil fuel companies funded denial campaigns despite their own researchers confirming warming. This doesn't mean all contrarian scientists are dishonest, but it's red flag.\n\nCheck consensus: 99%+ of climate scientists agree warming is real and human-caused. If a claim contradicts this consensus, assume it's wrong unless extraordinary evidence supports it. Scientific consensus is built on evidence, not politics.\n\nEvaluate the logic: Some common fallacies: 'I remember cold winters, so warming isn't real' (weather ≠ climate; natural variability exists within warming trend). 'We had warm periods before, so this warming must be natural' (true, but natural causes don't explain current warming; isotopes, model comparisons prove humans caused it). 'Solar activity causes warming' (solar activity has been flat since 1980s, while warming accelerated—rules out solar cause).\n\nBe skeptical of fringe theories: If almost all scientists reject a claim, it's likely wrong. Science advances through evidence, not popularity, but mass disagreement suggests insufficient evidence.\n\nFinal test: Can you find published evidence supporting the claim in reputable journals? If not, be suspicious. Science is peer-reviewed and published. Extraordinary claims require extraordinary evidence.",
         "videoURL": "https://www.youtube.com/watch?v=OWXoRSIxyIU",
-        "externalLinkURL": "https://www.ipcc.ch/"
+        "externalLinkURL": "https://www.ipcc.ch/",
+        "linkedCardIndices": [
+          10,
+          11,
+          12,
+          23,
+          25,
+          13
+        ]
       }
     ]
   },
@@ -7805,31 +7855,69 @@
         "name": "Base rates and false positives (Bayes intuition)",
         "textDescription": "A test can look “accurate” but still produce many false positives when the condition is rare.\n\nBase rates are the missing piece: prevalence affects how to interpret a positive result.\n\nBayes’ rule formalizes this update, but the intuition is enough: always ask “how common is it?”\n\nThis helps you interpret medical headlines responsibly.",
         "videoURL": "https://www.youtube.com/watch?v=HZGCoVF3YvM",
-        "externalLinkURL": "https://www.khanacademy.org/math/statistics-probability/probability-library/bayes-theorem"
+        "externalLinkURL": "https://www.khanacademy.org/math/statistics-probability/probability-library/bayes-theorem",
+        "linkedCardIndices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
       },
       {
         "name": "Bias catalog: the usual ways we fool ourselves",
         "textDescription": "Selection bias, survivorship bias, and confirmation bias are common failure modes.\n\nThey can make strong narratives from weak evidence.\n\nA simple defense is to ask what data are missing, and how the sample was chosen.\n\nBias awareness is a learnable skill.",
         "videoURL": "https://www.youtube.com/watch?v=EZsaA0w_0z0",
-        "externalLinkURL": "https://www.ncbi.nlm.nih.gov/books/NBK63643/"
+        "externalLinkURL": "https://www.ncbi.nlm.nih.gov/books/NBK63643/",
+        "linkedCardIndices": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
       },
       {
         "name": "Effect sizes: why “how much” matters",
         "textDescription": "Scientific results should answer “how much” and “with what uncertainty.”\n\nEffect size tells magnitude. Confidence intervals show uncertainty.\n\nA tiny effect may be statistically significant in huge samples, but irrelevant in practice.\n\nThis prevents overreacting to weak effects.",
         "videoURL": "https://www.youtube.com/watch?v=GtV-VYdNt_g",
-        "externalLinkURL": "https://openstax.org/details/books/introductory-statistics"
+        "externalLinkURL": "https://openstax.org/details/books/introductory-statistics",
+        "linkedCardIndices": [
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
       },
       {
         "name": "Causal reasoning checklist",
         "textDescription": "For causal claims, look for: temporality (cause before effect), dose-response, plausible mechanism, and consistency across studies.\n\nRandomized trials are strongest, but not always possible.\n\nWhen only observational data exist, be cautious.\n\nThis checklist upgrades everyday reasoning.",
         "videoURL": "https://www.youtube.com/watch?v=hxhbOvR2TGk",
-        "externalLinkURL": "https://www.who.int/news-room/fact-sheets"
+        "externalLinkURL": "https://www.who.int/news-room/fact-sheets",
+        "linkedCardIndices": [
+          6,
+          11,
+          12,
+          13,
+          14
+        ]
       },
       {
         "name": "Reading risk numbers in the news",
         "textDescription": "A headline claiming \"risk doubled\" sounds scary until you ask: from what to what? If it went from 0.1% to 0.2%, the absolute change is tiny. If it went from 40% to 80%, it's major. Relative risk hides this.\n\nAlways ask for absolute numbers (not percentages) and base rates.\n\nNumber Needed to Treat (NNT) is clearest: \"treat 100 people to prevent one case of X.\"\n\nExample: a drug has \"50% effectiveness\" but NNT = 50. That means helping one person requires treating 50. Know the NNT, not just the percentage.",
-        "videoURL": "https://www.youtube.com/watch?v=GtV-VYdNt_g",
-        "externalLinkURL": "https://www.cdc.gov/csels/dsepd/ss1978/index.html"
+        "videoURL": "https://www.youtube.com/watch?v=eVtCO84MDj8",
+        "externalLinkURL": "https://en.wikipedia.org/wiki/Relative_risk",
+        "linkedCardIndices": [
+          4,
+          5,
+          16,
+          17,
+          18,
+          19,
+          15
+        ]
       }
     ]
   },
@@ -8010,31 +8098,74 @@
         "name": "Correlation vs causation: the confounder problem",
         "textDescription": "Correlation is common because many variables move together. The hard question is whether one causes the other.\n\nConfounders can create correlations: a third factor influences both variables.\n\nStrong causal claims usually need randomized experiments or careful quasi-experimental designs.\n\nThis single skill protects you from a huge share of misinformation.",
         "videoURL": "https://www.youtube.com/watch?v=GtV-VYdNt_g",
-        "externalLinkURL": "https://openstax.org/details/books/introductory-statistics"
+        "externalLinkURL": "https://openstax.org/details/books/introductory-statistics",
+        "linkedCardIndices": [
+          12,
+          6,
+          5,
+          7,
+          26,
+          27
+        ]
       },
       {
         "name": "Study design ladder: from anecdotes to trials",
         "textDescription": "Not all evidence is equal. Anecdotes are compelling but unreliable. Observational studies can suggest associations but are vulnerable to confounding.\n\nRandomized controlled trials (RCTs) reduce bias by random assignment. Systematic reviews and meta-analyses summarize multiple studies.\n\nLearn to ask: Who was studied? How were groups formed? What was measured?\n\nThis is scientific literacy in practice.",
         "videoURL": "https://www.youtube.com/watch?v=hxhbOvR2TGk",
-        "externalLinkURL": "https://www.cochrane.org/about-us/evidence-based-health-care"
+        "externalLinkURL": "https://www.cochrane.org/evidence",
+        "linkedCardIndices": [
+          5,
+          7,
+          8,
+          9,
+          11,
+          13,
+          14,
+          26
+        ]
       },
       {
         "name": "Replication and reproducibility",
         "textDescription": "Replication asks: do we see the same result again with new data? Reproducibility asks: can we rerun the analysis and get the same numbers?\n\nBoth matter. Transparent methods, shared data, and code improve reliability.\n\nSingle studies are rarely definitive. Patterns across multiple studies are stronger.\n\nTreat science as a process, not a set of isolated papers.",
         "videoURL": "https://www.youtube.com/watch?v=EZsaA0w_0z0",
-        "externalLinkURL": "https://www.nature.com/collections/prbfkwmwvz"
+        "externalLinkURL": "https://www.nature.com/collections/prbfkwmwvz",
+        "linkedCardIndices": [
+          10,
+          17,
+          18,
+          19,
+          11
+        ]
       },
       {
         "name": "p-values, confidence intervals, and effect sizes",
         "textDescription": "A p-value is about “surprise under the null,” not “probability the hypothesis is true.”\n\nConfidence intervals show uncertainty and help interpret practical importance.\n\nEffect size answers the real question: how big is the impact?\n\nGood scientific communication reports all three, plus limitations.",
-        "videoURL": "https://www.youtube.com/watch?v=GtV-VYdNt_g",
-        "externalLinkURL": "https://www.khanacademy.org/math/statistics-probability"
+        "videoURL": "https://www.youtube.com/watch?v=Z6gjY_YhnBo",
+        "externalLinkURL": "https://www.khanacademy.org/math/statistics-probability",
+        "linkedCardIndices": [
+          15,
+          16,
+          22,
+          23,
+          24,
+          25
+        ]
       },
       {
         "name": "How to read a science headline",
         "textDescription": "Science headlines often exaggerate what studies actually show. Use this checklist: (1) What is the exact claim? (2) What study design backs it (anecdote, observational, RCT)? (3) Are absolute numbers provided, or only percentages?\n\nA common error: claiming causation from correlation or generalizing from a tiny sample.\n\nCheck if the result has been replicated in other studies. Look for conflicts of interest (Who funded this?).\n\nIf a headline promises a cure or breakthrough without qualification, be skeptical. Science is incremental.",
-        "videoURL": "https://www.youtube.com/watch?v=EZsaA0w_0z0",
-        "externalLinkURL": "https://www.nature.com/articles/d41586-023-02408-3"
+        "videoURL": "https://www.youtube.com/watch?v=8B271L3NtAw",
+        "externalLinkURL": "https://www.nih.gov/about-nih/what-we-do/science-health-public-trust",
+        "linkedCardIndices": [
+          11,
+          17,
+          20,
+          21,
+          26,
+          28,
+          29,
+          30
+        ]
       }
     ]
   },
