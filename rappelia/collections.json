@@ -2,19 +2,19 @@
   {
     "id": "bac_terminale_fr",
     "name": "Bac Terminale",
-    "description": "Toutes les matières pour réussir le Bac",
+    "description": "Couvrir chaque épreuve du bac, des œuvres au Grand Oral.",
     "iconName": "graduationcap.fill",
     "colorName": "indigo",
     "stableDeckIds": [
-      "bac_francais_oeuvres_parcours",
       "bac_francais_outils_reperes",
-      "bac_maths_essentiels",
-      "bac_physique_chimie_essentiels",
-      "bac_svt_essentiels",
+      "bac_francais_oeuvres_parcours",
       "bac_philosophie_notions",
       "bac_histoire_reperes_chronologie",
       "bac_geographie_reperes_territoires",
       "bac_hggsp_notions",
+      "bac_maths_essentiels",
+      "bac_physique_chimie_essentiels",
+      "bac_svt_essentiels",
       "bac_anglais_bases",
       "bac_grand_oral"
     ],
@@ -36,7 +36,7 @@
   {
     "id": "financial_literacy_fr",
     "name": "Éducation financière",
-    "description": "Budget, crédit, investissement et gestion de l'argent",
+    "description": "Gérer son argent, ses dettes et ses placements, étape par étape.",
     "iconName": "dollarsign.circle.fill",
     "colorName": "green",
     "stableDeckIds": [
@@ -62,7 +62,7 @@
   {
     "id": "health_essentials_fr",
     "name": "Santé & Bien-être",
-    "description": "Nutrition, corps humain, santé mentale et bien-être",
+    "description": "Comprendre son corps, son alimentation et son équilibre mental, sans charlatanisme.",
     "iconName": "heart.fill",
     "colorName": "red",
     "stableDeckIds": [
@@ -88,7 +88,7 @@
   {
     "id": "scientific_literacy_fr",
     "name": "Culture scientifique",
-    "description": "Méthode scientifique, climat et raisonnement avec les données",
+    "description": "Comprends la méthode, les données et le climat.",
     "iconName": "flask.fill",
     "colorName": "purple",
     "stableDeckIds": [
@@ -114,7 +114,7 @@
   {
     "id": "digital_literacy_fr",
     "name": "Culture numérique",
-    "description": "Internet, IA, cybersécurité et vie privée numérique",
+    "description": "Maîtrise Internet, l'IA et ta vie privée en ligne.",
     "iconName": "lock.shield.fill",
     "colorName": "cyan",
     "stableDeckIds": [
@@ -157,7 +157,7 @@
   {
     "id": "general_culture_fr",
     "name": "Culture générale",
-    "description": "Géographie, philosophie et repères essentiels",
+    "description": "Pose tes repères en histoire, géo et philo.",
     "iconName": "globe",
     "colorName": "orange",
     "stableDeckIds": [
@@ -185,7 +185,7 @@
   {
     "id": "computer_science_cs50_fr",
     "name": "Informatique (CS50)",
-    "description": "Fondements de l'informatique inspirés de Harvard CS50",
+    "description": "Apprends les fondements de l'informatique avec CS50.",
     "iconName": "desktopcomputer",
     "colorName": "red",
     "stableDeckIds": [
@@ -213,7 +213,7 @@
   {
     "id": "web3_blockchain_fr",
     "name": "Web3 & Blockchain",
-    "description": "Blockchain, contrats intelligents, DeFi et gouvernance",
+    "description": "Décrypte la blockchain, les smart contracts et la DeFi.",
     "iconName": "link.circle.fill",
     "colorName": "purple",
     "stableDeckIds": [
