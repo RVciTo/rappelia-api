@@ -101,7 +101,7 @@
   {
     "id": "digital_literacy_en",
     "name": "Digital Literacy",
-    "description": "Internet basics, AI literacy, cybersecurity, and digital privacy",
+    "description": "Get online safely: internet, AI literacy, cybersecurity, and privacy",
     "iconName": "lock.shield.fill",
     "colorName": "cyan",
     "stableDeckIds": [
