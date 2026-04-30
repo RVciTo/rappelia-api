@@ -10056,9 +10056,9 @@
     ]
   },
   {
-    "name": "STEM Algebra & Functions",
+    "name": "Algebra & Functions",
     "stableId": "stem_algebra_functions",
-    "description": "Essential algebra and functions for STEM: graphs, equations, quadratics, exponentials, and modeling.",
+    "description": "Master graphs, equations, quadratics, exponentials, and modeling for STEM.",
     "color": "blue",
     "category": "Mathematics",
     "language": "en",
@@ -10226,69 +10226,79 @@
       {
         "name": "Functions: domain, range, and graphs",
         "textDescription": "A function is a rule that assigns each input exactly one output. The domain is the set of allowed inputs; the range is the set of possible outputs.\n\nGraphing is a visual way to see how outputs change as inputs change. The vertical line test checks whether a graph represents a function: if any vertical line crosses the graph twice, it's not a function.\n\nWhen solving real problems, always interpret domain restrictions. For example, in a projectile motion problem, time t ≥ 0; in population modeling, N ≥ 0. Violating these constraints produces nonsensical answers (negative time, negative animals).\n\nThinking in terms of inputs/outputs makes many word problems simpler. Instead of memorizing formulas, ask: What varies? What controls it? This is function thinking.",
-        "videoURL": "https://www.youtube.com/watch?v=VQkZ4sPKs5c",
-        "externalLinkURL": "https://www.khanacademy.org/math/algebra"
+        "videoURL": "https://www.youtube.com/watch?v=kvGsIo1TmsM",
+        "externalLinkURL": "https://www.khanacademy.org/math/algebra",
+        "linkedCardIndices": [0, 1, 2, 23, 24]
       },
       {
         "name": "Linear functions and slope as rate of change",
         "textDescription": "Linear functions model constant rate of change. In f(x)=mx+b, m is the slope and b is the starting value (intercept).\n\nSlope can be interpreted as \"units of output per unit of input,\" which connects directly to speed (meters per second), cost per item (dollars per unit), or growth per year (percentage per year).\n\nTwo-point form (m=(y₂-y₁)/(x₂-x₁)) and point-slope form (y-y₁=m(x-x₁)) help build an equation from data.\n\nCommon mistake: forgetting to check units and interpret the intercept. In a cost model, the y-intercept might be fixed costs (even if you make nothing); ignoring it leads to underestimating total cost.",
-        "videoURL": "https://www.youtube.com/watch?v=ZC0bQ1bQ9GQ",
-        "externalLinkURL": "https://openstax.org/details/books/algebra-and-trigonometry"
+        "videoURL": "https://www.youtube.com/watch?v=R948Tsyq4vA",
+        "externalLinkURL": "https://openstax.org/details/books/algebra-and-trigonometry",
+        "linkedCardIndices": [3, 4, 5, 13, 14, 15, 25]
       },
       {
         "name": "Quadratics: roots, vertex, and meaning",
         "textDescription": "Quadratic functions appear in projectile motion (height of a ball), optimization (maximum area given a perimeter), and area problems (where a rectangle's dimensions relate dimensions to area).\n\nThe roots are x-values where the graph crosses the x-axis (where f(x)=0). In context, roots often mean \"when does the object land?\" or \"at what price is profit zero?\"\n\nThe vertex is the maximum or minimum point. The x-coordinate of the vertex is x=-b/(2a), and it represents the peak (or valley) of the parabola.\n\nThe discriminant b²-4ac predicts how many real roots exist without solving: if positive (two roots), zero (one repeated root), or negative (no real roots but two complex ones). This saves computation when you only need to know whether solutions exist.\n\nDifferent forms highlight different features: standard form (ax²+bx+c) for expansion, factored form for roots, vertex form (a(x-h)²+k) for the turning point.",
-        "videoURL": "https://www.youtube.com/watch?v=G6kXnZxF1V0",
-        "externalLinkURL": "https://www.khanacademy.org/math/algebra2/quadratics"
+        "videoURL": "https://www.youtube.com/watch?v=IWigvJcCAJ0",
+        "externalLinkURL": "https://www.khanacademy.org/math/algebra2/quadratics",
+        "linkedCardIndices": [6, 7, 8, 28]
       },
       {
         "name": "Exponents and logarithms: inverse ideas",
         "textDescription": "Exponents model repeated multiplication and rapid growth or decay. The rule aᵐ·aⁿ=aᵐ⁺ⁿ shows that multiplication of numbers becomes addition of exponents—powerful for combining exponential quantities.\n\nLogarithms are the inverse operation: logᵦ(x)=y means bʸ=x. They answer the question \"what power of the base gives me x?\" For example, log₁₀(1000)=3 because 10³=1000.\n\nLog rules simplify: log(ab)=log(a)+log(b) (multiplication becomes addition) and log(a/b)=log(a)-log(b) (division becomes subtraction). This is why logs appear in scientific formulas: they simplify exponential equations into linear ones.\n\nUnderstanding \"inverse\" helps solve exponential equations. If 2ˣ=8, take log₂ of both sides: x=log₂(8)=3.\n\nAlways track base and domain restrictions: logarithms are only defined for positive numbers (x>0) in real arithmetic.",
-        "videoURL": "https://www.youtube.com/watch?v=Z5myJ8DG8tg",
-        "externalLinkURL": "https://www.khanacademy.org/math/algebra2/exponential-and-logarithmic-functions"
+        "videoURL": "https://www.youtube.com/watch?v=mQTWzLpCcW0",
+        "externalLinkURL": "https://www.khanacademy.org/math/algebra2/exponential-and-logarithmic-functions",
+        "linkedCardIndices": [9, 10, 11, 26, 27]
       },
       {
         "name": "Modeling with equations: sanity checks",
         "textDescription": "A model is a simplified equation that captures a relationship. Good modeling uses variables with clear meanings and units.\n\nWorkflow: (1) Define variables clearly: \"Let t=time in seconds, v=velocity in m/s.\" (2) Write the relationship based on context. (3) Before solving, estimate what a reasonable answer looks like. (4) After solving, check units and plug the solution back into the original relationship.\n\nExample: You're told \"a ball's height is h(t)=100t-5t².\" Before solving, ask: When t=0, h=0 (good, starts at ground). When does h=0 again? Set h=0: t(100-5t)=0, so t=0 or t=20. Does t=20s make sense? The ball falls at ~10 m/s² (gravity), so reaching 0 height in 20s is plausible.\n\nIn STEM, modeling accuracy and interpretation are often more important than memorizing formulas.",
         "videoURL": "https://www.youtube.com/watch?v=riXcZT2ICjA",
-        "externalLinkURL": "https://openstax.org/details/books/algebra-and-trigonometry"
+        "externalLinkURL": "https://openstax.org/details/books/precalculus-2e",
+        "linkedCardIndices": [3, 5, 6, 16, 17, 18, 28]
       },
       {
         "name": "Systems of equations: intersection viewpoint",
         "textDescription": "A system of equations represents multiple conditions that must be true at the same time. Graphically, solutions are intersections of the lines (or curves).\n\nYou can solve with substitution (solve one for a variable, substitute into the other), elimination (add or subtract equations to cancel a variable), or graphing (sketch and find intersections).\n\nIn real applications (mixing chemicals, pricing bundles, physics constraints), defining variables clearly matters more than choosing a method. For example: \"Let x=kg of chemical A, y=kg of chemical B. Then 2x+3y=100 (total mass constraint) and 0.8x+0.6y=70 (purity constraint).\"\n\nCheck whether a solution is unique (one intersection), infinite (same line, infinitely many solutions), or none (parallel lines, no solution). A unique solution is typical; the other cases signal dependent or conflicting constraints.",
-        "videoURL": "https://www.youtube.com/watch?v=z19pWw_VDt0",
-        "externalLinkURL": "https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:systems-of-equations"
+        "videoURL": "https://www.youtube.com/watch?v=nok99JOhcjo",
+        "externalLinkURL": "https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:systems-of-equations",
+        "linkedCardIndices": [12, 13, 14, 28]
       },
       {
         "name": "Inequalities and intervals",
         "textDescription": "Inequalities describe ranges of values rather than single values. Solutions are often written in interval notation: [a,b] for a≤x≤b (closed), (a,b) for a<x<b (open), or [a,b) for a≤x<b (half-open).\n\nA key rule: multiplying or dividing by a negative number flips the inequality sign. Example: -2x<6 becomes x>-3 when divided by -2. Why? Because negative numbers reverse order on the number line: -3 is to the left of 2 on the number line, but when you multiply by -1, larger numbers become smaller.\n\nGraphing inequalities on a number line gives a clear picture: shaded regions represent solutions.\n\nIn STEM contexts, inequalities encode constraints. For example, in structural engineering, stress ≤ yield strength; in pharmacology, drug concentration should be in a certain range for efficacy and safety. Understanding which direction the inequality points is critical.",
-        "videoURL": "https://www.youtube.com/watch?v=RgB2TqNcnG4",
-        "externalLinkURL": "https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:inequalities"
+        "videoURL": "https://www.youtube.com/watch?v=unSBFwK881s",
+        "externalLinkURL": "https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:inequalities",
+        "linkedCardIndices": [19, 20, 21]
       },
       {
         "name": "Rates of change: from algebra to calculus",
         "textDescription": "Average rate of change over an interval [a,b] is the slope between two points: (f(b)-f(a))/(b-a). This is the slope of the secant line, and it tells you the average speed of change.\n\nWhen you shrink the interval (b approaches a), the secant slope approaches the tangent slope at a single point. This limit is the derivative, the instantaneous rate of change. This idea bridges algebra (slopes) and calculus (derivatives).\n\nExample: If f(t)=t² is distance in meters at time t in seconds, then the average rate of change from t=1 to t=3 is (9-1)/(3-1)=4 m/s. But at t=1 exactly, the instantaneous rate is different. Calculus finds this using limits.\n\nThis is one of the most important bridges in STEM learning because it connects basic algebra to advanced problem-solving.",
-        "videoURL": "https://www.youtube.com/watch?v=ANyVpMS3HLU",
-        "externalLinkURL": "https://openstax.org/details/books/calculus-volume-1"
+        "videoURL": "https://www.youtube.com/watch?v=WUvTyaaNkzM",
+        "externalLinkURL": "https://openstax.org/details/books/calculus-volume-1",
+        "linkedCardIndices": [4, 14, 22, 29]
       },
       {
         "name": "Common algebra mistakes and how to avoid them",
         "textDescription": "Most algebra mistakes come from skipping steps: distributing incorrectly (forgetting the -2 in -2(x+3)=-2x-6), dropping negative signs, or mixing up order of operations.\n\nCommon errors include: (1) (a+b)²≠a²+b² but equals a²+2ab+b²; (2) 1/(a+b)≠1/a+1/b; (3) √(a²+b²)≠a+b.\n\nStrategy: Write intermediate steps, especially when you move terms across an equals sign. Use quick checks: plug in simple numbers (x=0, x=1) to test both sides. Or graph both sides to verify they're equal.\n\nFor equations, always check your solution by substituting back: if you found x=5, compute the left side and right side at x=5. If they match, you're correct.\n\nAccuracy first; speed comes later. In STEM, getting the wrong answer confidently is worse than getting the right answer slowly.",
         "videoURL": "https://www.youtube.com/watch?v=5uI0uJpsEhI",
-        "externalLinkURL": "https://www.khanacademy.org/math/algebra"
+        "externalLinkURL": "https://openstax.org/details/books/algebra-and-trigonometry-2e",
+        "linkedCardIndices": [8, 9, 10, 14, 20, 28]
       },
       {
         "name": "Practice plan: spaced repetition for math",
         "textDescription": "Math sticks when practice is spaced and mixed. Instead of doing 20 similar problems in a row, mix topics. For example, in a single session, solve 2-3 linear problems, 2-3 quadratic problems, and 2-3 exponential problems.\n\nUse short daily sessions (20-30 min) and track error types. If you repeatedly make sign errors, make flashcards specifically for negatives. If you forget exponent rules, drill those rules until they're reflexive.\n\nAfter solving a problem, explain the reasoning in one sentence: \"I set height to zero because the ball lands there.\" This builds transfer beyond mechanical symbol pushing.\n\nConsistency beats marathon sessions. Studying 30 minutes daily for 2 weeks outperforms 10 hours in one day because sleep consolidates learning.\n\nReview errors weekly: identify patterns. Are you misreading signs? Forgetting steps? Understanding the pattern prevents repeating the mistake.",
-        "videoURL": "https://www.youtube.com/watch?v=5uI0uJpsEhI",
-        "externalLinkURL": "https://www.learningscientists.org/blog/2016/6/23-1"
+        "videoURL": "https://www.youtube.com/watch?v=W0VWO4asgmk",
+        "externalLinkURL": "https://www.learningscientists.org/blog/2016/6/23-1",
+        "linkedCardIndices": [0, 3, 6, 9, 12, 16, 19, 21]
       }
     ]
   },
   {
-    "name": "STEM Biology: Cells & Genetics",
+    "name": "Biology: Cells & Genetics",
     "stableId": "stem_biology_cells_genetics",
-    "description": "Cell basics, DNA, gene expression, cell division, and core genetics for STEM learners.",
+    "description": "Learn cells, DNA, gene expression, cell division, and core genetics.",
     "color": "pink",
     "category": "Science",
     "language": "en",
@@ -10412,68 +10422,78 @@
         "name": "A tour of the cell: organelles as departments",
         "textDescription": "Cells are the basic unit of life. Eukaryotic cells have specialized compartments called organelles, each performing specific functions.\n\nThink of a eukaryotic cell as a microscopic city: the nucleus is the library (stores DNA blueprints); mitochondria are power plants (produce ATP); the endoplasmic reticulum is a factory (makes proteins and lipids); the Golgi apparatus is a mail room (packages and ships); vesicles are delivery trucks; the cell membrane is the border (controlled entry/exit).\n\nProkaryotic cells lack this compartmentalization: they're simpler but can still thrive in harsh environments and reproduce quickly.\n\nUnderstanding this structure-function relationship makes organelle roles memorable and logical.",
         "videoURL": "https://www.youtube.com/watch?v=jsDxw63QqK0",
-        "externalLinkURL": "https://openstax.org/details/books/biology-2e"
+        "externalLinkURL": "https://openstax.org/details/books/biology-2e",
+        "linkedCardIndices": [0, 1, 16]
       },
       {
         "name": "DNA → RNA → Protein: the central dogma",
         "textDescription": "Genetic information flows one direction: from DNA (genotype) to RNA (messenger) to protein (function and phenotype).\n\nTranscription creates mRNA in the nucleus; this mRNA moves to the ribosome where translation builds a protein chain, one amino acid per codon. The genetic code is redundant (multiple codons code for the same amino acid), which provides error tolerance.\n\nMutations in DNA can change the amino acid sequence. Most changes are neutral (synonymous or in noncoding regions), but some are harmful (nonsense mutations that create stop codons, or missense mutations that change critical amino acids, like in sickle cell disease).\n\nThis framework explains why genetic information matters, how traits are determined, and where evolution happens.",
         "videoURL": "https://www.youtube.com/watch?v=8kK2zwjRV0M",
-        "externalLinkURL": "https://www.khanacademy.org/science/biology/central-dogma-of-molecular-biology"
+        "externalLinkURL": "https://www.khanacademy.org/science/biology/central-dogma-of-molecular-biology",
+        "linkedCardIndices": [2, 3, 5, 6, 7]
       },
       {
         "name": "Mitosis vs meiosis: why they exist",
         "textDescription": "Mitosis creates two identical daughter cells for growth, repair, and asexual reproduction. It preserves the full chromosome number (diploid in, diploid out).\n\nMeiosis creates four non-identical gametes (sperm or eggs) with half the chromosomes (haploid). This halving is essential: when gametes fuse, the diploid number is restored. Without halving, each generation would have 2x the chromosomes.\n\nMeiosis also shuffles chromosomes through independent assortment (homologous chromosomes separate randomly) and crossing over (exchange of DNA segments between homologs), creating genetic variation. This variation is raw material for evolution.\n\nExample: In humans, your 23 chromosome pairs separate in meiosis to produce gametes with 23 individual chromosomes. When egg and sperm fuse, you get 23 pairs again.\n\nUsing simple diagrams (circles with chromosome numbers) helps track these processes.",
         "videoURL": "https://www.youtube.com/watch?v=skPOXcVvS5c",
-        "externalLinkURL": "https://www.khanacademy.org/science/biology/cell-division"
+        "externalLinkURL": "https://www.khanacademy.org/science/biology/cell-division",
+        "linkedCardIndices": [4, 9, 10]
       },
       {
         "name": "Mendelian genetics: the simplest inheritance model",
         "textDescription": "Mendel's model treats traits as controlled by alleles. In his pea experiments, he found that traits didn't blend; they appeared in discrete ratios (3:1 in the F2 generation for a monohybrid cross).\n\nKey insight: the dominant allele (A) masks the recessive (a) in heterozygotes (Aa). Only homozygous recessives (aa) show the recessive phenotype.\n\nPunnett squares help predict offspring genotypes: cross the alleles from both parents, and the grid shows all possible combinations.\n\nReal genetics is more complex—most traits involve multiple genes, incomplete dominance, epistasis, and environmental effects. But Mendelian logic is the starting point. It explains why a trait can skip generations (hidden in carriers) and why two brown-eyed parents can have a blue-eyed child (if both are carriers, Bb, and both pass b).",
         "videoURL": "https://www.youtube.com/watch?v=CBezq1fFUEA",
-        "externalLinkURL": "https://www.khanacademy.org/science/biology/classical-genetics"
+        "externalLinkURL": "https://www.khanacademy.org/science/biology/classical-genetics",
+        "linkedCardIndices": [11, 12, 19, 20]
       },
       {
         "name": "Homeostasis: stability through feedback",
         "textDescription": "Homeostasis keeps variables like temperature, pH, blood glucose, and osmotic pressure in narrow ranges. Too hot or cold, too acidic or basic—cells malfunction.\n\nNegative feedback loops counteract change: if temperature rises, you sweat (cooling) until temperature drops back to setpoint. If blood glucose rises, the pancreas releases insulin, which promotes glucose uptake until levels normalize.\n\nPositive feedback amplifies change temporarily: during childbirth, contractions stretch the uterus, triggering more contractions, until birth occurs. It's useful for rapid, decisive change but unsustainable long-term.\n\nUnderstanding homeostasis prevents oversimplified health claims. Your body is dynamic, constantly adjusting. Fever during illness is often a beneficial response, not purely a symptom to suppress. Sweating is thermoregulation, not just discomfort.\n\nHomeostasis is a unifying principle in physiology: respiration, circulation, digestion, and excretion all serve homeostasis.",
-        "videoURL": "https://www.youtube.com/watch?v=0lK93f3cGfY",
-        "externalLinkURL": "https://openstax.org/details/books/biology-2e"
+        "videoURL": "https://www.youtube.com/watch?v=sUfifkcvxD0",
+        "externalLinkURL": "https://www.khanacademy.org/science/high-school-biology/hs-human-body-systems/hs-body-structure-and-homeostasis",
+        "linkedCardIndices": [13, 15]
       },
       {
         "name": "Natural selection: mechanism, not a slogan",
         "textDescription": "Natural selection requires three conditions: (1) variation in traits within a population; (2) heritability (traits passed to offspring); (3) differential fitness (some variants leave more offspring).\n\nSelection does not \"aim\" for perfection or progress. It's passive: in a given environment, variants that enable survival and reproduction become more common. In a different environment, different traits win.\n\nExample: Peppered moths in industrial England. Light-colored moths were more visible to predators in soot-covered factories, so dark variants survived and reproduced more. When pollution decreased, light moths returned. The population shifted in both directions.\n\nEvolution through natural selection explains adaptation, but also explains why organisms have imperfect or vestigial features (humans have a tailbone; whales have vestigial hip bones)—they're evolutionary legacy.\n\nThis is the central mechanism in modern biology.",
         "videoURL": "https://www.youtube.com/watch?v=P3GagfbA2vo",
-        "externalLinkURL": "https://www.khanacademy.org/science/biology/her/evolution-and-natural-selection"
+        "externalLinkURL": "https://www.khanacademy.org/science/biology/her/evolution-and-natural-selection",
+        "linkedCardIndices": [7, 8]
       },
       {
         "name": "Enzymes: why chemistry works in living cells",
         "textDescription": "Enzymes are biological catalysts, usually proteins. They bind substrates, lower the activation energy barrier, and release products. The enzyme is unchanged—it can be reused.\n\nEnzyme activity depends on conditions: temperature (too cold, reactions slow; too hot, enzyme denatures); pH (each enzyme has an optimal pH, e.g., pepsin in the stomach at pH ~2, trypsin in the small intestine at pH ~8); and substrate concentration (at low substrate, reaction speeds up with more substrate; at high substrate, enzyme saturates).\n\nThis explains why bodies maintain narrow temperature and pH ranges. It also explains why digestive enzymes work in the stomach (acidic) but not the small intestine (basic)—different enzymes for different conditions.\n\nEnzymes are central to metabolism, immune function, and DNA replication.\n\nThis is a key bridge between chemistry and biology: understanding enzyme kinetics explains biological rates and regulation.",
         "videoURL": "https://www.youtube.com/watch?v=E90D4BmaVJM",
-        "externalLinkURL": "https://www.khanacademy.org/science/biology/energy-and-enzymes"
+        "externalLinkURL": "https://www.khanacademy.org/science/biology/energy-and-enzymes",
+        "linkedCardIndices": [14, 15]
       },
       {
         "name": "Membranes and transport: how cells control their internal world",
         "textDescription": "Cell membranes are lipid bilayers with embedded proteins. The hydrophobic tails face inward; hydrophilic heads face outward. This structure is selective: small, nonpolar molecules (O₂, CO₂) pass freely; large or polar molecules (glucose, ions) require transport proteins.\n\nPassive transport (diffusion, osmosis) costs no energy—particles move down their concentration gradient. Active transport uses ATP to pump molecules up their gradient, against entropy. Example: sodium-potassium pump maintains high K+ inside and high Na+ outside, powering nerve signals.\n\nOsmosis explains why plant cells are rigid (turgor pressure from water uptake makes cells turgid); animal cells can lyse in hypotonic solution or shrivel in hypertonic solution.\n\nUnderstanding transport explains real phenomena: why salt dehydrates (osmosis draws water out of cells), why IV solutions must be isotonic (wrong osmolarity lyses red blood cells), and why plants wilt without water (lost turgor).",
         "videoURL": "https://www.youtube.com/watch?v=9Ia8zH-qMZw",
-        "externalLinkURL": "https://openstax.org/details/books/biology-2e"
+        "externalLinkURL": "https://www.khanacademy.org/science/biology/membranes-and-transport",
+        "linkedCardIndices": [16, 17, 18]
       },
       {
         "name": "Genetics in real life: traits, diseases, and environment",
         "textDescription": "Mendelian genetics (simple dominant/recessive) explains some traits well: eye color (roughly), cystic fibrosis (recessive), Huntington's disease (dominant). But most traits are polygenic (controlled by many genes) and influenced by environment.\n\nHeight is ~80% heritable but varies with nutrition. Intelligence is polygenic and environmental. Skin color involves multiple genes and sun exposure.\n\nGeneticics can affect disease risk. BRCA mutations increase breast cancer risk, but not all carriers develop cancer (penetrance <100%). Environmental factors (smoking, diet, stress) also matter.\n\nUnderstanding this prevents genetic determinism: \"I have the gene, so I'll get the disease\" is often wrong. It also combats discrimination: genes don't determine destiny.\n\nUse reputable sources (National Institutes of Health, Nature Genetics, peer-reviewed journals) for health genetics claims. Avoid popular overstated claims about genes \"for\" intelligence, athleticism, or morality.",
         "videoURL": "https://www.youtube.com/watch?v=4YNDB_zSzfE",
-        "externalLinkURL": "https://www.genome.gov/genetics-glossary"
+        "externalLinkURL": "https://www.genome.gov/genetics-glossary",
+        "linkedCardIndices": [7, 11, 12, 19, 20]
       },
       {
         "name": "Practice plan: draw, define, connect",
         "textDescription": "Biology sticks when you draw processes: DNA replication (antiparallel strands, base pairing), transcription (RNA polymerase on DNA), translation (ribosome reading codons), mitosis (chromosome condensation, spindle, separation), meiosis (two divisions, genetic shuffling).\n\nUse colored pencils to distinguish DNA from RNA, strands from nucleotides, or chromosome pairs.\n\nMake vocabulary flashcards, but write the definition in your own words—that step builds understanding. Include pictures or diagrams on the card.\n\nGroup related concepts: mitosis, meiosis, and cell cycle together; transcription, translation, and gene expression together.\n\nReview frequently with spaced repetition. Biological processes are concrete; visualizing them is the key to retention.",
-        "videoURL": "https://www.youtube.com/watch?v=8kK2zwjRV0M",
-        "externalLinkURL": "https://www.learningscientists.org/blog/2016/6/23-1"
+        "videoURL": "https://www.youtube.com/watch?v=L0k-enzoeOM",
+        "externalLinkURL": "https://www.learningscientists.org/blog/2016/6/23-1",
+        "linkedCardIndices": [0, 5, 9, 11, 14, 16, 19]
       }
     ]
   },
   {
-    "name": "STEM Calculus Foundations",
+    "name": "Calculus Foundations",
     "stableId": "stem_calculus_foundations",
-    "description": "Limits, derivatives, and integrals with the intuition needed for STEM problem-solving.",
+    "description": "Build intuition for limits, derivatives, and integrals you can apply.",
     "color": "purple",
     "category": "Mathematics",
     "language": "en",
@@ -10592,68 +10612,78 @@
         "name": "Limits: the language of 'approach'",
         "textDescription": "Limits formalize the intuitive idea of getting arbitrarily close to a value. They handle cases where direct substitution fails.\n\nExample: f(x)=sin(x)/x is undefined at x=0, but lim_{x→0} sin(x)/x=1 (you can verify with a calculator: sin(0.01)/0.01≈0.99999...). The limit exists even though f(0) is undefined.\n\nLeft-hand and right-hand limits must agree for the limit to exist. Example: |x|/x has no limit at x=0 because from the left it approaches -1 and from the right it approaches +1.\n\nLimits are the foundation for continuity, derivatives (difference quotient limit), and integrals (Riemann sum limit).\n\nA strong intuition comes from graphs and numerical tables. Testing values close to the point builds understanding.",
         "videoURL": "https://www.youtube.com/watch?v=riXcZT2ICjA",
-        "externalLinkURL": "https://www.khanacademy.org/math/ap-calculus-ab/ab-limits-new"
+        "externalLinkURL": "https://www.khanacademy.org/math/ap-calculus-ab/ab-limits-new",
+        "linkedCardIndices": [0, 1, 17]
       },
       {
         "name": "Derivatives as rate of change in the real world",
         "textDescription": "The derivative models instantaneous change. Position's derivative is velocity (m/s). Velocity's derivative is acceleration (m/s²). Cost's derivative is marginal cost ($/unit). Population's derivative is growth rate (/year).\n\nThe tangent slope viewpoint helps visualize sensitivity: a steep tangent (large f') means outputs are sensitive to small input changes; a flat tangent (f'≈0) means outputs are insensitive.\n\nRules (power rule x^n→n·x^{n-1}, product rule, chain rule) automate derivative computation, but interpretation is the real payoff. Always track units: force has units kg·m/s², and f' from a physics context should have interpretable units.\n\nCommon mistake: computing f' without understanding its meaning. Instead, ask: What is changing? Per what? The answer guides your check.",
-        "videoURL": "https://www.youtube.com/watch?v=ANyVpMS3HLU",
-        "externalLinkURL": "https://openstax.org/details/books/calculus-volume-1"
+        "videoURL": "https://www.youtube.com/watch?v=9vKqVkMQHKk",
+        "externalLinkURL": "https://openstax.org/details/books/calculus-volume-1",
+        "linkedCardIndices": [3, 4, 5, 16]
       },
       {
         "name": "Integration as accumulation",
         "textDescription": "Integration adds up tiny contributions. That's why it appears in distance (∫velocity dt), mass (∫density dV), probability (∫density dx), and work (∫force dx).\n\nThe definite integral has units: (units of f)×(units of x). Example: if f is force in newtons and x is position in meters, then ∫F dx is work in joules.\n\nThe Fundamental Theorem of Calculus connects integrals to antiderivatives: if F'=f, then ∫_a^b f dx=F(b)-F(a). This is profound: computing area reduces to evaluating an antiderivative at endpoints.\n\nPractice translating word problems into \"accumulate over an interval.\" Example: \"A tank fills at rate r(t) liters/min. How much water in 10 minutes?\" Answer: ∫_0^10 r(t) dt.",
-        "videoURL": "https://www.youtube.com/watch?v=K0yP6U1V5JQ",
-        "externalLinkURL": "https://www.khanacademy.org/math/ap-calculus-ab/ab-integration-new"
+        "videoURL": "https://www.youtube.com/watch?v=rfG8ce4nNh0",
+        "externalLinkURL": "https://www.khanacademy.org/math/ap-calculus-ab/ab-integration-new",
+        "linkedCardIndices": [8, 9, 10, 11]
       },
       {
         "name": "Continuity: when 'no jumps' really matters",
         "textDescription": "A function is continuous at a point if the limit exists and equals the value. This simple idea enables powerful theorems: intermediate value theorem (a continuous function hits every value between f(a) and f(b)), extreme value theorem (continuous on closed interval implies max/min exist).\n\nContinuity ensures that intermediate values are hit. Example: if f(0)=0 and f(1)=10, and f is continuous, then by IVT, f(c)=5 for some c in [0,1]. This seems obvious graphically, but is profound mathematically.\n\nDifferent types of discontinuity: removable (hole, fixable by redefining one point), jump (both sides exist but differ), infinite (vertical asymptote).\n\nIn modeling, discontinuities often signal missing assumptions. A piecewise function with jumps may be right, but pause and verify: does the real phenomenon actually jump?\n\nGraphing helps: removable discontinuities show a hole, jumps show a gap, vertical asymptotes show the function shooting to ±∞.",
         "videoURL": "https://www.youtube.com/watch?v=QfMYYAhIejk",
-        "externalLinkURL": "https://www.khanacademy.org/math/ap-calculus-ab/ab-limits-new/ab-1-8/v/continuity-introduction"
+        "externalLinkURL": "https://www.khanacademy.org/math/ap-calculus-ab/ab-limits-new/ab-1-8/v/continuity-introduction",
+        "linkedCardIndices": [2, 17]
       },
       {
         "name": "Optimization workflow: theory to practice",
         "textDescription": "Optimization problems follow a pattern: (1) Define a quantity Q(x) to optimize (maximize or minimize) in terms of one variable x, using constraints to eliminate others. (2) Take the derivative Q'(x). (3) Set Q'(x)=0 and solve. (4) Check endpoints and critical points to find the global max/min. (5) Interpret back in the original context with units.\n\nExample: \"A box with fixed volume V has a square base (side s) and height h. Minimize surface area.\" Setup: V=s²h, so h=V/s². Surface area A(s)=2s²+4sh=2s²+4s(V/s²)=2s²+4V/s. Minimize: A'(s)=4s-4V/s²=0, giving s³=V, so s=V^(1/3). Then h=V/s²=V^(1/3). Interpretation: at the optimal design, the base and height are related by geometry.\n\nThis is one of the most common calculus applications in engineering, business, and economics.",
-        "videoURL": "https://www.youtube.com/watch?v=QwqW1c8j0J0",
-        "externalLinkURL": "https://www.khanacademy.org/math/ap-calculus-ab/ab-diff-contextual-applications"
+        "videoURL": "https://www.youtube.com/watch?v=dam16G6cZ8k",
+        "externalLinkURL": "https://www.khanacademy.org/math/ap-calculus-ab/ab-diff-contextual-applications",
+        "linkedCardIndices": [12, 13, 19]
       },
       {
         "name": "Chain rule intuition: nested changes",
         "textDescription": "The chain rule handles \"a change that causes a change.\" If y depends on u and u depends on x, then y changes with x through u: dy/dx=(dy/du)·(du/dx).\n\nExample: Temperature T depends on height h in the atmosphere. Height h depends on time t as a balloon rises. So T changes with t through h: dT/dt=(dT/dh)·(dh/dt).\n\nAnother example: In optimization, if profit P depends on quantity sold q, and q depends on price p (via demand), then dP/dp=(dP/dq)·(dq/dp) captures how price affects profit.\n\nKeeping track of intermediate variables makes derivations clearer. Draw dependency arrows: x→u→y helps visualize which derivatives multiply.\n\nCommon mistake: forgetting to apply the chain rule to the inner function. Always ask: Is there a function inside? If yes, chain rule applies.",
         "videoURL": "https://www.youtube.com/watch?v=H-ybCx8gt-8",
-        "externalLinkURL": "https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-new/ab-2-5/v/chain-rule-introduction"
+        "externalLinkURL": "https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-new/ab-2-5/v/chain-rule-introduction",
+        "linkedCardIndices": [6, 7]
       },
       {
         "name": "Common calculus mistakes and their fixes",
         "textDescription": "Common errors: (1) Forgetting the chain rule on nested functions. (2) Dropping constants of integration (the +C). (3) Confusing average vs instantaneous change. (4) Sign errors when setting up integrals. (5) Not simplifying before differentiating/integrating (making algebra harder).\n\nStrategy: Write derivatives step-by-step, then simplify. Example: d/dx[(x²+1)³]. Use chain rule: 3(x²+1)²·2x=6x(x²+1)². Don't try to expand (x²+1)³ first.\n\nFor integrals, sketch the region. If part is below the x-axis, the integral gives signed area. If you need unsigned area, integrate absolute value or split at zeros.\n\nCheck with a quick graphing intuition: does the sign and magnitude make sense? If f'>0, the function should be increasing. If the integral is positive, the area above should outweigh the area below.\n\nTreat calculus as structured reasoning, not just symbol pushing. Pause and ask: What does this mean? What should the answer look like?",
-        "videoURL": "https://www.youtube.com/watch?v=riXcZT2ICjA",
-        "externalLinkURL": "https://www.khanacademy.org/math/ap-calculus-ab"
+        "videoURL": "https://www.youtube.com/watch?v=S0_qX4VJhMQ",
+        "externalLinkURL": "https://www.khanacademy.org/math/ap-calculus-ab",
+        "linkedCardIndices": [4, 5, 7, 11]
       },
       {
         "name": "Second derivative: curvature, acceleration, and concavity",
         "textDescription": "The second derivative f''(x) measures how the first derivative changes. In motion, f''(x) is acceleration (how velocity changes).\n\nIt also describes concavity: if f''(x)>0, the curve bends upward (concave up); if f''(x)<0, it bends downward (concave down). This helps classify critical points: if f'(c)=0 and f''(c)>0, then c is a local minimum (the curve opens upward at c).\n\nInflection points occur where f''=0 and changes sign—the curve transitions between concave up and concave down.\n\nExample: A position graph s(t) has first derivative v(t)=s'(t) (velocity) and second derivative a(t)=s''(t) (acceleration). If a>0, the object is speeding up; if a<0, it's slowing down. The sign of a tells you the direction of the acceleration, which may differ from the velocity direction.",
-        "videoURL": "https://www.youtube.com/watch?v=1WOrzHe6Q1U",
-        "externalLinkURL": "https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-new/ab-3-10/v/concavity-and-the-second-derivative"
+        "videoURL": "https://www.youtube.com/watch?v=LcEqOzNov4E",
+        "externalLinkURL": "https://www.khanacademy.org/math/ap-calculus-ab/ab-derivatives-new/ab-3-10/v/concavity-and-the-second-derivative",
+        "linkedCardIndices": [13, 14]
       },
       {
         "name": "Definite integrals: signed area and applications",
         "textDescription": "A definite integral ∫_a^b f(x)dx gives signed area: regions above the x-axis (f>0) contribute positively; regions below (f<0) contribute negatively. This is useful for net displacement (distance traveled in one direction minus distance in the opposite direction).\n\nIf you need total distance traveled (all movement counted positively), integrate absolute value: ∫_a^b |f(x)| dx, or split at zeros and integrate each piece.\n\nExample: A particle's velocity is v(t)=t-2 from t=0 to t=3. Net displacement: ∫_0^3 (t-2) dt=[t²/2-2t]_0^3=(9/2-6)-0=-3/2. The particle ends 1.5 meters behind its start. Total distance: ∫_0^2 |t-2| dt+∫_2^3 |t-2| dt=2+0.5=2.5 meters (moving backward, then forward).\n\nThis distinction matters in word problems: displacement is signed (useful for net effect), distance is unsigned (useful for total effort).",
-        "videoURL": "https://www.youtube.com/watch?v=K0yP6U1V5JQ",
-        "externalLinkURL": "https://www.khanacademy.org/math/ap-calculus-ab/ab-integration-new/ab-6-2/v/definite-integral-as-area-under-a-curve"
+        "videoURL": "https://www.youtube.com/watch?v=0RdI3-8G4Fs",
+        "externalLinkURL": "https://www.khanacademy.org/math/ap-calculus-ab/ab-integration-new/ab-6-2/v/definite-integral-as-area-under-a-curve",
+        "linkedCardIndices": [10, 18, 19]
       },
       {
         "name": "Practice plan: mixed review and meaning",
         "textDescription": "To retain calculus, mix problem types: limits, continuity, derivatives, applications, integrals, differential equations.\n\nUse spaced repetition for key rules (power, product, chain rules; antiderivatives of common functions).\n\nAfter each problem, write the interpretation in one sentence: \"The marginal cost decreases as production increases,\" or \"At t=5s, the particle's acceleration is 2 m/s² upward.\" This builds transfer beyond exam-style symbol manipulation.\n\nReview errors weekly. Many calculus errors are algebraic, not conceptual—track those errors and drill them.\n\nConsistency beats marathon sessions. 30 minutes daily focusing on one type (derivatives this week, integrals next week) outperforms cramming before an exam.",
         "videoURL": "https://www.youtube.com/watch?v=W0VWO4asgmk",
-        "externalLinkURL": "https://openstax.org/details/books/calculus-volume-1"
+        "externalLinkURL": "https://openstax.org/details/books/calculus-volume-2",
+        "linkedCardIndices": [0, 3, 8, 12, 15, 19]
       }
     ]
   },
   {
-    "name": "STEM Chemistry Essentials",
+    "name": "Chemistry Essentials",
     "stableId": "stem_chemistry_atoms_bonding_basics",
-    "description": "Atoms, the periodic table, bonding, reactions, and basic stoichiometry for STEM learners.",
+    "description": "Master atoms, the periodic table, bonding, reactions, and stoichiometry.",
     "color": "orange",
     "category": "Science",
     "language": "en",
@@ -10777,68 +10807,78 @@
         "name": "Reading the periodic table for patterns",
         "textDescription": "The periodic table organizes elements by atomic number (left to right, top to bottom). Periods (horizontal rows) relate to electron shells; groups (vertical columns) relate to valence electron count.\n\nKey regions: Alkali metals (Group 1, very reactive); alkaline earth metals (Group 2); transition metals (middle, complex chemistry); halogens (Group 17, reactive nonmetals); noble gases (Group 18, inert). Lanthanides and actinides are below (inner transition metals).\n\nTrends: Atomic radius increases down and to the left (atoms are larger with more shells). Ionization energy increases up and to the right (harder to remove electrons from small, highly charged nuclei). Electronegativity increases up and to the right.\n\nYou don't need to memorize everything—learn the big regions and trends. This turns the table into a reasoning tool rather than a poster.",
         "videoURL": "https://www.youtube.com/watch?v=0RRVV4Diomg",
-        "externalLinkURL": "https://openstax.org/details/books/chemistry-2e"
+        "externalLinkURL": "https://openstax.org/details/books/chemistry-2e",
+        "linkedCardIndices": [0, 1, 3, 15, 16]
       },
       {
         "name": "Bonding: why atoms form molecules",
         "textDescription": "Atoms bond to reach more stable electron configurations. Octet rule (except H): atoms want 8 valence electrons (full outer shell).\n\nIonic bonding: one atom transfers electrons to another (e.g., Na transfers 1e⁻ to Cl). This happens when electronegativity difference is large (typically >1.7). Result: ions held by electrostatic attraction.\n\nCovalent bonding: atoms share electrons. Nonpolar if atoms are identical; polar if they differ in electronegativity. Lewis structures show bonding pairs (shared electrons) and lone pairs (unshared). VSEPR theory predicts molecular geometry from electron pairs.\n\nElectronegativity differences explain polarity: high difference means ionic; low means nonpolar covalent; medium means polar covalent.\n\nExample workflow: \"NaCl. Na loses 1e⁻ (low ionization energy, wants to be Na+). Cl gains 1e⁻ (high electron affinity, wants to be Cl−). Difference in electronegativity is ~2, so ionic.\"",
         "videoURL": "https://www.youtube.com/watch?v=rcKilE9CdaA",
-        "externalLinkURL": "https://www.khanacademy.org/science/chemistry/chemical-bonds"
+        "externalLinkURL": "https://www.khanacademy.org/science/chemistry/chemical-bonds",
+        "linkedCardIndices": [4, 5, 6, 7, 16]
       },
       {
         "name": "Stoichiometry: the language of quantities",
         "textDescription": "Stoichiometry uses balanced equations and molar ratios to convert between quantities.\n\nWorkflow: (1) Write a balanced equation. (2) Identify molar ratios from coefficients. (3) Convert given mass to moles (divide by molar mass). (4) Use molar ratios to find moles of desired substance. (5) Convert moles to mass (multiply by molar mass).\n\nExample: \"How many grams of CO₂ from 10 g CH₄?\" Equation: CH₄ + 2O₂ → CO₂ + 2H₂O. Molar mass CH₄=16 g/mol, CO₂=44 g/mol. Moles CH₄=10/16=0.625. Ratio CH₄:CO₂ is 1:1, so moles CO₂=0.625. Mass CO₂=0.625*44=27.5 g.\n\nCommon mistake: forgetting to use molar ratios or multiplying by wrong molar mass. Strategy: write units at every step—they guide the calculation.\n\nLimiting reactant: the reactant that runs out first, determining how much product forms. Example: \"5 g H₂ + 50 g O₂.\" Which limits? O₂ is likely limiting (more massive, lower H:O ratio). Identify by computing product from each reactant; the smaller amount is limiting.",
-        "videoURL": "https://www.youtube.com/watch?v=ujdTYigqwBo",
-        "externalLinkURL": "https://www.khanacademy.org/science/chemistry/chemical-reactions-stoichiome"
+        "videoURL": "https://www.youtube.com/watch?v=UL1jmJaUkaQ",
+        "externalLinkURL": "https://www.khanacademy.org/science/chemistry/chemical-reactions-stoichiome",
+        "linkedCardIndices": [2, 8, 9, 10, 14]
       },
       {
         "name": "Acids, bases, and pH without confusion",
         "textDescription": "In the Brønsted–Lowry model, acids donate H⁺ (protons); bases accept H⁺.\n\nExamples: HCl is acidic (donates H⁺ to water: HCl + H₂O → H₃O⁺ + Cl−). NH₃ is basic (accepts H⁺: NH₃ + H₂O ⇌ NH₄⁺ + OH−).\n\npH is logarithmic, so small changes are big: pH 6 is 10x more acidic than pH 7 (neutral). This nonlinearity is why pH buffering matters—a small change in pH can disable enzymes or corrode materials.\n\nStrong acids (HCl, H₂SO₄, HNO₃) dissociate completely; weak acids (acetic acid, carbonic acid) partially dissociate. Concentration also matters: a weak acid at high concentration can be stronger than a strong acid at low concentration.\n\nBuffers resist pH change by containing a weak acid and its conjugate base. Example: acetic acid + acetate ion buffer blood at pH 7.4. This is crucial in biology.\n\nExample calculation: \"What's the pH of 0.1 M HCl?\" Since HCl is strong, [H⁺]=0.1 M. pH=−log(0.1)=1.",
-        "videoURL": "https://www.youtube.com/watch?v=FpFCt9CkA0I",
-        "externalLinkURL": "https://www.khanacademy.org/science/chemistry/acid-base-equilibrium"
+        "videoURL": "https://www.youtube.com/watch?v=LS67vS10O5Y",
+        "externalLinkURL": "https://www.khanacademy.org/science/chemistry/acid-base-equilibrium",
+        "linkedCardIndices": [11, 12, 13]
       },
       {
         "name": "Matter, mixtures, and solutions",
         "textDescription": "Matter is classified: Pure substances are elements or compounds; mixtures are physical combinations (not chemical).\n\nMixture types: Homogeneous (uniform composition, like salt water); heterogeneous (visibly different parts, like sand and gravel). A solution is a homogeneous mixture at the molecular level.\n\nConcentration expresses how much solute per solvent. Molarity (mol/L) is standard in chemistry. Others include percent by mass (g solute / g solution × 100%), ppm (parts per million), and ppb (parts per billion).\n\nSolubility depends on \"like dissolves like\": polar solvents (water) dissolve polar/ionic solutes; nonpolar solvents (benzene) dissolve nonpolar solutes. Temperature also matters: most ionic solutes are more soluble at high T; gases less so.\n\nExample: \"Make 500 mL of 0.5 M NaCl solution.\" Moles needed=0.5*0.5=0.25 mol. Mass of NaCl=0.25*58.5=14.6 g. Dissolve 14.6 g in ~400 mL water, then dilute to 500 mL total.\n\nAlways label units carefully to avoid conversion errors.",
         "videoURL": "https://www.youtube.com/watch?v=ujdTYigqwBo",
-        "externalLinkURL": "https://openstax.org/details/books/chemistry-2e"
+        "externalLinkURL": "https://www.khanacademy.org/science/chemistry",
+        "linkedCardIndices": [17, 18]
       },
       {
         "name": "Core chemistry safety: lab mindset",
         "textDescription": "Chemistry is powerful, so safety rules matter. Unknown substances are hazardous until proven otherwise. Standard precautions:\n\n- Assume all unknowns are toxic and corrosive until data shows otherwise.\n- Never inhale vapors; use fume hoods for volatile chemicals.\n- Avoid direct contact; use gloves, goggles, and lab coats.\n- Know where the eyewash station and fire extinguisher are.\n- Report spills and accidents immediately.\n- Follow SDS (Safety Data Sheet) guidance for each chemical.\n\nCommon hazards: Acids burn skin and eyes; bases do too (slowly—burns can worsen after initial exposure). Organic solvents are often flammable and toxic. Some chemicals react violently when mixed (never mix bleach and ammonia).\n\nEven outside the lab, these habits translate to safe household use: read labels, store chemicals separately, avoid mixing, dispose properly.\n\nAlways follow local safety guidance and supervision in lab settings. Safety protects you and others.",
-        "videoURL": "https://www.youtube.com/watch?v=0RRVV4Diomg",
-        "externalLinkURL": "https://www.osha.gov/laboratory-safety"
+        "videoURL": "https://www.youtube.com/watch?v=VRWRmIEHr3A",
+        "externalLinkURL": "https://www.osha.gov/laboratories",
+        "linkedCardIndices": [0, 8, 17]
       },
       {
         "name": "Conservation laws in chemistry",
         "textDescription": "Balancing equations reflects conservation of atoms: on the left (reactants) and right (products), each element's count must match.\n\nCharging conservation: in ionic reactions, total charge is conserved. Example: Ag⁺ + Cl⁻ → AgCl (1+ and 1− → neutral). Charge accounting prevents errors in redox reactions.\n\nEnergy conservation: reactions release or absorb energy. Exothermic reactions release heat (combustion, neutralization); endothermic absorb it (dissolution of some salts).\n\nThese conservation laws let you check your work. If atoms or charge don't match on both sides, something's wrong. Quick conservation checks save hours of debugging.\n\nExample: \"Balance Fe + O₂ → Fe₂O₃.\" Left: 1 Fe, 2 O. Right: 2 Fe, 3 O. Multiply Fe by 4 and Fe₂O₃ by 2: 4Fe + 3O₂ → 2Fe₂O₃. Check: Left 4 Fe, 6 O. Right: 4 Fe, 6 O. Balanced.",
-        "videoURL": "https://www.youtube.com/watch?v=0RRVV4Diomg",
-        "externalLinkURL": "https://openstax.org/details/books/chemistry-2e"
+        "videoURL": "https://www.youtube.com/watch?v=rnpy_SHsMNg",
+        "externalLinkURL": "https://openstax.org/details/books/chemistry-atoms-first-2e",
+        "linkedCardIndices": [8, 9, 10, 14]
       },
       {
         "name": "Trends: atomic radius, ionization energy, and reactivity",
         "textDescription": "Atomic radius (size): Increases down a group (more shells) and to the left (weaker nuclear pull). Decreases across a period (same shells, more protons pulling harder).\n\nIonization energy (energy to remove an electron): Increases up and to the right (electrons are closer and more tightly bound). Alkali metals (far left) have the lowest; noble gases (far right) have the highest.\n\nElectronegativity (pull on bonding electrons): Increases up and to the right. Fluorine is highest (~4); cesium is lowest (~0.8).\n\nReactivity: Alkali metals are extremely reactive (lose 1e⁻ easily). Halogens are also reactive (gain 1e⁻ easily). Noble gases are inert (don't bond). Transition metals are less reactive and form many oxidation states.\n\nMemoriz the directions, then explain with electron structure: More shells = larger, less tightly bound, easier to remove. More protons = smaller, tighter binding, harder to remove. This explanation is more valuable than rote memorization.",
         "videoURL": "https://www.youtube.com/watch?v=fLSfgNxoVGk",
-        "externalLinkURL": "https://www.khanacademy.org/science/chemistry/periodic-table"
+        "externalLinkURL": "https://www.khanacademy.org/science/chemistry/periodic-table",
+        "linkedCardIndices": [0, 1, 4, 15, 16]
       },
       {
         "name": "Chemistry problem-solving workflow",
         "textDescription": "A reliable workflow prevents errors: (1) Read carefully. Identify what is given (mass, moles, concentration, volume) and what is asked (mass, moles, number of atoms, concentration). (2) Write balanced equation (if a reaction problem). (3) Convert given quantity to moles early (divide mass by molar mass; or use concentration × volume for solutions). (4) Use stoichiometry (molar ratios) or other relationships. (5) Convert final moles to requested units. (6) Reasonableness check: order of magnitude, limiting case, units.\n\nExample: \"15 g Al reacts with excess O₂. How many grams of Al₂O₃ form?\" (1) Given 15 g Al, asked for grams Al₂O₃. (2) Balanced: 4Al + 3O₂ → 2Al₂O₃. (3) Moles Al=15/(27)≈0.556. (4) Ratio Al:Al₂O₃ is 4:2 or 2:1, so moles Al₂O₃=0.556/2≈0.278. (5) Mass Al₂O₃=0.278*102≈28 g. (6) Check: 15 g Al forms ~28 g Al₂O₃ (makes sense, oxygen added mass).\n\nTrack units line-by-line: it's a free error-checking tool.",
-        "videoURL": "https://www.youtube.com/watch?v=ujdTYigqwBo",
-        "externalLinkURL": "https://openstax.org/details/books/chemistry-2e"
+        "videoURL": "https://www.youtube.com/watch?v=TUuABq95BBM",
+        "externalLinkURL": "https://www.khanacademy.org/science/ap-chemistry-beta",
+        "linkedCardIndices": [8, 9, 10, 18]
       },
       {
         "name": "Practice plan: spaced repetition for chemistry",
         "textDescription": "Chemistry rewards frequent short practice. Use flashcards for: definitions (acid, base, oxidation state), molar masses of common elements, periodic table trends, and common reaction types.\n\nUse mixed problem sets to interleave topics: a session might have 3 stoichiometry problems, 2 acid-base problems, and 2 solution concentration problems. This interleaving improves transfer compared to blocked practice.\n\nReview mistakes weekly. Most chemistry errors are computational (wrong molar mass, arithmetic) or conceptual (confused limiting reactant, acid/base). Identifying your pattern helps target drills.\n\nThis builds durable intuition rather than temporary memorization. After 3-4 weeks of consistent practice, chemistry formulas and procedures become automatic, freeing mental effort for harder problems.",
-        "videoURL": "https://www.youtube.com/watch?v=0RRVV4Diomg",
-        "externalLinkURL": "https://www.learningscientists.org/blog/2016/6/23-1"
+        "videoURL": "https://www.youtube.com/watch?v=Z2IOoAhQbX4",
+        "externalLinkURL": "https://www.learningscientists.org/blog/2016/6/23-1",
+        "linkedCardIndices": [2, 4, 5, 8, 9, 11, 15, 18, 20]
       }
     ]
   },
   {
-    "name": "STEM Computer Science Foundations",
+    "name": "Computer Science Essentials",
     "stableId": "stem_computer_science_foundations",
-    "description": "Programming and CS essentials: algorithms, data structures, efficiency, debugging, and APIs.",
+    "description": "Learn algorithms, data structures, efficiency, debugging, and APIs from scratch.",
     "color": "red",
     "category": "Technology",
     "language": "en",
@@ -10962,68 +11002,78 @@
         "name": "Programming building blocks: variables, conditionals, loops",
         "textDescription": "Most programs are built from a few primitives: storing values (variables), choosing actions (conditionals), and repeating work (loops).\n\nVariables are buckets holding data. You can read from them, write to them, and modify them. Example: counter=0; counter=counter+1 increments the counter.\n\nConditionals branch execution: if condition is true, do this; else do that. This lets programs respond to input and state.\n\nLoops repeat work. A for loop repeats a fixed number of times; a while loop repeats while a condition holds. Example: sum=0; for num in [1,2,3]: sum=sum+num computes the total.\n\nUnderstanding these blocks makes any language easier. The syntax varies (Python uses 'def'; JavaScript uses 'function'), but the ideas are universal.\n\nFocus on logic first; syntax differences are secondary and searchable. Practice by writing small programs that manipulate input and produce output.",
         "videoURL": "https://www.youtube.com/watch?v=l26oaHV7D40",
-        "externalLinkURL": "https://cs50.harvard.edu/x/"
+        "externalLinkURL": "https://cs50.harvard.edu/x/",
+        "linkedCardIndices": [1, 2, 3, 4, 17]
       },
       {
         "name": "Algorithms: the heart of computing",
         "textDescription": "An algorithm is a recipe for computation. For the same problem, different algorithms have different efficiency: selection sort (O(n²)), merge sort (O(n log n)), bubble sort (O(n²)).\n\nBig-O notation describes how resource use (time, memory) grows with input size. For n=10, all sorts are fast. For n=1,000,000, O(n²) takes hours; O(n log n) takes seconds.\n\nThis difference is why algorithm choice matters. Premature optimization (tweaking constants) is less important than choosing the right algorithm.\n\nExample: linear search (check every item) is O(n); binary search on sorted data is O(log n). For n=1 million, binary search is 1000x faster.\n\nEfficiency is often more important than micro-optimizations (avoiding a function call, using a faster variable type). Understanding Big-O guides you to the right choice.",
         "videoURL": "https://www.youtube.com/watch?v=rL8X2mlNHPM",
-        "externalLinkURL": "https://www.khanacademy.org/computing/computer-science/algorithms"
+        "externalLinkURL": "https://www.khanacademy.org/computing/computer-science/algorithms",
+        "linkedCardIndices": [0, 8, 9, 10, 11]
       },
       {
         "name": "Data structures: choosing the right container",
         "textDescription": "Data structures trade off speed and memory. No perfect structure; it depends on your operations.\n\nArrays: Simple, fast access by index (O(1)), slow insertion/deletion (O(n)). Use for ordered data with frequent lookups.\n\nHash maps: Fast lookup by key (O(1)), no ordering, requires hash function. Use for key-value associations (phone numbers by name, prices by product ID).\n\nLinked lists: Fast insertion/deletion (O(1) if you have a pointer), slow lookup (O(n)). Use for queues and stacks.\n\nTrees: Support ordered operations, moderate lookup/insertion. Balanced trees (red-black) maintain efficiency. Use for sorted data and hierarchical structures.\n\nExample: A list of students. If you often search by name, use a hash map; if you need sorted order, use a balanced tree; if you just iterate, an array suffices.\n\nChoosing the right structure often simplifies the algorithm. Example: implementing a set (no duplicates) is trivial with a hash map but tedious with an array.",
-        "videoURL": "https://www.youtube.com/watch?v=rL8X2mlNHPM",
-        "externalLinkURL": "https://www.geeksforgeeks.org/data-structures/"
+        "videoURL": "https://www.youtube.com/watch?v=DuDz6B4cqVc",
+        "externalLinkURL": "https://en.wikipedia.org/wiki/List_of_data_structures",
+        "linkedCardIndices": [5, 6, 7]
       },
       {
         "name": "Debugging mindset: isolate, test, fix",
         "textDescription": "Debugging is a skill that separates effective programmers from frustrated ones. Systematic approach:\n\n(1) Reproduce the issue: confirm it's not random. Run the minimal code that fails.\n(2) Isolate: reduce to the smallest failing case. Comment out sections until it works, then uncomment to find the culprit.\n(3) Hypothesize: what could cause this? Print intermediate values or use a debugger to inspect state.\n(4) Test: fix the suspected bug, rerun, verify.\n(5) Generalize: does this bug occur elsewhere? Add a test to catch it in the future.\n\nTools: Print statements (simplest), logging (structured), debuggers (step through code, inspect variables).\n\nExample: \"Function returns wrong result. Does it fail on all inputs or specific ones? Is the input read correctly? Is intermediate computation right?\" Narrow down.\n\nThis disciplined approach is how professionals work day-to-day. Random guessing wastes hours.",
-        "videoURL": "https://www.youtube.com/watch?v=l26oaHV7D40",
-        "externalLinkURL": "https://docs.python.org/3/library/pdb.html"
+        "videoURL": "https://www.youtube.com/watch?v=6KQ_h0XBmxk",
+        "externalLinkURL": "https://docs.python.org/3/library/pdb.html",
+        "linkedCardIndices": [12, 13, 20]
       },
       {
         "name": "APIs: how software connects",
         "textDescription": "APIs define how programs communicate: input formats, output formats, allowed operations. Example: weather API takes {lat, lon, units} and returns {temp, humidity, description}.\n\nWeb APIs often use HTTP methods (GET fetches data, POST sends data, DELETE removes) and return JSON. Example: GET /weather?lat=40&lon=-75 might return {\"temp\":72,\"condition\":\"sunny\"}.\n\nAuthentication: many APIs require API keys or OAuth to control access and prevent abuse.\n\nRate limits: APIs often limit requests per minute to prevent overload.\n\nDocumentation: read carefully. Example: some endpoints require authentication; some return different fields based on parameters.\n\nExample workflow: (1) Check documentation for the endpoint you want. (2) Understand required parameters and response format. (3) Make a request with correct method and parameters. (4) Parse the response. (5) Handle errors (network down, rate limited, invalid key).\n\nAPIs hide complexity. The weather service runs models on climate data; you get a number. This abstraction lets you build faster.",
         "videoURL": "https://www.youtube.com/watch?v=AEaKrq3SpW8",
-        "externalLinkURL": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview"
+        "externalLinkURL": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview",
+        "linkedCardIndices": [15]
       },
       {
         "name": "Version control: your safety net",
         "textDescription": "Version control (Git) tracks code changes, letting you revert mistakes, collaborate safely, and experiment.\n\nWorkflow: (1) Make changes locally. (2) Commit (save snapshot with a message explaining what changed and why). (3) Push to remote (backup and sync with team). (4) Pull to sync others' changes.\n\nBranches: isolate work. Create a branch for a feature, experiment without breaking main code, then merge when done.\n\nCommit messages matter: \"Fix bug\" is useless; \"Fix off-by-one in loop condition (fixes #42)\" is clear. Good messages help future debugging.\n\nMerge conflicts: if two people edit the same line, Git can't auto-merge. Resolve manually. Frequent small commits reduce conflict pain.\n\nExample: You're working on a new feature. Create branch feature/new-ui, make changes, commit, push, then make a pull request. Team reviews, requests changes if needed. Once approved, merge to main.\n\nThis workflow is essential for teams and career projects.",
         "videoURL": "https://www.youtube.com/watch?v=8JJ101D3knE",
-        "externalLinkURL": "https://git-scm.com/docs"
+        "externalLinkURL": "https://git-scm.com/docs",
+        "linkedCardIndices": [14]
       },
       {
         "name": "Binary search and invariants",
         "textDescription": "Binary search works on sorted data by repeatedly halving the search space, achieving O(log n) time.\n\nKey idea: maintain an invariant—a condition that's always true. For binary search, the invariant is \"the target is in the interval [low, high].\"\n\nAlgorithm: compute mid=(low+high)/2. If arr[mid]==target, found. If arr[mid]<target, search right half (low=mid+1). If arr[mid]>target, search left half (high=mid-1). Repeat until found or interval is empty.\n\nTracing: Try searching for 42 in [1,5,12,42,57,83,100]. low=0, high=6, mid=3, arr[3]=42. Found in 1 step.\n\nCommon bug: off-by-one errors in boundary conditions. Trace carefully on paper with small arrays.\n\nWhy invariants? They let you reason about correctness. If the invariant holds, and the interval shrinks, you'll eventually find the target (or determine it's absent).",
         "videoURL": "https://www.youtube.com/watch?v=P3YID7liBug",
-        "externalLinkURL": "https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search"
+        "externalLinkURL": "https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search",
+        "linkedCardIndices": [0, 10, 11]
       },
       {
         "name": "Big-O intuition with examples",
         "textDescription": "Big-O compares growth rates, ignoring constants and lower-order terms. O(1) is constant, O(n) is linear, O(n²) is quadratic, O(2ⁿ) is exponential.\n\nExamples: (1) Array access (arr[i]): O(1), always one step. (2) Linear search: O(n), check up to n items. (3) Nested loops (bubble sort): O(n²), n iterations, each checking n items. (4) Binary search: O(log n), halve the problem each step.\n\nComparison: For n=1000, O(n) is 1000 operations, O(n²) is 1,000,000. For n=1,000,000, O(n) is 1M, O(n²) is 1 trillion. The gap grows exponentially.\n\nUse concrete examples: searching a phonebook with n=1,000,000. Linear (check every name): 1M comparisons. Binary (like opening to middle, then middle of remaining): ~20 comparisons. Huge difference.\n\nThis helps you reason without measuring every time. If you can identify the growth rate, you can predict behavior for large inputs.",
         "videoURL": "https://www.youtube.com/watch?v=V6mKVRU1evU",
-        "externalLinkURL": "https://www.bigocheatsheet.com/"
+        "externalLinkURL": "https://www.bigocheatsheet.com/",
+        "linkedCardIndices": [0, 8, 9, 10]
       },
       {
         "name": "Recursion: when self-similarity helps",
         "textDescription": "Recursion solves a problem by solving smaller versions of itself until a base case (trivial problem) is reached.\n\nTemplate: def solve(problem): if problem is trivial: return base_case else: return combine(solve(smaller_problem1), solve(smaller_problem2))\n\nExamples: (1) Factorial: n!=n*(n-1)!. Base: 1!=1. (2) Fibonacci: fib(n)=fib(n-1)+fib(n-2). Base: fib(0)=0, fib(1)=1. (3) Tree traversal: visit node, then recursively visit left and right children. Base: leaf node.\n\nCommon mistakes: (1) Forgetting base case → infinite recursion → crash. (2) Not making progress toward base case → infinite recursion. (3) Recomputing same subproblems → exponential time (use memoization).\n\nFibonacci naively is O(2ⁿ) but with memoization (storing computed values) becomes O(n).\n\nWhen to use: divide-and-conquer (quicksort, mergesort), tree/graph traversal, dynamic programming. Recursion shines when problems have natural recursive structure.",
         "videoURL": "https://www.youtube.com/watch?v=IJDJ0kBx2LM",
-        "externalLinkURL": "https://www.khanacademy.org/computing/computer-science/algorithms/recursive-algorithms"
+        "externalLinkURL": "https://www.khanacademy.org/computing/computer-science/algorithms/recursive-algorithms",
+        "linkedCardIndices": [2, 18]
       },
       {
         "name": "Learning plan: build small projects",
         "textDescription": "The fastest way to learn programming is to build small projects: a calculator, a quiz app, a simple web scraper, a todo list.\n\nEach project teaches multiple skills: (1) Logic and algorithms. (2) Handling input/output. (3) Debugging. (4) Structuring code (functions, classes). (5) Using libraries and APIs.\n\nProjects also build motivation. Seeing a working tool is more rewarding than abstract exercises.\n\nWorkflow: (1) Define what the program should do. (2) Break into small tasks. (3) Implement one task at a time, test, fix. (4) Gradually add features. (5) Refactor and optimize.\n\nExamples: Web scraper teaches loops, string manipulation, APIs. Todo list teaches data structures, file I/O, UI. Calculator teaches parsing, operator precedence, error handling.\n\nUse spaced repetition for concepts you forget (syntax, operators) via flashcards or quick drills.\n\nProgress comes from consistent practice, not perfect resources. Build now; learn deeply later.",
         "videoURL": "https://www.youtube.com/watch?v=zOjov-2OZ0E",
-        "externalLinkURL": "https://cs50.harvard.edu/x/"
+        "externalLinkURL": "https://docs.python.org/3/tutorial/",
+        "linkedCardIndices": [0, 2, 4, 5, 8, 12, 14, 15, 18, 19]
       }
     ]
   },
   {
-    "name": "STEM Physics: Mechanics Essentials",
+    "name": "Physics: Mechanics Essentials",
     "stableId": "stem_physics_mechanics_essentials",
-    "description": "Core mechanics for STEM: Newton's laws, energy, momentum, circular motion, and forces.",
+    "description": "Master Newton's laws, energy, momentum, circular motion, and forces.",
     "color": "green",
     "category": "Science",
     "language": "en",
@@ -11147,75 +11197,86 @@
         "name": "Newton's laws: the core model of motion",
         "textDescription": "Newton's laws connect forces to motion. The key is net force: forces can cancel or add vectorially.\n\nFirst Law (inertia): Objects don't change motion without force. This explains why you slide forward when a car brakes—your inertia carries you forward, and only friction or a seatbelt provides the decelerating force.\n\nSecond Law (F=ma): The net force determines acceleration. If net force is zero, acceleration is zero (and velocity is constant or zero). Large mass requires large force for the same acceleration.\n\nThird Law (action-reaction): Forces come in equal and opposite pairs. When you push a wall, the wall pushes back with equal force—you feel the reaction.\n\nFree-body diagrams help you track forces systematically. Identify all forces (weight, normal, friction, applied force, tension), draw them as vectors, then apply F=ma in component form. Many problems become simple once you're organized.\n\nCommon mistake: forgetting a force or mixing up directions. Always check that forces on an object produce the expected acceleration direction.",
         "videoURL": "https://www.youtube.com/watch?v=kKKM8Y-u7ds",
-        "externalLinkURL": "https://openstax.org/details/books/college-physics"
+        "externalLinkURL": "https://openstax.org/details/books/college-physics",
+        "linkedCardIndices": [0, 1, 2, 3, 16]
       },
       {
         "name": "Normal force: the contact force you must know",
         "textDescription": "Normal force N is the perpendicular contact force exerted by a surface on an object, pushing the object away from the surface.\n\nOn a horizontal surface: the object's weight W=mg pushes down; the normal force pushes up. For equilibrium (no acceleration), N=mg.\n\nOn an incline: the weight has components parallel and perpendicular to the slope. The normal force balances only the perpendicular component: N=mg cosθ, where θ is the incline angle. The parallel component (mg sinθ) pulls the object down the slope.\n\nNormal force is NOT constant—it adjusts based on other forces. Example: an elevator accelerating upward requires more normal force (N=m(g+a)), so you feel heavier. Accelerating downward reduces N, so you feel lighter.\n\nCommon mistake: forgetting normal force or assuming it always equals weight. Always draw it perpendicular to the surface, and compute it using equilibrium or Newton's second law.",
-        "videoURL": "https://www.youtube.com/watch?v=kKKM8Y-u7ds",
-        "externalLinkURL": "https://openstax.org/details/books/college-physics"
+        "videoURL": "https://www.youtube.com/watch?v=TC23wD34C7k",
+        "externalLinkURL": "https://www.khanacademy.org/science/physics/forces-newtons-laws",
+        "linkedCardIndices": [4, 5, 6, 16]
       },
       {
         "name": "Work and energy: a second way to solve motion",
         "textDescription": "Work-energy methods can solve motion without tracking acceleration at every moment. Work is force along displacement: W=F·d·cosθ.\n\nThe work-energy theorem states: net work equals change in kinetic energy: W_net=ΔKE=½m(v_f²-v_i²).\n\nIf only conservative forces act (gravity, springs, not friction), mechanical energy is conserved: KE+PE=constant. Example: a ball thrown up converts kinetic energy to gravitational potential energy. At the peak, KE=0 and PE is maximum.\n\nWhy choose energy over forces? Because energy is a scalar (no directions to track). Example: a ramp problem is easier via energy (compute PE at top, set it equal to KE at bottom) than via forces (compute acceleration, use kinematics).\n\nCommon mistake: forgetting that friction does negative work. Friction converts mechanical energy to heat, so mechanical energy is not conserved when friction is present—use the work-energy theorem instead.",
         "videoURL": "https://www.youtube.com/watch?v=w4QFJb9a8vo",
-        "externalLinkURL": "https://www.khanacademy.org/science/physics/work-and-energy"
+        "externalLinkURL": "https://www.khanacademy.org/science/physics/work-and-energy",
+        "linkedCardIndices": [9, 10, 11, 13]
       },
       {
         "name": "Momentum and collisions",
         "textDescription": "Momentum p=mv is conserved in isolated systems (no external forces), even when kinetic energy is not. This makes momentum powerful for collision analysis.\n\nElastic collisions: kinetic energy is conserved (e.g., billiard balls). Inelastic: kinetic energy is lost to deformation, heat, sound (e.g., car crash). Perfectly inelastic: objects stick together afterward.\n\nExample (elastic): Two balls of equal mass, one moving at v and one at rest. After collision, the moving ball stops and the stationary one moves at v. Momentum is conserved: mv+0=0+mv. Kinetic energy is also conserved.\n\nExample (inelastic): Two cars collide and stick. Momentum is conserved, but kinetic energy decreases (some goes to deformation). Use momentum conservation to find final velocity, then kinetic energy to compute energy lost.\n\nImpulse J=F·Δt equals change in momentum: J=Δp. This explains airbags: increasing Δt (spreading the collision over longer time) reduces the peak force needed to stop the car.\n\nDrawing before/after diagrams prevents sign mistakes.",
-        "videoURL": "https://www.youtube.com/watch?v=9Kjff8yA5_g",
-        "externalLinkURL": "https://www.khanacademy.org/science/physics/linear-momentum"
+        "videoURL": "https://www.youtube.com/watch?v=Y-QOfc2XqOk",
+        "externalLinkURL": "https://www.khanacademy.org/science/physics/linear-momentum",
+        "linkedCardIndices": [7, 8]
       },
       {
         "name": "Circular motion and centripetal force",
         "textDescription": "Circular motion requires net inward acceleration a_c=v²/r toward the center. This requires a net inward force: F_c=m(v²/r).\n\nThe \"centripetal force\" is not a new type of force; it's the net inward force, which could come from tension (e.g., string), friction (e.g., car on a curve), gravity (e.g., satellite), or a normal force component (e.g., banked curve).\n\nExample: A car on a flat circular track requires friction to provide centripetal force. F_friction=m(v²/r). If you go too fast, friction can't provide enough force, and you skid outward.\n\nExample: A ball on a string rotated horizontally. Tension T provides centripetal force. T=m(v²/r). If you spin faster, T must increase; if the string breaks, the ball flies outward tangentially (not because of \"centrifugal force,\" but because it continues in a straight line per Newton's First Law once the inward force stops).\n\nCommon mistake: confusing centripetal force with centrifugal force. Centrifugal \"force\" is fictitious—it arises in rotating reference frames. In an inertial frame, only real forces act, and they provide the centripetal acceleration.",
-        "videoURL": "https://www.youtube.com/watch?v=3fJ5c2ZpX4w",
-        "externalLinkURL": "https://www.khanacademy.org/science/physics/centripetal-force-and-gravitation"
+        "videoURL": "https://www.youtube.com/watch?v=bpFK2VCRHUs",
+        "externalLinkURL": "https://www.khanacademy.org/science/physics/centripetal-force-and-gravitation",
+        "linkedCardIndices": [15]
       },
       {
         "name": "Common mechanics pitfalls and checks",
         "textDescription": "Most errors in mechanics come from a few patterns: (1) Mixing up mass and weight. Mass is kg; weight is newtons (kg·m/s²). (2) Forgetting direction signs or skipping free-body diagrams. (3) Confusing average vs instantaneous velocity. (4) Missing normal force or friction.\n\nQuick checks: Use limiting cases. \"If mass doubles, what should happen to acceleration?\" Apply F=ma: if m doubles and F stays same, a halves. Does that match your answer? \"If I throw a ball twice as fast, does kinetic energy quadruple?\" KE=½mv², so yes. These checks catch errors fast.\n\nDimensional analysis: Check units. Force should be newtons (kg·m/s²), not kg or m/s. Energy should be joules (kg·m²/s²). If units don't match, the formula is wrong.\n\nPhysical intuition: \"Does this answer make sense?\" If a car goes from 0 to 60 in 6 seconds, that's a=10 m/s². Does that seem reasonable? (Yes, typical car.) If an object falls 100 meters, what's its final speed? Use v²=v₀²+2a·d: v²=0+2(10)(100)=2000, so v=45 m/s≈100 mph. Reasonable for a 100-meter fall?\n\nThese checks don't replace rigor, but they catch mistakes fast.",
-        "videoURL": "https://www.youtube.com/watch?v=kKKM8Y-u7ds",
-        "externalLinkURL": "https://openstax.org/details/books/college-physics"
+        "videoURL": "https://www.youtube.com/watch?v=fo_pmp5rtzo",
+        "externalLinkURL": "https://openstax.org/details/books/college-physics-2e",
+        "linkedCardIndices": [0, 4, 6, 16]
       },
       {
         "name": "Units and dimensional analysis",
         "textDescription": "Dimensional analysis checks whether an equation can be correct by comparing units on both sides.\n\nExample: Distance=velocity × time. Units: [m]=[m/s]×[s]. The s cancels, leaving [m]. Correct.\n\nExample: KE=½mv². Units: [J]=[kg]×[m/s]²=[kg·m²/s²]=[J]. Correct. (Joule is kg·m²/s².)\n\nCounter-example: If you compute F=ma+v, you'd have [N]=[kg·m/s²]+[m/s]. The second term has wrong units. This reveals the error.\n\nIn mechanics, common units: Force [N]=[kg·m/s²], Energy [J]=[kg·m²/s²], Power [W]=[kg·m²/s³], Momentum [kg·m/s].\n\nDimensional analysis is a free error-checking tool. It catches formula mistakes, wrong exponents, and missing factors. Use it liberally: every calculation should have correct units.",
-        "videoURL": "https://www.youtube.com/watch?v=9iMGFqMmUFs",
-        "externalLinkURL": "https://www.nist.gov/pml/owm/metric-si/si-units"
+        "videoURL": "https://www.youtube.com/watch?v=19ZqlWuvcWg",
+        "externalLinkURL": "https://www.nist.gov/pml/owm/metric-si/si-units",
+        "linkedCardIndices": [3, 9, 10, 12, 18, 19]
       },
       {
         "name": "Energy diagrams and reference levels",
         "textDescription": "Potential energy is relative to a chosen reference level. Only differences in PE matter physically. Choose the reference level strategically to simplify.\n\nExample: A ball thrown from height h lands on the ground. If you set the reference at ground level (h_ref=0), then PE_initial=mgh and PE_final=0. Alternatively, if you set the reference at the initial height (h_ref=initial), then PE_initial=0 and PE_final=-mgh. Both give the same answer because only ΔPE matters.\n\nEnergy bar charts visualize transformations. Draw bars for KE, PE, and total mechanical energy before and after. If no friction, total stays constant (bars shift between KE and PE but sum stays the same). If friction acts, total decreases (some converts to heat).\n\nThis approach avoids algebraic sign confusion. Example: \"A ball at height h has zero KE and mgh PE. As it falls, PE decreases and KE increases, keeping total constant.\" You don't have to worry about signs; the chart does.\n\nUse energy diagrams for multi-step problems: a ball sliding down a ramp, then across a rough floor. Track energy at each stage.",
-        "videoURL": "https://www.youtube.com/watch?v=w4QFJb9a8vo",
-        "externalLinkURL": "https://openstax.org/details/books/college-physics"
+        "videoURL": "https://www.youtube.com/watch?v=DHHjvG9kadY",
+        "externalLinkURL": "https://openstax.org/details/books/physics",
+        "linkedCardIndices": [10, 11, 13]
       },
       {
         "name": "Friction: models and limits",
         "textDescription": "Friction is modeled as proportional to normal force in many intro problems: f=μN, where μ is the coefficient of friction.\n\nStatic friction (object at rest): adjusts up to a maximum f_s,max=μ_s N. If applied force < f_s,max, the object doesn't move; static friction balances the applied force. Example: pushing a heavy box—if you push lightly, static friction holds it still.\n\nKinetic friction (object sliding): constant once motion starts: f_k=μ_k N. Usually μ_k<μ_s (it's easier to keep something moving than to start it moving).\n\nThis is an approximation. Real friction is complex and depends on surface properties, temperature, and speed. But the linear model (f∝N) works well for basic problems.\n\nCommon mistake: using kinetic friction when static is relevant, or vice versa. Always ask: is the object moving? If stationary, use static (and be careful: static friction adjusts to prevent motion, up to a maximum). If sliding, use kinetic.\n\nExample: \"Does a 100 N box on a floor with μ_s=0.5 move if you push with 40 N?\" f_s,max=μ_s N=0.5×100=50 N. Since 40<50, the box doesn't move. Static friction is 40 N (equal and opposite to your push).",
-        "videoURL": "https://www.youtube.com/watch?v=kKKM8Y-u7ds",
-        "externalLinkURL": "https://openstax.org/details/books/college-physics"
+        "videoURL": "https://www.youtube.com/watch?v=ZA_D4O6l1lo",
+        "externalLinkURL": "https://www.khanacademy.org/science/physics/forces-newtons-laws/inclined-planes-friction",
+        "linkedCardIndices": [5, 6]
       },
       {
         "name": "Problem-solving workflow for physics",
         "textDescription": "A reliable workflow prevents errors and builds confidence: (1) Translate words into a sketch. Draw the scenario, label relevant quantities. (2) Choose a system and identify external forces. (3) Draw a free-body diagram showing all forces on the object of interest. (4) Apply Newton's laws (or energy conservation) in component form. (5) Solve algebraically. (6) Check units and reasonableness (limiting cases, order of magnitude). (7) Interpret the answer in the context of the problem.\n\nExample: \"A 1000 kg car accelerates from rest to 30 m/s in 10 seconds on a level road. Ignore air resistance.\" (1) Sketch: car, road, initial and final velocities. (2) System: car. External forces: weight (down), normal (up), friction/engine force (forward). (3) Free-body: W=mg down, N up, F_engine forward. (4) Horizontal: F_net=ma. a=(30-0)/10=3 m/s². F_net=m·a=1000*3=3000 N. (5) Solved. (6) Units: [N]=[kg][m/s²]. Magnitude: 3000 N is reasonable for a car. (7) The engine must provide 3000 N to accelerate the car at 3 m/s².\n\nThis systematic approach works for 90% of mechanics problems.",
-        "videoURL": "https://www.youtube.com/watch?v=w4QFJb9a8vo",
-        "externalLinkURL": "https://openstax.org/details/books/college-physics"
+        "videoURL": "https://www.youtube.com/watch?v=MaabUHLIIXA",
+        "externalLinkURL": "https://openstax.org/details/books/university-physics-volume-1",
+        "linkedCardIndices": [1, 3, 9, 16, 17]
       },
       {
         "name": "Practice plan: mixed problems and spaced review",
         "textDescription": "Alternate forces, energy, and momentum problems so you learn when each tool applies. Example session: (1) A kinematics problem using Newton's Second Law. (2) A ramp problem solved via energy. (3) A collision problem solved via momentum. (4) A circular motion problem. This mix prevents overfitting to one problem type.\n\nTurn common formulas into flashcards, but always include meaning and units. Example: Card front: 'F=ma,' Card back: 'Newton's Second Law. Net force causes acceleration. Units: [N]=[kg·m/s²].'\n\nReview errors weekly. Track patterns: are you misusing normal force? Forgetting to sketch? Confusing energy and work? Address patterns specifically rather than solving more problems.\n\nConsistency beats cramming. 30 minutes daily for 4 weeks outperforms 8 hours before an exam. Sleep consolidates learning; massed practice doesn't.\n\nTest yourself often on mixed-topic problem sets (not just the section you're studying). This builds retention and transfer.",
-        "videoURL": "https://www.youtube.com/watch?v=kKKM8Y-u7ds",
-        "externalLinkURL": "https://www.learningscientists.org/blog/2016/6/23-1"
+        "videoURL": "https://www.youtube.com/watch?v=ZM8ECpBuQYE",
+        "externalLinkURL": "https://www.learningscientists.org/blog/2016/6/23-1",
+        "linkedCardIndices": [0, 3, 7, 9, 13, 15, 18, 20]
       }
     ]
   },
   {
-    "name": "STEM Probability & Statistics",
+    "name": "Probability & Statistics",
     "stableId": "stem_probability_statistics",
-    "description": "Probability and statistics essentials: distributions, sampling, inference, and correlation vs causation.",
-    "color": "blue",
+    "description": "Read distributions, sample correctly, run inference, and tell correlation from causation.",
+    "color": "teal",
     "category": "Mathematics",
     "language": "en",
     "difficulty": "Beginner",
@@ -11343,61 +11404,71 @@
         "name": "Correlation vs causation and confounders",
         "textDescription": "Correlation measures association (X and Y move together), but it doesn't tell why.\n\nCorrelation can arise from three ways: (1) Causation (X causes Y). (2) Reverse causation (Y causes X). (3) Confounding (a third variable Z causes both X and Y).\n\nExample: Ice cream sales and drowning deaths are positively correlated. But ice cream doesn't cause drowning. Instead, warm weather (Z) increases both sales and outdoor swimming.\n\nAnother example: Students with higher SAT scores have higher college grades. Does higher SAT cause higher grades? Or do students who study hard get both higher SATs and higher college grades? Or do high-quality universities attract strong students and also predict grade success? The correlation doesn't tell you.\n\nTo argue causation, you need stronger evidence: randomized experiments (X is randomly assigned, controlling for confounders), natural experiments (an exogenous change in X with minimal confounding), or careful causal inference methods. Observational data alone can't prove causation.\n\nThis principle protects you from misleading headlines. Whenever you see \"X is linked to Y,\" ask: Is it causal? What's the confounder? What would a randomized experiment look like?",
         "videoURL": "https://www.youtube.com/watch?v=GtV-VYdNt_g",
-        "externalLinkURL": "https://www.cdc.gov/training/quickstats/"
+        "externalLinkURL": "https://www.khanacademy.org/math/ap-statistics/scatterplots-correlation-ap",
+        "linkedCardIndices": [12, 13, 17]
       },
       {
         "name": "Distributions and variability",
         "textDescription": "Two datasets can have identical means but very different spreads. Standard deviation (σ) measures typical distance from the mean.\n\nExample: Dataset A: {5, 5, 5, 5, 5}, mean=5, σ≈0 (no variation). Dataset B: {1, 3, 5, 7, 9}, mean=5, σ≈2.8 (spread out). Both have mean 5, but you'd make different predictions.\n\nVisualizing distributions (histograms, box plots, density curves) reveals patterns averages hide. Histograms show shape (symmetric, skewed, bimodal). Box plots show quartiles and outliers.\n\nNormal distributions are common (heights, test scores) but not universal. Some data are skewed (income, reaction time—many small values, few large ones). Some are bimodal (when two subgroups have different means).\n\nAlways plot the data first. Summary statistics (mean, σ) are useful, but they can hide or distort truth. Example: Anscombe's Quartet—four datasets with identical mean, variance, and correlation, but utterly different scatter plots.\n\nShape matters: a skewed distribution needs median or transformed scale; a bimodal distribution suggests two subgroups.",
-        "videoURL": "https://www.youtube.com/watch?v=Kkq8H4f0pY4",
-        "externalLinkURL": "https://openstax.org/details/books/introductory-statistics"
+        "videoURL": "https://www.youtube.com/watch?v=bPFNxD3Yg6U",
+        "externalLinkURL": "https://openstax.org/details/books/introductory-statistics",
+        "linkedCardIndices": [4, 5, 6, 7, 20]
       },
       {
         "name": "Sampling and bias: why representativeness matters",
         "textDescription": "Statistical conclusions depend on how data are collected. A biased sample can produce precise but wrong results.\n\nBias sources: (1) Nonresponse (people who don't answer surveys differ from respondents). (2) Selection (only certain types are included, e.g., surveying via phone excludes those without phones). (3) Voluntary response (people with strong opinions are more likely to respond).\n\nExample: Asking \"Do you think this policy is good?\" on a website attracts people with strong opinions; you miss moderates. The resulting sample is biased even if you survey thousands.\n\nRandom sampling (each unit has equal probability of selection) reduces bias. Stratified sampling (divide population into groups, randomly sample from each) is even better if you want equal representation.\n\nLearn to ask: Who is missing? How were they selected? Do the respondents differ systematically from non-respondents?\n\nThis is core for scientific and media literacy. Many \"studies\" are based on biased samples. Recognizing bias helps you evaluate claims critically.",
-        "videoURL": "https://www.youtube.com/watch?v=GtV-VYdNt_g",
-        "externalLinkURL": "https://www.khanacademy.org/math/statistics-probability/designing-studies"
+        "videoURL": "https://www.youtube.com/watch?v=Rf-fIpB4D50",
+        "externalLinkURL": "https://www.khanacademy.org/math/statistics-probability/designing-studies",
+        "linkedCardIndices": [0, 1, 2, 3, 17, 19]
       },
       {
         "name": "Confidence intervals: intuition and interpretation",
         "textDescription": "A confidence interval (CI) is a procedure that produces ranges which, under repeated sampling, contain the true parameter a known fraction of the time.\n\nExample: 95% confidence level means if you repeated the study 100 times, about 95 of the resulting CIs would contain the true population mean.\n\nCommon misinterpretation: \"There's a 95% chance the parameter is in this interval.\" Wrong. The parameter is fixed (it either is or isn't in the interval). The randomness is in the sample and the interval, not the parameter.\n\nCorrect interpretation: \"If I used this procedure repeatedly, 95% of my intervals would capture the parameter.\" It's a statement about the procedure's long-run behavior.\n\nWhy use CIs? They communicate uncertainty. A point estimate (single number) hides uncertainty; an interval shows the range of plausible values.\n\nFactor affecting CI width: sample size (larger sample → narrower CI), variability (less variability → narrower CI), confidence level (higher confidence → wider CI to capture more scenarios).\n\nExample: CI for average height [170, 175] cm means we're reasonably confident the population mean is in this range, but it could be above or below.",
-        "videoURL": "https://www.youtube.com/watch?v=V9A5rjGfZ2Y",
-        "externalLinkURL": "https://www.khanacademy.org/math/statistics-probability/confidence-intervals-one-sample"
+        "videoURL": "https://www.youtube.com/watch?v=yDEvXB6ApWc",
+        "externalLinkURL": "https://www.khanacademy.org/math/statistics-probability/confidence-intervals-one-sample",
+        "linkedCardIndices": [16, 21]
       },
       {
         "name": "p-values and hypothesis testing: beyond the threshold",
         "textDescription": "A p-value quantifies how unusual the observed data would be if a null hypothesis were true.\n\nExample: \"Null: coin is fair (p=0.5).\" You flip 100 times, get 60 heads. What's the p-value (probability of ≥60 heads if fair)? It's small (roughly 0.03), so you reject the null.\n\nCommon mistake: \"Small p-value means the null is false.\" Not quite. It means the data would be unusual if the null were true. But \"unusual\" can happen by chance (Type I error), or the true effect is tiny but real (with huge sample, even tiny effects are statistically significant).\n\nAnother mistake: \"p>0.05 means no effect.\" No. It means the data aren't strong enough to reject the null at that threshold. Absence of evidence (not rejecting) ≠ evidence of absence.\n\nBetter approach: Report effect size (how big is the difference?), confidence interval, and p-value together. This paints a complete picture.\n\nMultiple testing and p-hacking: if you test many hypotheses, some will reach p<0.05 by chance. Adjust your threshold or use multiple comparison corrections (Bonferroni).\n\nPrefer effect sizes and CIs over p-values when possible. They communicate magnitude and uncertainty better.",
-        "videoURL": "https://www.youtube.com/watch?v=V9A5rjGfZ2Y",
-        "externalLinkURL": "https://www.khanacademy.org/math/statistics-probability/significance-tests-one-sample"
+        "videoURL": "https://www.youtube.com/watch?v=bf3egy7TQ2Q",
+        "externalLinkURL": "https://www.khanacademy.org/math/statistics-probability/significance-tests-one-sample",
+        "linkedCardIndices": [14, 15]
       },
       {
         "name": "Expected value and real decisions",
         "textDescription": "Expected value E(X)=Σ(outcome × probability) is the long-run average outcome.\n\nExample: A lottery costs 1 dollar. You win 100 dollars with probability 0.01, or 0 with probability 0.99. E(X)=100(0.01)+0(0.99)=1. Expected value equals cost, so long-run break-even (but rare big wins will feel good even though EV=0).\n\nExpected value guides risk decisions. Insurance: you pay $1000/year, expecting to make a claim worth $800 on average. Expected loss is $800, so you pay extra ($200) for certainty and company profit. Worth it if avoiding catastrophic loss matters (utility theory).\n\nBut variability and risk tolerance also matter. Imagine two investments: (A) Expected return 5%, little variation; (B) Expected return 5%, high variation (often -20%, sometimes +30%). Same expected return, different risk. You should choose based on your tolerance.\n\nExample: You're offered a gamble with EV=0. Rational purely by EV, but risk aversion makes you decline (most people do). Rationality involves both EV and risk preferences.\n\nAlways interpret EV in context. Long-run average is useful if you repeat often; for one-shot decisions, variability matters more.",
-        "videoURL": "https://www.youtube.com/watch?v=GtV-VYdNt_g",
-        "externalLinkURL": "https://www.khanacademy.org/math/statistics-probability/probability-library/expected_value"
+        "videoURL": "https://www.youtube.com/watch?v=qafPcWNUiM8",
+        "externalLinkURL": "https://www.khanacademy.org/math/statistics-probability/probability-library/expected_value",
+        "linkedCardIndices": [8, 11]
       },
       {
         "name": "Regression basics: trends, predictions, and residuals",
         "textDescription": "Regression models relationships, often with a best-fit line: y=a+bx+error. The slope b shows the change in y per unit x.\n\nExample: Predicting house price from square footage. If the slope is $200/sq ft, then a 100 sq ft increase predicts $20k price increase.\n\nResiduals (actual - predicted) show what the model misses. If residuals are random (no pattern), the model is reasonable. If residuals show patterns (e.g., always positive for large x), you're missing something.\n\nCommon mistakes: (1) Extrapolation (predicting far beyond the data range). (2) Assuming causation (correlation in regression ≠ causation). (3) Ignoring outliers (they disproportionately affect the fit).\n\nAssumptions to check: linearity (relationship is actually linear?), constant variance (does prediction error grow at high x?), independence (are observations independent?), normality (are residuals normally distributed?).\n\nNon-linear relationships exist (exponential growth, diminishing returns). If linear regression doesn't fit, try polynomial regression (y=a+bx+cx²) or other transforms.\n\nUse regression as a descriptive tool unless causal design supports more. A regression coefficient is an association, not a cause.",
-        "videoURL": "https://www.youtube.com/watch?v=V9A5rjGfZ2Y",
-        "externalLinkURL": "https://www.khanacademy.org/math/statistics-probability/describing-relationships-quantitative-data"
+        "videoURL": "https://www.youtube.com/watch?v=WWqE7YHR4Jc",
+        "externalLinkURL": "https://www.khanacademy.org/math/statistics-probability/describing-relationships-quantitative-data",
+        "linkedCardIndices": [12, 18]
       },
       {
         "name": "Bayes intuition: updating beliefs with evidence",
         "textDescription": "Bayes' rule formalizes updating a belief after new evidence: P(A|B)=[P(B|A)P(A)]/P(B).\n\nIn plain language: posterior (belief after evidence) = likelihood (how likely is evidence if A is true?) × prior (initial belief) / overall probability of evidence.\n\nExample: You test positive for a disease (accuracy 99%). Is there a 99% chance you have it? No! If the disease is rare (1% prevalence), P(disease|positive test)≈1% still. Why? Most of the population is healthy and free, so even if 1% of healthy people false-positive, that's many more than true positives.\n\nAnother example: You observe a coin flip heads once. Posterior probability it's fair is high (prior strongly favors fair coins). Observe 10 heads in a row → posterior shifts toward biased coin.\n\nPrior matters. Without evidence, your belief is your prior. Evidence updates you toward the true value, but heavily skewed priors require strong evidence.\n\nApplication: Medical diagnosis (your risk depends on prevalence, not just test accuracy). Machine learning (Bayesian methods combine priors with data). Science (posterior is proportional to likelihood × prior).\n\nThis prevents common reasoning errors like overweighting recent observations or ignoring base rates.",
         "videoURL": "https://www.youtube.com/watch?v=HZGCoVF3YvM",
-        "externalLinkURL": "https://www.khanacademy.org/math/statistics-probability/probability-library/bayes-theorem"
+        "externalLinkURL": "https://www.khanacademy.org/math/statistics-probability/probability-library/bayes-theorem",
+        "linkedCardIndices": [9, 10]
       },
       {
         "name": "Law of large numbers vs gambler's fallacy",
         "textDescription": "The law of large numbers says sample averages converge to the true mean with large samples. For example, a fair coin gives ≈50% heads in 1 million flips, even though 10 flips might give 20% or 80%.\n\nGambler's fallacy is the mistaken belief that randomness has memory. \"I've flipped heads 5 times; tails is 'due.' \" False. Each flip is independent. P(tails | 5 prior heads) = 0.5.\n\nConfusion: The law of large numbers says overall frequency converges to probability, but it doesn't dictate short runs. After many heads, you don't get a compensatory run of tails; instead, enough future flips of natural randomness (roughly 50/50) will wash out the early imbalance.\n\nExample: A manufacturer's quality control. The law of large numbers says with enough inspections, defect rate approaches true rate. But individual items vary (some perfect, some defective). You don't expect a streak of defects to be followed by a perfect streak; you expect overall ~95% good, 5% defective.\n\nThis prevents false beliefs about randomness: casinos don't go broke because sequences balance out (they don't). Insurance works because large sample sizes make predictions reliable, not because rare events must happen.\n\nUnderstanding this helps with risk, quality control, and everyday reasoning about chance.",
-        "videoURL": "https://www.youtube.com/watch?v=GtV-VYdNt_g",
-        "externalLinkURL": "https://www.khanacademy.org/math/statistics-probability/probability-library"
+        "videoURL": "https://www.youtube.com/watch?v=bf-rt013c28",
+        "externalLinkURL": "https://www.khanacademy.org/math/statistics-probability/probability-library",
+        "linkedCardIndices": [8, 10, 19, 20]
       },
       {
         "name": "Practice plan: interpret before calculating",
         "textDescription": "In statistics, interpretation is the core skill. Here's the workflow: (1) State what variables mean in context. (2) Identify what question you're answering. (3) Compute the statistic. (4) Explain results in plain language, including limitations.\n\nExample: \"Test whether the new drug improves recovery rate.\" Null: drug has no effect. Computed p-value=0.02. Interpretation: \"If the drug had no effect, this result would occur in 2% of studies. We reject the null, but we can't rule out confounders (patients who believed in the drug might comply better with treatment).\" This is better than \"p=0.02, statistically significant.\"\n\nUse flashcards for definitions (bias, p-value, confidence interval, correlation, regression).\n\nReview misleading examples: sensationalized studies, wrong interpretations of p-values, confusing causation with correlation. This builds your skepticism and intuition.\n\nPractice with real data from public sources (CDC, government stats, papers). Messy real data is more educational than textbook examples.\n\nGroup concepts: sampling and bias together; confidence intervals, p-values, and hypothesis testing together; correlation, causation, and confounding together.",
-        "videoURL": "https://www.youtube.com/watch?v=GtV-VYdNt_g",
-        "externalLinkURL": "https://openstax.org/details/books/introductory-statistics"
+        "videoURL": "https://www.youtube.com/watch?v=sxQaBpKfDRk",
+        "externalLinkURL": "https://www.khanacademy.org/math/statistics-probability",
+        "linkedCardIndices": [0, 4, 7, 12, 14, 16, 18, 19]
       }
     ]
   },

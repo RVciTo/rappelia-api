@@ -127,7 +127,7 @@
   {
     "id": "stem_foundations_en",
     "name": "STEM Foundations",
-    "description": "Math, physics, chemistry, biology, and computer science",
+    "description": "Build core math, physics, chemistry, biology, and CS skills.",
     "iconName": "atom",
     "colorName": "blue",
     "stableDeckIds": [
