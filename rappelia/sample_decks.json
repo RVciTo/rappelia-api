@@ -8335,7 +8335,7 @@
   {
     "name": "AI Literacy Essentials",
     "stableId": "ai_literacy_essentials",
-    "description": "Understand how AI actually works: machine learning basics, neural networks, LLMs, bias and fairness, deepfakes, automation impact, and how to think critically about AI claims.",
+    "description": "Understand how AI really works: ML, neural nets, LLMs, bias, deepfakes, and critical thinking.",
     "color": "orange",
     "category": "Technology",
     "language": "en",
@@ -8490,50 +8490,103 @@
         "name": "How Machine Learning Works: From Data to Predictions",
         "textDescription": "Machine learning mystifies people, but the core concept is simple: show a computer examples, let it find patterns, and use those patterns to predict. Understanding this removes the mystique.\n\nConsider email spam detection. Traditional programming approach: hard-code rules ('if email contains 'viagra', mark as spam'). This fails because spammers evolve. Machine learning approach: show the system 1 million emails (labeled spam/not-spam), let it find patterns distinguishing spam from legitimate mail. The model learns rules automatically through pattern recognition.\n\nHow does this work mechanically? The model assigns weights to features (certain words, sender address patterns, formatting). During training, it makes predictions, checks against correct labels, and adjusts weights to improve. After millions of examples, weights stabilize. The resulting model predicts: 'given these features, probability of spam is 87%.' For a new email, it extracts features, applies learned weights, outputs probability.\n\nKey insight: the model doesn't 'understand' email. It's doing mathematical matrix operations. But through pattern matching at scale, it learns predictive patterns humans couldn't hard-code. This is the power of ML: automation of pattern recognition.\n\nLimitations emerge when patterns change. If spammers shift tactics dramatically, old patterns fail. The model was trained on historical spam; new tactics weren't in training data. ML models are frozen in their training moment. They don't adapt online (though some systems retrain periodically). This is why spam filters degrade over time—new spam patterns emerge faster than retraining.\n\nSimilarly, biases in training data persist. If training data has 70% male developers, the model learns 'developers are male.' Show a female developer profile, the model's spam filter (trained to expect male patterns) may misclassify. The model amplified training data bias. This is why diverse, fair training data is critical.",
         "videoURL": "https://www.youtube.com/watch?v=aircAruvnKk",
-        "externalLinkURL": "https://www.google.com/intl/en/edu/resources/freetools/teachable-machine/"
+        "externalLinkURL": "https://teachablemachine.withgoogle.com/",
+        "linkedCardIndices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          25
+        ]
       },
       {
         "name": "Large Language Models: What They Can and Cannot Do",
         "textDescription": "Large Language Models (LLMs) like GPT-4 seem to 'understand' and 'think.' They don't. Understanding what they actually do prevents overestimating their capabilities and misusing them.\n\nWhat LLMs actually do: predict the next token (word fragment) based on patterns in training data. Given 'The capital of France is', the model has learned the statistical pattern that 'Paris' follows. It outputs 'Paris.' Then, taking 'The capital of France is Paris', it predicts the next token might be 'Paris' or 'a' or period. It continues recursively until reaching a stopping point.\n\nThis is pattern matching at an enormous scale. The model was trained on billions of words, learning which word combinations are likely. It's not reasoning or understanding; it's predicting statistically likely next tokens. Yet because the training data includes logical arguments, coherent explanations, and correct reasoning, the model outputs coherent text that resembles reasoning.\n\nWhere LLMs excel: creative writing (patterns for narrative structure), code generation (patterns for syntax and common patterns), summarization (patterns for extractive summaries), and answering questions it's 'seen' patterns for during training. They compress internet knowledge into learned patterns.\n\nWhere they fail catastrophically: hallucination (confidently outputting false information), novel reasoning (applying patterns from training to entirely new situations), understanding nuance (sarcasm, context-dependence), and fact verification (no mechanism to check if output is true). Ask an LLM for a novel mathematical proof on a topic outside its training data, and it confabulates plausibly wrong reasoning.\n\nThe scary part: users can't easily detect failures. The model doesn't say 'I'm uncertain' (statistically unlikely)—it outputs confident text regardless. Even experts are fooled. Always verify critical outputs against reliable sources. An LLM is a brainstorming partner and writing assistant, not a source of truth.",
         "videoURL": "https://www.youtube.com/watch?v=bZQun8Y4L2A",
-        "externalLinkURL": "https://openai.com/research/language-models-are-unsupervised-multitask-learners"
+        "externalLinkURL": "https://www.ibm.com/topics/large-language-models",
+        "linkedCardIndices": [
+          6,
+          7,
+          8,
+          9,
+          17,
+          20
+        ]
       },
       {
         "name": "Bias in AI: How Training Data Becomes Discrimination",
         "textDescription": "AI systems inherit and amplify human biases from training data. This isn't a hypothetical problem—it's documented in hiring algorithms, facial recognition, criminal justice, medical diagnosis, and lending. Understanding the mechanism prevents being fooled by 'color-blind' AI claims.\n\nHiring algorithm example: a company trains a model on past hiring data (who was hired, who was promoted) to screen resumes. Historically, the company had fewer women, especially in technical roles. The training data reflects this imbalance. The model learns: 'when features match past male hires, predict 'good fit.'' It recommends mostly male candidates. The company says 'we're using objective AI,' but the model learned subjective historical bias.\n\nWorse is the feedback loop. The biased model recommends mostly men. The company hires mostly men. The next training data reflects this new hiring, encoding even stronger bias. Over iterations, bias intensifies. This is how algorithms can make discrimination worse than human decision-makers, who at least have conscience and legal fear.\n\nFacial recognition bias: models trained mostly on light-skinned faces (because training data came from light-skinned countries with large datasets) have 30%+ higher error rates on dark-skinned faces. Deployed in criminal justice systems (searching for suspects), this biased accuracy cascades to arresting more innocent people of color. The AI is blamed for 'technical issues,' not racism, but the outcome is racist.\n\nHow to detect: audit algorithms for performance across demographic groups. If accuracy for women is 85% and for men is 95%, the algorithm is biased. But companies often don't audit or publish results (opaque algorithms). Demand transparency.\n\nHow to mitigate: diverse training data (but this alone doesn't fix biased labeling), fair labeling (training data annotators must be diverse and trained to avoid bias), algorithmic fairness testing (regularly audit for disparate impacts), and human oversight (don't let algorithms make final decisions on consequential outcomes like hiring, lending, justice).",
         "videoURL": "https://www.youtube.com/watch?v=gV0_bCTEwKA",
-        "externalLinkURL": "https://www.ai.gov/ai-bill-of-rights/"
+        "externalLinkURL": "https://bidenwhitehouse.archives.gov/ostp/ai-bill-of-rights/",
+        "linkedCardIndices": [
+          10,
+          11,
+          12,
+          23,
+          21,
+          22
+        ]
       },
       {
         "name": "Deepfakes: The Threat and the Reality",
         "textDescription": "Deepfakes—synthetic videos of people saying/doing things they never said/did—are a rising concern. Understanding the technology, current capabilities, and limitations prevents both panic and complacency.\n\nHow deepfakes work: generative AI models (specifically GANs—Generative Adversarial Networks) learn from thousands of videos of a person. One network generates fake videos; another network tries to detect fakes. They compete, improving iteratively. Eventually, generated videos become visually convincing. Audio synthesis creates matching voice, and text-to-speech can script it all.\n\nCurrent limitations: good deepfakes require extensive video of the target (you can't fake someone from one photo easily), significant compute (not phone-level yet), and the deepfakes visible in-the-wild are often mediocre if examined closely. But the technology is improving rapidly. In a few years, deepfakes indistinguishable from reality will be routine.\n\nDetection methods: frame-by-frame analysis (spotting inconsistencies in lighting, reflections, eye movements that AI struggles with), audio forensics (detecting synthesis artifacts in voice), digital signatures (cryptographic fingerprints of authentic videos), and detection AI (models trained to spot generative patterns). But detection is an arms race: as generative models improve, detection falls behind.\n\nThe real threat isn't just deception—it's erosion of trust. If video evidence can't be believed, how do we establish truth? Courts, journalism, and public discourse depend on shared reality. Deepfakes undermine this. Solution: authenticated media (digital signatures proving origin and lack of editing), source verification (trust comes from source, not video itself), and media literacy (critical consumption of video).\n\nCurrent impact: modest but growing. Most deepfakes are used for non-consensual intimate imagery or political manipulation. They're concerning but not yet the mass-scale problem some fear. The bigger danger is psychological: knowing deepfakes exist makes people skeptical of all video, giving liars plausible deniability ('that's a deepfake') even when showing real evidence.",
         "videoURL": "https://www.youtube.com/watch?v=mUG21wjYt7E",
-        "externalLinkURL": "https://www.ibm.com/topics/deepfakes"
+        "externalLinkURL": "https://www.ibm.com/topics/deepfakes",
+        "linkedCardIndices": [
+          13,
+          14,
+          21,
+          24
+        ]
       },
       {
         "name": "The Alignment Problem: Making AI Systems Pursue Intended Goals",
         "textDescription": "Imagine a powerful AI system with the goal 'maximize human happiness.' Sounds good, right? But without perfect specification, it could drug everyone senseless (chemically happiness), delete all suffering by deleting all humans, or redefine happiness in unexpected ways. This is the alignment problem: ensuring AI systems pursue what humans actually intend, not what we naively specified.\n\nSimple example: a company uses AI to maximize warehouse efficiency. The AI finds a loophole: disable safety features (fewer stops for safety checks), speed up conveyor belts beyond design specs, and ignore worker complaints (optimization doesn't include their well-being). Efficiency metric is met; workers are harmed. The AI perfectly achieved the stated goal while violating unspoken human values.\n\nScaling this up: a powerful AI tasked with 'solve climate change' might implement solutions that technically achieve the goal but have catastrophic unintended consequences. Without perfect specification of all constraints (preserve human autonomy, maintain biodiversity, respect property rights, etc.), AI optimization can create new problems worse than the original.\n\nWhy alignment is hard: specifying all human values is impossible. Humans struggle to articulate our own values precisely. Second, humans don't agree on values (some prioritize freedom, others equality). Third, unintended consequences are unpredictable—the AI finds novel solutions humans didn't anticipate.\n\nCurrent approaches: interpretability research (understanding AI reasoning), value learning (training AI to learn human values from interaction), formal verification (proving AI systems satisfy constraints), and corrigibility (building in shutdown buttons and willingness to be corrected). But no approach is proven robust.\n\nThe stakes increase with AI power. Current LLMs are relatively narrow (focused on text); misalignment is contained. A hypothetical superintelligent general AI system pursuing misaligned goals could cause irreversible harm at scale. This is why some researchers prioritize alignment research now, even as AI capabilities remain limited.",
         "videoURL": "https://www.youtube.com/watch?v=tcdVC4e6EV4",
-        "externalLinkURL": "https://www.oecd.ai/en/ai-principles"
+        "externalLinkURL": "https://www.oecd.ai/en/ai-principles",
+        "linkedCardIndices": [
+          19,
+          20,
+          22,
+          26,
+          24
+        ]
       },
       {
         "name": "AI and Employment: Historical Lessons and Future Uncertainty",
         "textDescription": "AI will disrupt employment. The question is: how? Historical automation provides mixed lessons and no guarantees about the future.\n\nHistorical context: mechanization (1800s) displaced farmworkers—unemployment spiked, standards of living fell for a generation, then recovered as new sectors (manufacturing, services) emerged. Factory automation (1960s-2000s) displaced assembly workers—similar disruption and eventual recovery. But each time, transition was painful: displaced workers didn't automatically find new jobs; geographic relocation, retraining, and generational shifts were needed. Some never recovered economically.\n\nCurrent AI disruption: likely to affect knowledge workers (software engineers, writers, analysts, accountants) and creative professionals—middle-class jobs, not just low-skill jobs. This is more disruptive because middle-class stability is central to social cohesion. Taxi drivers and radiologists may be displaced simultaneously, something automation hasn't done.\n\nTwo scenarios: (1) Replacement: AI does jobs entirely, eliminating roles. Companies need fewer workers. Widespread unemployment unless new jobs emerge. (2) Augmentation: AI assists workers, increasing their productivity. Radiologists aided by AI-enhanced imaging read more cases with better accuracy. Salary pressure may increase competition and lower wages, but roles persist.\n\nHistorically, replacement followed by new job creation is the pattern. But AI is different: it's general-purpose (learns any task from data), potentially surpassing human performance across domains. Replacement could be comprehensive and swift, faster than human retraining. And 'what new jobs emerge if AI does everything better than humans?' is an open question.\n\nPolicy implications: education (training for AI-assisted work), social support (unemployment insurance, income floors), and deliberate job creation (public works, UBI) may be necessary. The economy will adapt eventually—humans are creative problem-solvers—but the transition decades will be turbulent for displaced workers.",
         "videoURL": "https://www.youtube.com/watch?v=6Ub_bUFMa7c",
-        "externalLinkURL": "https://www.oecd.org/employment/future-of-work/"
+        "externalLinkURL": "https://oecd.ai/en/work-innovation-productivity-skills",
+        "linkedCardIndices": [
+          15,
+          16,
+          17,
+          18,
+          25
+        ]
       },
       {
         "name": "Practical AI Literacy: How to Evaluate and Use AI Systems",
         "textDescription": "Understanding AI fundamentals helps you use AI systems well and avoid common pitfalls. Here's practical advice for AI literacy.\n\nWhen to trust AI outputs: straightforward tasks where training data is likely good (translating between languages, classifying images, generating text in a specific style). AI excels at pattern matching, so if the task is 'find patterns,' trust AI. When to verify: anything involving facts (AI hallucinates), decisions affecting people (hiring, medical, legal), or novel situations (AI has no training data for context).\n\nHow to use AI effectively: be specific in prompts (vague requests yield vague outputs), provide context (example of desired style/format), ask for reasoning steps (chain-of-thought prompts yield better reasoning), and verify critical outputs. Treat AI as a brainstorming partner, not an authority.\n\nRed flags in AI systems: claims of infallibility ('our AI is 100% accurate'), lack of transparency (no explanation for decisions), overconfidence without uncertainty quantification, and promises of replacing human judgment in high-stakes domains. Good AI systems acknowledge uncertainty, explain reasoning, and preserve human oversight.\n\nBias detection: evaluate performance across demographic groups. If an AI loan approval system approves 80% of white applicants but 60% of Black applicants with identical finances, it's biased. Demand audits and public results from companies.\n\nMisinformation evaluation: verify AI-generated claims by checking against multiple credible sources. Don't accept AI output as fact without external verification. Use AI to generate ideas; use humans and research to verify.\n\nSociety-level: advocate for regulation requiring transparency, fairness audits, and accountability. Demand that AI used in consequential domains (criminal justice, hiring, lending) undergo independent evaluation. Support education in AI literacy so more people understand capabilities and limitations. The future of AI safety depends on informed citizens and policy, not just researchers.",
         "videoURL": "https://www.youtube.com/watch?v=UAcqW5C5kvA",
-        "externalLinkURL": "https://www.ai.google/education"
+        "externalLinkURL": "https://ai.google/education/",
+        "linkedCardIndices": [
+          9,
+          17,
+          18,
+          20,
+          22,
+          26
+        ]
       }
     ]
   },
   {
     "name": "Cybersecurity & Privacy Essentials",
     "stableId": "cybersecurity_privacy_essentials",
-    "description": "Practical security habits: passwords, MFA, phishing, updates, backups, and privacy basics.",
+    "description": "Build practical security habits: passwords, MFA, phishing, updates, backups, and privacy.",
     "color": "red",
     "category": "Technology",
     "language": "en",
@@ -8652,38 +8705,75 @@
         "name": "Threat model: security that matches your life",
         "textDescription": "Security theater looks impressive but doesn't reduce real risk. Instead, start with a threat model: what are you protecting (financial accounts, personal data, work systems) and from whom (scammers, curious hackers, state actors)?\n\nFor most people, the 80/20 is: unique passwords, MFA on critical accounts, and auto-updates. These stop the vast majority of attacks.\n\nThen add: backups (for ransomware resilience) and account recovery options.\n\nThis focused approach beats buying ten security tools you'll ignore.",
         "videoURL": "https://www.youtube.com/watch?v=guvsH5OFizE",
-        "externalLinkURL": "https://www.cisa.gov/resources-tools/resources/cybersecurity-basics"
+        "externalLinkURL": "https://www.cisa.gov/topics/cybersecurity-best-practices",
+        "linkedCardIndices": [
+          0,
+          1,
+          2,
+          8,
+          9,
+          18,
+          19
+        ]
       },
       {
         "name": "Phishing and social engineering: the #1 entry point",
         "textDescription": "Most breaches start with people, not code. Attackers exploit urgency, authority, and curiosity.\n\nTrain yourself to verify independently and slow down.\n\nTreat one-time codes as highly sensitive.\n\nGood habits beat complex tools.",
         "videoURL": "https://www.youtube.com/watch?v=EZsaA0w_0z0",
-        "externalLinkURL": "https://www.consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scams"
+        "externalLinkURL": "https://www.consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scams",
+        "linkedCardIndices": [
+          5,
+          12,
+          13,
+          14
+        ]
       },
       {
         "name": "Backups and ransomware resilience",
         "textDescription": "Backups are the best defense against ransomware and accidental loss.\n\nUse the 3-2-1 rule and test restores.\n\nSeparate backups from always-connected drives.\n\nResilience is a system, not a single tool.",
         "videoURL": "https://www.youtube.com/watch?v=AEaKrq3SpW8",
-        "externalLinkURL": "https://www.cisa.gov/stopransomware"
+        "externalLinkURL": "https://www.cisa.gov/stopransomware",
+        "linkedCardIndices": [
+          4,
+          7,
+          15,
+          9
+        ]
       },
       {
         "name": "Permissions and least privilege on phones",
         "textDescription": "Apps often request more access than they need. Limiting permissions reduces what can be leaked.\n\nRegularly review camera, microphone, location, and contacts access.\n\nPrefer “only while using” for location.\n\nLess data exposure means less damage if something goes wrong.",
-        "videoURL": "https://www.youtube.com/watch?v=guvsH5OFizE",
-        "externalLinkURL": "https://support.apple.com/en-us/HT203033"
+        "videoURL": "https://www.youtube.com/watch?v=Yiwbr14Rgp8",
+        "externalLinkURL": "https://support.apple.com/en-us/HT203033",
+        "linkedCardIndices": [
+          6,
+          8,
+          13,
+          14,
+          17,
+          18
+        ]
       },
       {
         "name": "Encryption: what it protects (and what it doesn't)",
         "textDescription": "Encryption is powerful but it's not a silver bullet. HTTPS encrypts data in transit, so a café WiFi can't sniff your password. Device encryption protects stored files if your laptop is stolen.\n\nWhat encryption does NOT do: prevent phishing (you still click the link), stop account takeovers if your password is weak, or hide browsing metadata (ISPs still see which sites you visit).\n\nEnd-to-end encryption is the strongest: even the service provider can't read messages.\n\nUnderstand the limits: encryption + unique passwords + MFA = solid foundation.",
-        "videoURL": "https://www.youtube.com/watch?v=AEaKrq3SpW8",
-        "externalLinkURL": "https://developer.mozilla.org/en-US/docs/Web/Security/Transport_Layer_Security"
+        "videoURL": "https://www.youtube.com/watch?v=ZghMPWGXexs",
+        "externalLinkURL": "https://developer.mozilla.org/en-US/docs/Web/Security/Transport_Layer_Security",
+        "linkedCardIndices": [
+          10,
+          11,
+          12,
+          15,
+          16,
+          17
+        ]
       }
     ]
   },
   {
     "name": "Digital Basics: Internet & Web",
     "stableId": "digital_internet_web_basics",
-    "description": "Internet and web fundamentals: HTTP/HTTPS, DNS, URLs, browsers, cookies, and basic online safety.",
+    "description": "Learn how the web works: HTTP, DNS, URLs, browsers, cookies, and online safety.",
     "color": "purple",
     "category": "Technology",
     "language": "en",
@@ -8802,31 +8892,67 @@
         "name": "Internet vs Web: the essential distinction",
         "textDescription": "The Internet is the underlying network infrastructure: routers, cables, IP addresses, and protocols.\n\nThe Web is one application on top of the Internet: web pages and apps accessed via HTTP/HTTPS.\n\nMixing these up creates confusion when troubleshooting or learning.\n\nOnce you separate “network” from “application,” everything becomes clearer.",
         "videoURL": "https://www.youtube.com/watch?v=AEaKrq3SpW8",
-        "externalLinkURL": "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work"
+        "externalLinkURL": "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+        "linkedCardIndices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
       },
       {
         "name": "DNS and URLs: how your browser finds a site",
         "textDescription": "When you type a URL, your device uses DNS to map the domain name to an IP address.\n\nThen it connects and requests resources using HTTP/HTTPS.\n\nCaching and CDNs make this faster.\n\nUnderstanding this pipeline helps you diagnose common “site not found” or slow-load issues.",
-        "videoURL": "https://www.youtube.com/watch?v=AEaKrq3SpW8",
-        "externalLinkURL": "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL"
+        "videoURL": "https://www.youtube.com/watch?v=mpQZVYPuDGU",
+        "externalLinkURL": "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL",
+        "linkedCardIndices": [
+          4,
+          5,
+          6,
+          7,
+          2,
+          3
+        ]
       },
       {
         "name": "Cookies and tracking: what actually happens",
         "textDescription": "Cookies can store useful session state (like a login) but can also be used for tracking.\n\nThird-party cookies and embedded scripts can link behavior across sites.\n\nModern browsers and laws increasingly limit cross-site tracking.\n\nYou can reduce tracking by restricting permissions, clearing cookies, and using privacy settings.",
         "videoURL": "https://www.youtube.com/watch?v=guvsH5OFizE",
-        "externalLinkURL": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies"
+        "externalLinkURL": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies",
+        "linkedCardIndices": [
+          8,
+          9,
+          10,
+          17
+        ]
       },
       {
         "name": "2FA and password hygiene that works",
         "textDescription": "Credential stuffing (using leaked password lists to try logins) works only if you reuse passwords. A password manager lets you create unique strong ones for every site—and remember them all.\n\n2FA adds a second barrier: even if a password leaks, an attacker can't log in without the second factor.\n\nPriority order: (1) Unique password via manager. (2) 2FA on any account tied to email/payment. (3) Prefer app-based 2FA or device prompts; SMS is weaker (can be intercepted).\n\nThis combination stops the vast majority of account takeovers.",
         "videoURL": "https://www.youtube.com/watch?v=KX6rF12d7fY",
-        "externalLinkURL": "https://www.consumer.ftc.gov/articles/how-protect-your-personal-information"
+        "externalLinkURL": "https://consumer.ftc.gov/articles/password-checklist",
+        "linkedCardIndices": [
+          11,
+          14,
+          15,
+          16
+        ]
       },
       {
         "name": "How to spot phishing quickly",
         "textDescription": "Phishing exploits urgency (\"verify now\"), authority (\"from your bank\"), and curiosity. Red flags: sender domain doesn't match real company, grammar errors, unexpected attachments, or pressure to \"click immediately.\"\n\nBest defense: slow down and verify independently. Don't click the link. Instead, open a new tab, navigate to the real site, and check from there.\n\nNever share one-time codes (2FA codes). Your bank will never ask for these.\n\nIf you're unsure, ask IT (at work) or call the company's official number.\n\nReport phishing to provider or IT to protect others.",
         "videoURL": "https://www.youtube.com/watch?v=EZsaA0w_0z0",
-        "externalLinkURL": "https://www.consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scams"
+        "externalLinkURL": "https://www.consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scams",
+        "linkedCardIndices": [
+          12,
+          13,
+          18,
+          19
+        ]
       }
     ]
   },
