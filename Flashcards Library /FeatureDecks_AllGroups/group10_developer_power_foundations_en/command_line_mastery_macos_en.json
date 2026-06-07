@@ -1,0 +1,295 @@
+[
+  {
+    "name": "Command Line Mastery (macOS)",
+    "stableId": "command_line_mastery_macos",
+    "description": "Become fluent with the macOS command line: mental models, core Unix concepts, powerful commands, automation patterns, and modern tools.",
+    "color": "blue",
+    "category": "Technology",
+    "language": "en",
+    "difficulty": "Intermediate",
+    "tags": [
+      "cli",
+      "terminal",
+      "macos",
+      "unix",
+      "automation",
+      "developer_tools"
+    ],
+    "cards": [
+      {
+        "front": "What is a terminal?",
+        "back": "A program that provides a text interface to interact with the operating system.",
+        "hint": "Text interface."
+      },
+      {
+        "front": "What is a shell?",
+        "back": "A program that interprets commands and runs other programs.",
+        "hint": "Command interpreter."
+      },
+      {
+        "front": "What is the difference between a terminal and a shell?",
+        "back": "The terminal displays input/output; the shell interprets and executes commands.",
+        "hint": "Display vs execute."
+      },
+      {
+        "front": "Why is text considered the universal interface?",
+        "back": "Because text is easy to generate, transform, log, and automate.",
+        "hint": "Composable."
+      },
+      {
+        "front": "What are stdin, stdout, and stderr?",
+        "back": "Standard input, output, and error streams used by programs.",
+        "hint": "Three streams."
+      },
+      {
+        "front": "What does it mean that Unix tools are composable?",
+        "back": "Small tools can be chained together to perform complex tasks.",
+        "hint": "Small pieces."
+      },
+      {
+        "front": "What is an absolute path?",
+        "back": "A full path starting from the root directory.",
+        "hint": "Starts at /."
+      },
+      {
+        "front": "What is a relative path?",
+        "back": "A path defined relative to the current directory.",
+        "hint": "From here."
+      },
+      {
+        "front": "What does the pwd command do?",
+        "back": "Prints the current working directory.",
+        "hint": "Where am I?"
+      },
+      {
+        "front": "What is the purpose of ls?",
+        "back": "Lists files and directories.",
+        "hint": "List."
+      },
+      {
+        "front": "What does cd do?",
+        "back": "Changes the current directory.",
+        "hint": "Move directories."
+      },
+      {
+        "front": "What is a hidden file on macOS?",
+        "back": "A file whose name starts with a dot.",
+        "hint": "Dot prefix."
+      },
+      {
+        "front": "What does chmod control?",
+        "back": "File permissions for reading, writing, and executing.",
+        "hint": "Permissions."
+      },
+      {
+        "front": "What is a symbolic link?",
+        "back": "A reference that points to another file or directory.",
+        "hint": "Pointer."
+      },
+      {
+        "front": "What is a process?",
+        "back": "A running instance of a program.",
+        "hint": "Running program."
+      },
+      {
+        "front": "What is the difference between foreground and background jobs?",
+        "back": "Foreground jobs block the shell; background jobs do not.",
+        "hint": "Blocking."
+      },
+      {
+        "front": "What does ps show?",
+        "back": "Information about running processes.",
+        "hint": "Process list."
+      },
+      {
+        "front": "What is top used for?",
+        "back": "Real-time monitoring of system processes and resource usage.",
+        "hint": "Live view."
+      },
+      {
+        "front": "What does kill do?",
+        "back": "Sends a signal to a process.",
+        "hint": "Signal."
+      },
+      {
+        "front": "What is an exit code?",
+        "back": "A numeric value indicating success or failure of a command.",
+        "hint": "0 or not."
+      },
+      {
+        "front": "What is a pipe (|)?",
+        "back": "It sends the output of one command as input to another.",
+        "hint": "Connect commands."
+      },
+      {
+        "front": "What does > do?",
+        "back": "Redirects output to a file, overwriting it.",
+        "hint": "Overwrite."
+      },
+      {
+        "front": "What does >> do?",
+        "back": "Redirects output to a file, appending to it.",
+        "hint": "Append."
+      },
+      {
+        "front": "What is grep used for?",
+        "back": "Searching text for matching patterns.",
+        "hint": "Search text."
+      },
+      {
+        "front": "What problem does sed solve?",
+        "back": "Stream editing and transforming text.",
+        "hint": "Edit streams."
+      },
+      {
+        "front": "What is awk commonly used for?",
+        "back": "Processing structured text and extracting fields.",
+        "hint": "Columns."
+      },
+      {
+        "front": "What does sort do?",
+        "back": "Sorts lines of text.",
+        "hint": "Order."
+      },
+      {
+        "front": "What does uniq do?",
+        "back": "Filters or counts repeated lines.",
+        "hint": "Duplicates."
+      },
+      {
+        "front": "What is the purpose of head and tail?",
+        "back": "Viewing the beginning or end of files.",
+        "hint": "Start or end."
+      },
+      {
+        "front": "What is find used for?",
+        "back": "Searching for files and directories by criteria.",
+        "hint": "Filesystem search."
+      },
+      {
+        "front": "Why is less preferred over cat for large files?",
+        "back": "It allows paging without loading the whole file.",
+        "hint": "Paging."
+      },
+      {
+        "front": "What is ripgrep (rg)?",
+        "back": "A fast recursive search tool optimized for code.",
+        "hint": "Fast grep."
+      },
+      {
+        "front": "What is an environment variable?",
+        "back": "A key-value pair passed to programs at runtime.",
+        "hint": "Runtime config."
+      },
+      {
+        "front": "What does export do?",
+        "back": "Makes a variable available to child processes.",
+        "hint": "Propagate."
+      },
+      {
+        "front": "What is a shell script?",
+        "back": "A file containing a sequence of shell commands.",
+        "hint": "Command file."
+      },
+      {
+        "front": "What is cron used for?",
+        "back": "Scheduling recurring commands.",
+        "hint": "Scheduler."
+      },
+      {
+        "front": "What is launchd on macOS?",
+        "back": "The system service manager for starting jobs.",
+        "hint": "macOS scheduler."
+      },
+      {
+        "front": "What is an alias?",
+        "back": "A shortcut for a longer command.",
+        "hint": "Shortcut."
+      },
+      {
+        "front": "Why are dotfiles important?",
+        "back": "They configure shell behavior and tools.",
+        "hint": "Configuration."
+      },
+      {
+        "front": "What is command history useful for?",
+        "back": "Reusing and auditing past commands.",
+        "hint": "Recall."
+      },
+      {
+        "front": "What is tab completion?",
+        "back": "Automatic completion of commands and paths.",
+        "hint": "Autocomplete."
+      },
+      {
+        "front": "Why is rm dangerous?",
+        "back": "It permanently deletes files without a recycle bin.",
+        "hint": "No undo."
+      },
+      {
+        "front": "What is a safe CLI habit?",
+        "back": "Preview commands before executing destructive actions.",
+        "hint": "Dry run."
+      },
+      {
+        "front": "What is the CLI’s biggest advantage over GUIs?",
+        "back": "Speed, automation, and composability.",
+        "hint": "Speed."
+      },
+      {
+        "front": "What does it mean to think in pipes?",
+        "back": "Designing workflows as data transformations.",
+        "hint": "Data flow."
+      },
+      {
+        "front": "What is the ultimate goal of CLI mastery?",
+        "back": "Controlling systems efficiently and confidently.",
+        "hint": "Control."
+      }
+    ],
+    "sampleIdeas": [
+      {
+        "name": "The CLI Mental Model",
+        "textDescription": "The command line is not a list of commands to memorize but a language for interacting with systems. Commands are programs, and text is the medium through which they communicate.\n\nUnderstanding stdin, stdout, and pipes unlocks most of the CLI’s power.\n\nOnce this mental model clicks, new tools become easier to learn.\n\nThis mindset scales from local machines to servers.",
+        "videoURL": "https://www.youtube.com/watch?v=oxuRxtrO2Ag",
+        "externalLinkURL": "https://en.wikipedia.org/wiki/Unix_philosophy"
+      },
+      {
+        "name": "Files, Paths, and Permissions",
+        "textDescription": "Everything in Unix-like systems is a file. Paths describe location, and permissions describe who can do what.\n\nMastering these concepts prevents common mistakes and confusion.\n\nSymbolic links add flexibility without duplication.\n\nThese basics power nearly every task.",
+        "videoURL": "https://www.youtube.com/watch?v=HbgzrKJvDRw",
+        "externalLinkURL": "https://www.gnu.org/software/coreutils/manual/"
+      },
+      {
+        "name": "Processes and System Control",
+        "textDescription": "Processes represent running programs consuming resources.\n\nUnderstanding how to inspect and signal them gives you control over your system.\n\nTools like top and ps provide visibility.\n\nThis is essential for debugging and performance tuning.",
+        "videoURL": "https://www.youtube.com/watch?v=9C72ISMF_D0",
+        "externalLinkURL": "https://en.wikipedia.org/wiki/Process_(computing)"
+      },
+      {
+        "name": "Pipes: The Unix Superpower",
+        "textDescription": "Pipes allow small tools to be combined into powerful workflows.\n\nInstead of writing new programs, you connect existing ones.\n\nThis is why the CLI scales so well.\n\nThinking in pipes changes how you approach problems.",
+        "videoURL": "https://www.youtube.com/watch?v=tc4ROCJYbm0",
+        "externalLinkURL": "https://www.gnu.org/software/bash/manual/bash.html#Pipelines"
+      },
+      {
+        "name": "Automation and Ergonomics",
+        "textDescription": "Automation turns repeated effort into reusable scripts.\n\nAliases, functions, and dotfiles shape your environment.\n\nModern tools like fzf and ripgrep improve speed dramatically.\n\nGood ergonomics compound over time.",
+        "videoURL": "https://www.youtube.com/watch?v=ZtqBQ68cfJc",
+        "externalLinkURL": "https://missing.csail.mit.edu/"
+      },
+      {
+        "name": "Safe Destructive Commands",
+        "textDescription": "Commands like rm, mv, and sed can destroy data instantly.\n\nAlways preview output.\n\nUse -i flags when available.\n\nBackups matter.",
+        "videoURL": "https://www.youtube.com/watch?v=ZtqBQ68cfJc",
+        "externalLinkURL": "https://explainshell.com/"
+      },
+      {
+        "name": "CLI Debugging Patterns",
+        "textDescription": "Debugging from the CLI is faster when you inspect state.\n\nUse echo, set -x, and small test commands.\n\nReduce scope.\n\nObserve outputs.",
+        "videoURL": "https://www.youtube.com/watch?v=oxuRxtrO2Ag",
+        "externalLinkURL": "https://missing.csail.mit.edu/"
+      }
+    ]
+  }
+]

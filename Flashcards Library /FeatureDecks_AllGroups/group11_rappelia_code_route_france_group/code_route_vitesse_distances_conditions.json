@@ -1,0 +1,331 @@
+{
+  "stableId": "code_route_vitesse_distances_conditions",
+  "name": "Vitesse, distances et conditions",
+  "description": "Comprendre les limitations, garder ses distances et adapter sa conduite aux conditions.",
+  "color": "blue",
+  "category": "Driving",
+  "language": "fr",
+  "difficulty": "Beginner",
+  "tags": [
+    "vitesse",
+    "distances",
+    "securite",
+    "conditions",
+    "freinage"
+  ],
+  "cards": [
+    {
+      "front": "Quelle est la vitesse maximale générale en agglomération ?",
+      "back": "50 km/h sauf signalisation particulière.",
+      "hint": "Ville = 50."
+    },
+    {
+      "front": "Quelle vitesse s’applique souvent en zone 30 ?",
+      "back": "30 km/h maximum.",
+      "hint": "Nom de la zone."
+    },
+    {
+      "front": "Quelle vitesse maximale générale s’applique sur route hors agglomération à double sens sans séparateur central ?",
+      "back": "80 km/h pour les conducteurs ordinaires, sauf signalisation contraire.",
+      "hint": "Route classique."
+    },
+    {
+      "front": "Quelle vitesse maximale générale s’applique sur route à deux chaussées séparées par un terre-plein central ?",
+      "back": "110 km/h sauf signalisation contraire.",
+      "hint": "Chaussées séparées."
+    },
+    {
+      "front": "Quelle vitesse maximale générale s’applique sur autoroute ?",
+      "back": "130 km/h par temps sec, sauf signalisation contraire.",
+      "hint": "Autoroute = 130."
+    },
+    {
+      "front": "Quelle vitesse maximale s’applique sur autoroute par temps de pluie ?",
+      "back": "110 km/h.",
+      "hint": "Pluie = on baisse de 20."
+    },
+    {
+      "front": "Quelle vitesse maximale s’applique sur une route à deux chaussées séparées par temps de pluie ?",
+      "back": "100 km/h.",
+      "hint": "Pluie sur voie rapide."
+    },
+    {
+      "front": "Pourquoi faut-il adapter sa vitesse même sous la limite autorisée ?",
+      "back": "Parce que la limite est un maximum ; il faut tenir compte du trafic, de la météo, de la visibilité et de l’état de la route.",
+      "hint": "Maximum, pas objectif."
+    },
+    {
+      "front": "Quelle distance minimale conseille la règle des deux secondes ?",
+      "back": "Une distance permettant de compter au moins deux secondes avec le véhicule qui précède.",
+      "hint": "Comptez « mille un, mille deux »."
+    },
+    {
+      "front": "À quoi sert la distance de sécurité ?",
+      "back": "À disposer du temps et de l’espace nécessaires pour freiner sans collision.",
+      "hint": "Espace vital."
+    },
+    {
+      "front": "De quoi dépend principalement la distance d’arrêt ?",
+      "back": "De la distance de réaction et de la distance de freinage.",
+      "hint": "Deux composantes."
+    },
+    {
+      "front": "Qu’est-ce que la distance de réaction ?",
+      "back": "La distance parcourue entre la perception du danger et le début du freinage.",
+      "hint": "Temps de cerveau."
+    },
+    {
+      "front": "Qu’est-ce qui augmente la distance de réaction ?",
+      "back": "La fatigue, l’alcool, les drogues, la distraction et la vitesse élevée.",
+      "hint": "Temps de réponse."
+    },
+    {
+      "front": "Qu’est-ce qui augmente la distance de freinage ?",
+      "back": "La vitesse, l’usure des pneus, une chaussée mouillée ou glacée et un véhicule chargé.",
+      "hint": "Adhérence + vitesse."
+    },
+    {
+      "front": "Que se passe-t-il si la vitesse double ?",
+      "back": "La distance de freinage augmente beaucoup plus que proportionnellement, environ par quatre à conditions égales.",
+      "hint": "Relation quadratique."
+    },
+    {
+      "front": "Pourquoi le brouillard impose-t-il de réduire fortement la vitesse ?",
+      "back": "Parce que la visibilité est réduite et le temps disponible pour réagir diminue.",
+      "hint": "On voit tard."
+    },
+    {
+      "front": "Quel éclairage utiliser dans un brouillard épais ?",
+      "back": "Les feux de croisement et, si nécessaire, les feux antibrouillard appropriés.",
+      "hint": "Pas les pleins phares."
+    },
+    {
+      "front": "Pourquoi les pleins phares sont-ils mauvais dans le brouillard ?",
+      "back": "La lumière se réfléchit dans les gouttelettes et réduit encore la visibilité.",
+      "hint": "Mur blanc."
+    },
+    {
+      "front": "Que faut-il faire sous une forte pluie ?",
+      "back": "Réduire la vitesse, augmenter les distances et éviter les manœuvres brusques.",
+      "hint": "Adhérence plus faible."
+    },
+    {
+      "front": "Qu’est-ce que l’aquaplanage ?",
+      "back": "La perte de contact partielle ou totale des pneus avec la route à cause d’une pellicule d’eau.",
+      "hint": "Roues sur eau."
+    },
+    {
+      "front": "Que faire en cas d’aquaplanage ?",
+      "back": "Relâcher progressivement l’accélérateur, tenir le volant droit et éviter de freiner brutalement.",
+      "hint": "Pas de geste brusque."
+    },
+    {
+      "front": "Pourquoi la nuit faut-il augmenter sa marge de sécurité ?",
+      "back": "Parce que la visibilité est limitée et les obstacles sont perçus plus tard.",
+      "hint": "Champ visuel réduit."
+    },
+    {
+      "front": "Quand utiliser les feux de route ?",
+      "back": "La nuit hors agglomération lorsque la route n’est pas éclairée et qu’aucun usager n’est ébloui.",
+      "hint": "Phares longs."
+    },
+    {
+      "front": "Quand repasser en feux de croisement ?",
+      "back": "Quand on croise ou suit un autre usager pour éviter l’éblouissement.",
+      "hint": "Respect visuel."
+    },
+    {
+      "front": "Pourquoi faut-il ralentir à l’approche d’un sommet de côte ?",
+      "back": "Parce que la visibilité sur ce qui suit est limitée.",
+      "hint": "Zone cachée."
+    },
+    {
+      "front": "Pourquoi faut-il ralentir avant un virage ?",
+      "back": "Parce que la trajectoire, la visibilité et l’adhérence y sont plus délicates.",
+      "hint": "Virage = anticipation."
+    },
+    {
+      "front": "Quel risque existe-t-il à suivre de trop près un deux-roues ?",
+      "back": "Il peut freiner ou éviter un obstacle rapidement, et vous laisser sans marge.",
+      "hint": "Usager fragile."
+    },
+    {
+      "front": "Quelle prudence adopter derrière un poids lourd ?",
+      "back": "Augmenter la distance car la visibilité est réduite et la distance d’arrêt peut varier.",
+      "hint": "On voit moins loin."
+    },
+    {
+      "front": "Pourquoi la charge du véhicule influence-t-elle la conduite ?",
+      "back": "Elle peut allonger la distance de freinage et modifier la tenue de route.",
+      "hint": "Poids supplémentaire."
+    },
+    {
+      "front": "Comment aborder une chaussée verglacée ?",
+      "back": "Très lentement, sans accélération, freinage ni volant brusques.",
+      "hint": "Douceur absolue."
+    },
+    {
+      "front": "Pourquoi la vitesse doit-elle être réduite près d’une école ou d’un arrêt de bus ?",
+      "back": "Parce qu’un piéton, souvent un enfant, peut surgir de façon imprévisible.",
+      "hint": "Risque humain."
+    },
+    {
+      "front": "Que signifie conduire à allure adaptée ?",
+      "back": "Choisir une vitesse compatible avec la situation réelle, pas seulement avec le panneau.",
+      "hint": "Adapter > appliquer mécaniquement."
+    },
+    {
+      "front": "Sur autoroute, pourquoi garder une grande distance est-il essentiel ?",
+      "back": "Parce que les vitesses élevées allongent considérablement la distance d’arrêt.",
+      "hint": "Plus vite = plus loin."
+    },
+    {
+      "front": "Faut-il maintenir la même vitesse sur route sèche et route mouillée ?",
+      "back": "Non, il faut réduire sa vitesse sur chaussée mouillée.",
+      "hint": "Adhérence réduite."
+    },
+    {
+      "front": "Quelle est la bonne attitude si un véhicule derrière vous colle votre pare-chocs ?",
+      "back": "Garder son calme, augmenter sa propre distance de sécurité et éviter tout freinage injustifié.",
+      "hint": "Ne pas se laisser entraîner."
+    },
+    {
+      "front": "Pourquoi un téléphone au volant augmente-t-il le risque même avec kit mains libres ?",
+      "back": "Parce qu’il détourne l’attention et dégrade la perception du danger.",
+      "hint": "Charge mentale."
+    },
+    {
+      "front": "Qu’est-ce qu’une vitesse excessive ?",
+      "back": "Une vitesse inadaptée à la situation, même si elle reste sous la limite autorisée.",
+      "hint": "Sous la limite mais trop vite."
+    },
+    {
+      "front": "Comment vérifier la règle des deux secondes ?",
+      "back": "Repérer un point fixe franchi par le véhicule devant et compter au moins deux secondes avant d’y arriver.",
+      "hint": "Méthode simple."
+    },
+    {
+      "front": "Pourquoi les tunnels demandent-ils une distance supérieure ?",
+      "back": "Parce que l’espace est confiné, la visibilité change et un incident s’y propage vite.",
+      "hint": "Marge accrue."
+    },
+    {
+      "front": "Que faire si vous êtes fatigué sur autoroute ?",
+      "back": "Faire une pause dès que possible, idéalement toutes les deux heures.",
+      "hint": "Pause sécurité."
+    },
+    {
+      "front": "À quelle allure approcher un passage piéton masqué par un véhicule stationné ?",
+      "back": "À allure réduite permettant de s’arrêter immédiatement.",
+      "hint": "Piéton caché."
+    },
+    {
+      "front": "Pourquoi la vitesse doit-elle être modérée dans un parking ?",
+      "back": "Parce que les manœuvres, angles morts et piétons y sont nombreux.",
+      "hint": "Beaucoup d’imprévus."
+    },
+    {
+      "front": "Que faut-il faire avant de dépasser par conditions difficiles ?",
+      "back": "Renoncer si la visibilité, l’adhérence ou l’espace de sécurité ne sont pas suffisants.",
+      "hint": "Le meilleur dépassement peut être celui qu’on ne fait pas."
+    },
+    {
+      "front": "Comment la pluie des premières minutes influence-t-elle l’adhérence ?",
+      "back": "Elle peut rendre la chaussée particulièrement glissante en mélangeant eau, poussières et résidus gras.",
+      "hint": "Début de pluie dangereux."
+    },
+    {
+      "front": "Quel est l’objectif général des limitations et distances ?",
+      "back": "Laisser au conducteur le temps et l’espace nécessaires pour éviter ou réduire la gravité d’un accident.",
+      "hint": "Temps + espace."
+    }
+  ],
+  "sampleIdeas": [
+    {
+      "name": "Limites générales et météo",
+      "textDescription": "Les limitations françaises varient selon le type de voie (agglomération, route bidirectionnelle, route à chaussées séparées, autoroute) et selon la météo. Retenir le couple 50/80/110/130, puis retrancher 20 km/h sous la pluie, permet de répondre instantanément aux questions du code.\n\nMais ces chiffres restent un plafond. Un conducteur responsable ajuste son allure à la visibilité, au trafic local et aux travaux en cours. C'est particulièrement vrai à l'approche des zones 30, des écoles ou des arrêts de bus : la vitesse « autorisée » y devient rapidement excessive.\n\nRépétez les limites à voix haute lors de vos trajets quotidiens et vérifiez si la signalisation confirme vos attentes. Cette gymnastique mentale évite les pièges des questions qui mélangent type de voie et conditions météo.\n\nLe récapitulatif des limitations officielles constitue un bon aide-mémoire : gardez-le à portée de main lors de vos révisions.",
+      "videoURL": null,
+      "externalLinkURL": "https://fr.wikipedia.org/wiki/R%C3%A9glementation_de_la_vitesse_en_France",
+      "linkedCardIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        30,
+        31,
+        33,
+        34,
+        36,
+        44
+      ]
+    },
+    {
+      "name": "Distances de sécurité et freinage",
+      "textDescription": "La règle des deux secondes constitue la base des distances de sécurité. Elle correspond au temps minimal pour réagir puis freiner sans percuter le véhicule qui précède. Plus la vitesse augmente, plus la distance parcourue pendant ces deux secondes s'allonge.\n\nLa distance d'arrêt additionne distance de réaction et distance de freinage. Fatigue, alcool, distractions ou pneus sous-gonflés allongent l'une ou l'autre des composantes. Doubler sa vitesse multiplie presque par quatre l'énergie cinétique, d'où des freinages beaucoup plus longs.\n\nLes tunnels, les poids lourds et les conditions dégradées justifient une distance encore plus grande. Entraînez-vous à compter « mille un, mille deux » lorsque le véhicule devant passe un repère (poteau, panneau) : si vous atteignez le même repère avant deux secondes, augmentez votre écart.\n\nLes ressources officielles sur la distance de sécurité donnent des abaques utiles. Comparez-les avec les valeurs apprises pour ancrer les ordres de grandeur.",
+      "videoURL": null,
+      "externalLinkURL": "https://fr.wikipedia.org/wiki/Distance_de_s%C3%A9curit%C3%A9",
+      "linkedCardIndices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        32,
+        37,
+        38
+      ]
+    },
+    {
+      "name": "Rouler dans des conditions difficiles",
+      "textDescription": "Brouillard, pluie, verglas ou averse soudaine réduisent l'adhérence et la visibilité. On adapte donc allure, éclairage et placement : feux adaptés, vitesse réduite, trajectoire douce, regard plus loin que d'habitude.\n\nL'aquaplanage survient lorsque le pneu flotte sur un film d'eau. Il faut lever le pied, maintenir le volant droit et laisser la voiture ralentir sans freinage brusque. Sur verglas ou neige, l'accélérateur et le frein deviennent des commandes ultra-douces, et le frein moteur prime.\n\nLes tunnels exigent un allumage automatique des feux, une distance accrue et l'interdiction de s'arrêter en dehors des niches d'urgence. Les premières minutes d'averse sont les plus dangereuses car l'eau décolle les poussières et hydrocarbures.\n\nRévisez les conseils pratiques liés à ces phénomènes pour connaître les réactions correctes avant d'y être confronté sur route ouverte.",
+      "videoURL": null,
+      "externalLinkURL": "https://fr.wikipedia.org/wiki/Aquaplanage",
+      "linkedCardIndices": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        38,
+        42,
+        43
+      ]
+    },
+    {
+      "name": "Vigilance et anticipation",
+      "textDescription": "Adapter sa vitesse, c'est aussi gérer sa vigilance. Fatigue, téléphone, distraction visuelle ou stress modifient la perception du risque et rallongent les réactions. Une pause toutes les deux heures reste la meilleure protection sur autoroute.\n\nÊtre suivi de trop près ou talonné incite à accélérer, mais la bonne réponse consiste à garder une allure stable et à faciliter le dépassement lorsque c'est possible. Dans un parking ou près d'un passage piéton masqué, on réduit l'allure pour pouvoir s'arrêter instantanément.\n\nAvant de dépasser sous la pluie ou par vent latéral, on réévalue la distance restante, la visibilité et l'état du revêtement. La vitesse « adaptée » est celle qui laisse une marge pour tout imprévu, même si elle est bien inférieure à la limite affichée.\n\nConsultez les dossiers de la sécurité routière sur la vigilance au volant pour compléter ces cartes par des stratégies concrètes (micro-pauses, hydratation, organisation des bagages).",
+      "videoURL": null,
+      "externalLinkURL": "https://fr.wikipedia.org/wiki/S%C3%A9curit%C3%A9_routi%C3%A8re_en_France",
+      "linkedCardIndices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ]
+    }
+  ]
+}

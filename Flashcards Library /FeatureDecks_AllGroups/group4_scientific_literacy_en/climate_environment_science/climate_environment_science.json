@@ -1,0 +1,186 @@
+[{
+  "name": "Climate & Environmental Science",
+  "stableId": "climate_environment_science",
+  "description": "Understand climate science fundamentals: the greenhouse effect, carbon cycle, feedback loops, evidence for warming, biodiversity loss, and how to evaluate climate claims.",
+  "color": "green",
+  "category": "Science",
+  "language": "en",
+  "difficulty": "Beginner",
+  "tags": ["climate", "environment", "greenhouse_effect", "carbon", "biodiversity", "sustainability"],
+  "cards": [
+    {
+      "front": "What is the greenhouse effect and how do greenhouse gases warm the planet?",
+      "back": "The greenhouse effect: sun's energy enters Earth's atmosphere, some reflects back to space, the rest warms the surface. Normally, this escapes back to space, but greenhouse gases (CO2, methane, water vapor) trap outgoing infrared radiation like a blanket, reradiating it back toward Earth. More CO2 = thicker blanket = more heat trapped. This is basic physics, not opinion.",
+      "hint": "Infrared trapping by gases"
+    },
+    {
+      "front": "What are the key greenhouse gases and which contributes most to current warming?",
+      "back": "Main greenhouse gases: CO2 (carbon dioxide), methane, nitrous oxide, and water vapor. CO2 contributes most warming (~75%) because it's so abundant and long-lived (persists 300+ years). Methane is potent (25x stronger per molecule) but decays faster (12 years). Human activities (fossil fuels, agriculture, industry) released ~50% more CO2 since pre-industrial times.",
+      "hint": "CO2, methane, nitrous oxide"
+    },
+    {
+      "front": "What is the carbon cycle and what role do humans play in disrupting it?",
+      "back": "The carbon cycle: CO2 from atmosphere → plants via photosynthesis → animals eating plants → decomposition/respiration → CO2 back to atmosphere. Fossil fuels (coal, oil, gas) are ancient buried carbon; burning them releases CO2 not part of the modern cycle. We're adding ~10 billion tons of carbon to atmosphere annually, faster than natural sinks (ocean, forests) can absorb.",
+      "hint": "Natural cycle plus fossil fuel emissions"
+    },
+    {
+      "front": "What are climate feedback loops and why do they accelerate warming?",
+      "back": "Feedback loops amplify initial warming: Albedo feedback—melting ice removes white reflective surface, exposing dark ocean that absorbs more heat, melting more ice. Permafrost feedback—thawing permafrost releases methane, strengthening greenhouse effect. Water vapor feedback—warmer atmosphere holds more water vapor (greenhouse gas), increasing warming. These feedback loops make early warming harder to stop.",
+      "hint": "Self-reinforcing warming mechanisms"
+    },
+    {
+      "front": "What is ocean acidification and why is it happening?",
+      "back": "Oceans absorb ~30% of human CO2 emissions. CO2 dissolves in seawater forming carbonic acid, lowering pH (acidification). Acidification reduces carbonate ions needed by shellfish and corals to build shells/skeletons. Pteropods (sea snails) are dissolving in acidifying waters already. This cascades up food chains, threatening marine life and fisheries.",
+      "hint": "CO2 + water = carbonic acid"
+    },
+    {
+      "front": "What is the evidence that Earth is warming and it's caused by human activity?",
+      "back": "Evidence for warming: surface temperature records show 1.1°C warming since 1850, sea level rising 3mm/year, glaciers melting worldwide, ice sheets shrinking. Evidence it's human-caused: CO2 levels correlate perfectly with fossil fuel burning (pre-industrial 280 ppm, now 420 ppm), carbon isotope ratios prove CO2 is from fossil fuels not natural sources. Natural factors (solar cycles, orbital changes) can't explain observed warming.",
+      "hint": "Temperature, sea level, ice loss"
+    },
+    {
+      "front": "Why does climate change affect sea levels and how fast is it rising?",
+      "back": "Sea level rises from: thermal expansion (warming water expands) and melting ice sheets/glaciers. Thermal expansion accounts for ~half of current rise; ice melt the other half. Current rate: 3-4mm/year (accelerating). By 2100, projections range from 0.5-2 meters depending on emission scenarios. This threatens coastal cities and island nations.",
+      "hint": "Thermal expansion plus ice melt"
+    },
+    {
+      "front": "What is biodiversity loss and why does it matter?",
+      "back": "Biodiversity = variety of species at all ecological levels. Humans are causing extinction rates 100-1000x faster than natural background rates. Main drivers: habitat loss (deforestation, development), climate change, pollution, overharvesting. This matters because: ecosystems collapse without biodiversity (pollination, water filtration, carbon storage), and we lose potential medicines and food sources.",
+      "hint": "Species extinction, ecosystem collapse"
+    },
+    {
+      "front": "How does deforestation contribute to climate change?",
+      "back": "Forests are carbon sinks—they absorb CO2 and store it as wood. Deforestation releases that stored carbon and removes the sink. Additionally, tropical rainforests generate 20% of atmospheric oxygen; their loss affects global climate patterns. We lose ~10 billion trees yearly, mostly to agriculture and development. Reforestation is critical.",
+      "hint": "Carbon release plus sink removal"
+    },
+    {
+      "front": "What role does agriculture play in climate change?",
+      "back": "Agriculture contributes ~14% of global greenhouse gas emissions through: methane from livestock digestion, nitrous oxide from fertilizers, and deforestation for farmland. Livestock requires enormous feed and land; beef production is especially carbon-intensive. Diet changes (more plants, less red meat) reduce personal carbon footprint and land use.",
+      "hint": "Livestock methane, fertilizer, land use"
+    },
+    {
+      "front": "Why do some claim 'CO2 is plant food so more is good'?",
+      "back": "Plants do use CO2, but this argument ignores: (1) Historical CO2 levels supported all past life; we've exceeded this by 50%; (2) Increasing CO2 briefly boosts plant growth, but heat stress, water availability, and soil health matter more—climate change overall harms agriculture; (3) Rapid changes give species no time to adapt. Outdated argument.",
+      "hint": "True premise, false conclusion"
+    },
+    {
+      "front": "What is the IPCC and what do their reports say about climate change?",
+      "back": "The IPCC (Intergovernmental Panel on Climate Change) synthesizes peer-reviewed climate research for governments. Their reports show: climate change is real, human-caused, and impacts are accelerating. 99.9% of climate scientists agree. IPCC reports are conservative (consensus-based), so actual risks may be worse. Their findings form basis of Paris Agreement.",
+      "hint": "Scientific consensus body"
+    },
+    {
+      "front": "How do you distinguish between natural climate cycles and current human-caused warming?",
+      "back": "Natural cycles (Milankovitch cycles, solar variation, volcanic eruptions) operate over thousands of years or have specific signatures. Current warming: (1) too fast (1°C in 170 years vs. natural ice age cycles over 5,000 years), (2) wrong season (nights warming faster than days; natural solar warming would warm days more), (3) upper atmosphere cooling while surface warms (greenhouse effect signature), (4) isotope ratios prove it's fossil fuel carbon. It's human-caused.",
+      "hint": "Speed, signature patterns, isotopes"
+    },
+    {
+      "front": "What are the projected impacts of 1.5°C vs. 2°C vs. 3°C warming?",
+      "back": "1.5°C (Paris Agreement goal): some impacts unavoidable but manageable. 2°C: significantly worse—coral reefs mostly dead, extreme heat events, food crop impacts. 3°C+ (current trajectory): catastrophic—widespread crop failure, mass migration, ecosystem collapse. Difference between 1.5 and 2°C affects hundreds of millions of people. We're headed for ~2.7°C without major changes.",
+      "hint": "Tipping points at different thresholds"
+    },
+    {
+      "front": "Why might Earth have 'tipping points' where change becomes irreversible?",
+      "back": "Tipping points are thresholds where systems shift suddenly to a new state. Examples: Amazon rainforest dieback (deforestation + warming pushes it from forest to savanna—irreversible), ice sheet collapse (melting ice accelerates due to feedback loops), permafrost methane release (accelerates warming). Once triggered, tipping points are near-irreversible on human timescales.",
+      "hint": "Sudden system shifts, feedback loops"
+    },
+    {
+      "front": "How much warming is 'locked in' even if we stop emissions today?",
+      "back": "Due to thermal inertia (oceans take decades to fully warm), we'll see ~0.5-1°C more warming even if emissions stop today. This 'committed warming' is why rapid action matters. Each fraction of a degree matters for impacts and tipping points. We can't undo past emissions, but we can limit future warming by reducing new emissions.",
+      "hint": "Time lag in system response"
+    },
+    {
+      "front": "What are the most effective individual actions to reduce carbon footprint?",
+      "back": "Highest impact: reducing air travel (one transatlantic flight = year of driving), reducing meat consumption (especially beef), improving home energy efficiency (insulation, heat pump, solar). Medium impact: reducing car use, buying less. Lower impact: recycling, LED bulbs, shorter showers. Systemic change (policy, renewable energy, agriculture reform) matters more than individual action, but both needed.",
+      "hint": "Transportation, diet, home energy"
+    },
+    {
+      "front": "Why is adaptation important even if we stop emissions tomorrow?",
+      "back": "Because warming is already locked in and impacts are increasing now. Adaptation: building sea walls, breeding drought-resistant crops, designing heat-resistant cities, improving disaster preparedness. Both mitigation (reducing emissions) and adaptation (managing impacts) are necessary. Developing countries that contributed least to climate change face worst impacts—equity matters.",
+      "hint": "Impacts are inevitable; prepare"
+    },
+    {
+      "front": "What is the difference between weather and climate, and why does it matter?",
+      "back": "Weather is short-term (today's temperature, this week's rain). Climate is long-term average (30-year normal). One cold winter doesn't disprove warming climate; one heat wave doesn't prove it. Proper statement: 'climate is changing' (proven), not 'it was cold today so warming is fake.' Climate scientists study long-term trends, not individual weather events.",
+      "hint": "Short-term vs. long-term trends"
+    },
+    {
+      "front": "What is renewable energy and why is it critical for climate action?",
+      "back": "Renewable energy (solar, wind, hydroelectric, geothermal) generates power without greenhouse gas emissions. Unlike fossil fuels, they're unlimited and don't warm the planet. Solar and wind are now cheapest electricity sources in many regions. Transitioning energy systems to renewables + storage is the primary path to eliminating fossil fuel emissions.",
+      "hint": "Solar, wind, hydro, geothermal"
+    },
+    {
+      "front": "Why are small island nations and low-lying countries most vulnerable to climate change?",
+      "back": "Small islands and low-lying countries (Maldives, Pacific islands, Bangladesh) face existential threats: rising sea levels (threatens freshwater aquifers), extreme weather (hurricanes, flooding), and ecosystem collapse (coral reefs, fisheries). Ironically, they contribute <1% of emissions but face worst impacts. Climate justice means developed countries that caused the problem fund adaptation.",
+      "hint": "Frontline vulnerable nations"
+    },
+    {
+      "front": "How does climate change affect human health?",
+      "back": "Climate impacts health through: heat stress (deadly heatwaves), air pollution (wildfires, ozone), water/food insecurity, vector-borne disease spread (mosquitoes in warmer regions), mental health (climate anxiety), and displacement (climate refugees). Poorest populations suffer most despite least responsibility. Public health costs will be enormous.",
+      "hint": "Heat, air quality, food, disease"
+    },
+    {
+      "front": "What is carbon pricing and how can it incentivize emissions reduction?",
+      "back": "Carbon pricing (tax or cap-and-trade) puts a price on CO2 emissions, making fossil fuels more expensive and clean energy more competitive. Example: carbon tax of $50/ton CO2 adds ~$0.45 to a gallon of gasoline—incentivizes efficiency and renewables. Economically efficient (lets market choose solutions) and politically complex (industries resist). Used in Canada, EU, some US states.",
+      "hint": "Tax or trade emissions"
+    },
+    {
+      "front": "Why does climate science have such high confidence despite inherent uncertainty?",
+      "back": "Climate models have uncertainties (future emissions, cloud behavior), but basic physics is certain: CO2 traps heat (proven 1850s), humans emit CO2 (measured), Earth is warming (observed). Uncertainty is about details (exact amount of warming, regional impacts) not whether warming happens. Scientists quantify confidence levels: 'very high confidence warming is human-caused' means >95% certain.",
+      "hint": "Basic physics certain, details uncertain"
+    },
+    {
+      "front": "What is mitigation versus adaptation in climate action?",
+      "back": "Mitigation: reducing greenhouse gas emissions (renewable energy, efficiency, diet changes) to prevent future warming. Adaptation: adjusting to existing/expected climate impacts (sea walls, drought-resistant crops, emergency preparedness). Both are necessary. Mitigation is preferred (prevents worst impacts) but takes decades; adaptation is needed now.",
+      "hint": "Prevention vs. adjustment"
+    },
+    {
+      "front": "How do you evaluate climate claims and distinguish credible from false information?",
+      "back": "Check: (1) Source—scientists vs. opinion? Peer-reviewed vs. blog? (2) Consensus—does it align with IPCC, major scientific organizations? (3) Incentives—is the author funded by interests that benefit from denial? (4) Logic—are there alternative explanations? (5) Evidence—specific data or vague claims? Credible sources: NASA, NOAA, IPCC, peer-reviewed journals.",
+      "hint": "Source, consensus, incentives, logic"
+    }
+  ],
+  "sampleIdeas": [
+    {
+      "name": "The Greenhouse Effect: Basic Physics That Explains Planet Warming",
+      "textDescription": "The greenhouse effect is often presented as mysterious or debated, but it's straightforward physics discovered in the 1850s. Understanding it removes confusion about whether climate change is real.\n\nHere's how it works: the sun's energy constantly bathes Earth. Some reflects off clouds and ice (albedo), some absorbs in the atmosphere, and the rest heats Earth's surface. Earth then radiates this energy back toward space as infrared radiation (heat). Normally, this heat escapes, and Earth maintains a stable temperature. But greenhouse gases—CO2, methane, water vapor, and others—absorb infrared radiation and reradiate it in all directions, including back toward Earth. More greenhouse gas = more radiation trapped = hotter surface.\n\nThis isn't theoretical. In laboratory experiments, you can measure how much infrared radiation CO2 absorbs. It's measurable, reproducible physics. The effect is so well-understood that the magnitude of warming from a doubling of CO2 (from 280 to 560 ppm) can be calculated from basic physics: approximately 1-1.2°C of warming before considering feedback loops (which amplify it further).\n\nThe only scientific debate is on magnitude: exactly how much warming will occur and how fast? This depends on feedbacks (albedo, water vapor, clouds) and how much CO2 humans emit. The basic physics—that CO2 traps heat—is not debated in science because it's proven.\n\nA common misconception: 'CO2 is only 0.04% of the atmosphere, so it can't matter.' This is false logic. Small amounts matter if they're potent. A glass of water is 0.001% cyanide by volume, but it kills you. Potency matters more than abundance. CO2's heat-trapping potency is high, and it's cumulative—each additional molecule matters.",
+      "videoURL": "https://www.youtube.com/watch?v=w8oeqF3A5fY",
+      "externalLinkURL": "https://climate.nasa.gov/evidence/"
+    },
+    {
+      "name": "The Carbon Cycle: How Humans Disrupted a Balanced System",
+      "textDescription": "For millions of years, Earth's carbon cycle was relatively balanced. Carbon cycled through: atmosphere (CO2) → plants (photosynthesis) → animals (eating plants) → decomposition/respiration → back to atmosphere. Fossil fuels were carbon buried underground millions of years ago—not part of the modern cycle.\n\nHumans discovered these ancient carbon deposits (coal, oil, natural gas) and now burn them at unprecedented rates. We're releasing ~10 billion tons of carbon annually—carbon that was sequestered for millions of years. This is not part of the natural cycle; it's an enormous injection.\n\nNatural sinks (forests, oceans, soils) absorb some of this CO2—about 45% of emissions. But we're emitting faster than they can absorb. The result: CO2 atmospheric concentration increases ~2 ppm annually. Pre-industrial levels were 280 ppm; today we're over 420 ppm—a 50% increase in 170 years.\n\nThe consequences: more atmospheric CO2 → stronger greenhouse effect → faster warming. But also: more CO2 in oceans → ocean acidification, affecting marine life. Feedback loops amplify this: warming thaws permafrost (releasing methane, a potent greenhouse gas), melts ice (reducing albedo, increasing heat absorption), and strengthens water vapor feedback (warmer air holds more water vapor, a greenhouse gas).\n\nThe disturbing part: even if we stopped all emissions today, atmospheric CO2 would remain at 420 ppm for centuries (CO2 lifetime ~300 years). This means warming is committed for generations. Our only choice is how much further we warm by what we emit in the next decades. The carbon we released decades ago is still warming the planet today and will continue for centuries.",
+      "videoURL": "https://www.youtube.com/watch?v=EqW_jRfEFEo",
+      "externalLinkURL": "https://climate.nasa.gov/vital-signs/carbon-dioxide/"
+    },
+    {
+      "name": "Climate Feedback Loops: Why Warming Accelerates Itself",
+      "textDescription": "Linear thinking about climate is dangerous. You might assume: 'We add some CO2, it warms a bit, no big deal.' This ignores feedback loops—processes that amplify initial warming, causing runaway acceleration.\n\nAlbedo feedback: White surfaces (ice, snow) reflect sunlight back to space; dark surfaces (ocean, forest) absorb it. As the planet warms, ice melts, exposing dark ocean and land. This exposed dark surface absorbs more heat, melting more ice in a self-reinforcing loop. The Arctic has warmed 2-3x faster than the global average because of albedo feedback.\n\nPermafrost feedback: Permafrost (frozen soil in Arctic regions) contains vast amounts of organic carbon from dead vegetation. As permafrost thaws due to warming, microbes decompose this carbon, releasing CO2 and methane. This increases atmospheric greenhouse gases, causing more warming, thawing more permafrost. This is a dangerous loop we may have triggered already.\n\nWater vapor feedback: Warmer air holds more water vapor (~7% more per 1°C of warming). Water vapor is a greenhouse gas. More warming → more water vapor → stronger greenhouse effect → more warming. This feedback roughly doubles the warming from CO2 alone.\n\nCloud feedback is complex: some clouds warm the planet (trap heat), others cool it (reflect sunlight). Climate models struggle with cloud behavior, creating uncertainty. But observations suggest net positive feedback (warming accelerates cloud behavior toward trapping more heat).\n\nThese feedback loops explain why early estimates of warming from doubling CO2 (1-1.2°C from basic physics) translate to actual warming of 3°C+ in climate models—feedbacks double or triple the direct effect. This is why small changes in forcing (greenhouse gases) can trigger large changes in climate. We're not on a linear path; we're risking acceleration.",
+      "videoURL": "https://www.youtube.com/watch?v=nrPVWWHocN8",
+      "externalLinkURL": "https://www.ipcc.ch/report/ar6/wg1/"
+    },
+    {
+      "name": "Evidence for Climate Change: Why Scientists Are Certain",
+      "textDescription": "Climate change skeptics sometimes claim scientists are uncertain or data is unclear. This misrepresents the scientific consensus. Multiple independent lines of evidence converge on warming and human causation.\n\nTemperature records from 1850-present show clear warming: 1.1°C since pre-industrial times, with acceleration in recent decades. This is confirmed by: surface stations, satellites (since 1979), ocean buoys, and weather balloons. Different measurement methods all show the same warming trend. If data were flawed, we'd expect disagreement between methods, not agreement.\n\nSea levels have risen ~21cm since 1880, with acceleration (~3-4mm/year now). Cause: thermal expansion of warming water and melting land ice. This is measured by tide gauges and satellites with extreme precision. Coastal cities worldwide document more frequent 'nuisance flooding' and tidal inundation—observable impacts.\n\nGlaciers worldwide have retreated dramatically. Documented through: glacier length measurements (centuries of data), satellite imagery (recent decades), and loss of sea ice. Even non-climate people notice: alpine glaciers tourists once saw are now gone. This is measurable, observable evidence.\n\nCarbon isotope analysis proves CO2 comes from fossil fuels. CO2 has stable isotopes (12C and 13C) with different ratios. Fossil fuel carbon is enriched in 12C; atmospheric CO2 shows this enrichment since industrial era. This proves humans caused the increase, not natural sources like volcanoes or oceans.\n\nClimate models from 40 years ago predicted warming closely matching observed warming. If scientists didn't understand climate, models would miss the mark. That they predicted accurately suggests understanding is solid. The debate among scientists isn't whether warming happens or causes, but about precise magnitude of future impacts.",
+      "videoURL": "https://www.youtube.com/watch?v=5xz4ZcLvqto",
+      "externalLinkURL": "https://climate.nasa.gov/scientific-consensus/"
+    },
+    {
+      "name": "Biodiversity Loss: Why Species Extinction Matters for Ecosystems and Humans",
+      "textDescription": "Biodiversity is often treated as an environmental luxury—nice to have, but not essential. This view is dangerously wrong. Biodiversity is the foundation of ecosystem function and human survival.\n\nEcosystems are intricate networks: pollinators (bees, butterflies, birds) pollinate 75% of crops and 90% of wild plants. Loss of pollinators cascades to crop failure and ecosystem collapse. Decomposers (fungi, bacteria) break down dead material, recycling nutrients that sustain plants. Predators control herbivores, preventing overgrazing. Plants produce oxygen and store carbon. Remove species and entire systems unravel.\n\nHumans are losing biodiversity at 100-1000x natural extinction rates. We're in the sixth mass extinction event, this time caused by humans. Drivers: habitat destruction (converting forests to agriculture), climate change, pollution, and overharvesting.\n\nWhy should we care? Practical reasons: many medicines derive from natural products (40% of pharmaceuticals). Destroyed species might have held cures for diseases. Wild crop relatives are genetic resources for breeding resilient varieties as climate changes. Intact ecosystems provide 'ecosystem services' we take for granted: pollination, water filtration, flood prevention, carbon storage. Degraded ecosystems fail these functions, imposing costs.\n\nEmotional reasons: species have intrinsic worth beyond usefulness to humans. Many people find meaning and beauty in nature. Driving species to extinction is a moral loss.\n\nBut here's the mechanism: biodiversity creates resilience. An ecosystem with 100 species can lose several without collapsing (others compensate). An ecosystem with 10 species may collapse with one loss. We've reduced diversity so severely that remaining ecosystems are fragile. Climate change compounds this: species must migrate to track suitable climate, but fragmented habitats prevent migration. The combination—habitat loss plus climate change—is causing collapse.",
+      "videoURL": "https://www.youtube.com/watch?v=a1d5PdFR0yQ",
+      "externalLinkURL": "https://www.un.org/en/observances/biological-diversity-day"
+    },
+    {
+      "name": "Ocean Acidification: The Invisible Threat to Marine Life",
+      "textDescription": "While climate change's effects (warming, extreme weather) grab headlines, ocean acidification—the 'other CO2 problem'—quietly devastates marine ecosystems.\n\nOceans absorb CO2 from the atmosphere. In seawater, CO2 dissolves forming carbonic acid, lowering pH (making water more acidic). Ocean pH has decreased 0.1 pH units since pre-industrial times. This might sound tiny, but pH is logarithmic: 0.1 units represents 30% increase in acidity.\n\nWhy is this catastrophic for marine life? Many organisms use calcium carbonate to build shells and skeletons: mollusks (clams, oysters), pteropods (sea snails), corals, echinoderms (sea stars, sea urchins), crustaceans. In acidified water, shells dissolve—it's like trying to build concrete in acid. Larval forms (most vulnerable) are failing to develop properly.\n\nPteropods are a bellwether: these tiny sea snails are primary food for salmon, whales, and seabirds. Pteropods in acidified waters of the Pacific show shell dissolution. This has cascaded: salmon facing food shortage, animals dependent on salmon struggling. The food web collapses from the bottom up.\n\nCoral reefs face double stress: warming causes bleaching (expulsion of symbiotic algae), acidification reduces their ability to build skeletons. Reefs are essentially dying. This threatens billions of people dependent on reefs for food and coastal protection.\n\nThe terrifying part: acidification is 'locked in' by past emissions. Even if we eliminate new emissions tomorrow, the CO2 already released will continue acidifying oceans for centuries as it equilibrates. We're committed to centuries of acidification. This makes past emissions mortgaging future marine systems.",
+      "videoURL": "https://www.youtube.com/watch?v=EqW_jRfEFEo",
+      "externalLinkURL": "https://www.noaa.gov/education/resource-collections/ocean-coasts/ocean-acidification"
+    },
+    {
+      "name": "Evaluating Climate Claims: How to Distinguish Real Science from Denial",
+      "textDescription": "With climate change, misinformation abounds. How do you evaluate claims and distinguish credible information from denial or misunderstanding?\n\nCheck the source: Is it published in peer-reviewed scientific journals and accepted by major scientific organizations (NASA, NOAA, IPCC), or is it opinion pieces and blogs? Peer review involves expert scrutiny; blogs don't. Scientists have reputational incentive to be right; media outlets and activists have incentive to grab attention. This doesn't mean activists are always wrong, but require higher standards of evidence.\n\nExamine conflicts of interest: Is the person funded by the fossil fuel industry or organizations it sponsors? Financial interest biases inquiry. Decades of leaked documents show fossil fuel companies funded denial campaigns despite their own researchers confirming warming. This doesn't mean all contrarian scientists are dishonest, but it's red flag.\n\nCheck consensus: 99%+ of climate scientists agree warming is real and human-caused. If a claim contradicts this consensus, assume it's wrong unless extraordinary evidence supports it. Scientific consensus is built on evidence, not politics.\n\nEvaluate the logic: Some common fallacies: 'I remember cold winters, so warming isn't real' (weather ≠ climate; natural variability exists within warming trend). 'We had warm periods before, so this warming must be natural' (true, but natural causes don't explain current warming; isotopes, model comparisons prove humans caused it). 'Solar activity causes warming' (solar activity has been flat since 1980s, while warming accelerated—rules out solar cause).\n\nBe skeptical of fringe theories: If almost all scientists reject a claim, it's likely wrong. Science advances through evidence, not popularity, but mass disagreement suggests insufficient evidence.\n\nFinal test: Can you find published evidence supporting the claim in reputable journals? If not, be suspicious. Science is peer-reviewed and published. Extraordinary claims require extraordinary evidence.",
+      "videoURL": "https://www.youtube.com/watch?v=OWXoRSIxyIU",
+      "externalLinkURL": "https://www.ipcc.ch/"
+    }
+  ]
+}]

@@ -1,0 +1,285 @@
+[
+  {
+    "name": "Practical Cybersecurity",
+    "stableId": "practical_cybersecurity_foundations",
+    "description": "A practical, modern cybersecurity foundation covering threat modeling, system security, cloud, automation, and real-world defense habits.",
+    "color": "red",
+    "category": "Technology",
+    "language": "en",
+    "difficulty": "Intermediate",
+    "tags": [
+      "cybersecurity",
+      "threat_modeling",
+      "cloud_security",
+      "automation",
+      "defense_in_depth"
+    ],
+    "cards": [
+      {
+        "front": "What is threat modeling?",
+        "back": "A process of identifying what you are protecting, from whom, and why, before choosing defenses.",
+        "hint": "What, who, why."
+      },
+      {
+        "front": "Why is threat modeling more important than security tools?",
+        "back": "Because tools only make sense once risks and attackers are clearly understood.",
+        "hint": "Context first."
+      },
+      {
+        "front": "What is a realistic attacker model?",
+        "back": "An attacker defined by likely skills, access, and incentives, not movie-style hacking.",
+        "hint": "Not Hollywood."
+      },
+      {
+        "front": "What does zero-trust mean in practice?",
+        "back": "Assume systems can be breached and continuously verify access and behavior.",
+        "hint": "Assume breach."
+      },
+      {
+        "front": "What is the principle of least privilege?",
+        "back": "Giving users and systems only the minimum access needed to function.",
+        "hint": "Minimum access."
+      },
+      {
+        "front": "Why does least privilege reduce damage?",
+        "back": "It limits the blast radius if credentials or systems are compromised.",
+        "hint": "Blast radius."
+      },
+      {
+        "front": "Why should personal and automation environments be separated?",
+        "back": "To prevent automation compromise from exposing personal data and credentials.",
+        "hint": "Separate worlds."
+      },
+      {
+        "front": "What is System Integrity Protection (SIP) on macOS?",
+        "back": "A macOS security feature that prevents critical system files from being modified.",
+        "hint": "Protect system."
+      },
+      {
+        "front": "What problem does FileVault solve?",
+        "back": "It encrypts disk data to protect it if a device is lost or stolen.",
+        "hint": "Disk encryption."
+      },
+      {
+        "front": "Why is sandboxing useful?",
+        "back": "It limits what an application can access if compromised.",
+        "hint": "Containment."
+      },
+      {
+        "front": "What is the difference between a user account and root?",
+        "back": "User accounts have limited permissions; root has unrestricted system control.",
+        "hint": "Unlimited power."
+      },
+      {
+        "front": "What is sudo used for?",
+        "back": "Temporarily executing commands with elevated privileges.",
+        "hint": "Temporary power."
+      },
+      {
+        "front": "What are common persistence mechanisms on macOS?",
+        "back": "LaunchAgents, LaunchDaemons, cron jobs, and login items.",
+        "hint": "Starts on boot."
+      },
+      {
+        "front": "Why should persistence mechanisms be monitored?",
+        "back": "They are commonly abused to maintain unauthorized access.",
+        "hint": "Staying alive."
+      },
+      {
+        "front": "What is process monitoring?",
+        "back": "Observing running programs and their resource usage to detect anomalies.",
+        "hint": "Watch behavior."
+      },
+      {
+        "front": "Why is outbound traffic often the biggest risk?",
+        "back": "Because compromised systems usually need to send data out.",
+        "hint": "Data leaving."
+      },
+      {
+        "front": "What does TLS protect?",
+        "back": "It encrypts data in transit between systems.",
+        "hint": "Encrypted transit."
+      },
+      {
+        "front": "What is data exfiltration?",
+        "back": "Unauthorized transfer of data out of a system.",
+        "hint": "Data theft."
+      },
+      {
+        "front": "Why do logs matter after an incident?",
+        "back": "They provide evidence of what happened and when.",
+        "hint": "System memory."
+      },
+      {
+        "front": "What is a supply-chain attack?",
+        "back": "Compromising software through dependencies or third-party components.",
+        "hint": "Trusted code."
+      },
+      {
+        "front": "Why are dependencies high-risk?",
+        "back": "They execute with the same privileges as your own code.",
+        "hint": "Inherited trust."
+      },
+      {
+        "front": "Why are always-on agents riskier than scripts?",
+        "back": "They maintain continuous access and increase exposure time.",
+        "hint": "Always running."
+      },
+      {
+        "front": "What is an API key?",
+        "back": "A secret credential used to authenticate automated access.",
+        "hint": "Automation secret."
+      },
+      {
+        "front": "Why should API keys be rotated?",
+        "back": "To limit the damage if a key is leaked.",
+        "hint": "Short life."
+      },
+      {
+        "front": "What is OAuth scope?",
+        "back": "A defined set of permissions granted to an application.",
+        "hint": "Permission list."
+      },
+      {
+        "front": "Why are overly broad OAuth scopes dangerous?",
+        "back": "They allow excessive access if compromised.",
+        "hint": "Too much power."
+      },
+      {
+        "front": "What is an SSH key?",
+        "back": "A cryptographic key pair used for secure authentication.",
+        "hint": "Public/private."
+      },
+      {
+        "front": "Why should secrets not be stored in code?",
+        "back": "Because code is often shared, logged, or leaked.",
+        "hint": "Public risk."
+      },
+      {
+        "front": "What is defense in depth?",
+        "back": "Using multiple layers of security to reduce single-point failure.",
+        "hint": "Layers."
+      },
+      {
+        "front": "What is cloud IAM?",
+        "back": "Identity and Access Management controls who can do what in cloud systems.",
+        "hint": "Who can act."
+      },
+      {
+        "front": "What does blast radius mean in cloud security?",
+        "back": "The maximum potential damage a compromised account can cause.",
+        "hint": "Damage size."
+      },
+      {
+        "front": "Why is cloud security different from local security?",
+        "back": "Cloud systems rely heavily on identity and APIs instead of physical access.",
+        "hint": "API driven."
+      },
+      {
+        "front": "What is an incident response?",
+        "back": "A structured process for handling security issues.",
+        "hint": "Calm reaction."
+      },
+      {
+        "front": "What should you do first if something looks wrong?",
+        "back": "Preserve evidence and limit further damage.",
+        "hint": "Stop bleeding."
+      },
+      {
+        "front": "Why is monitoring psychologically important?",
+        "back": "It reduces uncertainty and fear by increasing visibility.",
+        "hint": "Visibility."
+      },
+      {
+        "front": "What is a realistic security goal?",
+        "back": "Reducing risk to acceptable levels, not eliminating it.",
+        "hint": "Risk reduction."
+      },
+      {
+        "front": "Why is security a continuous process?",
+        "back": "Systems, threats, and usage change over time.",
+        "hint": "Never done."
+      },
+      {
+        "front": "What is the biggest security mistake developers make?",
+        "back": "Overtrusting automation and credentials.",
+        "hint": "Too much trust."
+      },
+      {
+        "front": "How should tools be given access to systems?",
+        "back": "With scoped, auditable, and revocable permissions.",
+        "hint": "Scoped access."
+      },
+      {
+        "front": "What does auditing mean?",
+        "back": "Reviewing systems and access to detect drift and risk.",
+        "hint": "Review."
+      },
+      {
+        "front": "Why must audits be repeated?",
+        "back": "Because systems and permissions naturally drift over time.",
+        "hint": "Drift."
+      },
+      {
+        "front": "What is the difference between paranoia and security?",
+        "back": "Security is intentional and measured; paranoia is fear-driven.",
+        "hint": "Calm vs fear."
+      },
+      {
+        "front": "What is the ultimate goal of practical cybersecurity?",
+        "back": "To enable safe, confident use of technology.",
+        "hint": "Confidence."
+      }
+    ],
+    "sampleIdeas": [
+      {
+        "name": "Threat Modeling Without Fear",
+        "textDescription": "Threat modeling is about clarity, not paranoia. By defining what matters, who might realistically attack it, and why, defenses become purposeful.\n\nMost failures come from skipping this step.\n\nSimple models help structure thinking.\n\nThis mindset scales from laptops to cloud systems.",
+        "videoURL": "https://www.youtube.com/watch?v=SSo_EIwHSd4",
+        "externalLinkURL": "https://learn.microsoft.com/en-us/security/engineering/threat-modeling"
+      },
+      {
+        "name": "Identity Is the New Perimeter",
+        "textDescription": "Modern systems are accessed via identities. API keys and OAuth tokens are now primary attack surfaces.\n\nLeast privilege and short-lived credentials dramatically reduce risk.\n\nThis applies to both cloud and automation.",
+        "videoURL": "https://www.youtube.com/watch?v=QZ7a1Qy6Qn0",
+        "externalLinkURL": "https://cloud.google.com/iam/docs/overview"
+      },
+      {
+        "name": "macOS Security Architecture in Practice",
+        "textDescription": "macOS includes SIP, Gatekeeper, FileVault, and sandboxing.\n\nThese reduce entire attack classes but are not absolute.\n\nUnderstanding them prevents unsafe workarounds.\n\nDefaults matter.",
+        "videoURL": "https://www.youtube.com/watch?v=9C72ISMF_D0",
+        "externalLinkURL": "https://support.apple.com/guide/security/welcome/web"
+      },
+      {
+        "name": "Supply Chain Attacks Are the New Normal",
+        "textDescription": "Many breaches occur through trusted dependencies.\n\nPinning versions and minimizing trust helps.\n\nSupply-chain security is now essential.",
+        "videoURL": "https://www.youtube.com/watch?v=3qP8uN8xXQY",
+        "externalLinkURL": "https://www.cisa.gov/supply-chain"
+      },
+      {
+        "name": "Assume Breach: Calm Incident Response",
+        "textDescription": "Assuming breach means preparing calmly.\n\nContainment and learning matter more than panic.\n\nPrepared teams recover faster.",
+        "videoURL": "https://www.youtube.com/watch?v=Yocja_N5s1I",
+        "externalLinkURL": "https://www.nist.gov/cyberframework"
+      },
+      {
+        "name": "Secrets Management in Practice",
+        "textDescription": "Secrets are credentials that grant access. The most common failure is storing them in code or config files.\n\nUse secret managers, OS keychains, and environment injection.\n\nRotate secrets regularly.\n\nNever log secrets.",
+        "videoURL": "https://www.youtube.com/watch?v=Y1jJ1p2s9G0",
+        "externalLinkURL": "https://owasp.org/www-project-top-ten/"
+      },
+      {
+        "name": "Logs, Monitoring, and Detection",
+        "textDescription": "Logs act as system memory.\n\nWithout logs, incidents are guesswork.\n\nCentralize logs and review anomalies.\n\nDetection beats prevention.",
+        "videoURL": "https://www.youtube.com/watch?v=Yocja_N5s1I",
+        "externalLinkURL": "https://www.elastic.co/what-is/log-monitoring"
+      },
+      {
+        "name": "Common Security Anti-Patterns",
+        "textDescription": "Hardcoded secrets, shared root access, and disabled protections are common mistakes.\n\nSecurity failures usually stem from convenience shortcuts.\n\nAvoid irreversible actions.\n\nDesign for recovery.",
+        "videoURL": "https://www.youtube.com/watch?v=SSo_EIwHSd4",
+        "externalLinkURL": "https://cheatsheetseries.owasp.org/"
+      }
+    ]
+  }
+]

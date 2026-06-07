@@ -1,0 +1,96 @@
+[
+{
+"name": "Mémoire, Pointeurs & Structures de données (CS50)",
+"stableId": "cs50_memoire_structures_donnees",
+"description": "Hexadécimal, adresses mémoire, pointeurs, malloc/free. Listes chaînées, tables de hachage, tries, piles, files. Semaines 5-6 de CS50.",
+"color": "red",
+"category": "Technology",
+"language": "fr",
+"difficulty": "Avancé",
+"tags": [
+"cs50",
+"memoire",
+"pointeurs",
+"structures",
+"listes-chainées",
+"hash-tables"
+],
+"cards": [
+  {"front": "Qu'est-ce que l'hexadécimal ?", "back": "Hexadécimal est la base 16 (0-9, A-F). Un chiffre hex = 4 bits, un byte = 2 chiffres hex. 0xFF = 255 décimal. Adresses mémoire s'écrivent en hex : 0x7ffc6a5a est plus lisible que 2147483610 décimal. Conversion : 0x10 = 16, 0x100 = 256.", "hint": "Base 16, 4 bits/chiffre"},
+  {"front": "Qu'est-ce qu'une adresse mémoire ?", "back": "Une adresse est l'emplacement d'une variable en mémoire. & retourne l'adresse : int x = 5; &x = 0x7fff1234. Les pointeurs contiennent des adresses. printf(\"%p\", &x) affiche l'adresse en hex. La mémoire est linéaire : 0x1000, 0x1001, 0x1002, ...", "hint": "Localisation variable, &"},
+  {"front": "Qu'est-ce qu'un pointeur en C ?", "back": "Un pointeur est une variable qui contient une adresse. int *p; déclare un pointeur. p = &x; rend p pointe vers x. *p accède à la valeur (déréférence). *p = 42; change x. NULL = pointeur nul (pas d'adresse valide).", "hint": "Variable adresse, *, &"},
+  {"front": "Qu'est-ce que le déréférencement ?", "back": "Le déréférencement (*p) accède à la valeur à l'adresse pointée. int x = 5; int *p = &x; *p est 5. *p = 10; change x en 10. Erreur courante : int *p; (non-initialisé) *p = 42; écrit à adresse garbage, corruption.", "hint": "Accès valeur, *p"},
+  {"front": "Pourquoi NULL existe pour les pointeurs ?", "back": "NULL (adresse 0) signifie pointeur invalide ou non-initialisé. Comparaison : if (p != NULL) avant *p évite crash. Après free(p), set p = NULL pour éviter use-after-free. Détectable : free(p) puis *p cause segfault (le montrer) vs heap corruption (subtil).", "hint": "Pointeur invalide, sécurité"},
+  {"front": "Qu'est-ce que malloc() ?", "back": "malloc(n) alloue n bytes du heap (mémoire dynamique), retourne pointeur ou NULL. int *arr = malloc(100 * sizeof(int)); alloue 400 bytes (sur 32-bit). La mémoire persiste jusqu'à free(). Utiliser sizeof(type) pour portabilité (32-bit vs 64-bit).", "hint": "Allocation dynamique heap"},
+  {"front": "Qu'est-ce que free() et pourquoi important ?", "back": "free(p) dégage la mémoire allouée par malloc(). Oublier = fuite mémoire (program finit, OS récupère, mais bads sur long-running). double-free() = crash. Pattern sûr : int *p = malloc(...); ... free(p); p = NULL; (NULL évite use-after-free).", "hint": "Libération mémoire, leak"},
+  {"front": "Qu'est-ce que sizeof() et quand l'utiliser ?", "back": "sizeof(type) retourne nombre de bytes occupés. sizeof(int) = 4 (généralement), sizeof(char) = 1. Utiliser : int *arr = malloc(n * sizeof(int)); adapte automatiquement 32-bit vs 64-bit. Jamais hardcoder : malloc(100) (100 bytes = incertain si int ou char).", "hint": "Bytes type, adaptable"},
+  {"front": "Qu'est-ce qu'une fuite mémoire ?", "back": "Une fuite est memory alloué sans free(). long-running programs s'épuisent progressivement. Exemple : while (1) { int *p = malloc(1000); } chaque boucle fuit 1000 bytes. Détectable avec valgrind : valgrind --leak-check=full ./program affiche \"lost\".", "hint": "Malloc sans free, détectable"},
+  {"front": "Qu'est-ce qu'un buffer overflow ?", "back": "Buffer overflow : écrire au-delà limites allouées. int *arr = malloc(10 * sizeof(int)); arr[10] = 42; hors limites = corruption. Peut crash, ou silencieusement corrompre données adjacentes. Sécurité : attaquant écrase return address, exécute code malveillant.", "hint": "Dépasse limites, danger"},
+  {"front": "Qu'est-ce qu'un segfault ?", "back": "Segmentation fault : accès mémoire invalide. *p quand p non-initialisé, p = NULL, ou use-after-free. OS envoie SIGSEGV, crash. Utile : indique bug mémoire. Moins utile : ne dit pas exactement pourquoi (valgrind aide).", "hint": "Mémoire invalide crash"},
+  {"front": "Qu'est-ce qu'une liste chaînée ?", "back": "Liste chaînée : chaîne de nœuds. Chaque nœud = donnée + pointeur next. typedef struct node { int value; struct node *next; } node;. Insérer : O(1) si on a pointeur. Chercher : O(n). Contrairement tableau : pas random access, mais flexible taille.", "hint": "Nœud + pointeur next"},
+  {"front": "Comment insérer dans une liste chaînée ?", "back": "1. Créer nœud : node *new = malloc(sizeof(node)); new->value = 5; new->next = NULL; 2. Insérer début : new->next = head; head = new; Ou insérer milieu : new->next = current->next; current->next = new;. Coût : O(1) si on a pointeur position.", "hint": "Créer, relier pointeurs"},
+  {"front": "Comment supprimer d'une liste chaînée ?", "back": "1. Trouver nœud à supprimer et son prédécesseur. 2. prev->next = current->next; (sauter nœud). 3. free(current); (libérer). Erreur : oublier free → fuite. Autre : modifier next avant sauvegarder = perdre reference. Pour détecter : valgrind.", "hint": "Relier, free, prédécesseur"},
+  {"front": "Avantages/inconvénients listes vs tableaux ?", "back": "Listes : insertion/suppression O(1) si position connue. Tableaux : accès aléatoire O(1). Listes : pas random access. Tableaux : cache-friendly (mémoire contiguë). Listes : allocations dispersées. Choix : insertions fréquentes ? listes. Accès fréquent ? tableaux.", "hint": "Insert O(1), no random access"},
+  {"front": "Qu'est-ce qu'une table de hachage ?", "back": "Table de hachage : array de buckets. hash_function(key) retourne index (0 à size-1). Stocker (key, value) au bucket[index]. Accès : O(1) moyen si peu collisions. Pire : O(n) si tous clés mêmes bucket. Utilisation : Python dict, JavaScript object.", "hint": "Hash function, bucket, O(1)"},
+  {"front": "Qu'est-ce qu'une collision dans une table de hachage ?", "back": "Collision : deux clés hash au même index. Résolution : chaînage (liste chaînée dans bucket), adressage ouvert (trouver prochain empty bucket). Chaînage + rehashing : si load_factor > 0.75, créer plus grand array, réinsérer. Coût rehash : O(n) mais rare = O(1) amortized.", "hint": "Deux clés même bucket"},
+  {"front": "Qu'est-ce qu'une bonne fonction de hachage ?", "back": "Bonne fonction : distribue uniformément. Mauvaise : hash(s) = s[0] % size (premières lettres dominent). Bonne : utiliser crypto hash ou DJB2 (pour chaînes : hash = hash*33 + char). Propriété : petit changement input = grand changement output (diffusion).", "hint": "Distribution uniforme"},
+  {"front": "Qu'est-ce qu'un Trie ?", "back": "Trie : arbre pour stocker chaînes. Chaque nœud = letter. Chemin racine→nœud = prefix. Feuille = mot complet. Recherche : O(L) où L = longueur mot, indépendant du nombre mots. Application : autocomplete, spell-checker, IP routing.", "hint": "Arbre prefixes, O(L)"},
+  {"front": "Comment implémenter un Trie ?", "back": "typedef struct node { bool is_word; struct node *children[26]; } node;. Ajouter \"cat\" : traverse/créer c, a, t. Marquer t->is_word = true. Chercher : parcourir caractère par caractère, retourner is_word du dernier nœud. Mémoire : 26 pointers par nœud = gros, mais okay pour vocab limité.", "hint": "Nœud + 26 enfants"},
+  {"front": "Avantages Trie vs Hash table ?", "back": "Trie : recherche O(L) (L=longueur). Hash : O(1) moyen. Trie : prefix queries (autocomplete). Hash : non. Trie : mémoire O(alphabet_size * profondeur). Hash : mémoire O(n). Choix : besoin prefix ? Trie. Sinon hash rapide.", "hint": "Prefix vs lookup"},
+  {"front": "Qu'est-ce qu'une pile (stack) ?", "back": "Pile : structure LIFO (Last In First Out). Push = ajouter sommet. Pop = retirer sommet. Exemple : parcours profondeur (DFS), undo/redo (CMD-Z), parenthèses équilibrées. Implémentation : array ou liste chaînée. Accès : O(1) push/pop.", "hint": "LIFO, push/pop"},
+  {"front": "Qu'est-ce qu'une file d'attente (queue) ?", "back": "File : FIFO (First In First Out). Enqueue = ajouter arrière. Dequeue = retirer avant. Exemple : BFS (parcours largeur), job scheduling, buffers. Implémentation : array circulaire ou doubly-linked list. Accès : O(1) enqueue/dequeue.", "hint": "FIFO, enqueue/dequeue"},
+  {"front": "Qu'est-ce que Valgrind et comment l'utiliser ?", "back": "Valgrind : outil Linux pour détecter fuites mémoire et use-after-free. Commande : valgrind --leak-check=full ./program. Output : \"100 bytes in 1 blocks ... lost\" = fuite. Affiche aussi invalid reads/writes. Lent mais très exact. Alternatives : ASan (Address Sanitizer) plus rapide.", "hint": "Leak detection tool Linux"},
+  {"front": "Qu'est-ce que GDB et ses commandes basiques ?", "back": "GDB (GNU Debugger) : trace exécution. gdb ./program. Commandes : run (exécuter), break (breakpoint), continue, next (step over), step (step into), print var (valeur), print &var (adresse). Inspectez variables, trouvez ligne du crash.", "hint": "Debugger, breakpoint, step"},
+  {"front": "Qu'est-ce qu'ASan (Address Sanitizer) ?", "back": "ASan : compilateur flag détecte buffer overflow, use-after-free, double-free. gcc -fsanitize=address program.c. Runtime checking : slowdown ~2x mais moins que valgrind. Output : ligne exact du bug. Intégré modern compilers.", "hint": "Compiler flag, runtime check"},
+  {"front": "Qu'est-ce qu'un use-after-free ?", "back": "Use-after-free : accéder mémoire après free(). int *p = malloc(10); free(p); *p = 42; (undefined behavior). Peut crash, peut silencieusement corrompre. Prévention : p = NULL après free. Détection : valgrind, ASan.", "hint": "Accès après free"},
+  {"front": "Qu'est-ce qu'un dangling pointer ?", "back": "Dangling pointer : pointe mémoire invalide/libérée. Causes : free(p) sans NULL, variable locale retour adresse. Danger : *p undefined. Détection : valgrind. Prévention : NULL après free, éviter retourner adresse locale.", "hint": "Pointe invalide mémoire"},
+  {"front": "Pourquoi les structures dynamiques existent ?", "back": "Tableaux : taille fixe à compilation. Si données variables (lire fichier, réseau), impossible. malloc/free permettent taille dynamique. Trade-off : flexibilité + responsabilité programmer (memory management). Python/Java cachent cela (garbage collection).", "hint": "Taille variable donnée"},
+  {"front": "Qu'est-ce que le garbage collection ?", "back": "Garbage collection : runtime (Python, Java) automatiquement libère mémoire non-utilisée. Détecte références mortes, les free. Avantage : programmeur ne gère pas free. Désavantage : overhead, GC pauses, moins contrôle. C = manual, performance maximale, risque leaks.", "hint": "Automatic memory cleanup"},
+  {"front": "Quelle est la différence stack vs heap ?", "back": "Stack : variables locales, allocations de compilation. Auto-freed quand fonction retourne. Petit, rapide. Heap : malloc/free, dynamique. Gros, lent (indirection). Erreur : stack overflow (deep recursion), heap fragmentation (fragmenté) → allocation lente.", "hint": "Local vs dynamic alloc"}
+],
+"sampleIdeas": [
+{
+"name": "Hexadécimal et adresses : décoder les mystères de mémoire",
+"textDescription": "Hexadécimal semble étrange (0xFF) mais c'est juste base 16 : 0-9, A-F. Pourquoi hex ? 1 chiffre hex = 4 bits. Byte = 8 bits = 2 hex digits. Adresse 0x7ffc6a5a est plus lisible que 2147483610 décimal.\n\nAdresse = emplacement mémoire. &x retourne adresse de x. printf(\"%p\", &x) l'affiche. Pointers SONT des adresses. int *p = &x; p contient l'adresse numérique de x.\n\nMémoire est linéaire : 0x1000, 0x1001, 0x1002 ... Variables côte à côte : int x, y; x peut être 0x1000, y à 0x1004 (4 octets après). Comprendre layout aide debug (off-by-one accès mémoire).\n\nConversion : 0x10 = 16, 0x20 = 32, 0x100 = 256. Pattern : 0x10^n = 10 hex (1 avec n zéros hex) = base^n. Utile en bit manipulation, flags, memory mapping.",
+"videoURL": "https://www.youtube.com/watch?v=F9-yqoS7b8w",
+"externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/4/"
+},
+{
+"name": "Pointeurs : une des idées les plus puissantes (et confuses) en C",
+"textDescription": "Pointeur = adresse. int *p signifie \"p contient adresse d'une int\". & = take address. * = follow address (dereference). int x = 42; int *p = &x; *p est 42. Modiifier *p = 50 change x.\n\nCommon error : int *p; (p non-initialized, adresse garbage). *p = 42 écrit à mémoire aléatoire = corruption.\n\nAutre : after free(p), p est dangling pointer. *p is undefined. Solution : p = NULL après free.\n\nPouvoir : passer adresse à fonction = function peut modifier variable caller. void inc(int *x) { (*x)++; }. inc(&n) incrémente n. Sinon void inc(int x) { x++; } n'affecte que copie locale.\n\nPointeurs sont abstraits. Vraiment sont adresses. Afficher : printf(\"%p\\n\", p) affiche adresse (hex). Comprendre pointeurs = comprendre mémoire = maître C.",
+"videoURL": "https://www.youtube.com/watch?v=F9-yqoS7b8w",
+"externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/4/#pointers"
+},
+{
+"name": "Memory allocation : malloc, free et propriété",
+"textDescription": "malloc(n) alloue n octets du heap (mémoire dynamique). Retourne pointeur ou NULL. Programmeur est responsable libération free(). Stack (variables locales) auto-freed. Heap (malloc) manuel.\n\nCommun : int *arr = malloc(100); ... free(arr); arr = NULL; (set NULL sinon dangling). Vérifier malloc return : if (!arr) { error; }.\n\nTaille : malloc(n * sizeof(type)) est standard. Non hardcoder. malloc(n * sizeof(int)) se adapte 32-bit vs 64-bit machine.\n\nLeak : malloc sans free = fuite. Program long = memory full. Détectable avec valgrind. Double-free : free deux fois = crash.\n\nAllocation dynamique permet arrays variable-size (pas possible stack) et structures complexes. Trade-off : flexibilité + bug risk (oublier free). Discipline : heap allocation = très attention.",
+"videoURL": "https://www.youtube.com/watch?v=F9-yqoS7b8w",
+"externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/4/#dynamically-allocated-memory"
+},
+{
+"name": "Listes chaînées : quand tableaux ne suffisent pas",
+"textDescription": "Tableau : accès O(1) mais taille fixe. Insérer/supprimer au milieu : O(n) (décaler éléments).\n\nListe chaînée : chaque nœud = valeur + pointeur next. Insertion O(1) (if on a pointeur). Recherche O(n). Pas random access : pour atteindre node n, traverse n-1 nodes.\n\nQuand utiliser ? Si insertions/suppressions fréquentes = liste. Si accès aléatoire fréquent = tableau. Hybrid : skip list (liste avec \"express lanes\").\n\nImplémentation : typedef struct node { int value; struct node *next; } node; Allocation : node *n = malloc(sizeof(node)); n->next = NULL; Ajout : new->next = head; head = new; Suppression : prev->next = current->next; free(current);.\n\nErreur courante : oublier free nodes. Ou modifying next avant save prev. Ou cycle infini : n1->next = n2; n2->next = n1;. Debug : print traversal, check NULL.",
+"videoURL": "https://www.youtube.com/watch?v=0euvEdPwQnQ",
+"externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/5/#linked-lists"
+},
+{
+"name": "Hash tables : O(1) en moyenne grâce au hachage",
+"textDescription": "Hash table = array de buckets. hash_function(key) retourne index (0 à size-1). Stocker (key, value) au bucket[index]. Accès : O(1) si peu collisions, O(n) pire (tous mêmes bucket).\n\nFonction hash : doit distribuer uniformément. Mauvais : hash(s) = s[0] % size (premières lettres dominant, clustering). Bon : utiliser crypto hash ou algorithme conçu (DJB2, FNV, etc.).\n\nCollision résolution : chaînage (liste chaînée dans bucket), adressage ouvert (find next empty bucket). Chaînage + rehashing quand facteur charge > threshold.\n\nPython dict, JavaScript object = hash tables. Load factor = n_items / n_buckets. Si > 0.75 : rehash (créer plus grand, réinsérer). Coût : O(n) rehash mais rare = O(1) amortized insertion.\n\nMemory trade-off : espace pour vitesse. Tableau 1M empty buckets = waste. Mais accès O(1). Listes chaînées = peu espace, O(n) access. Choisir selon use case.",
+"videoURL": "https://www.youtube.com/watch?v=0euvEdPwQnQ",
+"externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/5/#hash-tables"
+},
+{
+"name": "Tries : recherche par prefix très rapide",
+"textDescription": "Trie = arbre pour stocker strings. Chaque nœud = letter. Path root→nœud = prefix. Feuille = complete word. Recherche : O(word_length), indépendant du nombre words.\n\nApp : autocomplete (chercher prefix), spell-checker (exist word ?), IP routing (longest prefix match).\n\nImplementation : typedef struct node { bool is_word; struct node *children[26]; } node; Ajouter \"cat\" : traverse/create c, a, t. Mark t->is_word = true. Mémoire : 26 pointers par nœud = gros, mais OK pour vocab limité.\n\nVariante : compacted trie (PATRICIA), suffixes trie (suffix tree) = optimisé mais complex.\n\nVs hash table : hash = O(1) moyenne search. Trie = O(L) search (L = word length, constant small) mais prefix queries. Hash table = pas prefix. Choisir selon requête.",
+"videoURL": "https://www.youtube.com/watch?v=0euvEdPwQnQ",
+"externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/5/#tries"
+},
+{
+"name": "Débogage avancé : valgrind, gdb et memory tools",
+"textDescription": "Valgrind (Linux) : valgrind --leak-check=full ./program. Détecte leaks, use-after-free, invalid reads. Output : \"100 bytes in 1 blocks ... lost\" = leak.\n\nGDB (GNU debugger) : gdb ./program. Commandes : run, break (set breakpoint), continue, next (step over), step (step into), print var, print &var. Trace exécution ligne par ligne, inspect variables.\n\nASan (Address Sanitizer) : gcc -fsanitize=address program.c. Runtime check : détecte overflow, use-after-free, double-free. Moins verbose que valgrind, plus rapide.\n\nPrintf debugging : temporaire mais effective. printf(\"p = %p, *p = %d\\n\", p, *p); trace. Danger : printf peut mask timing bugs (Heisenbug). Mais souvent premiere move.\n\nPlan : compile, run, observe crash/leak. Use tool (valgrind/asan) déterminer ligne/cause. Fix. Re-test. Iteration. Discipline.",
+"videoURL": "https://www.youtube.com/watch?v=F9-yqoS7b8w",
+"externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/4/"
+}
+]
+}
+]

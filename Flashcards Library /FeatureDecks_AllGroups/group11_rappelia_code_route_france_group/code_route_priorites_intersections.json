@@ -1,0 +1,365 @@
+{
+  "stableId": "code_route_priorites_intersections",
+  "name": "Règles de priorité et intersections",
+  "description": "Maîtriser les priorités, les carrefours et les comportements sûrs aux intersections.",
+  "color": "orange",
+  "category": "Driving",
+  "language": "fr",
+  "difficulty": "Beginner",
+  "tags": [
+    "priorite",
+    "intersection",
+    "code",
+    "route",
+    "circulation"
+  ],
+  "cards": [
+    {
+      "front": "Quand la priorité à droite s’applique-t-elle ?",
+      "back": "Elle s’applique lorsqu’aucune signalisation ni règle particulière ne fixe une autre priorité.",
+      "hint": "Règle par défaut."
+    },
+    {
+      "front": "Que doit faire un conducteur face à un panneau 'Cédez le passage' ?",
+      "back": "Il doit laisser passer les usagers prioritaires avant de s’engager.",
+      "hint": "Pas d’arrêt si voie libre."
+    },
+    {
+      "front": "Que doit faire un conducteur face à un panneau STOP ?",
+      "back": "Il doit marquer un arrêt complet, puis céder le passage.",
+      "hint": "Arrêt total."
+    },
+    {
+      "front": "Qui est prioritaire dans un carrefour à sens giratoire classique ?",
+      "back": "Les véhicules déjà engagés dans l’anneau sont prioritaires.",
+      "hint": "Déjà dans le giratoire."
+    },
+    {
+      "front": "Qui est prioritaire sur une route prioritaire ?",
+      "back": "Les véhicules circulant sur cette route conservent la priorité aux intersections annoncées.",
+      "hint": "Losange jaune."
+    },
+    {
+      "front": "Quand perd-on le bénéfice de la route prioritaire ?",
+      "back": "À la fin de priorité ou lorsqu’une signalisation fixe une autre règle.",
+      "hint": "Losange barré."
+    },
+    {
+      "front": "Qui est prioritaire à un feu vert ?",
+      "back": "Le conducteur qui a le feu vert peut passer, à condition que l’intersection soit libre et que les usagers vulnérables soient respectés.",
+      "hint": "Vert n’autorise pas tout."
+    },
+    {
+      "front": "Que faire à un feu jaune fixe ?",
+      "back": "S’arrêter sauf si ce freinage créerait un danger immédiat.",
+      "hint": "Orange = on s’arrête si possible."
+    },
+    {
+      "front": "Que faire à un feu rouge ?",
+      "back": "S’arrêter avant la ligne d’arrêt, le passage piéton ou l’intersection.",
+      "hint": "Rouge = arrêt."
+    },
+    {
+      "front": "Que faire si les feux ne fonctionnent plus ?",
+      "back": "Appliquer les panneaux existants ou, à défaut, la priorité à droite.",
+      "hint": "Retour aux règles générales."
+    },
+    {
+      "front": "Qui est prioritaire entre un train et une voiture à un passage à niveau ?",
+      "back": "Le train est toujours prioritaire.",
+      "hint": "Jamais devant un train."
+    },
+    {
+      "front": "Qui est prioritaire lorsqu’un agent règle la circulation ?",
+      "back": "Les indications de l’agent priment sur les feux et panneaux.",
+      "hint": "L’agent passe avant la signalisation."
+    },
+    {
+      "front": "Le piéton est-il prioritaire sur un passage piéton ?",
+      "back": "Oui, dès qu’il est engagé ou manifeste clairement l’intention de traverser.",
+      "hint": "Usager vulnérable."
+    },
+    {
+      "front": "Avant de tourner à gauche, à qui faut-il céder le passage ?",
+      "back": "Aux véhicules venant en sens inverse et allant tout droit ou tournant à droite, sauf signalisation contraire.",
+      "hint": "Croisement des trajectoires."
+    },
+    {
+      "front": "Lors d’une insertion sur autoroute, qui est prioritaire ?",
+      "back": "Les véhicules déjà engagés sur l’autoroute.",
+      "hint": "Voie d’accélération."
+    },
+    {
+      "front": "En sortant d’un stationnement, qui est prioritaire ?",
+      "back": "Tous les usagers déjà en circulation sur la chaussée.",
+      "hint": "On repart sans priorité."
+    },
+    {
+      "front": "En quittant un chemin de terre ou une propriété privée, qui est prioritaire ?",
+      "back": "Les usagers circulant déjà sur la route ouverte à la circulation.",
+      "hint": "On s’insère sans priorité."
+    },
+    {
+      "front": "En marche arrière, a-t-on la priorité ?",
+      "back": "Non, on doit s’assurer de ne gêner ni mettre en danger personne.",
+      "hint": "Manœuvre = prudence maximale."
+    },
+    {
+      "front": "Dans une zone de rencontre, qui est prioritaire ?",
+      "back": "Les piétons sont prioritaires sur les véhicules.",
+      "hint": "Espace partagé."
+    },
+    {
+      "front": "Dans une aire piétonne, quelle logique de priorité s’applique ?",
+      "back": "Les piétons circulent librement et les véhicules autorisés doivent leur céder la priorité.",
+      "hint": "Piétons d’abord."
+    },
+    {
+      "front": "Que signifient les triangles blancs peints au sol ?",
+      "back": "Ils annoncent un cédez-le-passage.",
+      "hint": "Marquage au sol."
+    },
+    {
+      "front": "Une ligne d’effet STOP peut-elle être franchie sans arrêt ?",
+      "back": "Non, l’arrêt est obligatoire avant la ligne ou avant la chaussée traversée.",
+      "hint": "STOP = arrêt."
+    },
+    {
+      "front": "Peut-on s’engager dans une intersection si l’on risque d’y rester bloqué ?",
+      "back": "Non, il faut attendre que la sortie soit dégagée.",
+      "hint": "Ne pas bloquer le carrefour."
+    },
+    {
+      "front": "À un carrefour sans visibilité, quel comportement adopter même si l’on est prioritaire ?",
+      "back": "Ralentir et vérifier que les autres usagers ont compris la situation.",
+      "hint": "La priorité n’empêche pas le danger."
+    },
+    {
+      "front": "Qui est prioritaire entre un cycliste sur bande cyclable et une voiture qui tourne ?",
+      "back": "La voiture doit vérifier la bande cyclable et céder le passage au cycliste si sa trajectoire le coupe.",
+      "hint": "Regarder à droite."
+    },
+    {
+      "front": "En présence d’un sas vélo au feu, quel devoir a l’automobiliste ?",
+      "back": "Il ne doit pas s’y arrêter et doit respecter la position avancée des cyclistes.",
+      "hint": "Espace réservé."
+    },
+    {
+      "front": "Qu’impose la flèche verte complémentaire pour cyclistes au feu ?",
+      "back": "Elle autorise les cyclistes à franchir le feu rouge dans la direction indiquée après avoir cédé le passage.",
+      "hint": "Exception pour cycles."
+    },
+    {
+      "front": "Qui est prioritaire à la sortie d’une zone de stationnement ou d’une aire de service ?",
+      "back": "Les véhicules circulant sur la voie ouverte à la circulation.",
+      "hint": "Réinsertion."
+    },
+    {
+      "front": "Quand deux véhicules se font face sur une chaussée rétrécie, comment décider de la priorité ?",
+      "back": "On suit la signalisation ; à défaut, celui qui peut le plus facilement se ranger facilite le passage.",
+      "hint": "Étroit = courtoisie et signalisation."
+    },
+    {
+      "front": "Un véhicule de police, pompier ou SAMU en intervention est-il prioritaire ?",
+      "back": "Oui, s’il utilise ses avertisseurs spéciaux, il bénéficie de facilités de passage.",
+      "hint": "Sirène + gyrophare."
+    },
+    {
+      "front": "Que doit faire un conducteur en approchant un véhicule prioritaire en intervention ?",
+      "back": "Il doit dégager le passage sans mettre en danger les autres usagers.",
+      "hint": "Libérer l’espace."
+    },
+    {
+      "front": "Qui est prioritaire sur un passage pour piétons à proximité d’un bus scolaire à l’arrêt ?",
+      "back": "Le piéton reste prioritaire ; le conducteur doit redoubler de vigilance.",
+      "hint": "Enfants possibles."
+    },
+    {
+      "front": "Sur un rond-point à plusieurs voies, que faut-il vérifier avant de sortir ?",
+      "back": "L’angle mort, les rétroviseurs et la présence de deux-roues ou de véhicules sur la voie extérieure.",
+      "hint": "Sortie = contrôle."
+    },
+    {
+      "front": "À une intersection avec panneau de priorité ponctuelle, que devient la priorité après le carrefour ?",
+      "back": "Elle ne vaut que pour le carrefour annoncé, sauf indication de route prioritaire.",
+      "hint": "Ponctuelle, pas permanente."
+    },
+    {
+      "front": "Faut-il céder le passage à un bus quittant son arrêt en agglomération ?",
+      "back": "Oui, lorsque le bus signale son intention de repartir et peut le faire sans danger.",
+      "hint": "Priorité facilitée du bus."
+    },
+    {
+      "front": "Dans un bouchon, peut-on s’engager sur un passage piéton ou un carrefour ?",
+      "back": "Non, il faut laisser libres les traversées et intersections.",
+      "hint": "Ne pas immobiliser la zone."
+    },
+    {
+      "front": "À un stop à quatre branches sans autre signalisation, dans quel ordre repart-on ?",
+      "back": "Selon l’ordre d’arrivée, tout en cédant à droite si les arrivées sont simultanées.",
+      "hint": "Arrivée + droite."
+    },
+    {
+      "front": "Que faire si un autre conducteur vous cède volontairement le passage alors qu’il est prioritaire ?",
+      "back": "S’assurer que le geste est clair et que les autres usagers ont la même lecture avant de s’engager.",
+      "hint": "Rester prudent."
+    },
+    {
+      "front": "Qui est prioritaire entre un tramway et une voiture ?",
+      "back": "Le tramway est généralement prioritaire, sauf signalisation contraire.",
+      "hint": "Voie ferrée urbaine."
+    },
+    {
+      "front": "Avant de franchir une piste cyclable en tournant à droite, quel contrôle est indispensable ?",
+      "back": "Le contrôle du rétroviseur droit et de l’angle mort.",
+      "hint": "Risque cycliste."
+    },
+    {
+      "front": "Peut-on dépasser à proximité immédiate d’une intersection ?",
+      "back": "Seulement si la visibilité et la signalisation le permettent, sans compromettre les priorités.",
+      "hint": "Intersection = prudence."
+    },
+    {
+      "front": "Que faire si la chaussée traversée paraît libre mais la visibilité latérale est masquée ?",
+      "back": "S’avancer très prudemment après s’être assuré de pouvoir s’arrêter.",
+      "hint": "Visibilité réduite."
+    },
+    {
+      "front": "Dans un carrefour très encombré, quel principe prime ?",
+      "back": "Ne jamais s’engager sans être certain de pouvoir dégager l’intersection.",
+      "hint": "Fluidité et sécurité."
+    },
+    {
+      "front": "Dans une cour ou un parking public, la priorité à droite peut-elle s’appliquer ?",
+      "back": "Oui, si le lieu est ouvert à la circulation publique et qu’aucune signalisation n’indique autre chose.",
+      "hint": "Ouvert à la circulation."
+    },
+    {
+      "front": "À l’approche d’une école, même prioritaire, quelle attitude adopter ?",
+      "back": "Ralentir et anticiper un comportement imprévisible des enfants.",
+      "hint": "Danger particulier."
+    },
+    {
+      "front": "Qui est prioritaire lorsqu’un véhicule sort d’un chemin forestier non ouvert normalement à la circulation ?",
+      "back": "Le véhicule qui circule sur la route.",
+      "hint": "Sortie sans priorité."
+    },
+    {
+      "front": "Que faire si la signalisation verticale contredit votre intuition sur la priorité ?",
+      "back": "Appliquer la signalisation en place.",
+      "hint": "Le panneau décide."
+    },
+    {
+      "front": "Quand la courtoisie ne doit-elle jamais remplacer la règle ?",
+      "back": "Quand elle crée de l’ambiguïté ou met en danger les autres usagers.",
+      "hint": "Clarté avant gentillesse."
+    },
+    {
+      "front": "Pourquoi faut-il ralentir avant un carrefour, même connu ?",
+      "back": "Parce que la priorité n’empêche ni l’erreur d’autrui ni l’arrivée d’un usager vulnérable.",
+      "hint": "Anticipation."
+    },
+    {
+      "front": "Quelle est la bonne attitude générale aux intersections ?",
+      "back": "Observer, ralentir, vérifier les priorités et ne s’engager que si la situation est comprise et sûre.",
+      "hint": "Méthode systématique."
+    }
+  ],
+  "sampleIdeas": [
+    {
+      "name": "Priorité à droite et signaux réglementaires",
+      "textDescription": "La priorité à droite reste la règle de base dès qu'aucun feu, panneau ou marquage ne prévoit autre chose. Cela vaut dans les villages, les zones résidentielles et même sur certains parkings ouverts. Comprendre que STOP, Cédez le passage, route prioritaire ou feu tricolore sont des exceptions simplifie l'analyse d'un carrefour.\n\nAvant de tourner, on combine trois actions : observation des panneaux, contrôle visuel des voies adjacentes et annonce avec clignotant. Même prioritaire, on ralentit légèrement et on vérifie qu'aucun usager vulnérable (piéton, cycliste) n'entre sur la chaussée.\n\nLes erreurs fréquentes concernent les sorties de stationnement, de chemins privés ou les reculs : ces situations font perdre automatiquement la priorité. Entraînez-vous à classer mentalement chaque intersection rencontrée en « je suis prioritaire » ou « je dois céder », puis vérifiez si la signalisation confirme ce diagnostic.\n\nRelisez les articles officiels sur la priorité à droite et associez chaque carte au panneau correspondant pour mémoriser les exceptions autorisées.",
+      "videoURL": null,
+      "externalLinkURL": "https://fr.wikipedia.org/wiki/Priorit%C3%A9_%C3%A0_droite",
+      "linkedCardIndices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "name": "Maîtriser giratoires et intersections complexes",
+      "textDescription": "Un giratoire moderne inverse la priorité traditionnelle : ceux déjà engagés restent prioritaires tandis que les entrants doivent céder. La clé est d'anticiper son choix de voie, de se placer tôt et de signaler correctement la sortie pour ne pas surprendre les voisins.\n\nLes carrefours multi-voies cumulent souvent feux, panneaux directionnels, sas vélo et lignes d'effet. Procédez toujours dans le même ordre (observation, positionnement, communication) pour éviter l'effet tunnel qui fait oublier un piéton ou un cycliste déjà engagé.\n\nEn présence d'une flèche verte ou d'un sas vélo, la priorité revient aux cyclistes qui démarrent. Sur autoroute ou voie rapide, l'insertion ne donne pas priorité : ajustez votre vitesse pour vous fondre dans le trafic existant.\n\nÉtudiez le fonctionnement détaillé des giratoires français pour retenir les distances d'annonce, l'utilisation des clignotants et les pièges fréquents lors des contrôles.",
+      "videoURL": null,
+      "externalLinkURL": "https://fr.wikipedia.org/wiki/Carrefour_%C3%A0_sens_giratoire",
+      "linkedCardIndices": [
+        3,
+        14,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        39
+      ]
+    },
+    {
+      "name": "Observation active et communication",
+      "textDescription": "Une intersection réussie se prépare avant la ligne d'effet : contrôle des angles morts, clignotant franc, adaptation de vitesse et regard loin devant. Se placer correctement sur sa voie évite les changements brusques qui surprennent les autres usagers.\n\nLes bus quittant leur arrêt en agglomération, les tramways ou les piétons à proximité d'un bus scolaire bénéficient de priorités spécifiques. Les ignorer constitue à la fois une faute au code et un danger réel.\n\nOn ne dépasse pas à l'approche immédiate d'un carrefour et l'on ne franchit pas une piste cyclable sans un dernier coup d'œil par-dessus l'épaule. Face à un doute sur la signalisation ou à un conducteur trop conciliant, on privilégie toujours la règle écrite plutôt que la courtoisie improvisée.\n\nLes guides du Code de la route détaillent ces comportements attendus : relisez-les pour associer chaque geste (clignotant, coup d'œil, ralentissement) à une situation concrète.",
+      "videoURL": null,
+      "externalLinkURL": "https://fr.wikipedia.org/wiki/Code_de_la_route_en_France",
+      "linkedCardIndices": [
+        24,
+        25,
+        26,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "name": "Gérer urgence et fluidité",
+      "textDescription": "Dans un carrefour encombré ou un bouchon, l'objectif est de ne jamais créer de blocage supplémentaire. On s'engage uniquement si l'on peut dégager complètement la zone, quitte à patienter même avec un feu vert.\n\nLes véhicules prioritaires doivent être identifiés tôt (sirènes, gyrophares) afin de libérer un couloir. On ralentit, on serre à droite si possible et on évite tout freinage brutal qui surprendrait ceux qui suivent.\n\nLes passages à niveau et intersections masquées exigent une vigilance accrue : même si la voie paraît libre, on regarde des deux côtés et on se tient prêt à s'arrêter. Les abords d'écoles ou d'aires piétonnes nécessitent aussi un ralentissement anticipé, priorité ou non.\n\nLes statistiques d'accidents montrent que la plupart des collisions aux intersections viennent d'une mauvaise anticipation. Utilisez ces cartes pour bâtir un protocole personnel : observation, analyse, décision, communication.",
+      "videoURL": null,
+      "externalLinkURL": "https://fr.wikipedia.org/wiki/Accident_de_la_route",
+      "linkedCardIndices": [
+        10,
+        18,
+        19,
+        22,
+        23,
+        27,
+        28,
+        29,
+        30,
+        31,
+        41,
+        42,
+        43,
+        44,
+        45
+      ]
+    }
+  ]
+}

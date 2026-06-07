@@ -1,0 +1,201 @@
+[{
+  "name": "Investing Basics: Wealth Building",
+  "stableId": "investing_basics_wealth_building",
+  "description": "Understand how investing works: compound growth, asset classes, risk vs. return, index funds, retirement accounts, and how to avoid common beginner mistakes.",
+  "color": "blue",
+  "category": "Economics",
+  "language": "en",
+  "difficulty": "Beginner",
+  "tags": ["investing", "stocks", "bonds", "compound_interest", "retirement", "personal_finance"],
+  "cards": [
+    {
+      "front": "What is compound interest and why is it called 'the eighth wonder of the world'?",
+      "back": "Compound interest is earning returns on your returns—your interest generates its own interest. Einstein allegedly called it the most powerful force in the universe because small contributions grow exponentially over decades. Example: $10,000 invested at 7% becomes ~$76,000 in 30 years, with $66,000 coming from compound growth alone.",
+      "hint": "Earning returns on returns"
+    },
+    {
+      "front": "How does starting to invest at age 25 versus age 35 affect your wealth, assuming same investment amount?",
+      "back": "Starting 10 years earlier roughly doubles your wealth due to compound interest. Someone investing $200/month from 25-65 (40 years) at 7% returns has ~$435,000; starting at 35 (30 years) yields ~$195,000. The extra decade compounds exponentially, not linearly.",
+      "hint": "Time is your biggest asset"
+    },
+    {
+      "front": "When you buy a stock, what exactly are you buying?",
+      "back": "You own a fractional ownership stake in that company. If a company has 1 million shares and you own 100, you own 0.01% of all assets, profits, and voting rights. This is why stock prices reflect company value—owning more shares means you own more of the business.",
+      "hint": "Fractional ownership of a company"
+    },
+    {
+      "front": "What is a dividend and why would a company pay shareholders cash instead of reinvesting it?",
+      "back": "A dividend is cash a company distributes to shareholders, usually quarterly. Companies may pay dividends when they're mature with stable cash flow but limited growth opportunities, or to reward loyalty and attract long-term investors. Dividend-paying stocks combine growth potential with income.",
+      "hint": "Cash payment to shareholders"
+    },
+    {
+      "front": "Why does the stock market go up over long periods even though it crashes frequently?",
+      "back": "Stock prices reflect company earnings growth and productivity gains. Over 10+ years, economic growth outweighs short-term recessions and corrections. Example: 2008 crash cut stocks 50%, but by 2013 they recovered and kept climbing because underlying businesses were still profitable.",
+      "hint": "Economic growth exceeds volatility"
+    },
+    {
+      "front": "What's the difference between a bond's face value, coupon payment, and yield?",
+      "back": "Face value is what you get back at maturity (e.g., $1,000). Coupon is the annual interest payment (e.g., $50 = 5%). Yield is your actual return if you buy at the market price (if you pay $900, your yield is 5.6%, not 5%). Yields rise when bond prices fall.",
+      "hint": "Face value, payment, actual return"
+    },
+    {
+      "front": "Why do bond prices fall when interest rates rise?",
+      "back": "If you own a 5% bond but new bonds pay 6%, your 5% bond becomes less attractive. To sell it, you must discount the price so the yield matches new rates. Example: a $1,000 bond paying $50/year might sell for $830 if rates rise to 6%, so buyers get 6% yield.",
+      "hint": "Existing bonds become less valuable"
+    },
+    {
+      "front": "What is an index fund and why do most active investors underperform it?",
+      "back": "An index fund holds all (or a sample) of stocks in a market index like the S&P 500, with minimal fees. Active managers try to beat the index but typically fail because: fees eat returns, trading costs add up, and predicting winners is nearly impossible. Over 15 years, 90% of active managers underperform index funds.",
+      "hint": "Passive tracking, low fees, beats most"
+    },
+    {
+      "front": "How does an ETF differ from a mutual fund?",
+      "back": "Both hold baskets of securities, but ETFs trade on stock exchanges (real-time pricing, lower costs, tax-efficient), while mutual funds trade once daily and have higher fees. For most investors, low-cost ETFs like VTI or VOO are better than mutual funds. Both beat active management.",
+      "hint": "Trading mechanics and cost structure"
+    },
+    {
+      "front": "What does 'diversification' mean and why is it your main defense against losing money?",
+      "back": "Diversification spreads your money across different asset classes (stocks, bonds), sectors (tech, healthcare, energy), and geographies (US, international). If one sector crashes, others may hold steady. A diversified portfolio survived 2008 better than 100% stocks; a crash doesn't wipe you out.",
+      "hint": "Spreading across assets and sectors"
+    },
+    {
+      "front": "How does dollar-cost averaging reduce the risk of buying at market peaks?",
+      "back": "DCA invests a fixed amount regularly (e.g., $500/month) regardless of price, so you buy more shares when prices are low and fewer when high. Over 30 years, this smooths out peaks and valleys. You never time the market perfectly, but you avoid investing all money at the worst time.",
+      "hint": "Regular fixed investments"
+    },
+    {
+      "front": "Why should you max out a 401(k) before investing in a taxable account?",
+      "back": "401(k)s offer tax-deferred growth (you don't pay taxes until withdrawal) and employer matching (free money). Maxing one out means: tax-free contributions (if traditional), compound growth without annual taxes, and employer match up to $23,500/year (2024). After that, tax-advantaged IRAs, then taxable accounts.",
+      "hint": "Tax deferral and employer matching"
+    },
+    {
+      "front": "What's the difference between traditional and Roth 401(k)s or IRAs?",
+      "back": "Traditional: contribute pre-tax, pay taxes at retirement (tax now vs. later). Roth: contribute after-tax, withdraw tax-free at 59.5+. Choose Roth if you're young (more tax-free growth years) or expect higher tax rates later; traditional if you expect lower rates in retirement. Both have $7,000 limits (2024).",
+      "hint": "Tax timing: now vs. retirement"
+    },
+    {
+      "front": "Why is a 0.03% expense ratio (VOO) better than a 0.50% ratio (average mutual fund)?",
+      "back": "Over 30 years at 7% returns, 0.47% difference compounds to ~$150,000 less for a $300,000 portfolio. That 0.47% yearly gap isn't 'small'—it's $1,400+/year per $300K invested. Index funds with 0.03-0.20% fees dramatically outpace higher-cost funds.",
+      "hint": "Fees compound against you"
+    },
+    {
+      "front": "What is the risk/return tradeoff and how do you apply it to your portfolio?",
+      "back": "Higher returns require higher risk: bonds ~4% (safe), stocks ~7% (volatile). Your allocation depends on time horizon and risk tolerance. At age 25 with 40 years until retirement, you can handle stock volatility (90/10 stocks/bonds). At 60, stability matters more (40/60). Young = aggressive, old = conservative.",
+      "hint": "Higher return = more volatility risk"
+    },
+    {
+      "front": "Why is market timing the enemy of long-term investors?",
+      "back": "Missing just the 10 best days in the market over 20 years cuts returns from ~7% to ~4% annually. Since best days often follow worst days, trying to time exits means you miss rallies. Example: sitting in cash in 2009 to avoid 'danger' cost investors 50%+ gains. Stay invested.",
+      "hint": "Missing rally days kills returns"
+    },
+    {
+      "front": "What is panic selling and how does it lock in losses?",
+      "back": "When markets crash 30%, fear makes investors sell at the worst time, converting temporary losses into permanent ones. If you buy at $100 and it drops to $70, you've lost $30 on paper. Selling at $70 locks in the loss; holding until recovery at $120 turns it into a gain.",
+      "hint": "Selling low during fear"
+    },
+    {
+      "front": "How does inflation silently erode investment returns and why do stocks help?",
+      "back": "3% inflation means $100 loses $3 of buying power yearly. A savings account paying 0.5% actually loses 2.5% annually to inflation. Stocks historically return 7-10%, beating inflation by 4-7%, so wealth grows. Bonds at 4-5% return also beat inflation but more conservatively.",
+      "hint": "Stocks beat inflation long-term"
+    },
+    {
+      "front": "What should you invest in if you have no idea where to start?",
+      "back": "Target-date funds or a simple three-fund portfolio: total US stock market index, international stock index, bond index in ratios matching your age. Alternatively, single low-cost all-in-one funds like VTSAX (stocks) or VBIAX (balanced). Don't overthink it; most investors beat active managers by being boring.",
+      "hint": "Simple diversified defaults"
+    },
+    {
+      "front": "Why do individual stock pickers usually fail compared to index funds?",
+      "back": "Stock picking requires: predicting earnings, evaluating 1000+ companies, timing buys/sells, and beating 1000+ other pickers. Even professionals fail (90% underperform). Transaction costs and taxes make it worse. Index funds win by avoiding these impossible tasks.",
+      "hint": "Luck, skill, costs, competition"
+    },
+    {
+      "front": "What is rebalancing and how often should you do it?",
+      "back": "Rebalancing restores your target allocation by selling winners and buying losers (e.g., if stocks grew to 80% of your 70% target, sell 10% stocks, buy bonds). Do it annually or when allocation drifts 5%+. Forces you to buy low and sell high, improving long-term returns.",
+      "hint": "Restore target allocation regularly"
+    },
+    {
+      "front": "How much should you have in emergency savings before investing?",
+      "back": "3-6 months of living expenses in liquid savings (checking/savings account). Until you have this, you'll panic-sell investments during job loss. Emergency fund = sleep at night. Only after that buffer should you max retirement accounts and taxable investments.",
+      "hint": "3-6 months expenses liquid"
+    },
+    {
+      "front": "What does 'asset allocation' mean and why is it your biggest return driver?",
+      "back": "Asset allocation is your mix of stocks, bonds, and other assets. This allocation determines 90% of your portfolio returns, not individual stock picks. A 70/30 portfolio has different risk/return than 50/50, regardless of which stocks you choose. Get allocation right first.",
+      "hint": "Stock/bond mix drives returns"
+    },
+    {
+      "front": "Why should you avoid picking 'hot stocks' based on news or tips?",
+      "back": "By the time news reaches retail investors, prices already reflect it. You're competing against professionals with real-time data and better research. Example: someone tells you to buy a stock that 'will explode'—professionals already priced that in. You're entering late with higher risk.",
+      "hint": "News = already priced in"
+    },
+    {
+      "front": "How does a bond ladder work and when should you use one?",
+      "back": "A bond ladder holds bonds maturing in 1, 3, 5, 7, 10 years. As each matures, you reinvest in new 10-year bonds, providing steady income and avoiding interest rate risk. Useful for near-retirees who need predictable cash flow, but most young investors should use bond ETFs for simplicity.",
+      "hint": "Bonds maturing at intervals"
+    },
+    {
+      "front": "What is tax-loss harvesting and why do high-income investors use it?",
+      "back": "Tax-loss harvesting sells losing positions to offset gains elsewhere, reducing taxes owed. Example: if you made $10,000 on Apple but lost $10,000 on Tesla, the losses offset gains, saving ~$3,000 in taxes. You can use $3,000/year against ordinary income too. Most relevant for high-income investors in taxable accounts.",
+      "hint": "Sell losses to reduce taxes"
+    },
+    {
+      "front": "Why is starting with a robo-advisor (Vanguard, Betterment) a good entry point?",
+      "back": "Robo-advisors automatically create diversified portfolios, rebalance, do tax-loss harvesting, and charge 0.25-0.50% fees—cheaper than financial advisors (1%+) and simpler than DIY. For small accounts or beginners, they're ideal. Once comfortable, you can DIY and eliminate even that fee.",
+      "hint": "Automated, diversified, low-cost"
+    },
+    {
+      "front": "How do you know if an investment advisor has a fiduciary duty to you?",
+      "back": "A fiduciary MUST act in your best interest, while a suitability advisor can recommend anything 'suitable' (but not necessarily best). Ask: 'Are you a fiduciary?' If they hedge, they're not. Fee-only advisors (no commissions) are usually fiduciaries; commission-based advisors often aren't.",
+      "hint": "Best interest vs. just suitable"
+    },
+    {
+      "front": "Why should you ignore financial predictions and media hype about markets?",
+      "back": "Predictions are almost never accurate. Finance media thrives on sensationalism ('market crash incoming!') to grab attention, but volatility is normal. Ignore noise, ignore tips, stick to your allocation and regular investing. The best investors tune out the noise.",
+      "hint": "Predictions fail, noise distracts"
+    }
+  ],
+  "sampleIdeas": [
+    {
+      "name": "Compound Interest: How Small Amounts Become Fortunes",
+      "textDescription": "Compound interest is the mechanism that turns modest contributions into substantial wealth—but most people misunderstand its power. Albert Einstein allegedly called it the eighth wonder of the world, and the reason is mathematical: your money earns returns, and those returns earn returns, creating exponential growth.\n\nConsider a concrete example: a 25-year-old investing $200 monthly in index funds earning 7% annual returns will accumulate approximately $435,000 by age 65. But here's the shocking part: of that $435,000, only about $120,000 came from actual contributions ($200/month × 12 months × 40 years). The remaining $315,000 is pure compound growth—your money working for you.\n\nNow change the starting age to 35 (10 years later, same $200/month, same 7% return). By 65, you'd have only ~$195,000. That's less than half, even though you contributed for 30 years instead of 40. The missing 10 years cost you $240,000 because those early dollars had 30 more years to compound instead of 20.\n\nThe common mistake is thinking 'I've missed out, might as well not bother.' This is wrong. A 50-year-old with zero savings can still reach $100,000+ by retirement through regular investing. The takeaway: start now with whatever you have, because every year of compounding matters exponentially more than how much you start with. A 25-year-old investing $50/month beats a 45-year-old investing $500/month.",
+      "videoURL": "https://www.youtube.com/watch?v=xGlMXHmjsEU",
+      "externalLinkURL": "https://www.investopedia.com/terms/c/compound_interest.asp"
+    },
+    {
+      "name": "Stock Ownership: What You Actually Own When You Buy Shares",
+      "textDescription": "When you buy a stock, you own a fractional piece of a real business. This isn't abstract—it's a legal ownership stake with rights, responsibilities, and claims on future profits. Understanding this shifts how you should think about stock investing.\n\nImagine four friends start a company with $100 equity. Each friend owns 25%. If one friend buys another's stake, that friend now owns 50% and has stronger voting rights. Stock markets work the same way at massive scale: Apple has roughly 15.6 billion shares outstanding. If you own 100 shares, you own approximately 0.00064% of Apple. You have a claim on 0.00064% of its profits, assets, and voting rights.\n\nThis fractional ownership means your stock's value follows the company's fortunes. Apple's stock price reflects what investors believe Apple's future earnings will be. If Apple releases a successful product, earnings forecasts rise and so does the stock price. If it faces competition or regulatory problems, investors expect lower future earnings and the price falls.\n\nDividends are cash payments from profits distributed to owners. Not all stocks pay dividends—growth companies reinvest all profits to expand. Mature companies like Coca-Cola or utilities often pay dividends because they have stable cash flow but limited growth opportunities. Receiving a dividend is literally the company sharing profits with you because you own a piece of it.\n\nA common misconception: stocks are abstract bets or gambling chips. They're not. You own real earning businesses. This perspective prevents emotional trading and encourages long-term holding.",
+      "videoURL": "https://www.youtube.com/watch?v=f5j9v3F1ewA",
+      "externalLinkURL": "https://www.sec.gov/investor/pubs/assetmanagement.pdf"
+    },
+    {
+      "name": "Bonds: The Conservative Counterweight to Your Stock Portfolio",
+      "textDescription": "While stocks represent ownership, bonds represent lending. When you buy a bond, you loan money to a company or government that promises to pay you interest and return your principal at a future date. Bonds are typically less volatile than stocks and provide income, making them essential for balanced portfolios.\n\nBond terminology matters: Face value is the amount you get back at maturity (usually $1,000). The coupon is the annual interest payment—a $1,000 bond with a 5% coupon pays $50 yearly. Yield is your actual return. Here's where it gets interesting: if you buy a bond at a discount (say, $900 for a $1,000 bond paying $50/year), your yield is 5.6%, not 5%. The discount compensates for the lower coupon.\n\nWhy do bond prices fall when interest rates rise? Because new bonds pay higher rates, existing bonds become less attractive. If you hold a 5% bond and new bonds pay 6%, to sell your bond you must discount its price so buyers get 6% yield. Example: a $1,000 bond paying $50/year selling at $830 yields 6% ($50/$830). Interest rates and bond prices move inversely—this is fundamental.\n\nBonds reduce portfolio volatility because they often gain value when stocks crash (as investors flee risk and buy bonds). During the 2008 crisis, investors who held 40% bonds alongside 60% stocks fared much better than 100% stock investors. The bonds didn't soar, but they didn't crash either.\n\nA key mistake: ignoring bonds because they pay only 4-5% while stocks return 7-10%. Bonds aren't about maximum returns—they're about reducing portfolio crashes and providing stability. A diversified portfolio balances growth (stocks) with insurance (bonds).",
+      "videoURL": "https://www.youtube.com/watch?v=sHKJr9BdCd8",
+      "externalLinkURL": "https://www.investopedia.com/terms/b/bond.asp"
+    },
+    {
+      "name": "Index Funds vs. Active Management: Why Picking Winners Is Nearly Impossible",
+      "textDescription": "An index fund holds all (or a representative sample) of stocks in a market index like the S&P 500, with minimal fees. An active manager researches companies and tries to beat the index through stock picking. Over 15+ years, index funds beat 85-90% of active managers. This isn't luck—it's mathematical reality.\n\nWhy do active managers fail? Four reasons: (1) Fees—active management costs 1%+ annually; passive indexing costs 0.03-0.20%. That 0.8% difference compounds to ~$150,000 on a $300,000 portfolio over 30 years. (2) Transaction costs—every buy/sell incurs taxes and costs that index funds minimize. (3) Predicting winners is nearly impossible—thousands of professional managers compete, making systematic outperformance unlikely. (4) Mean reversion—even managers who beat the market one year typically underperform the next; past performance doesn't predict future results.\n\nHere's the sobering data: from 2002-2022, the S&P 500 returned 9.8% annually. In 2022, 88% of active mutual funds underperformed. In 2021, 79% underperformed. The consistency is striking. The few managers who do beat the index aren't necessarily skillful—some are lucky. Once they appear on lists of 'best performers,' investors chase them, assets flood in, and their outperformance disappears.\n\nIndex funds work because they're not trying to beat the market; they're trying to match it. The result: they beat most people trying to beat it. A simple all-in-one index fund like VTSAX (total stock market) returns the entire US market average. No research required, no emotional stock picks, minimal costs.\n\nThe most dangerous belief: 'The market is different now; past data doesn't apply.' This belief fuels stock-picking and active management, which then underperforms. Data repeatedly proves otherwise.",
+      "videoURL": "https://www.youtube.com/watch?v=z6hkjLpJ3sw",
+      "externalLinkURL": "https://www.sec.gov/investor/pubs/assetmanagement.pdf"
+    },
+    {
+      "name": "Dollar-Cost Averaging: Your Defense Against Bad Timing",
+      "textDescription": "Dollar-cost averaging (DCA) is investing a fixed amount regularly (e.g., $500/month) regardless of market prices. This simple practice protects against one of investing's biggest fears: investing everything right before a crash. DCA doesn't eliminate risk, but it removes the worst possible timing from your control.\n\nHere's how it works mathematically: if you invest $500/month for 30 years, you buy more shares when prices are low and fewer when prices are high. Imagine a stock at $50, then $40, then $60. Your $500 buys 10 shares at $50, 12.5 shares at $40, and 8.3 shares at $60. Your average cost is $48.50, between the low and high. You never bought the absolute low, but you avoided buying at the high.\n\nConsider the alternative: lump-sum investing (putting all money in immediately). If you have $180,000 and invest it all at once, you might invest at the market peak and watch it crash 30% before recovering. That's psychologically brutal and tempts panic selling. With DCA at $500/month over 30 years, you automatically buy during crashes at discounted prices, reducing psychological pressure.\n\nA common objection: 'If markets go up consistently, wouldn't lump-sum beat DCA?' Statistically, yes—but markets don't go up consistently. They crash. Most investors can't psychologically handle lump-sum investing into crashes; they panic-sell at losses. DCA forces discipline by making large crashes feel less catastrophic (you're still buying regular monthly amounts).\n\nThe most powerful aspect of DCA for young people: every paycheck automatically invests a fixed amount, removing decisions. With 401(k)s and automatic ETF purchases, you implement DCA without thinking. This 'set it and forget it' approach beats even savvy investors who overthink market timing.\n\nBottom line: if you have employment income and regular cash flow, structure automatic investments (payroll deduction, auto-transfers). This is DCA and it works.",
+      "videoURL": "https://www.youtube.com/watch?v=2JMgvPLSgLY",
+      "externalLinkURL": "https://www.bogleheads.org/wiki/Dollar_cost_averaging"
+    },
+    {
+      "name": "Tax-Advantaged Accounts: 401(k)s and IRAs Are Wealth Superpowers",
+      "textDescription": "401(k)s and IRAs are not investment types; they're tax wrappers around investments. Money inside these accounts grows tax-free (or tax-deferred), massively accelerating wealth building. The tax benefits are so valuable that maximizing them should be your first priority, before taxable brokerage accounts.\n\nWith a traditional 401(k), contributions reduce your current taxable income. Earn $80,000, contribute $23,500 to a 401(k), and you pay taxes on only $56,500 of income. This is an immediate tax cut of ~$7,000 (at 30% tax rate). Your money grows tax-free inside the account, and you pay taxes when withdrawing at retirement. This works if your retirement tax rate is lower than your working years rate—usually true.\n\nRoth accounts (Roth 401(k) or Roth IRA) flip the timing: you pay taxes now, but withdrawals at retirement are completely tax-free, including growth. Choose Roth if you're young (more decades of tax-free growth) or expect higher retirement tax rates. At age 25, a $7,000 Roth IRA contribution grows tax-free for 40 years—potentially $100,000+, all untaxed.\n\nEmployer matching is free money. If your employer matches 3% of salary, they contribute 3% on top of what you contribute. Not maximizing this match is leaving cash on the table. Max your match first, then max the 401(k) ($23,500/year in 2024), then max an IRA ($7,000/year), then use taxable accounts.\n\nThe compound effect is staggering: $500/month in a 401(k) at 7% returns over 30 years yields ~$435,000 (accounting for tax-deferred growth). The same $500/month in a taxable account (paying ~2% annual taxes on gains) yields ~$380,000. That's $55,000 difference from pure tax efficiency, without changing your investment returns.\n\nYoung workers especially should maximize Roth accounts; the decades of tax-free compounding is unmatched.",
+      "videoURL": "https://www.youtube.com/watch?v=K1GyM7ZrYVA",
+      "externalLinkURL": "https://www.irs.gov/retirement-plans"
+    },
+    {
+      "name": "Inflation: The Silent Destroyer of Savings and Why Stocks Beat It",
+      "textDescription": "Inflation erodes purchasing power silently and relentlessly. If inflation averages 3% annually, $100 in 2024 will buy only $97 worth of goods in 2025. Over 30 years at 3% inflation, $100 becomes equivalent to $41 in purchasing power. Savings accounts earning 0.5% actually lose 2.5% annually to inflation—you're falling behind.\n\nMany people think 'I'll just keep money in a savings account' to avoid stock market risk, but they're accepting hidden inflation risk instead. A savings account earning 1% while inflation runs 4% guarantees you lose 3% in real purchasing power yearly. After 30 years, a $300,000 nest egg has the buying power of only $100,000 in today's dollars. That's not safety—that's disaster.\n\nStocks historically return 7-10% annually, beating inflation by 4-7% after inflation. Bonds return 4-5%, also beating inflation meaningfully. Real estate and commodities (gold, oil) directly hedge inflation since prices rise with inflation. The point: you need returns above inflation to preserve wealth.\n\nInflation hits bonds harder than stocks: if you lock in a 5% bond yield and inflation rises to 6%, you're losing 1% annually in real returns. Stocks partly compensate because company earnings tend to grow with inflation (companies can raise prices), so stock returns remain resilient.\n\nA practical example: in the 1970s, inflation hit 11% while stocks averaged 5% returns. Stock investors lost real purchasing power. In that period, bonds were worse (locked at 5% yields before inflation accelerated). The reality: no investment beats high inflation. During normal inflation (2-3%), stocks and real estate do fine. Bonds are marginal. Cash is dangerous.\n\nThe mistake young people make: keeping emergency funds in savings accounts for years, earning negative real returns. Keep 3-6 months in cash (immediate access). Beyond that, invest to beat inflation. At age 25, 40 years of negative inflation drag costs more than any stock market crash.",
+      "videoURL": "https://www.youtube.com/watch?v=b-qqqh9cAjI",
+      "externalLinkURL": "https://www.investopedia.com/terms/i/inflation.asp"
+    }
+  ]
+}]

@@ -1,0 +1,370 @@
+{
+  "stableId": "code_route_panneaux_signalisation",
+  "name": "Panneaux et signalisation routière",
+  "description": "Reconnaître les principaux panneaux du code de la route français et adopter la bonne réaction de conduite.",
+  "color": "red",
+  "category": "Driving",
+  "language": "fr",
+  "difficulty": "Beginner",
+  "tags": [
+    "code",
+    "route",
+    "panneaux",
+    "signalisation",
+    "conduite"
+  ],
+  "cards": [
+    {
+      "front": "Que signifie un panneau triangulaire à bord rouge ?",
+      "back": "Il annonce un danger et demande au conducteur d’adapter sa vitesse et sa vigilance.",
+      "hint": "Triangle = danger."
+    },
+    {
+      "front": "Que signifie un panneau rond à bord rouge ?",
+      "back": "Il indique une interdiction, une limitation ou une défense particulière.",
+      "hint": "Le rouge interdit."
+    },
+    {
+      "front": "Que signifie un panneau rond bleu ?",
+      "back": "Il indique une obligation imposée aux usagers.",
+      "hint": "Bleu = action imposée."
+    },
+    {
+      "front": "Que signifie un panneau carré ou rectangulaire bleu ?",
+      "back": "Il donne une indication utile, un service ou une information de direction.",
+      "hint": "Bleu d’information."
+    },
+    {
+      "front": "Que signifie le panneau STOP ?",
+      "back": "Il impose un arrêt complet avant la ligne d’effet ou avant l’intersection.",
+      "hint": "On s’arrête totalement."
+    },
+    {
+      "front": "Que signifie un panneau 'Cédez le passage' ?",
+      "back": "Il impose de laisser passer les usagers prioritaires sans obligation d’arrêt complet si la voie est libre.",
+      "hint": "Triangle pointe en bas."
+    },
+    {
+      "front": "Que signifie le losange jaune sur fond blanc ?",
+      "back": "Il annonce une route à caractère prioritaire.",
+      "hint": "Losange jaune = priorité."
+    },
+    {
+      "front": "Que signifie le losange jaune barré de noir ?",
+      "back": "Il indique la fin d’une route prioritaire.",
+      "hint": "La priorité se termine."
+    },
+    {
+      "front": "Que signifie un panneau sens interdit ?",
+      "back": "Il interdit l’accès aux véhicules dans ce sens de circulation.",
+      "hint": "Fond rouge, barre blanche."
+    },
+    {
+      "front": "Que signifie le panneau d’interdiction de tourner à gauche ?",
+      "back": "Il interdit d’effectuer un virage à gauche à l’endroit indiqué.",
+      "hint": "Flèche barrée."
+    },
+    {
+      "front": "Que signifie le panneau d’interdiction de demi-tour ?",
+      "back": "Il interdit de faire demi-tour sur la chaussée à cet endroit.",
+      "hint": "U barré."
+    },
+    {
+      "front": "Que signifie un panneau limité à 30 ?",
+      "back": "Il fixe une vitesse maximale autorisée de 30 km/h.",
+      "hint": "Nombre dans cercle rouge."
+    },
+    {
+      "front": "Que signifie le panneau de fin de limitation de vitesse ?",
+      "back": "Il annonce que la limitation précédente n’est plus applicable.",
+      "hint": "Nombre barré."
+    },
+    {
+      "front": "Que signifie le panneau stationnement interdit ?",
+      "back": "Il interdit de laisser son véhicule en stationnement à cet endroit.",
+      "hint": "Trait rouge unique."
+    },
+    {
+      "front": "Que signifie le panneau arrêt et stationnement interdits ?",
+      "back": "Il interdit à la fois l’arrêt volontaire et le stationnement.",
+      "hint": "Croix rouge et bleue."
+    },
+    {
+      "front": "Que signifie le panneau passage piéton ?",
+      "back": "Il signale un passage réservé aux piétons ou son approche.",
+      "hint": "Bandes de traversée."
+    },
+    {
+      "front": "Que signifie le panneau enfants ?",
+      "back": "Il avertit d’un endroit fréquenté par des enfants, souvent près d’une école.",
+      "hint": "Silhouette d’enfants."
+    },
+    {
+      "front": "Que signifie le panneau chaussée glissante ?",
+      "back": "Il avertit d’un risque de perte d’adhérence, surtout en cas d’intempéries.",
+      "hint": "Voiture qui dérape."
+    },
+    {
+      "front": "Que signifie le panneau virage dangereux à droite ?",
+      "back": "Il annonce un virage serré vers la droite nécessitant une allure adaptée.",
+      "hint": "Courbe à droite."
+    },
+    {
+      "front": "Que signifie le panneau succession de virages ?",
+      "back": "Il annonce plusieurs virages rapprochés sur la route.",
+      "hint": "Plusieurs courbes."
+    },
+    {
+      "front": "Que signifie le panneau rétrécissement de chaussée ?",
+      "back": "Il avertit que la largeur de la chaussée diminue.",
+      "hint": "Chaussée qui se resserre."
+    },
+    {
+      "front": "Que signifie le panneau travaux ?",
+      "back": "Il annonce une zone de chantier ou de travaux sur ou près de la chaussée.",
+      "hint": "Ouvrier dans triangle."
+    },
+    {
+      "front": "Que signifie le panneau projection de gravillons ?",
+      "back": "Il avertit d’un risque de gravillons pouvant réduire l’adhérence ou endommager le véhicule.",
+      "hint": "Petits points projetés."
+    },
+    {
+      "front": "Que signifie le panneau dos-d’âne ou ralentisseur ?",
+      "back": "Il avertit d’une déformation de la chaussée qui impose de ralentir.",
+      "hint": "Bosse."
+    },
+    {
+      "front": "Que signifie le panneau pente dangereuse descendante ?",
+      "back": "Il annonce une forte descente nécessitant une gestion prudente de la vitesse.",
+      "hint": "Pourcentage vers le bas."
+    },
+    {
+      "front": "Que signifie le panneau côte dangereuse ?",
+      "back": "Il annonce une forte montée pouvant nécessiter une adaptation de l’allure et du rapport.",
+      "hint": "Pourcentage vers le haut."
+    },
+    {
+      "front": "Que signifie le panneau passage à niveau sans barrière ?",
+      "back": "Il annonce un croisement ferroviaire dépourvu de barrières.",
+      "hint": "Train sans barrière."
+    },
+    {
+      "front": "Que signifie le panneau passage à niveau avec barrières ?",
+      "back": "Il annonce un passage à niveau protégé par des barrières ou demi-barrières.",
+      "hint": "Train + barrière."
+    },
+    {
+      "front": "Que signifie le panneau carrefour à sens giratoire ?",
+      "back": "Il annonce un rond-point où les véhicules déjà engagés sont généralement prioritaires.",
+      "hint": "Flèches en cercle."
+    },
+    {
+      "front": "Que signifie le panneau intersection où s’applique la priorité à droite ?",
+      "back": "Il avertit que le prochain carrefour n’est pas réglé par une priorité spécifique.",
+      "hint": "Croix noire."
+    },
+    {
+      "front": "Que signifie le panneau route à chaussées séparées ?",
+      "back": "Il indique l’entrée sur une route dont les sens de circulation sont séparés.",
+      "hint": "Deux chaussées."
+    },
+    {
+      "front": "Que signifie le panneau autoroute ?",
+      "back": "Il indique l’entrée sur une autoroute et l’application de ses règles spécifiques.",
+      "hint": "Symbole autoroute."
+    },
+    {
+      "front": "Que signifie le panneau fin d’autoroute ?",
+      "back": "Il annonce la fin du régime autoroutier.",
+      "hint": "Autoroute barrée."
+    },
+    {
+      "front": "Que signifie le panneau route pour automobiles ?",
+      "back": "Il indique une route réservée aux véhicules motorisés suffisamment rapides.",
+      "hint": "Voiture blanche sur bleu."
+    },
+    {
+      "front": "Que signifie le panneau fin de route pour automobiles ?",
+      "back": "Il annonce la fin des règles propres à la route pour automobiles.",
+      "hint": "Voiture barrée."
+    },
+    {
+      "front": "Que signifie le panneau parking ?",
+      "back": "Il indique un emplacement ou une aire de stationnement autorisée.",
+      "hint": "Lettre P."
+    },
+    {
+      "front": "Que signifie le panneau station-service ?",
+      "back": "Il indique la présence d’un point de ravitaillement en carburant.",
+      "hint": "Pompe à carburant."
+    },
+    {
+      "front": "Que signifie le panneau hôpital ?",
+      "back": "Il signale la présence d’un établissement de soins ou d’une zone sensible au bruit.",
+      "hint": "H bleu."
+    },
+    {
+      "front": "Que signifie le panneau téléphone de secours ?",
+      "back": "Il indique un poste d’appel d’urgence.",
+      "hint": "Combiné téléphonique."
+    },
+    {
+      "front": "Que signifie le panneau aire de repos ?",
+      "back": "Il signale un lieu où l’on peut s’arrêter pour faire une pause.",
+      "hint": "Banc ou repos."
+    },
+    {
+      "front": "Que signifie le panneau restaurant ?",
+      "back": "Il signale un service de restauration à proximité.",
+      "hint": "Fourchette/couteau."
+    },
+    {
+      "front": "Que signifie le panneau tunnel ?",
+      "back": "Il annonce l’entrée d’un tunnel et la nécessité d’appliquer les règles spécifiques.",
+      "hint": "Voûte de tunnel."
+    },
+    {
+      "front": "Que signifie le panneau risque d’embouteillage ?",
+      "back": "Il avertit d’un risque de ralentissement important ou de bouchon.",
+      "hint": "Files de voitures."
+    },
+    {
+      "front": "Que signifie le panneau vent latéral ?",
+      "back": "Il avertit que des rafales peuvent déporter le véhicule.",
+      "hint": "Manche à air."
+    },
+    {
+      "front": "Que signifie le panneau traversée d’animaux domestiques ?",
+      "back": "Il avertit d’un passage possible d’animaux d’élevage sur la chaussée.",
+      "hint": "Vache."
+    },
+    {
+      "front": "Que signifie le panneau traversée d’animaux sauvages ?",
+      "back": "Il avertit d’un risque de passage de gibier.",
+      "hint": "Cervidé."
+    },
+    {
+      "front": "Que signifie le panneau interdit aux véhicules de transport de marchandises ?",
+      "back": "Il interdit l’accès aux poids lourds ou à certaines catégories de véhicules de marchandises.",
+      "hint": "Camion dans cercle rouge."
+    },
+    {
+      "front": "Que signifie le panneau interdit aux piétons ?",
+      "back": "Il interdit aux piétons d’emprunter la voie concernée.",
+      "hint": "Piéton barré."
+    },
+    {
+      "front": "Que signifie le panneau piste ou bande cyclable obligatoire ?",
+      "back": "Il impose aux cyclistes d’emprunter l’aménagement indiqué.",
+      "hint": "Vélo sur fond bleu."
+    },
+    {
+      "front": "Que signifie le panneau voie sans issue ?",
+      "back": "Il annonce que la route ne permet pas de déboucher plus loin.",
+      "hint": "Impasse."
+    },
+    {
+      "front": "Que signifie le panneau zone 30 ?",
+      "back": "Il indique l’entrée dans une zone où la vitesse est limitée à 30 km/h et où l’aménagement favorise les usagers vulnérables.",
+      "hint": "Régime de zone."
+    },
+    {
+      "front": "Que signifie le panneau fin de zone 30 ?",
+      "back": "Il annonce la fin des règles propres à la zone 30.",
+      "hint": "Zone 30 barrée."
+    },
+    {
+      "front": "Que signifie le panneau zone de rencontre ?",
+      "back": "Il indique une zone où les piétons sont prioritaires et la vitesse est très limitée.",
+      "hint": "Espace partagé."
+    },
+    {
+      "front": "Que signifie le panneau aire piétonne ?",
+      "back": "Il indique une zone réservée principalement aux piétons, avec accès très encadré pour les véhicules autorisés.",
+      "hint": "Priorité piétons."
+    },
+    {
+      "front": "Que signifie le panneau limitation due à la pollution ou aux circonstances locales ?",
+      "back": "Il annonce une limitation spécifique temporaire ou localement imposée, à respecter comme toute limitation réglementaire.",
+      "hint": "Règle locale."
+    }
+  ],
+  "sampleIdeas": [
+    {
+      "name": "Lire les formes et couleurs en un coup d'œil",
+      "textDescription": "Les familles de panneaux français utilisent un code visuel à base de formes et de couleurs pour déclencher un réflexe immédiat. Triangle bordé de rouge pour le danger, rond rouge pour la contrainte, rond bleu pour l'obligation, carré ou rectangle bleu pour l'information : retenir cette grammaire évite l'hésitation en situation.\n\nAssocier chaque forme à une action concrète renforce la mémorisation. Devant un triangle, on se prépare à ralentir; devant un rond rouge, on vérifie la contrainte détaillée; devant un carré bleu, on recherche l'indication utile (passage piéton, stationnement, services). Cette conversion perception→action est exactement ce que l'examen attend.\n\nLes erreurs viennent souvent de panneaux vus trop tard ou confondus avec un marquage temporaire. En conduite accompagnée, entraînez-vous à annoncer à voix haute la famille et la réponse attendue dès l'apparition du panneau : cela transforme la reconnaissance passive en décision active.\n\nPour aller plus loin, consultez la synthèse officielle de la signalisation française et analysez les exemples photographiques afin de relier les cartes à des situations réelles.",
+      "videoURL": null,
+      "externalLinkURL": "https://fr.wikipedia.org/wiki/Signalisation_routi%C3%A8re_en_France",
+      "linkedCardIndices": [
+        0,
+        1,
+        2,
+        3,
+        15,
+        16
+      ]
+    },
+    {
+      "name": "Anticiper les panneaux de danger",
+      "textDescription": "Les panneaux triangulaires placés à 150 ou 50 mètres selon l'environnement annoncent un danger précis et imposent d'ajuster l'allure avant même de voir l'obstacle. Chaussée glissante, virages successifs, gravillons, travaux ou dos-d'âne : chacun signale une perte d'adhérence potentielle si la vitesse reste inchangée.\n\nL'astuce consiste à traduire mentalement le pictogramme en une consigne simple : ralentir, garder les deux mains sur le volant, choisir un rapport court ou allonger la distance de sécurité. Sur pente ou côte dangereuse, un coup d'œil au rétroplanificateur aide à choisir le frein moteur plutôt que le frein de service continu.\n\nLes passages à niveau ou carrefours particuliers s'annoncent eux aussi par ce triangle rouge. Même si les barrières sont ouvertes, le panneau rappelle qu'il faut contrôler visuellement les rails, les voies latérales ou les priorités.\n\nRévisez la liste des principaux panneaux de danger et entraînez-vous à les dessiner de mémoire : cette méthode active renforce l'association pictogramme→comportement.",
+      "videoURL": null,
+      "externalLinkURL": "https://fr.wikipedia.org/wiki/Panneau_de_signalisation_de_danger",
+      "linkedCardIndices": [
+        17,
+        18,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "name": "Identifier directions, services et tunnels",
+      "textDescription": "Les panneaux bleus carrés ou rectangulaires structurent l'information : parkings, stations-service, hôpitaux, téléphones d'urgence ou aires de repos. Sur autoroute, ils préparent plusieurs kilomètres à l'avance la répartition des files afin d'éviter les changements brutaux à la dernière minute.\n\nLes panneaux spécifiques aux infrastructures (tunnels, routes à chaussées séparées, autoroutes, routes pour automobiles) imposent une vérification ciblée : éclairage allumé avant un tunnel, clignotants anticipés avant un giratoire, distances de sécurité renforcées en zone confinée.\n\nLe conducteur qui sait lire la signalisation directionnelle gagne du temps et réduit le stress. Au lieu de fixer son GPS, il balaye la signalisation physique, repère les chevrons de file et confirme la manœuvre prévue.\n\nÉtudiez les planches dédiées à la signalisation directionnelle française pour faire le lien entre couleurs de fond, numéros d'axes et services disponibles sur chaque aire.",
+      "videoURL": null,
+      "externalLinkURL": "https://fr.wikipedia.org/wiki/Signalisation_directionnelle_en_France",
+      "linkedCardIndices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ]
+    },
+    {
+      "name": "Comprendre les zones réglementées",
+      "textDescription": "Les zones 30, zones de rencontre, aires piétonnes ou restrictions temporaires liées à la pollution sont signalées par des panneaux spécifiques souvent complétés par des panonceaux horaires. Il faut retenir qu'une zone impose une règle continue jusqu'au panneau de fin, même si la chaussée change plusieurs fois d'apparence.\n\nCes zones protègent les usagers vulnérables et la qualité de l'air. Rouler trop vite y est non seulement sanctionné mais aussi dangereux parce que les piétons et cyclistes y circulent parfois au milieu de la chaussée.\n\nLes panneaux d'interdiction d'accès (poids lourds, piétons, pistes cyclables obligatoires) fonctionnent comme des filtres. Les ignorer oblige à faire demi-tour et augmente le risque d'accrochage avec ceux qui y ont droit.\n\nReprenez chaque panneau de zone et notez dans un tableau la vitesse maximale, la priorité de passage et les restrictions d'accès afin de consolider vos automatismes.",
+      "videoURL": null,
+      "externalLinkURL": "https://fr.wikipedia.org/wiki/Zone_30",
+      "linkedCardIndices": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54
+      ]
+    }
+  ]
+}

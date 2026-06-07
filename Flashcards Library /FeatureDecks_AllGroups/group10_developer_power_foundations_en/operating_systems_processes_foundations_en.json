@@ -1,0 +1,115 @@
+[
+  {
+    "name": "Operating Systems & Processes",
+    "stableId": "operating_systems_processes_foundations",
+    "description": "Understand how operating systems manage processes, memory, files, and resources from a developer perspective.",
+    "color": "purple",
+    "category": "Technology",
+    "language": "en",
+    "difficulty": "Intermediate",
+    "tags": [
+      "operating_systems",
+      "processes",
+      "memory",
+      "cpu",
+      "developers"
+    ],
+    "cards": [
+      {
+        "front": "What is an operating system?",
+        "back": "Software that manages hardware resources and provides services to applications.",
+        "hint": "Resource manager."
+      },
+      {
+        "front": "What is a process?",
+        "back": "A running instance of a program with its own memory and state.",
+        "hint": "Running program."
+      },
+      {
+        "front": "What is a thread?",
+        "back": "A unit of execution within a process.",
+        "hint": "Inside process."
+      },
+      {
+        "front": "Why do operating systems schedule processes?",
+        "back": "To fairly share CPU time between tasks.",
+        "hint": "Time sharing."
+      },
+      {
+        "front": "What is virtual memory?",
+        "back": "An abstraction that allows programs to use more memory than physically available.",
+        "hint": "Memory illusion."
+      },
+      {
+        "front": "What is a context switch?",
+        "back": "Saving and restoring process state to switch execution.",
+        "hint": "Switch tasks."
+      },
+      {
+        "front": "What causes high CPU usage?",
+        "back": "Busy loops, heavy computation, or too many active processes.",
+        "hint": "Overworked."
+      },
+      {
+        "front": "What causes memory leaks?",
+        "back": "Allocating memory without releasing it.",
+        "hint": "Never freed."
+      },
+      {
+        "front": "What is I/O?",
+        "back": "Input/output operations like disk and network access.",
+        "hint": "Read/write."
+      },
+      {
+        "front": "Why is disk slower than memory?",
+        "back": "Because physical storage has higher latency.",
+        "hint": "Latency."
+      },
+      {
+        "front": "What is a file descriptor?",
+        "back": "A handle representing an open file or stream.",
+        "hint": "Open file handle."
+      },
+      {
+        "front": "Why do programs crash?",
+        "back": "Due to invalid memory access or unhandled errors.",
+        "hint": "Bad access."
+      },
+      {
+        "front": "What is multitasking?",
+        "back": "Running multiple processes seemingly at the same time.",
+        "hint": "Many tasks."
+      },
+      {
+        "front": "What is system load?",
+        "back": "A measure of runnable and waiting processes.",
+        "hint": "Queue size."
+      },
+      {
+        "front": "Why do developers need OS knowledge?",
+        "back": "To debug performance, reliability, and security issues.",
+        "hint": "Understand failures."
+      }
+    ],
+    "sampleIdeas": [
+      {
+        "name": "What an OS Really Does",
+        "textDescription": "Operating systems coordinate hardware and software.\n\nThey manage CPU, memory, files, and devices.\n\nUnderstanding this clarifies many bugs.\n\nAbstractions matter.",
+        "videoURL": "https://www.youtube.com/watch?v=26QPDBe-NB8",
+        "externalLinkURL": "https://en.wikipedia.org/wiki/Operating_system"
+      },
+      {
+        "name": "Processes, Threads, and Performance",
+        "textDescription": "Processes isolate programs.\n\nThreads enable concurrency.\n\nPerformance issues often stem from misuse.\n\nObservation beats guessing.",
+        "videoURL": "https://www.youtube.com/watch?v=9C72ISMF_D0",
+        "externalLinkURL": "https://en.wikipedia.org/wiki/Process_(computing)"
+      },
+      {
+        "name": "Memory and Crashes Explained",
+        "textDescription": "Memory is finite.\n\nLeaks and invalid access crash programs.\n\nVirtual memory hides complexity.\n\nTools reveal reality.",
+        "videoURL": "https://www.youtube.com/watch?v=Yocja_N5s1I",
+        "externalLinkURL": "https://en.wikipedia.org/wiki/Virtual_memory"
+      }
+    ]
+  }
+]

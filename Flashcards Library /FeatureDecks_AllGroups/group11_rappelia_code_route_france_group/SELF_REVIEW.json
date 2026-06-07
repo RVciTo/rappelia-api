@@ -1,0 +1,29 @@
+{
+  "group_name": "Driving License — France (Code de la Route)",
+  "deck_count": 5,
+  "cards_per_deck": {
+    "Panneaux et signalisation routière": 55,
+    "Règles de priorité et intersections": 50,
+    "Vitesse, distances et conditions": 45,
+    "Sécurité du véhicule et premiers secours": 45,
+    "Éco-conduite et partage de la route": 40
+  },
+  "ideas_per_deck": {
+    "Panneaux et signalisation routière": 4,
+    "Règles de priorité et intersections": 4,
+    "Vitesse, distances et conditions": 4,
+    "Sécurité du véhicule et premiers secours": 4,
+    "Éco-conduite et partage de la route": 4
+  },
+  "self_review_checks": [
+    "5 deck files created plus 1 group array file",
+    "Card counts align with plan: 55, 50, 45, 45, 40",
+    "Each deck now uses 4 approfondissement notes (3-5 paragraph format) with vetted references",
+    "Every card has front/back/hint fields, hints stay concises et cohérents",
+    "All sampleIdeas incluent des linkedCardIndices pertinents et un lien externe vérifié",
+    "All stableId values use lowercase_and_underscores",
+    "Deck colors remain within allowed palette",
+    "Category 'Driving' est cohérente pour toute la série"
+  ],
+  "note": "Rappel : vérifier régulièrement l'exactitude réglementaire (limites, panneaux, gestes de secours) avant mise en production, car la législation code de la route évolue."
+}

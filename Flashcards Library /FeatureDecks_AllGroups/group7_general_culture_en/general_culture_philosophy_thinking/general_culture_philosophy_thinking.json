@@ -1,0 +1,191 @@
+[{
+  "name": "Philosophy & Critical Thinking",
+  "stableId": "general_culture_philosophy_thinking",
+  "description": "Build critical thinking skills: identify logical fallacies, evaluate arguments, understand ethical frameworks, and apply philosophical reasoning to everyday decisions.",
+  "color": "purple",
+  "category": "General Culture",
+  "language": "en",
+  "difficulty": "Beginner",
+  "tags": ["philosophy", "critical_thinking", "logic", "ethics", "epistemology", "arguments"],
+  "cards": [
+    {
+      "front": "What is an argument in logic and what makes it valid?",
+      "back": "An argument consists of premises (claims) and a conclusion (claim following from premises). Validity: if premises are true, the conclusion MUST be true. Example: 'All dogs are mortal. Fido is a dog. Therefore, Fido is mortal.' Valid even if false (if dog mortality was false). Validity is about structure, not truth. A valid argument with true premises guarantees true conclusion.",
+      "hint": "Premises + structure → conclusion"
+    },
+    {
+      "front": "What is the difference between validity and soundness in arguments?",
+      "back": "Validity: logical structure is correct (true premises guarantee true conclusion). Soundness: the argument is valid AND all premises are true. A sound argument guarantees true conclusion. An argument can be valid but unsound (correct logic, false premise). Example: 'All cats are dogs. Fluffy is a cat. Therefore, Fluffy is a dog.' Valid structure, unsound (cats aren't dogs).",
+      "hint": "Valid + true premises = sound"
+    },
+    {
+      "front": "What is the ad hominem fallacy and why is it persuasive despite being fallacious?",
+      "back": "Ad hominem: attacking the person making the argument instead of the argument itself. Example: 'You believe climate change is real, but you drive a car, so your argument is hypocritical.' The argument's validity doesn't depend on the arguer's behavior. Ad hominem is persuasive because: humans emotionally respond to character attacks, and inconsistency (do-what-you-preach) feels intuitively wrong.",
+      "hint": "Attack person, not argument"
+    },
+    {
+      "front": "What is a straw man fallacy and how does it undermine debate?",
+      "back": "Straw man: misrepresenting an opponent's argument to make it easier to attack. Example: opponent says 'regulate emissions through carbon pricing.' You respond: 'They want to ban all cars!' You've distorted their position into something indefensible. This undermines real debate because you're not engaging with their actual argument, just a weak version.",
+      "hint": "Misrepresent to attack easily"
+    },
+    {
+      "front": "What is an appeal to authority fallacy and when is authority actually relevant?",
+      "back": "Appeal to authority fallacy: accepting a claim because an authority figures says so, without evidence. Example: 'A celebrity says this vitamin cures cancer, so it does.' Problematic: celebrity has no expertise in medicine. Legitimate appeal to authority: climate scientists on climate science. Relevance matters: is the authority an expert in the relevant domain? Do they have financial incentive to lie?",
+      "hint": "Authority relevant only in domain"
+    },
+    {
+      "front": "What is a false dilemma and how does it simplify complex issues?",
+      "back": "False dilemma: presenting only two options when more exist. Example: 'You either support unlimited immigration or you're a racist.' Presents false binary when nuanced positions exist (support controlled immigration based on capacity, skills matching). This fallacy is persuasive because it forces agreement with one extreme, preventing middle-ground discussion.",
+      "hint": "Only two options presented falsely"
+    },
+    {
+      "front": "What is a slippery slope fallacy and when is it actually a valid concern?",
+      "back": "Slippery slope: claiming one event inevitably leads to worse consequences without evidence of mechanism. Example: 'If we legalize marijuana, soon everyone will use heroin!' Fallacious without causal link. But slippery slope is valid when causal mechanisms exist: 'If we allow precedent X without limits, future decisions may extend it.' Distinguish speculative fears from real precedent concerns.",
+      "hint": "Assumed inevitable cascade"
+    },
+    {
+      "front": "What is a tu quoque ('you too') fallacy and why is it tempting in arguments?",
+      "back": "Tu quoque: dismissing an argument because the arguer is inconsistent. Example: 'You complain about pollution but fly in airplanes!' This doesn't address whether the pollution complaint is true—it just points out hypocrisy. Tempting because: hypocrisy feels morally wrong, and attacking the person feels justified. But the argument's truth is independent of arguer consistency.",
+      "hint": "'But you also do it!'"
+    },
+    {
+      "front": "What is epistemology and why does it matter for critical thinking?",
+      "back": "Epistemology: study of knowledge—what it is, how we know it, what justifies belief. Key question: when should you believe something? Epistemology matters because: not all claims deserve equal credence (scientific evidence > speculation), understanding justification prevents gullibility, and it addresses: what counts as evidence? How much evidence? For whom?",
+      "hint": "Knowledge and justification"
+    },
+    {
+      "front": "What is the burden of proof and who has it in an argument?",
+      "back": "Burden of proof: the responsibility to provide evidence. Generally, whoever claims something unusual bears the burden. Example: 'Aliens exist' requires evidence; 'aliens don't exist' needs no evidence (absence is default). Burden shifts only with counter-evidence. This prevents endless debates where people demand you prove negatives (prove there's no Bigfoot). Extraordinary claims require extraordinary evidence.",
+      "hint": "Claimant must provide evidence"
+    },
+    {
+      "front": "What is the difference between correlation and causation?",
+      "back": "Correlation: two things occur together or vary together. Causation: one causes the other. Example: ice cream sales correlate with drowning deaths (both increase in summer), but ice cream doesn't cause drowning—warm weather is the common cause. Confusing correlation with causation is common and dangerous in health claims ('people who drink coffee live longer' doesn't mean coffee causes longevity).",
+      "hint": "Together ≠ one causes other"
+    },
+    {
+      "front": "What is confirmation bias and how does it affect reasoning?",
+      "back": "Confirmation bias: tendency to seek, interpret, and remember information confirming existing beliefs while dismissing contradicting evidence. Example: believe supplement X works; remember times it helped, forget times it didn't. This bias operates unconsciously and undermines critical thinking. Counter it by: actively seeking opposing evidence, steel-manning (fairly representing opposing views), and trusting statistics over anecdotes.",
+      "hint": "Seeking confirming evidence"
+    },
+    {
+      "front": "What is rationality and does it require accepting science?",
+      "back": "Rationality: holding beliefs based on evidence and logical reasoning, updating when evidence changes. It doesn't require accepting everything scientists say (healthy skepticism is rational), but it does require: understanding evidence quality, following arguments carefully, and changing minds when evidence warrants it. A rational person can question specific scientific claims; an irrational person dismisses science wholesale.",
+      "hint": "Evidence-based belief updating"
+    },
+    {
+      "front": "What are the main ethical frameworks and how do they differ?",
+      "back": "Utilitarianism: morality based on outcomes—maximize overall happiness/well-being. Deontology: morality based on duties and rules—some actions are inherently right/wrong. Virtue ethics: morality based on character—be a good person. Each framework gives different answers to moral questions. Example: stealing food to feed starving family. Utilitarianism: may justify it (reduces suffering). Deontology: may forbid it (theft is wrong). Virtue ethics: asks what a virtuous person would do.",
+      "hint": "Outcomes vs. rules vs. character"
+    },
+    {
+      "front": "What is the trolley problem and what does it reveal about moral intuitions?",
+      "back": "Trolley problem: out-of-control trolley will hit 5 people. You can pull a lever diverting it to hit 1 person instead. Should you? Most say yes (saving more lives). Now: 5 people on tracks, one large person on bridge. Pushing them off the bridge stops the trolley, saving 5. Most say no (despite same outcome: your action kills 1 to save 5). This reveals: our moral intuitions depend on action type (pushing vs. switching), not just outcomes. It shows the limits of pure utilitarianism.",
+      "hint": "Action types matter morally"
+    },
+    {
+      "front": "What is the veil of ignorance thought experiment and what does it reveal?",
+      "back": "Veil of ignorance: imagine designing society without knowing your position (rich/poor, healthy/sick, majority/minority). What rules would you choose? This thought experiment reveals: behind the veil, you'd choose fair rules benefiting everyone because you might end up disadvantaged. Philosopher John Rawls used it to justify egalitarian justice principles. It bypasses self-interest by obscuring position.",
+      "hint": "Design society from ignorance"
+    },
+    {
+      "front": "What is the ship of Theseus and what does it reveal about identity?",
+      "back": "Ship of Theseus: replace one plank of a ship. Still the same ship? Replace all planks. Still the same ship? What if original planks are reassembled? This reveals: our concept of identity is fuzzy. Identity depends on continuity (gradual replacement seems fine) but conflicts with composition (same physical matter?). This matters for: personal identity (are you the same person as childhood you?), and philosophical rigor (our intuitions about identity aren't precise).",
+      "hint": "What makes things identical?"
+    },
+    {
+      "front": "What is the Socratic method and why is it useful for critical thinking?",
+      "back": "Socratic method: asking probing questions to uncover contradictions in someone's beliefs, forcing deeper thinking. Rather than telling someone they're wrong, ask: 'What do you mean by that?' 'Can you give an example?' 'How does that fit with your claim that...' This reveals assumptions, contradictions, and gaps in reasoning. It's more persuasive than arguments because people reach conclusions themselves.",
+      "hint": "Question-driven truth discovery"
+    },
+    {
+      "front": "What is a cognitive bias and how does it differ from a logical fallacy?",
+      "back": "Cognitive bias: mental pattern that causes systematic errors in judgment (confirmation bias, availability bias, anchoring bias). Logical fallacy: error in logical structure of an argument (ad hominem, false dilemma). Related but different: cognitive biases are psychological tendencies; logical fallacies are structural errors in reasoning. Both undermine critical thinking. Biases are unconscious; fallacies can be deliberate.",
+      "hint": "Bias = mental error, fallacy = logical error"
+    },
+    {
+      "front": "What is falsifiability and why does Karl Popper think it matters for science?",
+      "back": "Falsifiability: a claim is scientific if it can, in principle, be proven false. Example: 'water boils at 100°C at sea level' is falsifiable (test it). 'Some divine being exists' is not falsifiable (no test could disprove it). Popper argues: science progresses by proposing falsifiable claims and attempting to refute them. Non-falsifiable claims (religious, metaphysical) are outside science. This distinguishes science from non-science.",
+      "hint": "Can be proven false"
+    },
+    {
+      "front": "What is a paradigm shift and how do scientific revolutions happen?",
+      "back": "Paradigm shift: wholesale change in how a scientific field understands reality. Thomas Kuhn argues: science accumulates knowledge within paradigms (Newtonian physics, etc.) until anomalies mount. Eventually, a new paradigm (relativity) emerges that better explains anomalies. The shift is revolutionary, not gradual. Example: Ptolemaic astronomy (Earth-centered) → Copernican (sun-centered). Paradigm shifts aren't pure logic; social factors matter.",
+      "hint": "Fundamental framework changes"
+    },
+    {
+      "front": "What is Occam's razor and when should you apply it?",
+      "back": "Occam's razor: among competing explanations, prefer the simplest (fewest assumptions). Example: your car won't start. Simple explanation: low battery. Complex: aliens have disabled your car. Occam's razor prefers the simple one. But simplicity isn't truth; complex explanations can be correct. Apply it after empirical evidence narrows options, not as first principle. The simpler explanation shouldn't ignore actual evidence.",
+      "hint": "Fewest assumptions preferred"
+    },
+    {
+      "front": "What is the problem of induction and does it undermine empirical science?",
+      "back": "Problem of induction: we assume the future will resemble the past (the sun rose today, so it will tomorrow), but this assumption can't be logically justified. It assumes a uniformity principle (nature is consistent), but that principle itself needs justification. David Hume argued induction is unjustifiable logically; it's just psychological habit. This seems to undermine empirical science, but modern philosophy accepts induction is foundational to science despite logical circularity.",
+      "hint": "Future from past unjustifiable"
+    },
+    {
+      "front": "What does it mean to 'steel-man' an argument and why is it important?",
+      "back": "Steel-manning: charitably interpreting an opponent's argument in its strongest form, not attacking weak versions (straw man). Example: opponent argues 'AI is dangerous.' Rather than attacking 'AI can never be dangerous' (weak version), steel-man: 'They mean superintelligent AI pursuing misaligned goals could cause existential risk.' This honest approach: forces you to engage serious arguments, prevents pseudo-debate, and shows respect for disagreement.",
+      "hint": "Strongest possible interpretation"
+    },
+    {
+      "front": "What is moral relativism and what are its implications?",
+      "back": "Moral relativism: there are no objective moral facts; morality is relative to culture, individual, or era. Implies: we can't judge other cultures as morally wrong (only different), and moral disagreements are unresolvable. Problems: this seems to make moral criticism impossible (is slavery only 'wrong for us'?), and most people believe some moral facts are universal (suffering is bad). Alternative: moral realism holds some moral truths are objective.",
+      "hint": "No objective moral facts"
+    },
+    {
+      "front": "What is moral nihilism and how does it relate to moral relativism?",
+      "back": "Moral nihilism: there are no moral facts at all—not even relative ones. Nothing is morally right or wrong; morality is illusion. Relates to relativism: both deny objective morality, but nihilism is stronger (no facts anywhere, even relative ones). Implications are radical: if true, murder isn't morally wrong (no moral facts), only illegal. Most people reject this, but some philosophers defend it logically.",
+      "hint": "No moral facts anywhere"
+    },
+    {
+      "front": "What is skepticism in epistemology and what are its strongest forms?",
+      "back": "Skepticism: questioning or denying knowledge/belief is justified. Weak skepticism: we're less certain than we think (healthy doubt). Strong skepticism: we know nothing (radical skepticism). Strongest form: perhaps an evil demon creates illusions; you can't know anything isn't illusion. This seems absurd, but it's logically irrefutable—showing knowledge's ultimate groundlessness. Most reject radical skepticism as practically untenable.",
+      "hint": "Questioning justification for belief"
+    }
+  ],
+  "sampleIdeas": [
+    {
+      "name": "Understanding Logical Arguments: How to Evaluate Claims Critically",
+      "textDescription": "Most people believe things for poor reasons—'I read it online,' 'my friend said so,' 'it sounds right.' Understanding how to evaluate arguments is foundational to critical thinking. It's not about winning debates; it's about believing true things and rejecting false ones.\n\nAn argument consists of premises (claims offered as support) and a conclusion (what's being argued for). Example: 'All humans are mortal. Socrates is human. Therefore, Socrates is mortal.' The strength of an argument depends on logical structure and truth of premises.\n\nValidity measures structure: does the conclusion necessarily follow from premises? In the Socrates example, if premises are true, conclusion must be true. The argument is valid. But consider: 'All dogs are animals. Fido is an animal. Therefore, Fido is a dog.' Same structure, but now the conclusion doesn't necessarily follow (Fido might be a cat). Validity concerns logical form, not content.\n\nSoundness requires both valid structure and true premises. A valid argument with false premises is unsound: 'All cats are dogs. Fluffy is a cat. Therefore, Fluffy is a dog.' Valid structure (if premises were true, conclusion would follow) but unsound (cats aren't dogs).\n\nWhen evaluating claims, ask: (1) Is the argument logically valid? Does the conclusion follow from premises? (2) Are the premises true? Could the premises be false? (3) Are there unstated assumptions? What's left unsaid?\n\nExample of hidden assumptions: 'Exercise improves health. Therefore, you should exercise.' Unstated: health is valuable to you, exercise is feasible for you. These seem obvious but aren't universal.\n\nMost disputes aren't actually about logic; they're about premises. Two people disagree on immigration policy. One believes immigrants commit crimes at high rates (empirical premise). The other believes they commit crimes at low rates. Same ethical logic; different premises yield different conclusions. Identifying disagreement at the premise level clarifies discussion.\n\nThis is why critical thinking matters: it forces clarity about what you're actually disagreeing about, making productive discourse possible.",
+      "videoURL": "https://www.youtube.com/watch?v=5-QA0I-6DmU",
+      "externalLinkURL": "https://plato.stanford.edu/entries/logic-classical/"
+    },
+    {
+      "name": "Logical Fallacies: Common Thinking Errors That Fool Smart People",
+      "textDescription": "Logical fallacies are common errors in reasoning. Understanding them prevents you from fooling yourself and makes you harder to manipulate.\n\nAd hominem attacks the person, not the argument. Example: 'You believe in climate change, but you drive a car—hypocrite!' Whether someone is hypocritical doesn't determine if climate change is real. This is persuasive because inconsistency bothers us emotionally, but it's logically irrelevant. The argument stands or falls on its merits, not the arguer's purity.\n\nStraw man misrepresents the opponent's position to make it easier to attack. Someone argues: 'We should have stronger regulations on pollution.' You respond: 'They want to shut down all industry!' You've distorted their position into something indefensible. This prevents real debate because you're not engaging with their actual claim.\n\nFalse dilemma presents only two options when more exist. 'You're either with us or against us' ignores neutral positions. 'Either you support unlimited immigration or you're racist' ignores nuanced stances. This is persuasive because it forces people to choose sides, preventing middle-ground discussion.\n\nAppeal to authority uses someone's status to justify a claim without evidence. 'A celebrity said this product works, so it does' misuses authority. Authority matters only in relevant domains: trust climate scientists on climate, not celebrity opinions. Even legitimate authorities can be wrong; authority should supplement evidence, not replace it.\n\nSlippery slope claims one event inevitably leads to worse consequences. 'If we allow gay marriage, next is marrying animals!' Fallacious without mechanism. But valid slippery slope: 'If we allow government power X without limits, future governments may extend it.' Distinguish speculative fears from real precedent concerns.\n\nCircular reasoning assumes the conclusion in the premises. 'The Bible is true because it says so' assumes the Bible is reliable to prove the Bible is reliable. Circular reasoning feels persuasive because the conclusion and premises seem different, but they're actually the same claim dressed differently.\n\nFalse causality assumes one event caused another without evidence. 'I got sick after eating spicy food, so spicy food made me sick' ignores: I was already sick, it was a coincidence, or something else caused it. Correlation (both happened) isn't causation.\n\nThese fallacies work because they exploit psychological biases and emotional reasoning. Recognizing them is the first step to resisting manipulation.",
+      "videoURL": "https://www.youtube.com/watch?v=OxHy7K1iapI",
+      "externalLinkURL": "https://iep.utm.edu/fallacy/"
+    },
+    {
+      "name": "Ethical Frameworks: How Philosophers Think About Right and Wrong",
+      "textDescription": "When facing moral dilemmas, people often say 'I just feel it's wrong.' But why do you feel it's wrong? Different philosophical frameworks give different answers, and understanding them clarifies moral reasoning.\n\nUtilitarianism: the right action maximizes overall happiness/well-being. Stealing food to feed a starving family is justified because it prevents worse suffering. Simple calculation: one person's inconvenience (stolen food) vs. a family's survival. The math favors theft. Strength: utilitarianism is intuitive (everyone cares about consequences). Weakness: it can justify harmful acts ('torture one innocent person to prevent greater suffering for five') and struggles with justice ('punish innocent people if it makes society happier').\n\nDeontology: morality depends on duties and rules independent of consequences. Some acts are inherently right (keeping promises) or wrong (lying), regardless of outcomes. From a deontological view, lying to save a life might still be wrong because lying violates a duty. Strength: deontology respects individual rights and prohibits some intuitively terrible acts. Weakness: it struggles with conflicting duties (when saving lives requires breaking promises).\n\nVirtue ethics: morality is about developing good character, not following rules or calculating outcomes. Rather than 'What action maximizes happiness?' ask 'What would a virtuous person do?' A virtuous person is courageous, honest, compassionate, etc. This focuses on who you become, not just what you do. Strength: virtue ethics captures intuition that character matters. Weakness: it's vague—'what is virtue?' differs across cultures.\n\nPractical example: you find money someone dropped. Utilitarian: return it if the owner values it more than the finder (calculate). Deontologist: return it because you have a duty not to steal. Virtue ethicist: a virtuous person shows honesty and compassion by returning it.\n\nMost people use hybrid approaches: consider consequences (utilitarian), respect duties and rights (deontological), and develop character (virtue). Understanding these frameworks helps articulate why something feels right or wrong, and enables serious moral discussion.",
+      "videoURL": "https://www.youtube.com/watch?v=QFgcqB3IY9E",
+      "externalLinkURL": "https://plato.stanford.edu/entries/ethics/"
+    },
+    {
+      "name": "Confirmation Bias and Motivated Reasoning: Why Smart People Believe False Things",
+      "textDescription": "Confirmation bias is the tendency to seek, interpret, and remember information confirming existing beliefs while dismissing contradicting information. It's perhaps the most dangerous thinking error because it operates unconsciously in intelligent people.\n\nExample: you believe supplement X improves memory. When you try it, you remember times it seemed to help (confirmation), forget times it didn't work (ignoring disconfirming evidence), and interpret ambiguous results as supporting it. A friend reports no benefit; you explain it away ('maybe they didn't use it right'). Over time, your initial belief is reinforced despite weak evidence.\n\nWhy is confirmation bias so pernicious? It feels like reasoning. You're examining evidence, but you're unconsciously filtering and interpreting it to preserve existing beliefs. Smart people are better at this filtering—they can generate sophisticated justifications for believing false things. Ironically, intelligence without awareness of bias makes you worse at truth-seeking.\n\nMotivated reasoning extends this: you're motivated to believe things for emotional, financial, or social reasons. Political beliefs are prime example: liberals interpret studies as supporting progressive policies; conservatives interpret the same studies as supporting conservative policies. Each side genuinely believes it's being objective, unaware of emotional motivation. Climate denial is widespread partly because people are motivated (emotionally or financially) to disbelieve it.\n\nCountering confirmation bias: (1) Actively seek disconfirming evidence. What would prove you wrong? (2) Steel-man opposing views (represent them charitably). (3) Expose yourself to different sources and communities. (4) Evaluate evidence statistically, not anecdotally. (5) Assume you're biased; examine your beliefs for motivated reasoning. (6) Trust expert consensus over personal judgment; experts have processes countering bias.\n\nHumility is essential: the more intelligent you are, the better you can rationalize false beliefs. Recognizing this vulnerability is the first step to overcoming it. Science works because it's a social process with checks against individual bias—peer review, replication, open debate. Don't trust your isolated judgment; trust systematic processes.",
+      "videoURL": "https://www.youtube.com/watch?v=vKA4w2O61Xo",
+      "externalLinkURL": "https://iep.utm.edu/cognbias/"
+    },
+    {
+      "name": "The Trolley Problem and Moral Intuitions: What Reveals Itself",
+      "textDescription": "The trolley problem is a philosophical thought experiment revealing deep truths about morality. It's useful not because it has an obvious answer, but because different answers reveal conflicting moral intuitions.\n\nScenario 1: An out-of-control trolley will hit and kill five people. You can pull a lever, diverting it to a side track where it will kill one person. Should you pull the lever? Most people say yes—saving five at the cost of one death is good arithmetic.\n\nScenario 2: Same trolley, five people in danger. But now, a large person stands on a bridge. You can push them off, stopping the trolley with their body, saving five at the cost of one death. Same outcome (five saved, one killed), but most people say no—don't push.\n\nWhy the difference? Both scenarios result in one death preventing five deaths. If morality is purely about outcomes (utilitarian view), both should yield the same answer. But intuitions differ, suggesting outcome isn't all that matters.\n\nPhilosophers debate explanations: (1) Action vs. inaction: pulling a lever is indirect; pushing is direct. Morally, we distinguish (we're more responsible for active harm). (2) Using vs. hurting: in scenario 1, you divert harm; in scenario 2, you use the person's body as a tool. Using someone seems worse. (3) Intention: in scenario 1, they die as a side effect; in scenario 2, their death is the means to save others.\n\nThis reveals: our moral intuitions aren't purely utilitarian. We care about action types, intentions, and using people. But this creates problems: medical doctors perform actions that seem like scenario 2 (removing organs from a healthy person would kill them and save five patients needing organs). We prohibit this despite good consequences, showing non-utilitarian intuitions. Yet we allow pulling the lever despite scenario 2 intuitions conflicting with it.\n\nThe trolley problem illustrates why moral philosophy is hard: our intuitions are inconsistent. Pure consequentialism struggles with deontological intuitions; pure deontology struggles with utilitarian intuitions. Real moral reasoning requires balancing multiple values.",
+      "videoURL": "https://www.youtube.com/watch?v=yg16u_bzjPE",
+      "externalLinkURL": "https://plato.stanford.edu/entries/trolley-problem/"
+    },
+    {
+      "name": "Epistemology: How Do You Know What You Know?",
+      "textDescription": "Epistemology studies knowledge: what it is, how you acquire it, and what justifies belief. It seems abstract, but it's foundational to critical thinking and determines what you should believe.\n\nBasic question: what makes a belief justified? Three conditions seem necessary: (1) You believe it. (2) It's true. (3) You have adequate reasons for believing it (justified true belief). But these don't seem sufficient. Imagine you believe it will rain because you heard a groundhog prediction. It does rain. You believed it, it was true, but the prediction wasn't a justified reason.\n\nJustification comes from sources: (1) Perception: 'I see a tree.' Perception seems reliable but can deceive (optical illusions). (2) Memory: 'I remember my childhood.' Memory can be fallible and prone to distortion. (3) Logic/reason: 'If A implies B and A is true, then B is true.' Logic seems most reliable but only works given premises. (4) Testimony: 'An expert says....' Relies on trusting others.\n\nHow much evidence justifies belief? This depends on stakes. Believing 'it might rain' needs minimal evidence (weather report). Believing 'a defendant is guilty' requires much higher evidence (beyond reasonable doubt). Scientific claims require replicable evidence. Religious claims require... what? This is contested.\n\nThe burden of proof is crucial: whoever claims something unusual bears responsibility for evidence. 'Aliens exist' requires evidence; 'aliens don't exist' needs no evidence. This prevents endless debates where you must prove negatives. Extraordinary claims require extraordinary evidence.\n\nSkepticism challenges: how do you know you're not dreaming? That the external world is real? That your memory is accurate? These are logically unanswerable but practically irrelevant. David Hume argued we can't logically justify induction (the sun rose today, so it will tomorrow), yet we must rely on it. This shows: some foundational beliefs can't be proven but must be assumed.\n\nImplication: justified belief requires evidence, but also acknowledgment of uncertainty. Smart people hold beliefs provisionally, updating when evidence changes. This is rationality.",
+      "videoURL": "https://www.youtube.com/watch?v=k3kF1qJbsWQ",
+      "externalLinkURL": "https://plato.stanford.edu/entries/epistemology/"
+    },
+    {
+      "name": "The Socratic Method: How to Think Better Through Questions",
+      "textDescription": "Socrates, ancient Athenian philosopher, didn't write books or give lectures. Instead, he walked around asking questions. His method—the Socratic method—is powerful for developing critical thinking and uncovering truth.\n\nThe method: rather than telling someone they're wrong, ask probing questions that reveal contradictions in their beliefs. Example: someone claims 'courage is standing your ground in battle.' Socrates asks: 'Is a general who retreats to better position cowardly?' 'What about someone standing ground but fighting for an unjust cause—is that courageous?' Through questions, they realize their definition is incomplete.\n\nWhy is this effective? First, it's persuasive. People who reach conclusions themselves are convinced; people told they're wrong become defensive. Second, it reveals hidden assumptions. Most people haven't fully examined their beliefs. Questions force explicit articulation, revealing gaps and contradictions. Third, it's collaborative, not combative—you're thinking together, not winning a debate.\n\nFor critical thinking, this translates to: ask clarifying questions before disagreeing. 'What do you mean by justice?' 'Can you give an example?' 'How does that fit with your claim that...?' This forces precision and reveals whether disagreement is fundamental or semantic.\n\nModern applications: in science, the Socratic method appears as dialectical reasoning (thesis, antithesis, synthesis). In dialogue, good conversation involves questions more than declarations. In therapy, the therapist asks questions helping clients reach insights. In education, Socratic seminars engage students in questioning texts rather than lecturing about them.\n\nLimitations: the Socratic method works if people are genuinely open to questioning. Socrates was executed partly because his questions threatened Athenian authorities. Some people reject questioning, preferring certainty. Also, the method can be manipulative—appearing to ask genuine questions while leading toward predetermined conclusions ('Did you consider...?'). True Socratic method requires genuine uncertainty.\n\nThe deeper point: critical thinking develops through questioning—your own beliefs and others'. Confidence without examination is unexamined dogmatism. Socratic questioning is philosophy's fundamental tool.",
+      "videoURL": "https://www.youtube.com/watch?v=rvKc8-chPao",
+      "externalLinkURL": "https://plato.stanford.edu/entries/socrates/"
+    }
+  ]
+}]

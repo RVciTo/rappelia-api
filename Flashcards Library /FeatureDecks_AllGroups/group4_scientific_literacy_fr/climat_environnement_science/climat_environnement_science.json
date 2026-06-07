@@ -1,0 +1,195 @@
+[
+{
+"name": "Climat & Environnement",
+"stableId": "climat_environnement_science",
+"description": "Comprendre les fondamentaux du climat : effet de serre, cycle du carbone, boucles de rétroaction, preuves du réchauffement, perte de biodiversité et évaluation critique des affirmations climatiques.",
+"color": "green",
+"category": "Science",
+"language": "fr",
+"difficulty": "Débutant",
+"tags": [
+"climat",
+"environnement",
+"effet_de_serre",
+"carbone",
+"biodiversite",
+"developpement_durable"
+],
+"cards": [
+{
+"front": "Pourquoi l'effet de serre est nécessaire pour la vie, mais l'excès le détruit ?",
+"back": "Sans effet de serre : la Terre serait -18°C, gelée. Gaz naturels (CO2, méthane, vapeur eau) piègent chaleur du soleil. Excès problème : on a augmenté CO2 de 280 ppm (préindustriel) à 420 ppm (+50%). Chaque molécule CO2 piège 1,6 fois plus chaque photon IR. Total : surcharge thermique 2°C depuis 1850. Même 2°C change cycles météo, fait fonte calottes, élève mers. Raison critiquant : « CO2 c'est gaz rare, peut pas changer climat ». Faux : même rare, énergie piégée scale exponentielle. Analogue : 1mg poison dans corpo est rare mais toxique.",
+"hint": "Concentration molécules, énergie piégée"
+},
+{
+"front": "Comment les carottes glaciaires prouvent changement climatique sur 800 000 ans ?",
+"back": "Carotte glacière : couches glace de chaque année. Foreurs vont 3km profondeur = 800 000 années. Analyse : mesure CO2 emprisonné dans bulles, température via ratios isotopes oxygène. Résultat : cycles climat naturels (120 000 ans) + courants océaniques + énergie solaire. Mais rupture 1850 : CO2 monte en 200 ans ce qui naturellement prend 10 000 ans. Vitesse du changement = preuve humain, pas cycle natural. Analogie : si température corps monte 2°C en 1 heure (vs naturellement 10 ans), c'est fièvre dangereuse, pas variation normale.",
+"hint": "Bulles air, isotopes, vitesse change"
+},
+{
+"front": "Quel rôle joue le cycle du carbone et comment l'activité humaine le déséquilibre ?",
+"back": "Cycle naturel : plantes absorbent CO2 (photosynthèse) → stockent dans troncs (100+ ans) → décomposition relâche CO2. Équilibre préindustriel : absorption = émission. Humain : fossiles (charbon/pétrole) stockent carbone 100 millions ans. Brûler = libération instantanée. Plus, déforestation = moins d'arbres absorber. Résultat : émission > absorption de 50% chaque année. CO2 s'accumule, chaque année plus qu'avant. C'est le vrai problème : pas la combustion seule (plante s'adapterait), c'est accumulation sans réabsorption.",
+"hint": "Absorption vs émission, accumulation"
+},
+{
+"front": "Pourquoi la fonte du permafrost crée une boucle de rétroaction amplifiante (tipping point) ?",
+"back": "Permafrost : sol gelé Sibérie/Canada 3000 ans, stocke deux fois carbone de l'atmosphère. Si température monte : dégel → microbes décomposent matière → libèrent CO2 massivement. Plus CO2 = plus chaleur = plus dégel = plus CO2. Spirale sans fin. Pire : contient aussi méthane (25x plus puissant que CO2). Dégel permafrost = accélération incontrôlée du changement. Point de non-retour estimé : si dépasser +3°C. C'est une boucle de rétroaction positive (contrairement négative qui stabilise). Raison urgence : risque croiser seuil où changement devient auto-entretenu.",
+"hint": "Microbes, décomposition, spirale auto-amplifiante"
+},
+{
+"front": "Comment l'albédo (réflexion lumière) crée une boucle de rétroaction climatique ?",
+"back": "Neige/glace réfléchissent 80% du soleil. Océan/forêt absorbent 90%. Si glace arctique fond : surface noire océan absorbe plus chaleur → plus fonte. Spirale. Arctique perd ~13% glace décennie. Résultat : régions froides deviennent plus chaudes que moyenne mondiale. Boucle d'albédo = raison pourquoi Arctique chauffe 2-3x plus vite que reste planète. C'est autre tipping point : si débite sous certain seuil de couverture, ne regèle jamais (équilibre thermodynamique changé).",
+"hint": "Réflexion, absorption, spirale"
+},
+{
+"front": "Pourquoi l'acidification océans menace la chaîne alimentaire et pas juste poisson ?",
+"back": "CO2 atmospheric se dissout dans eau marine = acide faible (H2CO3). pH océan baissé 30% depuis 1850 (pH log, donc 30% = impact énorme). Acidité augmente : calcium et aragonite (coquille mollusques) deviennent insolubles. Les ptéropodes (petits mollusques = base chaîne alimentaire) ne peuvent former coquilles. Sans ptéropodes : poissons petits meurent de faim → poissons grands = effondrement pêche. Danger : pas aux coraux seulement (visible), mais à invisibles phytoplanctons = base chaîne. Acidification = changement chimique profond de la biochimie océans.",
+"hint": "pH, dissolution coquilles, base chaîne"
+},
+{
+"front": "Comment le GIEC (Intergovernmental Panel on Climate Change) fonctionne et pourquoi son consensus est extrêmement fort ?",
+"back": "GIEC : 1400+ scientifiques, 195 pays. Chaque affirmation doit être consensus supermajorité. Résultat : rapports TRÈS conservateurs (comprendre sous-estiment plutôt que sur-estiment, car désaccords résolvables par position basse). Consensus GIEC 97%+ climatologues : réchauffement anthropique. Comparaison : consensus médecin sur lien cigarette-cancer 99%+. Si science était contrôlée politiquement, Chine/USA bloqueraient conclusions (opposés économiquement). Le fait que GIEC existe et publie malgré tensions = credibilité extrême. Critique « scientifiques sont divisés » = 3% deniers vs 97% consensus = pas division intelligente, c'est unanimité scientifique.",
+"hint": "Consensus supermajorité, processus rigoureux"
+},
+{
+"front": "Pourquoi les petites îles Tuvalu et Kiribati font appels internationaux : preuves du changement ?",
+"back": "Tuvalu, Kiribati : îles coralliennes < 2m d'altitude. Montée mers depuis 1850 : + 22cm (accélération : 4mm/an actuellement). Îles submergent graduellement. Inhabitables dans 50-100 ans. Réfugiés climatiques : 1er pays perdant territoire entièrement. Cause : expansion thermique eau (eau chaude occupe plus volume) + fonte calottes glaciaires. Preuves : photos satellites comparaison 1990 vs 2024 = côtes reculées de 50m. C'est observable, mesurable, non-controversé. Raison pas universellement ignoré : enjeu ne touche directement pays riches (encore). Mais c'est preuve tangible du changement.",
+"hint": "Montée mers, expansion thermique, submersion"
+},
+{
+"front": "Pourquoi la perte de biodiversité est aussi dangereuse que le changement climatique ?",
+"back": "Extinction : 70% espèces mammifères disparues depuis 1970 (en biomasse). Insectes : -75% en 50 ans (étude Allemagne). Raison : habitat perdu (déforestation), pollution (pesticides), changement climatique, surpêche. Danger : écosystèmes sont réseaux interconnectés. Perdre une espèce « peu importante » peut s'effondrer toute chaîne. Exemple : sans abeilles (polinisateurs), 75% récolte mondiale disparaît. Interdépendance : extinction en cascade (prédateur perd proie → meurt → meurt ses prédateurs). Tipping point biodiversité : environ 20-50% espèces perdues en région = effondrement écosystème irréversible. Nous approchons ça pour beaucoup régions.",
+"hint": "Chaîne alimentaire, pollinisateurs, cascade"
+},
+{
+"front": "Comment les villes d'îlots thermiques amplifient changement climatique local et créent problèmes santé ?",
+"back": "Villes : béton absorbe chaleur vs arbres la réfléchissent. Résultat : centres-villes 5-8°C plus chauds que campagne (effet ilôt thermique). Nuit : beaucoup plus chaud (béton libère lentement énergie). Canicules : villes souffrent 2x plus (morts chaleur concentrées urbaines). Effet spiral : chaleur augmente clim utilisation → électricité → plus chaleur. Amplification local du changement climatique. Solution : augmenter surfaces vertes (toits verts, parcs), réduire béton, augmenter arbres (ombrage + évapotranspiration frais air). Villes mal aménagées face au climat exacerbent souffrance populations vulnérables.",
+"hint": "Béton, absorption solaire, cascades thermiques"
+},
+{
+"front": "Pourquoi l'argument 'CO2 est nécessaire pour plantes' ne réfute pas changement climatique ?",
+"back": "Vrai : CO2 est nutriment plantes. Faux : plus CO2 = plus croissance. Plantes saturent à ~600 ppm (actuellement 420, saturation atteinte ~50% pour beaucoup). Passer 600 à 800 ppm = croissance quasi zéro. Secondement : excès CO2 améliore croissance mais dégrade qualité nutrition (moins minéraux/protéines dans grains). Effet net : famines peuvent pire même si CO2 élévé. Tertiaire : climat changé (sécheresses extrêmes, inondations, canicules) tue récoltes rapidement, neutralisant bénéfice CO2. Argumentaire « CO2 bon pour plantes » ignore que climat stable = condition sine qua non pour agriculture. Analogie : oxygène bon pour respiration, mais respirer 50% oxygène vous poison.",
+"hint": "Saturation, qualité nutrition, climat instable"
+},
+{
+"front": "Comment les combustibles fossiles qui se sont formés sur millions d'années sont brûlés en 200 ans ?",
+"back": "Pétrole/charbon : résidu de organismes morts millions d'années. Leurs photosynthèse historique a retiré CO2 de l'atmosphère ancien. Ces hydrocarbures étaient piégés. Nous les extrayons et brûlons : libération instantanée du carbone que nature a mis million d'ans à séquestrer. Timescale : nature crée ces ressources ~1 baril/million années/baril extrait. Extraction : ~100 millions barils/jour. Déséquilibre inimaginable. Métaphoriquement : comme si vous aviez compte banc accumulé 1 million euros sur 100 ans, soudain retirer tout en 2 ans. Problème n'est pas combustion, c'est vitesse.",
+"hint": "Timescale géologique vs historique humaine"
+},
+{
+"front": "Pourquoi les sources énergies renouvelables (solaire, vent) ne sont pas intermittentes un problème technique insupérable ?",
+"back": "Critique : « Solaire/vent sont intermittents, impossible fiabilité réseau ». Vrai problème, faux insoluble. Solutions existantes : (1) Batteries lithium (coûts baissent 10x en 20 ans, continuent), (2) Stockage hydro-pompage (élever eau quand production haute, turbiner besoin), (3) Interconnexion continentale (soleil brille différentes heures différentes régions = moyenne lisse), (4) Gestion demande (smart grids ajustent consommation). Allemagne/Danemark : 50%+ électricité renouvelable, grid stable. Études IRENA : 100% renouvelable possible techniquement avant 2050. Le challenge n'est pas technique, c'est économique/politique (changement infrastructure, investissement initial).",
+"hint": "Batteries, hydro-stockage, interconnexion"
+},
+{
+"front": "Comment évaluer si affirmation climatique est vraie ou désinformation : critères de fiabilité ?",
+"back": "Trois critères pour vérifier : (1) Consensus scientifique : affirmation a-t-elle accord 90%+ experts (climatologues, pas politiciens) ? (2) Pair review : publiée dans revue scientifique avec review process rigoureux ? (3) Prédictions antérieures : avaient-elles prédictions antécédentes vérifiées ? Désinformation classique : « Ils ont prédit catastrophe Y en 2000 qui n'arrive pas » (vérifier : ils prédisaient Y si pas action; si action prise, Y n'arrive pas = prédiction juste). Exemple : « Neige devient rare » (prédiction 2000s) → action partielle → neige baisse 30% pas 80% = prédiction semi-correcte. Filtre : méfiez-vous source mettant profit/idéologie avant données (lobby énergies fossiles, conspir théories).",
+"hint": "Consensus, peer-review, prédictions testées"
+},
+{
+"front": "Pourquoi l'action individuelle (recycler, réduire plastique) est importante mais insuffisante sans systémique ?",
+"back": "Vrai : plastique individuel ensemble crée problème. Consommateur responsable = bien moralement + micro-impact (1 personne sur 8 milliards = 0,0001%). Faux : cela solutionne changement climatique. 70% émissions carbone viennent 100 entreprises énergies fossiles. 100 entreprises = 70% problème. Micro-actions individuelles sans changement systémique = théâtre. Exemple : si vous réduisez empreinte carbone 50% (très rare) = vous compensez 2 jours émission USA. Cela ne signifie pas action individuelle = mauvaise, plutôt elle doit accompagner action systémique (lois, taxe carbone, investissement énergies propres, interdiction fossiles). Cas idéal : action individuelle (démontre engagement) + pression politique (crée changement réel).",
+"hint": "Échelle, émissions concentrées, systémique"
+},
+{
+"front": "Comment les politiques comme carbon pricing (taxe carbone) incentivisent changement sans mandats autoritaires ?",
+"back": "Taxe carbone : ajoute coût CO2 emis. Carbone fossile devient cher, renouvelables deviennent compétitives sans subsides. Suisse/Suède ont 150+ $/tonne carbone = 80% électricité renouvelable. Politique : marché choisit solution (pas État mandatant « drive electric »). Critère équité : revenu taxe redistribué populations pauvres (elles polluent moins, reçoivent dividende = net positif). Recherche Canada/Australie : carbon tax de 50$/tonne = 5-15% réduction émissions en 5 ans. Inefficacité sans : subsidies solaire sans tax carbone = prix fossile reste bas = peu adoptent renouvelables. Combinaison : tax carbone + R&D renouvelables + stopper subsides fossiles = trifecta puissant.",
+"hint": "Marché, incentive, équité redistribution"
+},
+{
+"front": "Pourquoi les modèles climatiques du GIEC 1995 s'avèrent plus précis que sceptiques ne l'admettent ?",
+"back": "GIEC 1995 : prédisait +1,5-4,5°C si CO2 double d'ici 2100. 2024 : nous avons +1,3°C avec 50% du double CO2. Trajectoire = +2,5-3°C à présent. Les prédictions étaient donc extrêmement précises (la médiane leur est observée). Critique sceptique : « Ils ont dit +4°C, nous avons +1°C, ils ont tort ». Malhonnête : c'est la fourchette basse observée vs fourchette haute prédite (car emissions plus basses que scénario maximal GIEC). Quand ajustent pour émissions réelles, prédictions = extrêmement précises. Cela démontre que modèles ne sont pas alarmistes mais conservateurs.",
+"hint": "Trajectoire observée, fourchettes prédiction"
+},
+{
+"front": "Comment les réserves de carbone fossile non-brûlées créent le problème du 'stranded assets' (actifs échoués) ?",
+"back": "Monde a ~1 600 milliards tonnes CO2 dans réserves pétrole/charbon prouvées. Brûler tout = +6°C. Limite 1,5°C = brûler seulement ~200 milliards tonnes (reste 80% inutilisable). Cela signifie 80% réserves actuelles sont « stranded assets » : propriété économique sans valeur réelle. Entreprises énergies fossiles sous-estiment ça = risque financier existentiel. Transition énergétique = actifs fossiles = ruine garantie. Cela crée perverse incentive : relutter pour politique niante changement (sauver assets). C'est raison principal lobbying fossile : survie financière, pas débat scientifique. Transition équitable nécessite compensation workers/régions fossiles, pas simplement « laissez-les faire faillite ».",
+"hint": "Stranded assets, valeur zéro, lobbying"
+},
+{
+"front": "Pourquoi le régime alimentaire particulièrement viande ruminante amplifie changement climatique ?",
+"back": "Bœuf : pour 1kg de viande, besoin 25kg fourrage. Cela requires déforestation + méthane ruminant (26x CO2 sur 100 ans). Bétail = 14-18% émissions carbone mondiales. Réduction viande de rouge 50% (pas zéro, juste 50%) = 5-7% réduction émissions carbone global. C'est plus efficace que passer tous véhicules électriques (réduction 3-4%). Raison pas politiquement populaire : attaque tradition alimentaire vs technologie (électrique perçu comme progrès). Données : réduire viande rouge + augmenter fruits/légumes = santé meilleure (moins maladie cardiaque) + climat meilleur + portefeuille meilleur (viande chère).",
+"hint": "Méthane ruminant, déforestation fourrage"
+},
+{
+"front": "Comment les aérosols de pollution (particules) masquent partiellement l'effet de serre et créent faux paradoxe ?",
+"back": "Particules pollution (SO2, suie) réfléchissent soleil = refroidissement local. Effet faible comparé CO2. Raison paradoxe : Chine 1980-2000 émettait énormément charbon. Aérosols massive = refroidissement local = certains pensaient « Où réchauffement climatique ? ». Solution : réduire pollution par clean air acts. Résultat : particules baissent 30-40%, vrai signal réchauffement émerge. Cela confirme changement climatique, pas le réfute. Malentendu : aérosols temporaires (quelques jours, participules tombent). CO2 dure 100+ ans. Long terme = CO2 gagne, aérosols disparaissent.",
+"hint": "Effet temporaire, particulaires atmosphériques"
+},
+{
+"front": "Pourquoi la limite 1,5°C vs 2°C de l'Accord de Paris n'est pas cosmétique mais radicalement différent ?",
+"back": "1,5°C vs 2°C semble petit, résultats catégorique différents : (1) Coraux : quasi tous morts à +2°C (seule ~10% survivent), +1,5°C = ~50% survivent. (2) Récoltes : -5% rendement à +1,5°C, -20% à +2°C. (3) Vagues chaleur : quadruple fréquence à +2°C. (4) Îles coralliennes : submergées +2°C, habitable +1,5°C. Différence de 0,5°C = plusieurs milliards humains + écosystèmes. Raison Accord propose 1,5°C : point de non-retour avant lequel problèmes sont modérément malvenus (pas existentiels). Au-delà 2°C = boucles rétroaction incontrôlées (permafrost, albédo). Accord est science-based, pas arbitraire.",
+"hint": "Tipping points, points de non-retour"
+},
+{
+"front": "Comment la déforestation de l'Amazonie crée un tipping point vers savane et perte puits carbone ?",
+"back": "Amazonie : absorbe 2 milliards tonnes CO2/an (puits carbone géant). Contient 150 milliards tonnes carbone dans biomasse. Seuil critique : si > 20-25% perdu, écosystème bascule de forêt tropicale vers savane sèche. Nous avons ~17% perdu. Proche du seuil. Tipping point : une fois basculée, savane crée climat plus sec (moins évapotranspiration = moins pluie), ce qui accélère mort forêts restantes (spirale). Changement : forêt puit carbone devient source émission = accélération catastrophique réchauffement. Implication : perdre Amazonie = +0,5-1°C supplémentaire inévitable même si réduisons CO2 ailleurs. C'est raison urgence conservation : c'est thermostats planète.",
+"hint": "Tipping point 20-25%, basculement écosystème"
+},
+{
+"front": "Pourquoi adapter changement climatique (infrastructure résiliente) coûte moins cher que mitigation (réduire CO2) long terme ?",
+"back": "Faux. Mitigation (arrêter émissions) = €50-200 par tonne CO2 évitée sur 20 ans (cheap). Adaptation (dikes pour monté mers, new crops sécheresses) = €1000+ par personne affectée. Dike Amsterdam = €10 milliards pour protéger 1 million. Universellement : mitigation < adaptation. Raison : changement climatique agit systémiquement (tout s'effondre ensemble), adaptation requiert local-specific solutions difficiles à économiser. Crise : argument « adaptons plutôt que mitiger » est perverse - il ignorer que adaptation aussi coûte énormément ET moins efficace. Stratégie saine : 70% mitigation, 30% adaptation.",
+"hint": "Coûts systémiques, scalabilité"
+},
+{
+"front": "Pourquoi la volatilité climatique (extrêmes) est parfois plus dangereuse que changement moyen ?",
+"back": "Changement moyen +2°C : plantes/animaux graduel s'adaptent. Volatilité : canicules extrêmes alternent gels imprévisibles = plantes ne savent pas dormance quand. Récoltes : gel après fleur = perte totale. Animaux : gels imprévisibles tuent espèces. Tempêtes : intensité augmente (plus énergie thermique dans océans). Sécheresses : prolongées à extrêmes. Inondations : torrentielles. Monde a évoluée dans climat stable 10 000 ans = ne s'adapte pas volatilité. Danger : volatilité tue plus que moyenne graduelle. Raison émotionnelle : un hiver froid confond gens = « Où réchauffement ? ». Vrai : climat instable = froid extrême au lieu de froid normal.",
+"hint": "Variabilité vs moyenne, adaptation biologique"
+},
+{
+"front": "Comment les énergies fossiles reçoivent subsides cachés (externalités non-comptabilisés) incompatibles marché équitable ?",
+"back": "Subsides directs : gouvernements donnent €300 milliards/an énergie fossile (carburant, charbon, électricité). Subsides cachés (externalités) : pollution cause maladie respiratoire = santé coût €50 milliards/an (pas payé compagnie fossile). Changement climatique coût = €100+ milliards/an (catastrophes, migration, perte récolte). Total subsidy caché fossile = €450+ milliards/an. Energies renouvelables : 0 externalités négatives (coût) mais reçoivent €150 milliards subsides. Marché inégal : fossile a €600 milliards avantage artificiel vs renouvelable. Si fossile payait coûts vrais (pollution + climat), sere 3x plus chère que renouvelable = déjà 100% transition énergétique. Cela démontre marché libre n'a pas échoué, elle n'a jamais été essayée.",
+"hint": "Externalités, subsides, coûts vrais"
+},
+{
+"front": "Pourquoi les critiques 'alarmisme' climatique ignorent que sceptics s'améliorent lentement et dangeusement tard ?",
+"back": "2000 : débat si changement climatique existe. 2010 : débat si humain-causé. 2020 : débat si action urgente. Glissement: sceptiques perdent débat, changent point contention. Rhétorique : « Vous aviez faux avant, pourquoi croire maintenant ? ». Réalité : science s'améliore. Comprendre plus précis = prédictions plus précises. Pire : ce glissement cause délais. 20 ans de débat existence = 20 ans sans action. Vrai coût : action en 2000 coûtait €100 milliards. Maintenant = €500 milliards. Inaction ne sauve pas argent, elle amplifie coût. C'est raison urgence : plus on attend, plus cher soluciona sera, proportionnellement dégâts permanents augmentent.",
+"hint": "Coûts retard exponentiel, délais stratégiques"
+}
+],
+"sampleIdeas": [
+{
+"name": "Le cycle du carbone : pourquoi nous ne sommes pas en équilibre avec la nature",
+"textDescription": "Cycle du carbone avant industrie : plantes absorbent CO2 via photosynthèse, stockent dans troncs 100+ ans. Décomposition/incendies relâchent lentement. Équilibre : émission ≈ absorption. Puis industrie : nous extrayons carbone piégé 100 millions ans (pétrole/charbon), le brûlons en 200 ans. Timescale : nature crée 1 baril pétrole par million d'années, nous extrayons 100 millions barils/jour. Taux d'extraction est 100 millions fois plus rapide que formation. Résultat : CO2 s'accumule. Avant industrie : 280 ppm CO2. Aujourd'hui : 420 ppm (+50%). Phénomène comparable : si vous aviez épargne 1 million d'euros accumulée 100 ans, soudain la retirer en 2 ans. Déséquilibre catastrophique. Cela explique pourquoi même si réduction 10% émissions aujourd'hui aide, c'est insuffisant : we need net-zero pour stabiliser, puis negative (enlever CO2) pour descendre.",
+"videoURL": "https://www.youtube.com/c/ScienceEtonnante",
+"externalLinkURL": "https://www.ademe.fr"
+},
+{
+"name": "Les boucles de rétroaction climatique : comment le changement s'auto-amplifie",
+"textDescription": "Boucles positives (qui amplifient) : Albédo : glace arctique fond → eau noire absorbe plus soleil → plus chaud → plus fonte. Permafrost : dégel → microbes produisent CO2 → plus chaud → plus dégel. Nuages : théoriquement réfléchissent soleil, mais réchauffement augmente nuages hauts (piègent chaleur) vs bas (réfléchissent). Résultat net : boucle positive. Ces mécanismes créent tipping points : une fois dépasser seuil, changement devient auto-entretenu sans entrée supplémentaire. Exemple : si permafrost dégèle > 30%, il ne regèlera jamais même si température stabilise (nouvelle équilibre thermodynamique). Raison urgence : nous approchons tipping points multiples. Dépasser quelques crée cascade (Amazonies → savane → plus chaud → plus fonte permafrost, etc). C'est scenario cauchemardesque où changement s'accélère hors de contrôle",
+"videoURL": "https://www.youtube.com/c/HeurEka",
+"externalLinkURL": "https://www.meteofrance.fr"
+},
+{
+"name": "Preuves observationnelles du changement climatique au-delà des modèles",
+"textDescription": "Carottes glaciaires : foreurs vont 3km profondeur = 800 000 années. Mesure CO2 dans bulles air piégé. Résultat : CO2 varie naturellement 180-280 ppm (cycles 120 000 ans). 2024 : 420 ppm (hors de plage naturelle). Vitesse : monte 100 ppm en 200 ans vs 100 ppm naturellement demande 10 000+ ans. Niveau des mers : satellites depuis 1993 mesure hauteur au mm. Montée 22cm, accélération à 4mm/an. Cause : eau chaude dilate + glacier/calottes fondent. Température : 16 des 20 années plus chaudes enregistrées depuis 2000. Certains diront « variation naturelle ». Mais variation sur 800 000 ans = lisse, graduelle. Actuelle = sharp, rapide. Probabilité que cela soit naturel = 0,001%. Les preuves observationnelles sont écrasantes et vérifiables par quiconque.",
+"videoURL": "https://www.youtube.com/c/LesBonsProfs",
+"externalLinkURL": "https://www.ipcc.ch"
+},
+{
+"name": "Pourquoi le consensus scientifique climatique est plus fort que consensus sur liens cigarette-santé",
+"textDescription": "GIEC : 1400+ scientifiques 195 pays. Processus : chaque affirmation requiert consensus supermajorité (85%+). Si 15% désaccordent, statement diluée. Résultat : rapports TRÈS conservateurs = sous-estiment plutôt que sur-estiment. Consensus actuel : 97-99% climatologues acceptent changement anthropique. Comparaison : consensus docteurs sur cigarette-cancer = 99,5%. Climate scepticism = plus fort que tabac-cancer scepticism. Si vous acceptez lien cigarette-cancer (moralement vous devez), logiquement vous acceptez changement climatique. Mécanisme similaire : A tue B lentement (cigarette/cancer = lentement; CO2/climat = décennie vs année mais même processus). Critique « scientifiques sont divisés » ignore que 97% consensus est unanimité scientifique. 3% dissenters = pas débat, c'est fringe.",
+"videoURL": "https://www.youtube.com/c/DirtyBiology",
+"externalLinkURL": "https://www.ademe.fr"
+},
+{
+"name": "La déforestation de l'Amazonie comme point de non-retour climatique",
+"textDescription": "Amazonie : 9 millions km² forêt tropicale. Absorbe 2 milliards tonnes CO2/an. Contient 150 milliards tonnes carbone dans troncs/feuillage. Cycle hydrologique : évapotranspiration crée pluies régionales + globales. Seuil critique : si > 20-25% de la forêt est perdue, écosystème bascule de forêt vers savane sèche. Nous avons ~17% détruit (BR 17%, Pérou 8%, Colombie 6%, etc). Seule détection 3% de plus = cascade. Tipping point : une fois basculée, savane crée climat sec (moins humidité) → reste forêt meurt → plus savane. Résultat : CO2 source au lieu de puits = accélération incontrôlable réchauffement. Estimation : perte Amazonie = +0,5-1°C supplémentaire inévitable. C'est raison pourquoi Accord Paris urgent : Amazonie est thermostat climatique. Perdre = perdre contrôle température.",
+"videoURL": "https://www.youtube.com/c/Lumni",
+"externalLinkURL": "https://www.meteofrance.fr"
+},
+{
+"name": "Stranded assets et paradoxe financier d'une transition énergétique nécessaire",
+"textDescription": "Monde a 1 600 milliards tonnes CO2 réserves pétrole/charbon prouvées. Accord Paris +1,5°C = peut brûler 200 milliards tonnes (80% inutilisable). Cela signifie 80% des réserves actuelles sont « stranded assets » = propriété sans valeur. Total valeur menacée : €15-20 trillions. Compagnies fossiles évaluées sur futurs profits (brûler réserves). Une transition énergétique sincère = ruine garant financière. Cela explique lobbying intense : survie existentielle, pas débat scientifique. Paradoxe : nécessité climatique → destruction financière massive → résistance politique extraordinaire. Solution équitable : compensation workers/régions fossiles-dépendantes, ne pas simplement laisser faillire. Cela crée inégalité (ceux qui profité du carbone polluant dédommages pour arrêt). Critique capitaliste : oui, inégal. Alternative : laisser climat s'effondrer = inégalité pire.",
+"videoURL": "https://www.youtube.com/c/BonPote",
+"externalLinkURL": "https://www.ipcc.ch"
+},
+{
+"name": "Comment évaluer affirmation climatique : critères de credibilité scientifique vs désinformation",
+"textDescription": "Trois filtres pour valider affirmation climatique : (1) Consensus scientifique : 90%+ climatologues acceptent ? (2) Peer-reviewed : publiée dans revue scientifique avec processus rigoureux ? (3) Prédictions testables : affirmation a-t-elle prédictions vérifiables ? Si non à tous trois = douteuse. Exemple désinformation classique : « Scientifiques prédisaient catastrophe Y en 2000 qui n'est pas arrivée ». Vérifier : (A) Qui exactement ? (B) Quelle catastrophe précisément ? (C) Quand exactement ? Souvent : affirmation exagérée (personne ne disait X avec précision) ou prédiction était « si pas action », donc action = prédiction juste. Exemple vrai : certains prédisaient neige rare 2000s. 2024 : neige baisse 30%, pas 80% = prédiction partiellement juste. Méfiance : source gagnant financièrement à niage climat (lobby fossiles) vs source non-profit (GIEC, universités). Conflits d'intérêts = clé de vérification.",
+"videoURL": "https://www.ademe.fr",
+"externalLinkURL": "https://www.ademe.fr"
+}
+]
+}
+]

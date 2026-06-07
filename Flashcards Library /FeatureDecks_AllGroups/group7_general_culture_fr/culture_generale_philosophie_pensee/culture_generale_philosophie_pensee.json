@@ -1,0 +1,174 @@
+[
+{
+"name": "Philosophie & Pensée Critique",
+"stableId": "culture_generale_philosophie_pensee",
+"description": "Développer l'esprit critique : identifier les sophismes, évaluer les arguments, comprendre les cadres éthiques et appliquer le raisonnement philosophique aux décisions quotidiennes.",
+"color": "purple",
+"category": "General Culture",
+"language": "fr",
+"difficulty": "Débutant",
+"tags": [
+"philosophie",
+"pensee_critique",
+"logique",
+"ethique",
+"epistemologie",
+"argumentation"
+],
+"cards": [
+{
+"front": "Qu'est-ce qu'un argument valide et comment différencier d'une affirmation vraie ?",
+"back": "Argument : prémisses → conclusion. Valide = si prémisses vraies, conclusion forcément vraie (logiquement). Vrai = correspond à réalité. Différence critique : un argument peut être valide mais faux. Exemple : « Tous les chevaux sont bleus. Ceci est un cheval. Donc ceci est bleu. » Valide (logique formelle correcte) mais faux (chevaux pas bleus). Inverse : argument peut être invalide mais vraie conclusion. Exemple : « Les oiseaux volent. Les pingouins sont oiseaux. Donc pingouins volent. » Logique invalide (tous oiseaux ne volent pas) mais conclusion fausse (pingouins ne volent pas). Implication : validité logique ≠ truth value. Vous devez vérifier deux : (1) Structure argument logiquement valide ? (2) Prémisses sont vraies ? Cas idéal : valide + vraies prémisses = conclusion vraie certaine.",
+"hint": "Logique vs factuel, structure vs contenu"
+},
+{
+"front": "Pourquoi l'ad hominem est sophisme logique courant et comment la détecter ?",
+"back": "Ad hominem : attaquer personne qui argumente au lieu d'attaquer argument. Exemple : « Dr. Smith dit réchauffement climatique. Mais Smith fume donc argument faux. » Sophisme : santé personnelle de Smith n'affecte pas validité science climate (arguments jugés sur preuves, pas caractère). Cas valide : « Smith à conflit d'intérêt (payé fossile company) donc défiant ses études ». Ici : conflit peut justifier scepticisme du source, mais pas rejet conclusion sans analyse. Détection : si réponse critique attaque personne (« tu es stupide ») au lieu argument (« prémisse est fausse car... »), c'est ad hominem. Application politique : « Socialiste veut prendre argent ? Il doit être jaloux. » vs « Politique socialiste a conséquences X car... ». Former ad hominem, latter critique valide.",
+"hint": "Personne vs argument, source credibility"
+},
+{
+"front": "Qu'est-ce que le sophisme de l'homme de paille et comment l'éviter en débat ?",
+"back": "Homme de paille : simplifier, déformer argument opposant pour faire plus faible, le réfuter facilement. Exemple : Opposant dit « Nous devrions réduire émissions carbone progressivement ». Vous répondez « Donc vous voulez pas électricité ? ». Déformation : ont pas dit zéro électricité, ont dit graduel. Vous battez version weak (zéro électricité) au lieu vraie (graduel). Cela donne illusion victoire débat sans adresser argument réel. Détection : opposant dit « Tu m'attaques pas, tu attaques version fausse ». Correction : paraphraser argument opposant, demander confirmation. Si confirment, vous pouvez attaquer en connaissance. Éviter : charité intellectuelle (interpretez argument favorable possible, pas malveillant).",
+"hint": "Simplification, déformation, faiblesse créée"
+},
+{
+"front": "Comment évaluer credibilité source vs rejet automatique basé sur biais confirmation ?",
+"back": "Credibilité source : (1) Expertise (est-ce qu'auteur expert domaine ?), (2) Absence conflit intérêt, (3) Alignment data (affirm par indépendant sources). Biais confirmation : tendance chercher sources confirmant ce vous croyez, rejecter contraires. Exemple : Vous pensez IA révolutionne tout. Lisez article « IA révolutionne ». Acceptez. Article « IA a limitations ». Rejet comme bias. Cela crée spirale : croyance → sources cherchées support → croyance renforce. Sortir : activement chercher sources meilleures qualité argumentant contre vous. Si article contradictoire a meilleure evidence → readjuster opinion. Intellectuelle honnêteté = difficile (psychologiquement inconfortable). Mais nécessaire esprit critique.",
+"hint": "Expertise, conflits intérêts, recherche active opposite"
+},
+{
+"front": "Pourquoi la pente glissante est sophisme logique et quand elle valide ?",
+"back": "Pente glissante : Action A → inévitablement B → C → catastrophe D. Sophisme si liens causals non-prouvés. Exemple : « Autoriser cannabis légal → escalade drogues dures → addiction sociétal ». Faible : légalisation cannabis ≠ escalade garantie (Portugal légalisa, diminua usage drogues). Valide exemple : « Approuver petit censure → censure augmente progressivement → totalitarianisme ». Historiquement true (Allemagne 1930s). Différence : pente glissante sophisme quand liens non-causals ou historiquement faux. Valide quand causal chain prouvé par data. Détection : proposant cherche confirmation historique ou data causal. Si absent, sophisme probable.",
+"hint": "Causalité prouvée vs supposée"
+},
+{
+"front": "Qu'est-ce que l'appel à l'autorité et pourquoi c'est sophisme sauf contexte approprié ?",
+"back": "Appel à l'autorité : « X afirme Y, donc Y vrai ». Sophisme si X n'est pas expert. Exemple : « Céline Dion dit réchauffement climatique pas reel, donc reel pas ». Dion = chanteuse, pas climatologiste. Opinion zéro credibilité. Valide si : « 97% climatologues consensus réchauffement ». Ici : expertise appropriée + consensus fort. Détection : demander « Est-ce que auteur expert approprié domaine ? » Si non, argument faible. Cas mixte : docteur affirme « Vitamines cure cancer ». Docteur = expert santé, mais affirmation contre consensus (pas cure cancer). Ici : credibilité source balancée contre evidence opposite. Rejet pas automatique mais scepticisme justified.",
+"hint": "Expertise domaine, consensus scientific"
+},
+{
+"front": "Qu'est-ce qu'un faux dilemme (false dichotomy) et comment reconnaître options nuancées réelles ?",
+"back": "Faux dilemme : présenter deux options seulement quand plusieurs existences. Exemple : « Soit vous croyez IA révolutionne tout, soit vous êtes pessimiste. » Faux : optiones nombreux (IA aide sectors specifiques, problèmes autres, etc). Sophisme : force choisir extrême au lieu nuance. Politique : « Avec nous ou contre nous » (ignores indépendants). Autre exemple : « Réduire émissions carbone = zéro économie » vs « Garder fossil = zéro action climat ». Vraie : actions multiples existent entre (transition progressive, technology).Détection : si argument presented comme uniquement deux options, demander « Existent-elles autres ? ». Si oui, faux dilemme. Réalité généralement nuancée.",
+"hint": "Options multiples ignorées, extrêmes forcés"
+},
+{
+"front": "Pourquoi l'absence preuve n'est pas preuve absence (et comment cela affecte burden of proof) ?",
+"back": "Absence preuve ≠ preuve absence. Exemple : « Pas preuve qu'alien existe. Donc alien existe pas. » Non sequitur. Absence evidence ≠ evidence absence. Burden of proof : qui responsabilité prouver ? Conventionnel : personne faisant affirmation positive. « Alien existe » → affirmant doit preuve. « Alien existe pas » → même chose. Cas : « Cette drogue cure dépression ». Claimant doit preuver avant selling. Si pas preuves, régulation rejette. Inverse : « Cette drogue pas cure ». Qui prouverait ? Impossible (preuve négative est difficult logiquement). Donc burden → claimant (cure) doit prouver. Implication : ne pas avoir proof affirmation = ne pas justifie rejet. Vous devez demand proof positive. Si absent = scepticisme justified, pas rejet automatique.",
+"hint": "Burden proof, affirmation positive, absence logique"
+},
+{
+"front": "Qu'est-ce que l'épistémologie et pourquoi comprendre comment vous savez important que ce vous savez ?",
+"back": "Épistémologie : branche philosophie questionne « Comment savez-vous ? ». Pas « Qu'est-ce que vrai ? » mais « Comment vérifier vrai ? ». Trois théories : (1) Correspondance : croyance vrai si correspond réalité (factuelle). (2) Cohérence : croyance vrai si cohérent avec autres croyances (logiquement). (3) Pragmatique : croyance vrai si fonctionne (utile). Implication : vous ne pouvez pas « connaître » sans fondation. Exemple : « Sais-tu changement climatique ? » Réponse : « Oui, car GIEC consensus + preuves data ». Ici : epist base = autorité scientifique + empirique evidence. Importance : sans epistem clarity, vous croyez arbitrairement. Cultiver : exiger toujours « Comment tu sais ? » à vous-même. Si répond « Je sais juste »→ probable blind spot.",
+"hint": "Justification credence, sources knowledge"
+},
+{
+"front": "Comment le sophisme tu quoque (whataboutism) détourne argument et pourquoi c'est logiquement invalide ?",
+"back": "Tu quoque (you too) : « Vous critiquez mon action, mais vous faites pire. » Sophisme : deux wrongs font pas right. Exemple : « Vous me dites arrêter pollution. Vous conduisez voiture polluante. » Non sequitur. Hypocrisy personne n'affecte validité argument. Si argument pollution = bad valide (basé evidence), hypocrisy n'annule pas. Whataboutism politique : « Gouvernement critique oppression authoritarian. Mais USA aussi oppresse ? » Faux : two oppression ≠ une justified. Détection : si réponse critique est « Mais vous aussi... » sans adresser argument original, tu quoque. Cela paralyse débat (tout le monde quelque faute → ninguém peut critiquer). Rejet : demander « But does that negate original point? ». Si non, continue addressing original argument.",
+"hint": "Hypocrisy vs argument validity, deux wrongs"
+},
+{
+"front": "Pourquoi l'utilitarisme (maximiser bonheur global) crée dilemmes éthiques insolubles ?",
+"back": "Utilitarianisme : action moralement droite = maximise bonheur total, minimise souffrance. Semble sensé. Problèmes : (1) Calculation : comment calculer « bonheur total » ? Mesurable ? (2) Experimentation problematique : utilitarianisme justifie tuer innocent si sauve 10. Exemple : tuer poor person, donner organs à 10 rich = +9 bonheur net. Acceptable ? Non moralement. (3) Distribution : ne compte pas qui reçoit bonheur (tuer 1% population, rest très happy = utilitarianisme accepte). Critique : utilitarianisme ignores justice, droits individuels, dignité. Alternative : déontologie (some actions wrong intrinsiquement, indépendant outcomes).",
+"hint": "Calcul impossible, sacrifice innocent, injustice"
+},
+{
+"front": "Comment la déontologie (éthique du devoir) diffère utilitarisme en cas moral difficile ?",
+"back": "Déontologie : certaines actions intrinsèquement droites/mauvaises, indépendant outcomes. Exemple : mensonge = mauvais, même si ment sauve vie. Penser : si mensonge sometime accepté, quel principe arrête glissement (mensonge pour profit business, guerre) ? Meilleur : règle universelle (Kant) : action droite si voudriez universaliser. Donc : ne mentez pas car voulez-vous vrai accepte mensonge universelle ? Non → mensonge mauvais. Différence utilitarianisme : deontologie rejet tuer innocent même 10 sauvés (tuer intrinsèquement mal). Critique déontologie : trop rigide (ne mentez pas, période, même si sauve vie).",
+"hint": "Règles universelles, action intrinsèque"
+},
+{
+"front": "Qu'est-ce que l'éthique des vertus et pourquoi elle focalise caractère au lieu règles ?",
+"back": "Éthique des vertus (Aristote) : question n'est pas « Quelle action droite ? » mais « Quel caractère je veux développer ? » Vertus : courage, honnêteté, compassion, sagesse. Action droite = ce qu'un personne vertueux ferait. Différence autres : (1) Utilitarianisme cherche outcome optimal (quantifiée). (2) Déontologie cherche action selon règles. (3) Vertus cherche cultivir character pour prendre bonne decision. Implication : vous ne pouvez pas codifier tout (pas liste règles couvrir every situation). Vous développez jugement par practice. Exemple : courage ≠ fearlessness. Courage = peur + action anyway. Sage personne sait quand courageux approprié vs reckless. Apprentissage : imitation modèles (mentors), practice, reflection.",
+"hint": "Caractère, jugement, imitation vertueux"
+},
+{
+"front": "Comment appliquer l'expérience de pensée du trolley à éthique réelle et ses limitations ?",
+"back": "Trolley : trolley se dirige 5 personnes. Vous changez rail, tue 1. Moral ? Plupart disent oui (1 mieux 5). Variante : debout pont, poussez personne au rail, trolley s'arrête. Tuez 1, sauvez 5. Plupart rejet. Pourquoi différent ? Intuitif : action direct (push) semble murder, vs détourné (change rail) semble accident. Logiquement : utilitarianisme dit deux equivalent (1 vs 5 outcome même). Cela révèle : moral intuition ≠ logique pur. Limitation : trolley abstrait. Éthique réelle plus complexe (outcomes uncertain, multiple valeurs en jeu, relations matter). Mais trolley utile : clarifier intuitions morales, identifier précédents ethiques, force reasoning.",
+"hint": "Action directe vs indirecte, intention"
+},
+{
+"front": "Pourquoi le voile d'ignorance de Rawls crée priorité justice et limite inégalité ?",
+"back": "Voile d'ignorance (Rawls) : expérience de pensée. Imaginez concevoir société, mais pas sais quelle position vous aurez (riche/pauvre, sain/malade, classe). Derrière ce voile : quelle société désiriez-vous ? Rawls : rationnellement, choisiriez égalité (car risque être au bottom). Inégalité acceptable si bénéfice poorest (trickle-down theory). Implication : critique inégalité extrême (société avec 1% ultra-riche, 90% poor = rationel personne refuse). Application : politique redistributive (taxe progressive) justifiée. Critique : voile idéalisé (impossible ignorer vraie position). Mais utile : clarifier que inégalité doit justifiée (bénéfice collectif), pas simplement « winners vs losers ».",
+"hint": "Rationalité derrière voile, égalité justnifiée"
+},
+{
+"front": "Qu'est-ce que le réductio ad absurdum et comment l'utiliser pour évaluer affirmations ?",
+"back": "Reductio ad absurdum : prendre affirmation, suivre logiquement conclusions, montrer absurdité. Si conclusions absurde, affirmation probable fausse. Exemple : « Pas morale absolue. Donc torture innocents okay si culture accepte. » Absurde → premise fausse (soit moral absolu existe, ou système moral ne peut si permissive). Technique puissante : force thinker confront implicites conclusions. Mais attention : absurde dépend jugement. Une personne « absurde » autre « rationelle ». Exemple : « Pas liberté absolute. Donc gouvernement peut ban speech. » Reductio : « Gouvernement ban tous speech, oppression totale. Absurde. » Autre répond : « Oui, c'est risk, mais nécessaire ». Pas évident. Use reductio avec prudence : clarifier assumptions, pas simplement crier « absurde ».",
+"hint": "Suivre logiquement, révéler absurdité"
+},
+{
+"front": "Comment la méthode socratique (questions) force clarification et expose contradictions ?",
+"back": "Socrate : ne proclamait réponses, posait questions. Exemple : « Qu'est-ce que vertu ? » Interlocuteur répond. Socrate : « Donc vertu est courage ? Mais cowardice courageux situation ? » Force re-pense. Avantage : questionnement expose vague thinking. Si vous ne pouvez pas définir terme clearly, vous probablement pas comprends. Application réelle : débat productif = questions, pas assertions. Demander « Comment savez-vous ? ». Si vague, creuse. Dangereux : Socrate utilisé savoir déja, posait questions tendancieuses (sophisme). Faire honnêtement : questionnement sans agenda caché. But clarifier, pas piéger.",
+"hint": "Questions, vague thinking, clarification"
+},
+{
+"front": "Pourquoi le paradoxe de Sorites (tas) démontre limitation logique binaire et nuance réalité ?",
+"back": "Sorites : 1 grain pas tas. 2 grains pas tas. 3... n grains = 1 000 000 grains = tas. Mais si chaque step « n grain pas tas » → « n+1 grain pas tas », logiquement jamais arrête → million pas tas. Absurde. Raison : logique binaire (est tas / pas tas) incompatible réalité graduée (spectre). Solution : fuzzy logic (grads, propriété pas all-or-nothing). Application réelle : « Est-il chauve ? » 1 cheveu pas chauve. 1 000 000 cheveux = chauve. In between = ? Logique binaire fails. Réalité : chauveté spectre, pas bivalent. Implication : langage humain imprécis. Cela crée désaccord (quand commence tas exactement ?). Accepter nuance = sortir debate sophisme.",
+"hint": "Graduellement, fuzzy logic, spectre"
+},
+{
+"front": "Comment le biais de confirmation affecte raisonnement critique même si vous pensez l'éviter ?",
+"back": "Confirmation bias : chercher, interpréter evidence supportant croyances existantes. Même experts affectés. Docteur croyant patient X maladie Y → interprète tests confirmant Y, ignore tests contradictoires. Psychologue croyant thérapie Z marche → attribut improvement Z même if placebo. Vous pensez éviter ? Non probablement. Technique : activement chercher evidence contre vous. Si article critique votre croyance, force lire entièrement. Note points valides. Si ne trouve none = probable blinded. Test : pouvez-vous articeler argument opposite honnêtement ? Si simplement rejet sans understanding = bias probable.",
+"hint": "Evidence seeking, interpretation bias, test honnête"
+},
+{
+"front": "Pourquoi la corrélation ne signifie pas causalité et comment éviter cette erreur courante ?",
+"back": "Corrélation : deux choses augmentent ensemble. Causalité : l'une cause l'autre. Corrélation ≠ causalité. Exemples : (1) Consommation glace augmente → noyades augmentent → ice cream cause drowning ? Non. Été cause both. (2) Dormir avec chaussures → reveille headaches → chaussures cause ? Non. Drunk people dormir vêtements → drunk cause headaches. Détection : demander « Mécanisme causal plausible ? ». Si absent ou alternative plausible → corrélation seule insufficient. Statistique : corrélation peut random (spurious correlation). Exemple : Nicolas Cage films vs swimming pool drowning deaths = 0.88 corrélation. Causalité ? Évidemment non. Caveat : corrélation peut suggestive (investigate further). Mais lonely corrélation ≠ proof causal.",
+"hint": "Variable tiers, mécanisme plausible, spurious"
+},
+{
+"front": "Qu'est-ce que le biais de survivance et pourquoi nous voyons seulement succès survivants ?",
+"back": "Survivance bias : nous voyons succès (survivants) mais pas échecs (morts). Exemple : « Entrepreneur riche dit pas College needed → donc College inutile ». Survivor bias : vous voyez riche sans College (survivant), ignorez 1000 sans College morts economiquement. Data réelle : College correlated avec income +40% average. Autre : « My grand-mère fuma toute vie → smoking OK ». Survivor : voir grand-mère, ignorez millions morts cancer. Mortalité smoking = 50% raccourcir vie (énorme). Application : évaluant carrière, relationships, advice : cherchez aussi failed examples. Si seulement voyez succès, you probably biased. Correction : statistique, pas anecdote.",
+"hint": "Invisible failures, selection bias, average vs outlier"
+},
+{
+"front": "Comment l'effet Dunning-Kruger (confiance-incompétence) affecte jugement et humble progressif ?",
+"back": "Dunning-Kruger : personnes incompétentes overestimate compétence. Pourquoi : ne sais assez pour savoir ce you don't know. Docteur amateur pense diagnose YouTube → confiance extrême (ne voit pas trous knowledge). Expert vrai → sait complexity → humble (« Je sais ce I don't know »). Courbe : confiance rise initiale (peu knowledge, big confidence), puis drops (expert realizes complexity), puis remonte (expertise vraie). Implication : votre confiance peut inversement proportional expertise. Cela explique pourquoi scientifiques prudents mais charlatans confident. Application : prudence si confiance extreme. « Je suis sûr » → risk potential Dunning-Kruger. Expert says « Je sais probable but not certain » → credible.",
+"hint": "Illusion compétence, humilité progressive"
+},
+{
+"front": "Pourquoi la pensée de groupe (groupthink) peut dominer raisonnement critique même personnes intelligentes ?",
+"back": "Groupthink : groupe cohésif suppress critique pour harmony. Exemple : réunion board, CEO propose idée. Tous pensent mauvais, silence. Peur rejet groupe > speaking truth. Résultat : bad decision, nobody objected. Raison : psychologie tribale (appartenance groupe > exactitude truth). Conditions : isolation groupe (no outside view), leader dominante, pression conformité. Dangers : corporate disasters (Enron), political errors (Iraq War), scientific mistakes (certain disciplines rejected valid ideas). Prévention : (1) Designate « devil's advocate » (force objection), (2) Externe feedback (outside expert), (3) Anonym voting (remove social pressure), (4) Encourage dissent (leader models vulnerability). Leader créant « safe space » pour disagree = better decision.",
+"hint": "Pression conformité, silence critique, isolation"
+}
+],
+"sampleIdeas": [
+{
+"name": "Logique formelle : pourquoi structure argument matière plus que contenu",
+"textDescription": "Logique formelle se préoccupe structure, pas contenu. Argument simple : (1) Tous A sont B. (2) X est A. (3) Donc X est B. Structure valide. Contenu peut être anything. Exemple 1 : Tous chats ont fourrure. Félix est chat. Félix a fourrure. Valide + vrai. Exemple 2 : Tous dragons volent. Boris est dragon. Boris vole. Valide mais irréaliste (dragons ?). Validité logique préserved. Cela montre : argument structure peut dépendre de contenu réalité. Deux aspects importants : (1) Validité logique : prémisse → conclusion suivent mathematically. (2) Solidité : prémisses vrais + logiquement valide = conclusion vraie. Vous devez check both : argument invalid content correct ≠ utile (conclusion fausse possible). Argument valid contenu faux ≠ utile (si prémisse fausse). Educé pensée critique demande examiner both structure et facts.",
+"videoURL": "https://www.youtube.com/c/HeurEka",
+"externalLinkURL": "https://eduscol.education.fr"
+},
+{
+"name": "Les sophismes courants : arsenal pour débusquer mauvaise pensée",
+"textDescription": "Sophismes courants : ad hominem (attaque personne), homme de paille (déformation argument), pente glissante (causalité non-prouvée), faux dilemme (deux options seulement), appel à l'autorité (expertise non-appropriée), tu quoque (two wrongs). Vous les rencontrez daily. Débat politique : « Vous prétendez ambiente. Mais voiture polluante » = tu quoque. Médias populaires : « Docteur X dit Y. Croyez docteur X » = appel à l'autorité (docteur quel domaine ? criminaliste sur virology = zero credibilité). Débat personnel : « Si permit marijuana, société collapse » = pente glissante (Portugal légalisa, society ok). Reconnaître sophismes fortifie pensée. Technique : quand argument semble off, demander « Quelle sophisme c'est ? ». Si nommez, you've identified weakness. Débusquer sophismes n'annule pas argument (peut être valide), mais flagge need verify prémisses. Sophisme = red flag, not game-ender.",
+"videoURL": "https://www.youtube.com/c/LesBonsProfs",
+"externalLinkURL": "https://www.philomag.com"
+},
+{
+"name": "Comment évaluer si source crédible : expertise, bias, consensus",
+"textDescription": "Trois critères évaluer source : (1) Expertise. Auteur a formation/experience domaine ? Docteur parle santé, mais quel docteur ? Cardiologue peut moins credible psychiatrie. Vérifier credentials. (2) Absence bias. Auteur a conflit intérêt ? Chercheur payé tobacco industry parlant smoking-safety = obvious bias. Mais subtile biases aussi existent (professional pride, tribal allegiance). Vous ne pouvez jamais eliminate, mais recognizing important. (3) Consensus. Qu'est-ce que scientific consensus ? 97% climatologues acceptent changement anthropique = strong consensus. 1 dissenter n'annule pas 97. Cela ne signifie scientifique wrong (paradigm shifts happen), mais burden of proof on dissenter. Application : évaluant article, demander : (A) Auteur expert ? (B) Intérêt apparent ? (C) Align consensus ou outlier ? Si expert + no clear bias + align consensus = credible. Si tout opposé = sceptique justified.",
+"videoURL": "https://www.youtube.com/c/DirtyBiology",
+"externalLinkURL": "https://eduscol.education.fr"
+},
+{
+"name": "Épistémologie pratique : comment savez-vous ce que pensez savoir",
+"textDescription": "Épistémologie : théorie knowledge. Question simple mais deep : « Comment savez-vous ? ». Répondez vous-même : « COVID dangereuse. Comment sais ? ». Réponse possible : « Gouvernement dit ». Epistemically faible (autorité peut error). Meilleur : « Data publique montre deaths augmentent ». Encore meilleur : « J'ai analyzed datos moi-même ». Même meilleur : « Je suis epidemiologist entraîné ». Chaque level = epistemic foundation meilleur. Application : quand quelqu'un dit quelque chose, exiger justification. « Je le sais juste » = red flag (possible bias confirmation sans examen). « C'est consensus scientifique » = credible (mais vérifier : vraiment consensus ?). « C'était ma expérience » = anecdotal (peut être survivor bias). Cultic leadership uses epistemic manipulation : « Ne questionnez pas, croyez ». Penser critique demande demander comment vous savez, accepter justifications insufficient.",
+"videoURL": "https://www.youtube.com/c/ScienceEtonnante",
+"externalLinkURL": "https://www.philomag.com"
+},
+{
+"name": "Éthique appliquée : comment appliquer utilitarisme, déontologie, vertus à décisions réelles",
+"textDescription": "Trois cadres éthiques offrent perspectives différentes même situation. Exemple : vous trouvez portefeuille riche. Frameworks : (1) Utilitarianisme : rendre portefeuille maximise bonheur (owner + vous si recevez reward = net positive). (2) Déontologie : rendre obligatoire (ne pas voler, keeper, intrinsèquement droit). (3) Vertus : quelle vertueux personne fait ? (Honnêteté, intégrité, compassion = rendre). Tous trois guide rendre (outcome bon, action obligation, character droit). Mais différent situations divergent. Exemple 2 : you lying médecin pour sauver ami patient. Utilitarianisme : approverait (saving life = max bonheur). Déontologie : rejeté (mensonge intrinsèquement mal). Vertus : dépend (compassion suggest mensonge, honnêteté suggests révéler). Implication : no perfect cadre. Choisissez selon contexte. Utilisé ensemble = enrichit moral reasoning. Simplement utilitarianisme = peut justifier atrocités (sacrifice innocent). Simplement déontologie = peut être rigide (lie never ok). Simplement vertus = peut être vague (qui définit virtueux ?). Flexible moral reasoning = intégrer multiple frameworks.",
+"videoURL": "https://www.youtube.com/c/Lumni",
+"externalLinkURL": "https://eduscol.education.fr"
+},
+{
+"name": "Le biais de confirmation : pourquoi vous pensez rationnel mais vous n'êtes pas",
+"textDescription": "Confirmation bias : tendance inconsciente seeking, interpreting, remembering evidence supportant croyances existantes. Vous croyez thérapie Z fonctionn. Client améliore → credit thérapie. Client détériore → external factors (stress). Même évidence interprétée supporting croyance. Scientifiques sujet : croyant hypothesis X important → design expérience favorisant X, interprète ambiguous résultats X. Politique : supporter candidate Y → voir forces Y, weakness opposition. Opposant candidate Y → voir weakness Y, forces opposition. Même news consommed, opposite interpretations. Cela explique pourquoi débat impossible (both sides convinced right, ignoring counter-evidence). Solution : intellectuelle honêteté. Quand lire article critiquant croyance, force complétement lire. Note points valides (non faciles). Si ne trouve AUCUN points valides = probable confirmation bias. Exercice : articuler argument opposite votre croyance honnêtement. Si simplement rejet = bias probable.",
+"videoURL": "https://www.youtube.com/c/BonPote",
+"externalLinkURL": "https://www.philomag.com"
+}
+]
+}
+]

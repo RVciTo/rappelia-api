@@ -1,0 +1,330 @@
+{
+  "stableId": "code_route_securite_vehicule_premiers_secours",
+  "name": "Sécurité du véhicule et premiers secours",
+  "description": "Vérifier l’état du véhicule et connaître les premiers gestes en cas d’urgence.",
+  "color": "green",
+  "category": "Driving",
+  "language": "fr",
+  "difficulty": "Beginner",
+  "tags": [
+    "vehicule",
+    "securite",
+    "entretien",
+    "secours",
+    "urgence"
+  ],
+  "cards": [
+    {
+      "front": "Pourquoi faut-il faire le tour du véhicule avant de partir ?",
+      "back": "Pour repérer un obstacle, un enfant, un animal ou un dommage apparent.",
+      "hint": "Contrôle visuel complet."
+    },
+    {
+      "front": "Que faut-il vérifier sur les pneus ?",
+      "back": "L’état, l’usure, l’absence de déformation et une pression adaptée.",
+      "hint": "Contact avec la route."
+    },
+    {
+      "front": "Pourquoi la pression des pneus est-elle importante ?",
+      "back": "Parce qu’elle influence l’adhérence, le freinage, l’usure et la consommation.",
+      "hint": "Ni trop ni trop peu."
+    },
+    {
+      "front": "Quand faut-il contrôler la pression des pneus ?",
+      "back": "À froid, régulièrement et avant un long trajet.",
+      "hint": "Mesure fiable à froid."
+    },
+    {
+      "front": "Pourquoi faut-il vérifier les niveaux ?",
+      "back": "Pour assurer le bon fonctionnement mécanique et éviter une panne ou une détérioration.",
+      "hint": "Prévention."
+    },
+    {
+      "front": "Quels niveaux sont particulièrement importants ?",
+      "back": "Huile moteur, liquide de refroidissement, lave-glace et parfois liquide de frein selon le véhicule.",
+      "hint": "Les essentiels."
+    },
+    {
+      "front": "Pourquoi le liquide lave-glace est-il un élément de sécurité ?",
+      "back": "Parce qu’une visibilité sale ou gênée augmente le risque d’accident.",
+      "hint": "Voir = sécurité."
+    },
+    {
+      "front": "Que faut-il contrôler sur l’éclairage ?",
+      "back": "Le fonctionnement des feux avant, arrière, stop, clignotants et plaque.",
+      "hint": "Être vu et voir."
+    },
+    {
+      "front": "Pourquoi des feux stop défectueux sont-ils dangereux ?",
+      "back": "Parce que les usagers derrière perçoivent moins bien le ralentissement.",
+      "hint": "Information de freinage."
+    },
+    {
+      "front": "Quand faut-il utiliser les clignotants ?",
+      "back": "Avant toute manœuvre ou changement de direction suffisamment tôt et clairement.",
+      "hint": "Informer avant agir."
+    },
+    {
+      "front": "Pourquoi le pare-brise doit-il être propre et en bon état ?",
+      "back": "Parce qu’une fissure ou des salissures dégradent la visibilité.",
+      "hint": "Vision nette."
+    },
+    {
+      "front": "Quand faut-il remplacer des essuie-glaces usés ?",
+      "back": "Dès qu’ils laissent des traces, sautent ou nettoient mal.",
+      "hint": "Balais inefficaces."
+    },
+    {
+      "front": "Pourquoi le réglage du siège est-il un enjeu de sécurité ?",
+      "back": "Parce qu’il conditionne l’accès aux commandes, la visibilité et la maîtrise du véhicule.",
+      "hint": "Position de conduite."
+    },
+    {
+      "front": "Pourquoi régler correctement les rétroviseurs ?",
+      "back": "Pour réduire les angles morts et mieux surveiller l’environnement.",
+      "hint": "Voir autour."
+    },
+    {
+      "front": "Comment doit-on porter la ceinture de sécurité ?",
+      "back": "Plaquée sur le bassin et l’épaule, sans torsion ni passage sous le bras.",
+      "hint": "Bassin + épaule."
+    },
+    {
+      "front": "Pourquoi tous les passagers doivent-ils être attachés ?",
+      "back": "Parce qu’un passager non attaché met sa propre vie et celle des autres en danger.",
+      "hint": "Projectile humain."
+    },
+    {
+      "front": "Comment transporter un enfant en voiture ?",
+      "back": "Avec un dispositif homologué adapté à son âge, son poids et sa taille.",
+      "hint": "Siège adapté."
+    },
+    {
+      "front": "Pourquoi ne faut-il pas laisser d’objets lourds non arrimés ?",
+      "back": "Parce qu’ils peuvent devenir des projectiles en cas de freinage ou choc.",
+      "hint": "Ranger ou arrimer."
+    },
+    {
+      "front": "Que signifie un voyant rouge au tableau de bord ?",
+      "back": "Une alerte grave nécessitant souvent un arrêt rapide en sécurité.",
+      "hint": "Rouge = danger."
+    },
+    {
+      "front": "Que signifie généralement un voyant orange ?",
+      "back": "Un avertissement ou un défaut à faire contrôler sans tarder.",
+      "hint": "Orange = anomalie."
+    },
+    {
+      "front": "Que faire si un voyant de pression d’huile s’allume en roulant ?",
+      "back": "S’arrêter dès que possible en sécurité et couper le moteur.",
+      "hint": "Risque moteur grave."
+    },
+    {
+      "front": "Que faire en cas de crevaison ou de panne sur autoroute ?",
+      "back": "Allumer les feux de détresse, se garer sur la bande d’arrêt d’urgence si possible, sortir côté droit et se mettre derrière la glissière.",
+      "hint": "Protection d’abord."
+    },
+    {
+      "front": "Pourquoi le triangle de présignalisation n’est-il pas toujours utilisé sur autoroute ?",
+      "back": "Parce que le poser peut être trop dangereux ; la priorité est de se mettre à l’abri.",
+      "hint": "Sécurité personnelle."
+    },
+    {
+      "front": "Quand utiliser les feux de détresse ?",
+      "back": "Pour signaler un danger, un arrêt d’urgence ou un fort ralentissement inhabituel.",
+      "hint": "Clignotement d’alerte."
+    },
+    {
+      "front": "Quel numéro appeler en cas d’urgence en Europe ?",
+      "back": "Le 112.",
+      "hint": "Numéro unique européen."
+    },
+    {
+      "front": "Quelle première information donner en appelant les secours ?",
+      "back": "Le lieu précis de l’accident ou de l’urgence.",
+      "hint": "Où d’abord."
+    },
+    {
+      "front": "Avant de secourir, quelle règle essentielle faut-il respecter ?",
+      "back": "Se protéger soi-même, protéger la zone puis alerter.",
+      "hint": "PPA : protéger, prévenir, agir."
+    },
+    {
+      "front": "Que faire face à une victime inconsciente qui respire ?",
+      "back": "La placer si possible en position latérale de sécurité et surveiller sa respiration.",
+      "hint": "PLS."
+    },
+    {
+      "front": "Que faire face à une victime inconsciente qui ne respire pas normalement ?",
+      "back": "Alerter et débuter immédiatement la réanimation cardio-pulmonaire si l’on sait faire.",
+      "hint": "RCP."
+    },
+    {
+      "front": "À quoi sert un défibrillateur automatisé externe ?",
+      "back": "À analyser le rythme cardiaque et, si nécessaire, délivrer un choc guidé.",
+      "hint": "DAE."
+    },
+    {
+      "front": "Que faire devant une hémorragie externe abondante ?",
+      "back": "Comprimer immédiatement la plaie avec protection adaptée et alerter.",
+      "hint": "Compression directe."
+    },
+    {
+      "front": "Pourquoi ne faut-il pas donner à boire à une victime accidentée ?",
+      "back": "Parce qu’elle peut nécessiter une prise en charge urgente et présenter un risque d’étouffement.",
+      "hint": "Rien par la bouche."
+    },
+    {
+      "front": "Pourquoi ne faut-il pas déplacer une victime sauf danger immédiat ?",
+      "back": "Parce qu’un déplacement peut aggraver une lésion, notamment de la colonne.",
+      "hint": "Sauf urgence absolue."
+    },
+    {
+      "front": "Que faire si un incendie débute dans le véhicule ?",
+      "back": "S’arrêter en sécurité, couper le moteur, évacuer les passagers et utiliser un extincteur si possible sans se mettre en danger.",
+      "hint": "Évacuation rapide."
+    },
+    {
+      "front": "Pourquoi faut-il vérifier la validité du contrôle technique si le véhicule y est soumis ?",
+      "back": "Parce qu’il participe au maintien d’un niveau minimal de sécurité mécanique.",
+      "hint": "Obligation réglementaire."
+    },
+    {
+      "front": "À quoi sert l’ABS ?",
+      "back": "À éviter le blocage des roues lors d’un freinage appuyé pour conserver de la direction.",
+      "hint": "Freiner sans bloquer."
+    },
+    {
+      "front": "À quoi sert l’ESP ou contrôle de stabilité ?",
+      "back": "À aider le conducteur à garder la trajectoire en cas de perte d’adhérence.",
+      "hint": "Stabilité électronique."
+    },
+    {
+      "front": "Pourquoi le chargement sur le toit doit-il être limité et arrimé ?",
+      "back": "Parce qu’il modifie le centre de gravité et peut devenir dangereux s’il se détache.",
+      "hint": "Poids en hauteur."
+    },
+    {
+      "front": "Que faut-il faire avant un long trajet ?",
+      "back": "Vérifier le véhicule, préparer l’itinéraire, se reposer et prévoir des pauses.",
+      "hint": "Préparation complète."
+    },
+    {
+      "front": "Pourquoi la fatigue est-elle une question de sécurité du véhicule et du conducteur ?",
+      "back": "Parce qu’un conducteur fatigué réagit plus lentement et commet davantage d’erreurs.",
+      "hint": "Machine + humain."
+    },
+    {
+      "front": "Quand un gilet de haute visibilité est-il utile ?",
+      "back": "Lorsqu’on doit sortir du véhicule immobilisé dans une situation dangereuse.",
+      "hint": "Être vu."
+    },
+    {
+      "front": "Pourquoi faut-il laisser les documents du véhicule accessibles ?",
+      "back": "Pour pouvoir les présenter rapidement lors d’un contrôle ou d’une situation d’urgence.",
+      "hint": "Organisation."
+    },
+    {
+      "front": "Que faire si le capot s’ouvre partiellement en roulant ?",
+      "back": "Ralentir sans freiner brutalement, se guider grâce à la visibilité restante et s’arrêter dès que possible en sécurité.",
+      "hint": "Rester calme."
+    },
+    {
+      "front": "Pourquoi un bon entretien préventif vaut mieux qu’une réparation d’urgence ?",
+      "back": "Parce qu’il réduit les pannes, les coûts et le risque d’accident.",
+      "hint": "Prévenir plutôt que subir."
+    },
+    {
+      "front": "Quel est l’objectif général de la sécurité du véhicule ?",
+      "back": "S’assurer que le véhicule, son équipement et le conducteur sont prêts à circuler sans mettre en danger.",
+      "hint": "Sécurité globale."
+    }
+  ],
+  "sampleIdeas": [
+    {
+      "name": "Inspection extérieure et pneumatiques",
+      "textDescription": "Avant chaque départ, un tour complet du véhicule permet de détecter obstacle, fuite ou pneu à plat. Cette vérification rapide évite de découvrir un problème une fois installé au volant, lorsque la visibilité est plus limitée.\n\nLes pneus concentrent l'adhérence : contrôle d'usure, pression à froid et absence de déformation sont indispensables. Un pneu sous-gonflé allonge les distances de freinage, chauffe et augmente la consommation.\n\nProfitez de cette tournée pour regarder les feux, le pare-brise, les essuie-glaces et les niveaux visibles. Un simple chiffon peut rendre un feu lisible et éviter un refus d'obtempérer lors d'un contrôle.\n\nLes guides d'entretien automobile rappellent les fréquences de vérification : utilisez-les pour créer votre propre checklist avant trajet.",
+      "videoURL": null,
+      "externalLinkURL": "https://fr.wikipedia.org/wiki/Entretien_automobile",
+      "linkedCardIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        21,
+        22,
+        23
+      ]
+    },
+    {
+      "name": "Poste de conduite et alertes",
+      "textDescription": "Un poste de conduite bien réglé permet d'actionner les commandes sans effort, de voir correctement et de rester protégé par les airbags et ceintures. Réglage du siège, des rétroviseurs et port de la ceinture concernent tous les occupants, pas seulement le conducteur.\n\nLes voyants du tableau de bord se répartissent en deux familles : rouge = arrêt immédiat, orange = anomalie à traiter rapidement. Ignorer un voyant de pression d'huile ou de frein peut détruire le moteur en quelques kilomètres.\n\nLes dispositifs d'aide (ABS, ESP) n'annulent pas les lois de la physique. Ils corrigent une trajectoire mais exigent un véhicule entretenu et des pneus adaptés. Limitez aussi les objets lourds non arrimés qui deviennent des projectiles en cas de choc.\n\nLes fiches sur les équipements de sécurité automobile détaillent chaque système : associez-les aux cartes pour retenir rôle et limites.",
+      "videoURL": null,
+      "externalLinkURL": "https://fr.wikipedia.org/wiki/%C3%89quipement_de_s%C3%A9curit%C3%A9_automobile",
+      "linkedCardIndices": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        34,
+        35,
+        36,
+        37,
+        42
+      ]
+    },
+    {
+      "name": "Gestes de premiers secours",
+      "textDescription": "En cas d'accident, la priorité est de se protéger soi-même avant d'aider : baliser, couper le contact, éloigner les passagers du danger. Un triangle n'est pas utilisé sur autoroute mais le gilet haute visibilité l'est dès la sortie du véhicule.\n\nL'appel au 112 nécessite de rester calme : lieu précis, nombre de victimes, état apparent et dangers persistants. Les secours guideront ensuite les gestes à adopter.\n\nPosition latérale de sécurité, massage cardiaque, usage d'un défibrillateur, compression d'une hémorragie : mieux vaut les connaître avant d'en avoir besoin. Ne donnez ni boisson ni médicament et ne déplacez pas une victime sauf danger immédiat.\n\nLes ressources officielles sur les premiers secours (Croix-Rouge, Protection civile) proposent des fiches et tutoriels à revisiter régulièrement.",
+      "videoURL": null,
+      "externalLinkURL": "https://fr.wikipedia.org/wiki/Premiers_secours",
+      "linkedCardIndices": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        40
+      ]
+    },
+    {
+      "name": "Préparer véhicule et conducteur",
+      "textDescription": "Un long trajet se prépare : planification des pauses, vérification du chargement, contrôle technique à jour et documents accessibles. Un capot mal verrouillé, une surcharge sur la galerie ou des bagages flottants deviennent des risques majeurs en roulage.\n\nLa fatigue fait partie de la sécurité du véhicule car elle altère la maîtrise des commandes. Prévoir un relais, s'arrêter au moindre signe de somnolence et dormir suffisamment la veille préviennent la plupart des sorties de route.\n\nLes plans d'entretien préventif coûtent moins cher qu'une panne sur autoroute. Ils incluent filtres, liquides, contrôle des freins et calibrage des aides à la conduite.\n\nConsultez les ressources officielles sur le contrôle technique et l'entretien périodique pour aligner vos vérifications personnelles avec les obligations réglementaires.",
+      "videoURL": null,
+      "externalLinkURL": "https://fr.wikipedia.org/wiki/Contr%C3%B4le_technique_en_France",
+      "linkedCardIndices": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        41,
+        43,
+        44
+      ]
+    }
+  ]
+}

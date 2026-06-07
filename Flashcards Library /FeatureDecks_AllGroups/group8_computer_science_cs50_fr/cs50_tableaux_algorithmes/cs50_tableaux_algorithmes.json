@@ -1,0 +1,96 @@
+[
+{
+"name": "Tableaux, Chaînes & Algorithmes (CS50)",
+"stableId": "cs50_tableaux_algorithmes",
+"description": "Tableaux, chaînes de caractères, algorithmes de recherche et tri. Notation Big-O, Ω, Θ. Semaines 3-4 de CS50.",
+"color": "yellow",
+"category": "Technology",
+"language": "fr",
+"difficulty": "Intermédiaire",
+"tags": [
+"cs50",
+"tableaux",
+"strings",
+"algorithmes",
+"recherche",
+"tri",
+"big-o"
+],
+"cards": [
+  {"front": "Qu'est-ce qu'un tableau en C ?", "back": "Un tableau en C est une collection contiguë d'éléments en mémoire. int arr[5]; réserve 20 octets consécutifs (5 × 4 octets). L'accès par index est O(1) car l'adresse se calcule : base + index × taille_élément.", "hint": "Collection contiguë, O(1)"},
+  {"front": "Comment déclarer un tableau de 10 entiers en C ?", "back": "Utiliser la syntaxe int arr[10];. Cela alloue 40 octets (10 × sizeof(int)) sur la pile. Les indices vont de 0 à 9. arr[10] est hors limites et provoque un comportement indéfini.", "hint": "int arr[10]"},
+  {"front": "Pourquoi les indices commencent à 0 en C ?", "back": "À cause de l'arithmétique des pointeurs. Un tableau est un pointeur vers son premier élément. arr[i] signifie *(arr + i), qui accède à l'élément à l'adresse base + i × taille_élément. Commencer à 0 simplifie ce calcul.", "hint": "Arithmétique pointeurs"},
+  {"front": "Qu'est-ce qu'un débordement de tableau ?", "back": "Un débordement (buffer overflow) se produit lors d'un accès hors limites. Exemple : int arr[5]; arr[5] = 42; accède à la mémoire au-delà du tableau. C ne vérifie pas les limites, d'où undefined behavior : crash silencieux ou corruption de données.", "hint": "Hors limites, undefined"},
+  {"front": "Qu'est-ce qu'une chaîne en C ?", "back": "Une chaîne en C est un tableau de char terminé par le caractère nul '\\0'. \"Hello\" est stocké comme ['H','e','l','l','o','\\0']. Le '\\0' marque la fin ; sans lui, les fonctions comme strcpy() continuent en mémoire indéfinie, causant une corruption.", "hint": "Tableau char + \\0"},
+  {"front": "Comment strlen() fonctionne-t-elle ?", "back": "strlen(s) parcourt le tableau de caractères s jusqu'à trouver '\\0', comptant les caractères. strlen(\"Hi\") retourne 2. La complexité est O(n) où n est la longueur. Sans '\\0', la fonction ne s'arrête jamais et accède au-delà.", "hint": "Parcourt jusqu'à \\0"},
+  {"front": "Que sont argc et argv ?", "back": "argc est le nombre d'arguments de ligne de commande (comptant le nom du programme). argv est un tableau de chaînes : argv[0] = nom du programme, argv[1], argv[2], ... = arguments. int main(int argc, char *argv[]) permet d'accéder aux arguments.", "hint": "Arguments programme"},
+  {"front": "Qu'est-ce que la recherche linéaire ?", "back": "La recherche linéaire parcourt un tableau du début à la fin, comparant chaque élément avec la cible. Complexité : O(n) meilleur cas Ω(1) si trouvé immédiatement. Fonctionne sur tout tableau, trié ou non.", "hint": "Parcours séquentiel, O(n)"},
+  {"front": "Quand la recherche binaire est-elle applicable ?", "back": "La recherche binaire ne fonctionne que sur des données triées. Elle divise l'intervalle de recherche par 2 à chaque étape, atteignant O(log n). Sur 1 million d'éléments : ~20 comparaisons au lieu de 500 000 en moyenne.", "hint": "Données triées, O(log n)"},
+  {"front": "Comment fonctionne la recherche binaire ?", "back": "Divisez l'intervalle [gauche, droite] en deux. Comparez la valeur médiane avec la cible. Si égale, trouvé. Sinon, cherchez dans la moitié gauche ou droite selon la comparaison. Répétez jusqu'à trouvé ou intervalle vide.", "hint": "Diviser par 2 itérativement"},
+  {"front": "Qu'est-ce que le tri à bulles ?", "back": "Le tri à bulles compare les paires adjacentes et les échange si dans le mauvais ordre. Répétez jusqu'à pas d'échanges. Complexité : O(n²) pire/moyen, Ω(n) meilleur cas (tableau trié). Simple mais lent.", "hint": "Paires adjacentes, O(n²)"},
+  {"front": "Qu'est-ce que le tri par sélection ?", "back": "Trouvez le minimum dans le tableau, placez-le au début. Répétez sur le reste. Complexité : Θ(n²) toujours (meilleur et pire = même). Nécessite n-1 passes, chaque pass scanne les éléments restants. In-place : O(1) mémoire.", "hint": "Chercher min, placer"},
+  {"front": "Pourquoi le tri fusion est plus rapide ?", "back": "Le tri fusion utilise la stratégie diviser-pour-régner. Divisez en moitiés, triez récursivement, fusionnez. Complexité garantie : Θ(n log n). Sur 1 million : ~20 millions comparaisons vs 1 trillion pour bulles. Trade-off : O(n) mémoire extra pour fusion.", "hint": "Diviser régner, O(n log n)"},
+  {"front": "Qu'est-ce que Big-O ?", "back": "Big-O représente la borne supérieure de croissance du temps/espace. C'est le pire cas. Recherche linéaire : O(n) signifie au pire n comparaisons. Ignore les constantes : O(3n) = O(n). Matière seulement la croissance asymptotique.", "hint": "Pire cas croissance"},
+  {"front": "Que signifie O(n²) concrètement ?", "back": "O(n²) signifie que doubler l'entrée multiplie le temps par 4. Exemple : tri bulles sur 1000 items = 1M comparaisons. Sur 2000 items = 4M comparaisons. Sur 10 items = 100 comparaisons. La relation est quadratique.", "hint": "Doubler n → ×4 temps"},
+  {"front": "Qu'est-ce que Ω (Omega) ?", "back": "Big-Ω représente la borne inférieure : le meilleur cas. Recherche linéaire : Ω(1) si l'élément est au début. Tri fusion : Ω(n log n) même si tableau trié (ne peut pas faire mieux). Moins utilisé que Big-O en interview.", "hint": "Meilleur cas croissance"},
+  {"front": "Qu'est-ce que Θ (Theta) ?", "back": "Big-Θ quand meilleur et pire cas sont asymptotiquement identiques. Tri fusion : Θ(n log n) (toujours). Recherche linéaire : pas de Θ (Ω(1) vs O(n) différents). Utilisé pour algos où cas sont serrés. Rare en interview simple.", "hint": "Meilleur = pire cas"},
+  {"front": "Quel est le Ω du tri à bulles ?", "back": "Ω(n) si le tableau est déjà trié. Une passe vérifie aucun échange, donc l'algorithme s'arrête. Mais ce n'est pas amélioré dans la variante standard (toujours n² passes). Optimisation : détecter et s'arrêter tôt.", "hint": "Tableau trié, Ω(n)"},
+  {"front": "Pourquoi le tri fusion utilise plus de mémoire ?", "back": "Le tri fusion crée des tableaux temporaires lors de la fusion. Chaque niveau de récursion fusionne deux moitiés, nécessitant O(n) espace temporaire. Total : O(n) mémoire extra. Les tris in-place (bulles, sélection) n'utilisent que O(1) mémoire.", "hint": "Tableaux temporaires fusion"},
+  {"front": "Comment le tri fusion divise le problème ?", "back": "Divisez le tableau en deux moitiés récursivement jusqu'à atteindre éléments simples. Fusionnez en comparant premiers éléments des sous-tableaux, en ordre croissant. Remontez la récursion en fusionnant. Coût fusion : O(n), profondeur : log n.", "hint": "Couper, fusionner en ordre"},
+  {"front": "Qu'est-ce que la stabilité d'un tri ?", "back": "Un tri est stable si les éléments égaux conservent leur ordre relatif original. Exemple : [(2,a), (1,x), (2,b)] trié par 1er élément → [(1,x), (2,a), (2,b)] (stable) vs [(1,x), (2,b), (2,a)] (instable). Bulles stable, sélection non-stable.", "hint": "Éléments égaux ordre relatif"},
+  {"front": "Quelle est la complexité de strcmp() ?", "back": "strcmp(s1, s2) compare caractère par caractère jusqu'à différence ou '\\0'. Complexité : O(n) où n = min(len(s1), len(s2)). Retourne 0 si identiques, négatif si s1 < s2, positif sinon. Ne compare pas longueur, caractères uniquement.", "hint": "Caractère par caractère"},
+  {"front": "Pourquoi les tableaux sont passés par référence en C ?", "back": "En C, passer arr passe l'adresse du premier élément (array decay). Donc la fonction reçoit un pointeur, pas une copie. Modifications dans la fonction affectent le tableau original. Raison : efficacité, pas de copie O(n).", "hint": "Passe adresse premier élément"},
+  {"front": "Comment itérer sur un tableau en C ?", "back": "Utiliser une boucle for : for (int i = 0; i < n; i++) { accéder arr[i]; }. Le problème : C ne connaît pas la taille du tableau. Passer n comme paramètre. Ou utiliser un sentinel (comme '\\0' pour chaînes).", "hint": "Boucle for, passer n"},
+  {"front": "Qu'est-ce que l'algorithme de tri le plus utilisé en pratique ?", "back": "Les variantes de quicksort et timsort (hybride quicksort + insertion). Python utilise timsort. C++ std::sort utilise introsort (hybrid quicksort + heapsort). Chose : adaptatif, très optimisé, O(n log n) pire cas garanti.", "hint": "Quicksort variantes, timsort"},
+  {"front": "Pourquoi ne pas utiliser binaire sur liste chaînée ?", "back": "La recherche binaire nécessite accès direct par index en O(1). Les listes chaînées n'ont que traversal séquentiel O(n). Même si données triées, atteindre l'élément médian demande O(n/2) traversal. Donc binaire perd son avantage. Skip lists résolvent partiellement.", "hint": "Pas d'accès direct O(1)"},
+  {"front": "Comment strcasecmp compare deux chaînes ?", "back": "strcasecmp(s1, s2) compare s1 et s2 insensible à la casse (majuscules = minuscules). Retourne 0 si égales, négatif/positif sinon. Complexité : O(n). Utilise tolower() ou table ASCII pour normaliser avant comparer.", "hint": "Case-insensitive compare"},
+  {"front": "Qu'est-ce qu'un cas moyen en complexité ?", "back": "Le cas moyen (average case) est la performance attendue sur des données aléatoires typiques. Recherche linéaire : cas moyen O(n/2) = O(n). Quicksort : cas moyen O(n log n) si pivot aléatoire. Différent du pire cas O(n²) si pivot toujours mauvais.", "hint": "Données aléatoires typiques"},
+  {"front": "Pourquoi comprendre les tris si sort() existe ?", "back": "Comprendre tris aide à : choisir le bon algorithme (stable ? rapide pour pré-triés ?), estimer performance, déboguer quand sort() échoue, optimiser si O(n log n) insuffisant. Plus : implémenter custom tri si constraints spéciaux (bit-level, très grande donnée).", "hint": "Choisir outils, limites"},
+  {"front": "Quels sont les 3 tris enseignés en CS50 ?", "back": "1. Tri à bulles : O(n²), comparaisons adjacentes. 2. Tri par sélection : Θ(n²), chercher min. 3. Tri fusion : Θ(n log n), diviser-régner. Progression : simple → complexe, comprendre trade-offs temps/espace.", "hint": "Bulles, sélection, fusion"}
+],
+"sampleIdeas": [
+{
+"name": "Tableaux, indices et gestion mémoire",
+"textDescription": "Un tableau en C alloue la mémoire contiguë. int arr[5]; réserve 20 octets consécutifs. arr[0] = adresse, arr[1] = adresse + 4, ..., arr[4] = adresse + 16. C'est pourquoi accès est O(1) : calcul direct adresse = base + index * taille_élément.\n\nIndexation commence à 0. arr[5] pour int arr[5] = hors limites = undefined behavior = crash ou silence. C ne vérifie pas. Programmeur responsable.\n\nTablau ne connaît pas sa taille ! for (int i = 0; i < ???; i++) : le ??? doit être passé en paramètre. C impasse dangereuse. Python retient ; C non. Discipline obligatoire.\n\nInitialiser : int arr[] = {1, 2, 3}; compile et crée un tableau de taille 3. Utile pour petits tableaux. Pour gros : lire de fichier ou boucle.",
+"videoURL": "https://www.youtube.com/watch?v=4vU4aEFmTSo",
+"externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/2/"
+},
+{
+"name": "Chaînes de caractères : \\0 et sécurité",
+"textDescription": "Chaîne = tableau char + \\0. Le \\0 est le terminateur ; sans lui, pas de chaîne valide. strcpy(dest, src) copie jusqu'à \\0. Si source sans \\0, strcpy continue en mémoire, corrompt données.\n\nExemple : char str[3] = \"ab\"; (3 octets : 'a', 'b', \\0). char str[2] = \"ab\"; (3 octets vs 2 alloués = overflow). Mauvais.\n\nstrlen(s) compte caractères avant \\0. char s[] = \"Hello\"; strlen(s) = 5. Pas 6 (sans \\0).\n\nargc/argv : argv[i] est une chaîne (pointeur char*). argv[0] = nom programme, argv[1]... = arguments. On itère tant que i < argc, pas en cherchant \\0.\n\nSécurité : strcpy est dangereuse (pas de limite). Utiliser strncpy(dest, src, n) avec limite. Ou functions meilleures de cs50.h.",
+"videoURL": "https://www.youtube.com/watch?v=4vU4aEFmTSo",
+"externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/2/#strings"
+},
+{
+"name": "Recherche linéaire vs binaire : quand chaque brille",
+"textDescription": "Recherche linéaire : O(n), marche toujours. Binaire : O(log n), tableau trié REQUIS. Si données non triées, linéaire seule option.\n\nMais si on doit chercher 1000 fois, trier une fois O(n log n) puis 1000 recherches O(log n) = O(n log n + 1000 log n) gagne vs 1000 * O(n) = O(1000n).\n\nPour petit n (< 100), linéaire peut suffire (moins complexe code). Pour gros n, binaire nécessaire. Professionnels : penser au nombre de recherches vs coût tri.\n\nBinaire piège classique : off-by-one dans mid. mid = (left + right) / 2; pour grandes valeurs peut overflow. Safer : mid = left + (right - left) / 2;. Ou utiliser long long.",
+"videoURL": "https://www.youtube.com/watch?v=jZzyERW7h1A",
+"externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/3/"
+},
+{
+"name": "Tri à bulles vs tri fusion : comprendre la différence pratique",
+"textDescription": "Bulles : deux boucles imbriquées, compare pairs adjacentes. Simple, lent O(n²). 1000 items = 1M comparaisons. 1 million = 1 trillion (plusieurs secondes).\n\nFusion : divise en moitiés, trie chacune, fusionne. Réquiert espace temporaire. O(n log n). 1 million = 20M comparaisons (ms).\n\nPrécisément : bulles fait-elle toujours n² comparaisons ? Non. Meilleur cas : tableau déjà trié, une passe, Ω(n). Pire : inverse, O(n²). Cas moyen : Θ(n²).\n\nFusion : Θ(n log n) toujours (divide-and-conquer ne dépend pas de ordre). Espace : O(n) pour fusion temporaire vs O(1) bulles. Choix : vitesse ou mémoire.\n\nEn pratique : systèmes utilisent tri optimisé (TimSort Python, IntroSort C++). Hybrid. Bulles = juste educationnel.",
+"videoURL": "https://www.youtube.com/watch?v=jZzyERW7h1A",
+"externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/3/#sorting"
+},
+{
+"name": "Big-O, Big-Ω, Big-Θ : notation formelle et intuition",
+"textDescription": "Big-O = pire cas (upper bound). On garantit pas plus lent. Recherche linéaire : O(n). Même si trouvé à index 0, on dit O(n) (pire cas possible).\n\nBig-Ω = meilleur cas (lower bound). Recherche linéaire : Ω(1). Trouvé immédiatement. On garantit au moins cette vitesse.\n\nBig-Θ = quand O = Ω (cas optimal et pire identiques). Tri fusion : Θ(n log n) (toujours). Recherche linéaire : pas de Θ (Ω(1) vs O(n)).\n\nEn interview, on rapporte O généralement. \"Recherche linéaire est O(n)\". Implicite : pire cas. Si demandé \"best case\" : Ω. Big-Θ rare sauf algo spécifiques.\n\nNotation ignore constantes : O(3n) = O(n), O(n + 1000) = O(n). Pourquoi ? Pour n grand, 3n croît pareil que n (3 fois plus lent mais même ordre). Matière seulement la croissance, pas le facteur.",
+"videoURL": "https://www.youtube.com/watch?v=jZzyERW7h1A",
+"externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/3/#asymptotic-notation"
+},
+{
+"name": "Optimisations pratiques : quand arrêter tôt et cas déjà triés",
+"textDescription": "Bulles : peut arrêter si une passe sans échanges (déjà trié). Modification : bool swapped = true; while (swapped) { swapped = false; boucle; }. Passe sur données triées : O(n) au lieu de O(n²).\n\nRéel : données partiellement triées sont communes. Insertion sort : O(n) pour presque-trié, O(n²) pire. Donc utiliser insertion pour petits arrays (< 50 éléments).\n\nTri en place vs non : bulles/sélection in-place (O(1) espace). Fusion non-in-place (O(n)). TimSort Python : in-place pour données réelles, souvent partiellement triées.\n\nOptimisations : ne pas optimiser prématurément. Itération 1 : correct, slow ok. Itération 2 : profile (mesurer où les bottlenecks). Itération 3 : optimiser bottlenecks observés. Itération 4 : sacrifier lisibilité pour vitesse si vraiment nécessaire.",
+"videoURL": "https://www.youtube.com/watch?v=jZzyERW7h1A",
+"externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/3/#"
+},
+{
+"name": "Erreurs courantes : off-by-one, index hors limites, \\0 oublié",
+"textDescription": "Off-by-one : for (i = 0; i <= n; i++) itère n+1 fois. for (i = 1; i < n; i++) itère n-1 fois. Correct : for (i = 0; i < n; i++) itère n fois. Facile à casser sous pression.\n\nIndex hors limites : int arr[5]; arr[5] = undefined. C demande programmer : vérifier i < n avant accès. Python lève exception. C ? Segfault ou corruption silencieuse.\n\nChaîne sans \\0 : char s[3] = \"hello\"; (5 caractères vs 3) = overflow. strcpy de s → corrompt. strcpy(dest, s) cherche \\0 qui n'existe pas, continue en mémoire.\n\nArray decay : int arr[5]; printf(\"%p\", arr); affiche adresse. arr == &arr[0]. Passer arr à fonction = passer adresse. Fonction reçoit pointeur, pas size. Bug : fonction modifie plus que prévu.\n\nMéthode : printf ou debug pour tracer. Vérifier boucles, indices, tailles. Test avec petits inputs à la main.",
+"videoURL": "https://www.youtube.com/watch?v=4vU4aEFmTSo",
+"externalLinkURL": "https://cs50.harvard.edu/x/2024/notes/2/#"
+}
+]
+}
+]

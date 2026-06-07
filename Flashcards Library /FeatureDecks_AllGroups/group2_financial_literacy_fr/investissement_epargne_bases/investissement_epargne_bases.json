@@ -1,0 +1,220 @@
+[
+{
+"name": "Investissement & Épargne",
+"stableId": "investissement_epargne_bases",
+"description": "Comprendre les bases de l'investissement : intérêts composés, classes d'actifs, risque et rendement, ETF, enveloppes fiscales (PEA, assurance-vie) et erreurs de débutant à éviter.",
+"color": "blue",
+"category": "Economics",
+"language": "fr",
+"difficulty": "Débutant",
+"tags": [
+"investissement",
+"epargne",
+"bourse",
+"interets_composes",
+"retraite",
+"finance_personnelle"
+],
+"cards": [
+{
+"front": "Pourquoi les intérêts composés transforment-ils une épargne modeste en capital important ?",
+"back": "Les intérêts composés créent un effet boule de neige : chaque année, les intérêts générés s'ajoutent au capital et génèrent eux-mêmes des intérêts. Par exemple, 10 000 € à 7% par an deviennent 20 000 € après 10 ans, puis 40 000 € après 20 ans. Cet effet exponentiel est particulièrement puissant sur longue durée, c'est pourquoi commencer tôt est crucial.",
+"hint": "Effet boule de neige, intérêts sur intérêts"
+},
+{
+"front": "Qu'est-ce qu'on possède réellement quand on achète une action en bourse ?",
+"back": "Vous possédez une part du capital de l'entreprise. Si vous achetez 1 action Apple et que l'entreprise en a 10 milliards, vous possédez 1/10 milliardième de l'entreprise. Vous avez donc droit à une part proportionnelle des bénéfices (dividendes) et le droit de vote aux assemblées. La valeur de votre action augmente si l'entreprise devient plus profitable.",
+"hint": "Propriété fractionnée, dividendes, part du capital"
+},
+{
+"front": "Comment fonctionne le rendement d'une obligation et pourquoi c'est moins risqué qu'une action ?",
+"back": "Une obligation est une créance : vous prêtez de l'argent à l'État ou une entreprise, qui vous rembourse avec intérêts (coupon) selon un calendrier défini. Contrairement aux actions, vous recevez des flux fixes et prévisibles. C'est moins risqué car vous êtes prioritaire lors d'une faillite, mais le rendement est inférieur aux actions sur longue durée.",
+"hint": "Créance, coupon fixe, priorité en cas de faillite"
+},
+{
+"front": "Pourquoi les fonds indiciels (ETF) sont-ils recommandés pour les débutants plutôt que les actions individuelles ?",
+"back": "Les ETF offrent une diversification instantanée : au lieu de risquer 100% sur une action, vous achetez 100 ou 500 entreprises en une seule transaction. Cela réduit drastiquement le risque de perdre tout votre argent si une entreprise s'effondre. Les frais sont très bas (0,2-0,5% par an) comparé aux fonds gérés activement (1-2%), et statistiquement, 90% des gérants ne battent pas le marché.",
+"hint": "Diversification, frais bas, indice de marché"
+},
+{
+"front": "Comment les intérêts composés justifient-ils de commencer à investir dès 20 ans plutôt que d'attendre 40 ans ?",
+"back": "Commencer à 20 ans avec 100 €/mois pendant 45 ans (total 54 000 €) à 7% génère ~400 000 €. Attendre 40 ans : 100 €/mois pendant 25 ans (total 30 000 €) génère ~100 000 €. Les 20 années supplémentaires créent un écart de 300 000 € grâce aux intérêts composés sur intérêts. Chaque année gagnée multiplie votre potentiel par 1,07.",
+"hint": "Temps vs capital investi, croissance exponentielle"
+},
+{
+"front": "Qu'est-ce que le risque systématique et pourquoi la diversification ne le supprime pas ?",
+"back": "Le risque systématique affecte tout le marché (crise économique, guerre, taux d'intérêt). La diversification réduit le risque spécifique (faillite d'une entreprise) mais pas le systématique. Raison : si l'économie s'effondre, toutes les actions baissent ensemble. C'est pourquoi même les meilleurs portefeuilles perdent 40-50% lors de crises, et pourquoi investir à long terme (20+ ans) est crucial pour absorber ces chocs.",
+"hint": "Risque du marché entier, non-diversifiable"
+},
+{
+"front": "Comment le dollar-cost averaging (investissement régulier) réduit-il le risque de mal-timing du marché ?",
+"back": "Au lieu d'investir 12 000 € d'un coup (risque d'acheter au sommet), vous investissez 1 000 €/mois. Les mois où le marché baisse, votre 1 000 € achète plus d'actions. Les mois de hausse, moins. Vous obtenez donc un prix d'achat moyen plus bas. Exemple : si le prix fluctue 100-150 €, investir régulièrement coûte ~120 € en moyenne vs 130 € si vous aviez tout investi au sommet.",
+"hint": "Investissement progressif, moyenne des prix"
+},
+{
+"front": "Pourquoi faut-il diversifier entre actions, obligations et trésorerie plutôt que tout mettre en actions ?",
+"back": "Les actions montent à long terme (+8% par an en moyenne) mais chutent de 30-50% lors de crises. Les obligations montent moins (+4%) mais chutent peu. La trésorerie (livret) ne monte pas mais ne baisse jamais. Combiner les trois : les obligations et trésorerie stabilisent votre portefeuille lors des crises, ce qui vous évite de vendre vos actions au pire moment par panique.",
+"hint": "Classes d'actifs, corrélation négative"
+},
+{
+"front": "Quel est le principal avantage fiscal du PEA pour un jeune investisseur ?",
+"back": "Le PEA (Plan Épargne en Actions) offre une exonération totale d'impôts sur les plus-values et dividendes après 5 ans. Plafond : 150 000 €. Exemple : un gain de 50 000 € = 0 € d'impôt après 5 ans (vs ~15% hors PEA). L'inconvénient : vous ne pouvez y mettre que des actions européennes. C'est crucial pour les jeunes car 5 ans = bref délai pour maximiser les intérêts composés exonérés.",
+"hint": "Exonération 5 ans, actions européennes"
+},
+{
+"front": "Pourquoi l'assurance-vie est-elle supérieure au Livret A pour l'investissement long terme ?",
+"back": "Livret A : 3% actuels, sûr, flexible. Assurance-vie : 4-5% en fonds euro, 7-10% possible en actions/ETF. Sur 20 ans, 100 000 € à 3% = 180 600 € vs 8% = 466 000 € (différence 286 000 €). Avantages assurance-vie : diversification, fiscalité progressive, succession simplifiée. Inconvénient : frais supérieurs. Verdict : Livret A pour l'urgence (3 mois de salaire), assurance-vie pour l'épargne long terme.",
+"hint": "Rendement supérieur, plus long terme"
+},
+{
+"front": "Comment les frais (TER) d'un ETF impactent-ils votre rendement sur 30 ans ?",
+"back": "Un ETF avec TER 0,2% vs 1,5% : après 30 ans à 7% brut, vous obtenez 640 000 € vs 480 000 € avec la même mise. Différence : 160 000 € perdus en frais (et leur intérêts composés). Pour 100 000 € initiaux, c'est catastrophique. Regle : chercher TER < 0,5%. Chaque 0,5% de frais coûte ~15-20% du rendement final. C'est l'une des rares choses que vous contrôlez vraiment.",
+"hint": "Frais annuels, effet cumulatif"
+},
+{
+"front": "Pourquoi 'timer' le marché (acheter au plus bas, vendre au plus haut) est-il une mauvaise stratégie même pour les pros ?",
+"back": "Les professionnels avec accès à l'information en temps réel réussissent rarement à battre le marché régulièrement. Un débutant ? Impossible. Étude : si vous aviez évité les 10 meilleures journées de marché sur 20 ans, votre rendement passerait de +500% à +200%. Le problème : vous ne saurez jamais quelles sont ces journées en avance. Solution : investissement régulier, pas de trading.",
+"hint": "Impossible de prédire, coûts psychologiques"
+},
+{
+"front": "Comment l'inflation érode-t-elle silencieusement votre épargne sans investissement ?",
+"back": "Si l'inflation est 2% et votre Livret A 3%, vous gagnez 1% réel. Mais si vous gardez du cash : inflation 2%, rendement 0%, vous perdez 2% de pouvoir d'achat par an. Sur 20 ans, 100 000 € = 67 000 € en pouvoir d'achat réel. C'est pourquoi le Livret A seul pour une grosse épargne (> 50 000 €) est une erreur. L'inflation est un impôt caché sur les prudents.",
+"hint": "Pouvoir d'achat, rendement réel"
+},
+{
+"front": "Pourquoi la vente panique en baisse de marché annule toujours les gains antérieurs ?",
+"back": "Exemple : vous investissez 10 000 € en 2019, deviennent 15 000 € en 2021 (gain 50%). En 2022, chute à 12 000 €. Si vous vendez = perte 2 000 €. Mais si vous attendez : 2024, remonte à 20 000 € (gain 100%). La panique transforme une dépression temporaire en perte permanente. Psychologie : les baisses font peur, mais c'est quand les actions sont bon marché qu'il faut tenir.",
+"hint": "Émotions vs stratégie, long terme"
+},
+{
+"front": "Comment évaluer si une classe d'actifs (actions, immobilier, crypto) convient à votre horizon d'investissement ?",
+"back": "Règle simple : < 5 ans = obligations/trésorerie (volatilité insupportable). 5-15 ans = 50% actions/50% obligations. > 15 ans = 70-100% actions (vous pouvez absorber crises). Crypto : seulement argent que vous pouvez perdre (< 5% du portefeuille) car volatilité 50% en quelques mois est psychologiquement insupportable pour la plupart.",
+"hint": "Horizon, volatilité tolérée"
+},
+{
+"front": "Pourquoi faut-il constituer une réserve d'urgence avant de commencer à investir ?",
+"back": "Vous devez avoir 3-6 mois de salaire en Livret A accessible. Sinon, vous vendrez vos actions en panique lors d'une urgence (car vous ne pouvez attendre la reprise). Exemple : perte d'emploi, réparation urgente. Si vous videz votre portefeuille actions à -30%, vous crystallisez la perte. Réserve d'urgence = permission psychologique d'ignorer les crises court terme.",
+"hint": "3-6 mois de salaire, liquidité"
+},
+{
+"front": "Comment la capitalisation boursière d'une entreprise influence-t-elle la volatilité de son action ?",
+"back": "Mega-cap (> 200 Md€) : moins volatiles, rendement 6-7%, sûr. Mid-cap (10-50 Md€) : volatilité modérée, 8-10% potentiel. Small-cap (< 10 Md€) : très volatiles (40% oscillations), 12%+ potentiel. Un portefeuille équilibré : 60% mega-cap (Apple, LVMH), 30% mid-cap, 10% small-cap. Les petites cap peuvent offrir du rendement mais exigent une tolérance au risque plus haute.",
+"hint": "Taille = stabilité, rendement"
+},
+{
+"front": "Pourquoi les dividendes réinvestis surpassent-ils les dividendes touchés en espèces sur 20 ans ?",
+"back": "Dividende réinvesti : vous achetez plus d'actions avec la distribution, créant intérêts composés. Exemple : action Safran 100 €, dividende 5 €/an. En 20 ans, vous achetez 100 actions supplémentaires de votre propre croissance = doublement du portefeuille sans apport. Dividende espèces : vous le dépensez ou le laissez en liquide à 3% = perte d'intérêts composés. Différence finale : +200% vs +80%.",
+"hint": "Réinvestissement automatique, boule de neige"
+},
+{
+"front": "Quel type d'ETF est préférable pour un débutant : ETF large (CAC 40) ou ETF mondial ?",
+"back": "ETF CAC 40 ou Eurostoxx : concentration sur Europe, secteurs limités (luxe, banques, énergie), dividendes bons. ETF mondial (MSCI World) : 1 500 entreprises, 55% USA, secteurs variés (tech, santé, consommation), croissance supérieure à long terme. Pour un débutant : 70% MSCI World + 30% obligations/Eurostoxx = diversification géographique qui réduit le risque pays.",
+"hint": "Diversification géographique, secteurs"
+},
+{
+"front": "Comment évaluer si un fonds géré activement justifie ses frais supérieurs (1,5-2%) ?",
+"back": "Statistique brutale : 90% des fonds actifs ne battent pas leur indice de référence (avant frais). Après frais, c'est < 5%. Un fonds payant 1,5% de frais doit donc générer au moins 1,5% de surperformance juste pour égaler l'indice. Sur 20 ans, la probabilité que ce fonds continue à battre est < 5%. Conclusion : achetez des ETF indiciels (frais 0,2%), c'est statistiquement la meilleure approche.",
+"hint": "Probabilité faible, frais élevés"
+},
+{
+"front": "Pourquoi l'immobilier n'est pas toujours meilleur que les actions pour la retraite ?",
+"back": "Immobilier : +3% par an, mais frais (agence 5-8%, taxes 1-2%/an), liquidité faible, effort (loyer à encaisser, réparations). Actions via assurance-vie : +7-8% par an, frais 0,5-1%, liquidité totale, zéro effort. Exemple : 100 000 € sur 30 ans : immobilier ~400 000 € net de frais. Actions ~600 000 €. L'avantage immobilier : effet de levier (emprunter 300 000 € pour acheter 400 000 €), c'est plus puissant pour jeunes.",
+"hint": "Rendement net, liquidité, effet levier"
+},
+{
+"front": "Comment comprendre le lien entre taux d'intérêt et rendement obligataire ?",
+"back": "Quand les taux montent, les obligations existantes baissent de valeur (si vous vendez avant maturité). Exemple : obligation 4% à taux montants à 6% = perte 10-15% si vendue immédiatement. Inversement, taux en baisse = gains obligataires. C'est pourquoi en 2024, avec taux élevés, les nouvelles obligations (4-5%) sont attrayantes. Si vous achetez et tenez jusqu'à maturité, peu importe : vous recevez le coupon garanti.",
+"hint": "Taux inversement proportionnel au prix"
+},
+{
+"front": "Pourquoi l'allocation d'actifs doit changer avec l'âge, et quelle logique suit-elle ?",
+"back": "À 25 ans : 90% actions (20+ ans de récupération = crises absorbables). À 45 ans : 70% actions / 30% obligations (10-15 ans until retraite, moins de tolérance aux chutes). À 65 ans : 40% actions / 60% obligations/trésorerie (besoin de stabilité, durée de retraite = 25+ ans). Changer progressivement (désrisquer -5% actions tous les 5 ans) plutôt que brutalement en retraite.",
+"hint": "Horizon d'investissement, tolérance au risque"
+},
+{
+"front": "Pourquoi les petits frais bancaires sur actions sont des assassins silencieux du rendement ?",
+"back": "Frais bancaires 0,1% par transaction, 10 transactions/an = 1% des frais simples. Mais c'est 1% de coût par an sur un portefeuille qui rend 7% = 14% de votre rendement disparu. Si vous achetez/vendez 20 fois/an, les frais deviennent 2% = extinction totale du rendement net. Raison d'utiliser des ETF (achetez une fois) ou assurance-vie (frais inclus, pas de commissions).",
+"hint": "Coûts transactionnels, trading coûteux"
+},
+{
+"front": "Comment l'effet de levier peut-il doubler vos gains ou vos pertes en immobilier ?",
+"back": "Vous achetez 200 000 € immeuble avec 50 000 € personnels, 150 000 € empruntés. Immeuble + 10% (20 000 €) = rendement 40% sur votre capital (+8 000 € après intérêts). Chute -10% = perte 40% de votre capital (-8 000 €). Levier amplifie : gains ET pertes. C'est puissant quand marché monte (débutants adorent) mais dangereux si chute ou taux augmentent (vous ne pouvez plus rembourser). Utiliser avec prudence.",
+"hint": "Multiplication des rendements et risques"
+},
+{
+"front": "Pourquoi une crise économique est le meilleur moment pour débuter en bourse et comment s'y préparer ?",
+"back": "En crise (2008, 2020), actions chutent 50% mais offrent à l'achat des gains futurs de +300-400% (vs +80% en périodes normales). Si vous avez réserve d'urgence + horizon 20 ans, vous achetez à -50% = jackpot. Préparation : avoir cash dès maintenant (3 mois salaire + 10 000 € supplémentaires pour crise). Quand crise = investir progressivement (peur panique fait oublier). Historiquement : patient en crises = riche dans 10 ans.",
+"hint": "Prix bas, opportunité long terme"
+},
+{
+"front": "Comment évaluer si vous êtes sur-exposé aux actions (risque trop haut) ou sous-exposé (rendement insuffisant) ?",
+"back": "Sur-exposé : portefeuille baisse 30%, vous dormez mal / vendez en panique. Sous-exposé : 100% obligations / Livret A = rendement 3% < inflation 2-3% = perte de pouvoir d'achat. Test : si une chute -30% ne vous angoisse pas et vous permet d'tenir 20 ans, c'est bon. Sinon, réduisez actions. Règle empirique : (110 - votre âge) % en actions. À 30 ans = 80% actions. À 60 ans = 50%.",
+"hint": "Tolérance psychologique, horizon temps"
+},
+{
+"front": "Pourquoi est-il dangereux d'investir basé sur des conseils d'amis ou de réseaux sociaux ?",
+"back": "Biais : votre ami parle seulement de son coup gagnant (action X +200%), jamais des 10 pertes -50%. Réseaux : influenceurs gagnent en commissions de courtiers, pas en vrai trading. Résultat : vous entrez tard dans une tendance haussière qui s'effondre. Exemple cryptomonnaies : amis vous disaient d'acheter à 60 000 $, silence total lors de chute à 20 000 $. Source fiable : litté­rature finance (livre Damodaran, blogs Bogleheads).",
+"hint": "Biais de confirmation, risque de mode"
+},
+{
+"front": "Comment l'impôt sur les plus-values impacte votre stratégie de revente en portefeuille hors-PEA ?",
+"back": "Plus-value action 10 000 € : impôt environ 12% (flat tax) + 17,2% charges sociales = 29,2% total = 2 920 € taxes. Vous gardez 7 080 €. Stratégie 1 : revendre = payer taxes immédiatement. Stratégie 2 : hold 20 ans = intérêts composés sans taxes jusqu'à vente. Différence finale : gain 2 à 3x supérieur en holding. Raison : PEA/assurance-vie existent : utiliser ces enveloppes pour éviter ces impôts.",
+"hint": "Flat tax 30%, holding stratégique"
+},
+{
+"front": "Pourquoi la suédiversification (trop d'ETF différents) paradoxalement augmente le risque ?",
+"back": "Si vous achetez 20 ETF différents (ESG, small-cap, sectoriels, obligataires, immobilier, etc.), vous perdez la clarté. Vous ne savez plus où va votre argent, impossible d'ajuster l'allocation. Vous répliquiquez l'indice entier (+ frais multipliés) sans surperformance. Optimal : 3-5 ETF seulement : (1) Actions monde, (2) Actions Europ, (3) Obligations, (4) Immobilier, (5) Trésorerie. Simplicité = discipline.",
+"hint": "Trop d'options, perte de clarté"
+},
+{
+"front": "Comment fonctionne le rebalancing et pourquoi il force à acheter bas et vendre haut ?",
+"back": "Vous décidez 70% actions / 30% obligations. Marché monte : devient 80/20. Rebalancing = vendre 10% actions (devenues chères) pour acheter obligations (devenues bon marché). Pareil si marché chute : vendre obligations (chères) pour acheter actions (bon marché). Effet : vous vendez toujours au sommet et achetez au creux, naturellement. Discipline : rebalancer 1x/an, pas plus (coûts).",
+"hint": "Discipline, vendre cher, acheter pas cher"
+}
+],
+"sampleIdeas": [
+{
+"name": "Les intérêts composés : la 8ème merveille du monde",
+"textDescription": "Albert Einstein aurait appelé les intérêts composés la huitième merveille du monde. Voici pourquoi : si vous investissez 5 000 € à 25 ans à rendement 8% par an, à 65 ans vous avez ~680 000 €. Si vous attendez 35 ans (à 60 ans) avec le même montant, vous n'en obtenez que ~200 000 €. Les 10 années perdues coûtent 480 000 €. C'est l'effet exponentiel : chaque année, vos gains génèrent des gains. Cet effet est tellement puissant que les 30 premières années de votre investissement créent 80% du résultat final. Commencer à 25 ans vs 35 ans double presque votre retraite. Le piège courant : attendre d'être riche pour investir. Erreur monumentale. Quelques euros par mois à 20 ans > grosse somme à 40 ans.",
+"videoURL": "https://www.youtube.com/c/HeurEka",
+"externalLinkURL": "https://lafinancepourtous.com"
+},
+{
+"name": "Actions vs Obligations : comprendre le triangle rendement-sécurité-liquidité",
+"textDescription": "Le triangle d'or de l'investissement : rendement, sécurité, liquidité. Vous ne pouvez jamais maximiser les trois. Actions : haut rendement (8%+), faible sécurité (volatilité 30-40% en crise), haute liquidité (vendez en secondes). Obligations : rendement modéré (4-5%), sécurité très haute (jamais baisse si tenue jusqu'à maturité), liquidité moyenne (quelques jours). Trésorerie (Livret) : sécurité totale, rendement nul (3%), liquidité immédiate. Votre allocation dépend de votre priorité. Un retraité : sécurité d'abord (obligations+trésorerie). Un cadre 35 ans : rendement (actions). Comprendre ce triangle élimine l'erreur classique : chercher un produit offrant 10% de rendement, sécurité totale et liquidité parfaite. Ça n'existe pas. Les arnaqueurs promettent exactement ça.",
+"videoURL": "https://www.youtube.com/c/LesBonsProfs",
+"externalLinkURL": "https://www.amf-france.org"
+},
+{
+"name": "PEA vs Assurance-vie vs Livret A : la fiscalité décide votre stratégie",
+"textDescription": "Trois enveloppes, trois logiques fiscales. PEA (Plan Épargne Actions) : exonération totale après 5 ans, excellent pour actions pures, plafond 150 000 €, actions européennes seulement. Assurance-vie : fiscalité progressive (0% jusqu'à 4 600 €/an de gains, puis 8-45%), succession simplifiée, flexible (actions ETF ou fonds euro), plafond infini. Livret A : 3% garantis, zéro fiscalité, but = urgence ou trésorerie. Stratégie optimale : 6 mois salaire en Livret A (urgence), reste en PEA jusqu'à 150 000 €, excédent en assurance-vie. Sur 20 ans, différence fiscale = 50-100 000 € de gain supplémentaire pour une même mise. La majorité des épargnants laissent tout au Livret A = 300 000 € de fiscalité perdue. Comprendre ces trois est la vraie décision stratégique.",
+"videoURL": "https://www.youtube.com/c/ScienceEtonnante",
+"externalLinkURL": "https://www.banque-france.fr"
+},
+{
+"name": "Dollar-Cost Averaging : l'arme des peureux contre le timing du marché",
+"textDescription": "Vous avez 50 000 € à investir. Deux stratégies : (1) tout investi maintenant, (2) 1 000 €/mois pendant 50 mois. Beaucoup choisissent (2) par peur de la chute immédiate. Ironiquement, (2) est souvent meilleur mathématiquement. Pourquoi ? Volatilité du marché. Si prix fluctue 100-150 €, investir 1 000 € à 100, puis 150 vous donne prix moyen 125 €. Investir tout à 150 € est pire. Dollar-Cost Averaging exploite naturellement la peur : vous achetez plus quand prix baisse (peur maximum), moins quand monte (confiance maximum). Effet : vous payez 20-30% moins cher en moyenne. Inconvénient : en marché montant seulement (2020-2021), laisser 50 000 € en cash pendant 50 mois coûte 50% de gains. Verdict : DCA si vous êtes emotionnel, tout-investir si vous tolérez la volatilité. Les deux battent zéro-investir.",
+"videoURL": "https://www.youtube.com/c/DirtyBiology",
+"externalLinkURL": "https://lafinancepourtous.com"
+},
+{
+"name": "Les frais invisibles : comment 1% de TER devient 30% du rendement perdu",
+"textDescription": "Vous ne voylez pas les frais car débités automatiquement. Fonds A : 0,2% TER/an, ETF Lyxor MSCI World. Fonds B : 1,5% TER/an, fonds géré activement. 100 000 € placés, 8% rendement brut, 30 ans. Fonds A : 860 000 € net. Fonds B : 620 000 € net. Différence : 240 000 € perdus en frais (et intérêts composés sur frais). C'est 28% du gain final. Pire : fonds B ne bat pas l'indice (probabilité 5%), donc vous perdez l'argent ET obtenez la même performance. Erreur classique : « Les 1,5% de frais, c'est peu ». Non. Sur 30 ans, c'est catastrophique. Vérification : ouvrir votre contrat d'assurance-vie, voir le TER. S'il dépasse 0,8%, vous perdez l'équivalent du SMIC sur 20 ans d'investissement. Changer immédiatement.",
+"videoURL": "https://www.youtube.com/c/Lumni",
+"externalLinkURL": "https://www.amf-france.org"
+},
+{
+"name": "La réserve d'urgence : la permission psychologique d'investir sans panique",
+"textDescription": "Erreur typique : investir tout, garder zéro en cash. Urgence arrive (chômage, soin dentaire 3 000 €, voiture casse) → vendre les actions au pire moment (-30% en crise) → crystalliser perte définitive. Réserve d'urgence : 3-6 mois salaire en Livret A. Gagnant 3 000 €/mois : 9 000-18 000 € en Livret A. Cet argent rend 3%, chiant, mais le vrai rendement est : permission d'ignorer les crises du marché. Si vous avez réserve, chute -50% = opportunité (j'achète + de l'indice). Sans réserve = catastrophe (je vends tout). Psychologie : si vous sacrifiez 5% de rendement pour dormir tranquille (réserve coûte ~1-2% en opportunité), c'est un bon marché. Pas d'exception : même pas de réserve = ne pas investir du tout. Livret A d'abord, bourse second.",
+"videoURL": "https://lafinancepourtous.com",
+"externalLinkURL": "https://www.banque-france.fr"
+},
+{
+"name": "Timing du marché : pourquoi Warren Buffett appelle ça une 'recette pour les pauvres'",
+"textDescription": "Warren Buffett : « Timing le marché est une recette pour devenir pauvre ». Pourquoi ? Exemple : vous aviez 100 000 € en action janvier 2020 (avant COVID). Panique, vous vendez à -30% (70 000 €). Cash 70 000 € pendant 12 mois. Marché remonte +100%. En décembre, vous réinvestissez. Vous obtenez 140 000 € (gagnez +30% vs vous achetez à +100% vs marché). Hold les 100 000 € = 200 000 € en décembre (+100% aussi). Différence : 60 000 € perdus en timing tentative. Et vous aviez raison sur la chute ! Si vous aviez tort (chute n'arrive pas), vous perdez les 8% de montée. Statistiques : sur 50 ans, vous devez être juste sur direction 26 fois de suite pour battre le marché. Probabilité : 0,0000001%. Solution : buy and hold, zéro timing, sommeil tranquille.",
+"videoURL": "https://www.banque-france.fr",
+"externalLinkURL": "https://lafinancepourtous.com"
+}
+]
+}
+]

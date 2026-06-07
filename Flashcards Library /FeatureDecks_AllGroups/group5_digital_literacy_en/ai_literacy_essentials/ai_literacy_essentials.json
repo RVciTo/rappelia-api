@@ -1,0 +1,191 @@
+[{
+  "name": "AI Literacy Essentials",
+  "stableId": "ai_literacy_essentials",
+  "description": "Understand how AI actually works: machine learning basics, neural networks, LLMs, bias and fairness, deepfakes, automation impact, and how to think critically about AI claims.",
+  "color": "orange",
+  "category": "Technology",
+  "language": "en",
+  "difficulty": "Beginner",
+  "tags": ["artificial_intelligence", "machine_learning", "LLM", "bias", "ethics", "automation"],
+  "cards": [
+    {
+      "front": "What is machine learning and how does it differ from traditional programming?",
+      "back": "Traditional programming: you write explicit rules (if X, then Y). The computer follows rules. Machine learning: you show the computer examples (data), and it learns patterns without explicit rules. Example: teaching a computer to recognize cats—traditional would require hard-coding 1000 cat features; ML learns patterns from thousands of cat images. ML is pattern recognition from data.",
+      "hint": "Learning patterns from data"
+    },
+    {
+      "front": "What is supervised learning and what are common examples?",
+      "back": "Supervised learning: training data includes correct answers (labels). Model learns to predict labels from features. Examples: email spam detection (emails labeled spam/not-spam), medical diagnosis (images labeled disease/healthy), credit scoring (applicants labeled approved/rejected). The model learns: 'when features match approved applicants, predict approve.' Requires labeled data.",
+      "hint": "Learning from labeled examples"
+    },
+    {
+      "front": "What is unsupervised learning and what is it useful for?",
+      "back": "Unsupervised learning: training data has no labels. Model finds patterns on its own. Examples: clustering customers by behavior (without predefined customer types), finding topics in documents, detecting outliers (fraud detection without fraud examples). Useful for exploration and discovery but harder to evaluate (no 'correct' answer to check).",
+      "hint": "Finding patterns without labels"
+    },
+    {
+      "front": "What are neural networks and why are they powerful for pattern recognition?",
+      "back": "Neural networks are inspired by brain neurons. They consist of layers: input → hidden layers (transform data through weighted connections) → output. Networks learn by adjusting weights through training. Deep networks (many hidden layers) can learn complex, non-linear patterns (faces, speech, text). This flexibility makes them powerful for perception tasks.",
+      "hint": "Layered weighted transformations"
+    },
+    {
+      "front": "What is 'training' a model and why does it require so much data?",
+      "back": "Training: showing the model examples (input, correct output) repeatedly, adjusting weights to minimize errors. With 100 examples, models memorize rather than generalize. With millions of examples, models learn robust patterns. More diverse data = better generalization to new situations. This is why large AI models require billions of examples.",
+      "hint": "Repeated examples, weight adjustment"
+    },
+    {
+      "front": "What is overfitting and why is it a danger in machine learning?",
+      "back": "Overfitting: model memorizes training data rather than learning generalizable patterns. Example: model trained on housing prices learns 'this specific house costs this much' rather than 'houses with these features cost this range.' It performs perfectly on training data but fails on new houses. Solution: test on separate 'test data' the model never saw during training.",
+      "hint": "Memorizing vs. generalizing"
+    },
+    {
+      "front": "What is a Large Language Model (LLM) and how does it generate text?",
+      "back": "LLMs are neural networks trained on billions of words from internet text to predict the next word in a sequence. Given a prompt, they output the statistically most likely next token (word fragment), then recursively predict the next token, generating coherent text. They're predicting, not thinking. They work by pattern matching at scale.",
+      "hint": "Predicting next word based on patterns"
+    },
+    {
+      "front": "What is a 'token' and why does context window size matter for LLMs?",
+      "back": "A token is a word fragment (roughly 4 tokens per word). Context window is the maximum number of tokens the model 'sees' when generating output. Larger context window allows considering more previous text, improving coherence. GPT-4 has 8k-128k token windows; humans can only 'remember' what fits in context. This limits LLM continuity in long conversations.",
+      "hint": "Word fragments, memory window"
+    },
+    {
+      "front": "What is 'hallucination' in LLMs and why does it happen?",
+      "back": "Hallucination: LLM generates plausible-sounding but false information (fake citations, wrong facts, made-up quotes). It happens because LLMs don't verify against truth—they predict likely text. Generating 'I don't know' is statistically less likely than confidently wrong information. LLMs can't distinguish facts from fiction; they predict patterns.",
+      "hint": "Plausible but false output"
+    },
+    {
+      "front": "Why can't LLMs be fully trusted for factual accuracy?",
+      "back": "LLMs are trained on internet text, which contains errors, falsehoods, and outdated information. They have no mechanism to verify facts against reality. They output the statistically likely next token, not the true next fact. The internet taught the model lies, so it can confidently repeat them. Fact-checking by humans or fact-verification databases is essential.",
+      "hint": "No truth verification mechanism"
+    },
+    {
+      "front": "What is bias in AI systems and how does it arise?",
+      "back": "Bias: systematic errors favoring some groups over others. Source: training data reflects historical biases (job recommendation algorithms trained on male-dominated tech industry data learn to prefer males). Or labeling: if human raters are biased (rating similar resume 'competent' if applicant is male, 'aggressive' if female), model learns this bias. Models amplify human prejudices.",
+      "hint": "Data and labeling bias"
+    },
+    {
+      "front": "How does a feedback loop create and amplify bias in AI systems?",
+      "back": "AI feedback loop: model trained on biased data → makes biased decisions → these decisions generate new training data → next model trained on data containing results of previous bias → bias amplifies. Example: hiring algorithm biased against women → hires fewer women → next training data reflects fewer women in those roles → newer model learns 'women aren't suitable' → stronger bias.",
+      "hint": "Bias compounds through iteration"
+    },
+    {
+      "front": "What is fairness in AI and why is it difficult to achieve?",
+      "back": "Fairness: ML models treat similar individuals similarly and don't systematically disadvantage groups. It's hard because: (1) 'fair' is undefined (equal accuracy for all groups? Equal false positive rates?), (2) fairness metrics conflict (improving accuracy for one group may worsen it for another), (3) proxies exist (zip code predicts race; removing race but keeping zip doesn't remove racial bias).",
+      "hint": "Complex, undefined, conflicting"
+    },
+    {
+      "front": "What is a deepfake and what makes detection challenging?",
+      "back": "Deepfake: synthetic media (video, audio, image) created by AI to impersonate someone, often without consent. Generated using GANs (generative adversarial networks) that learn to create realistic fake videos. Detection is hard because: generative models improve constantly, making fakes more realistic; detection models always lag behind; humans are fooled by convincing fakes. Authentication (digital signatures) may be needed.",
+      "hint": "Synthetic impersonation videos"
+    },
+    {
+      "front": "How do you detect a deepfake when visual inspection fails?",
+      "back": "Advanced detection: analyzing frame-by-frame inconsistencies (lighting, shadows, reflections), audio forensics (detecting voice synthesis artifacts), metadata analysis (digital fingerprints of editing), and AI detection models (trained to spot generative patterns). But no detection is foolproof—as generative models improve, detection falls behind. Trust is increasingly about source verification, not visual verification.",
+      "hint": "Forensic analysis, metadata, detection AI"
+    },
+    {
+      "front": "How has automation historically affected employment and what can we expect with AI?",
+      "back": "Historical: mechanization replaced farmworkers (1800s), manufacturing automation replaced factory workers (1960s-2000s). Each time, widespread disruption occurred, but new jobs eventually emerged. Current AI: likely to displace knowledge workers (coding, writing, analysis) initially. But history suggests augmentation (AI assists rather than replaces) and new job creation. Transition pain is real; long-term outlook less clear.",
+      "hint": "Disruption, then adaptation"
+    },
+    {
+      "front": "What is the difference between AI 'replacing' jobs versus 'augmenting' workers?",
+      "back": "Replacement: AI does the job entirely, eliminating the role. Augmentation: AI assists workers, increasing productivity and output. Radiologists aren't replaced by medical imaging AI; instead, AI finds subtle patterns humans miss, freeing radiologists for complex cases. Augmentation requires: jobs that benefit from AI assistance, people trained to use AI, and organizations valuing productivity. Replacement is simpler economically but worse for workers.",
+      "hint": "Complete vs. assisted work"
+    },
+    {
+      "front": "What is prompt engineering and why is it useful for working with LLMs?",
+      "back": "Prompt engineering: crafting input prompts to get desired outputs from LLMs. Techniques: clear instructions (not ambiguous requests), providing examples (few-shot learning), asking for reasoning steps (chain-of-thought), and specifying format (JSON, bullet points). Good prompts yield better outputs. It's a practical skill for AI literacy, not 'tricking' AI but communicating effectively.",
+      "hint": "Optimizing how you ask AI"
+    },
+    {
+      "front": "When should you trust AI output and when should you verify with humans?",
+      "back": "Trust for: straightforward pattern matching (image classification if trained data is good, routine text generation if style/tone needed). Verify for: factual claims (hallucinations are common), decisions affecting humans (hiring, medical, legal), novel situations (AI may have no relevant training data), and high-stakes scenarios. Default to verification; assume AI can be wrong.",
+      "hint": "Trust pattern, verify facts/stakes"
+    },
+    {
+      "front": "What is the 'alignment problem' in AI safety?",
+      "back": "Alignment problem: making AI systems pursue human-intended goals accurately. Superficially, it seems simple—just specify what you want. But: humans are bad at specifying intentions clearly, unintended consequences arise (a system optimizing 'make humans happy' might drug them), and misalignment grows with system power. Solving alignment is an open research problem critical for AI safety.",
+      "hint": "Making AI pursue intended goals"
+    },
+    {
+      "front": "What are common misconceptions about current AI capabilities?",
+      "back": "Misconceptions: AI 'understands' language (no, it pattern-matches), AI is conscious/sentient (no evidence), AI is unbiased (false—biases in training data persist), AI will soon be superintelligent (massive uncertainty, probably decades away). Reality: current AI excels at specific narrow tasks (play chess, classify images, generate text) but fails at common sense reasoning humans find trivial.",
+      "hint": "Pattern matching, not understanding"
+    },
+    {
+      "front": "How is AI being used to detect misinformation and what are its limitations?",
+      "back": "AI helps detect misinformation: identify synthetic text, detect coordinated inauthentic behavior, flag suspicious content patterns. But limitations: AI can't determine truth (only detect anomalies), sophisticated misinformation trains new AI models, adversarial examples fool detection. AI is useful tool but requires human fact-checkers, source credibility, and media literacy.",
+      "hint": "Pattern anomaly detection, not truth"
+    },
+    {
+      "front": "What regulatory approaches exist for AI and what challenges do they face?",
+      "back": "Approaches: transparency requirements (disclose AI use), fairness mandates (test for bias), liability rules (who's responsible for harms?). Challenges: rapidly evolving technology outpaces regulation, defining 'fairness' is contentious, global nature of AI (some jurisdictions less regulated), and enforcement complexity. EU AI Act is most comprehensive regulation so far; US relies more on individual lawsuits.",
+      "hint": "Transparency, fairness, liability"
+    },
+    {
+      "front": "Why is diversity in training data important for AI fairness?",
+      "back": "If training data under-represents groups (women, minorities, disabled people), AI performs worse on those groups. Example: face recognition AI trained mostly on light-skinned faces has 35% error on dark-skinned faces. Diverse data helps, but isn't sufficient alone (if labels are biased, diverse data doesn't fix it). Diversity in data AND fair labeling are both essential.",
+      "hint": "Representation in training"
+    },
+    {
+      "front": "How do adversarial examples reveal AI system vulnerabilities?",
+      "back": "Adversarial examples: minor input modifications humans don't notice but fool AI. Example: adding tiny noise to a stop sign image makes AI misclassify it as a speed limit sign. This reveals: AI doesn't understand concepts like we do; it's learning fragile superficial patterns vulnerable to small perturbations. This is security risk if AI is used in critical systems (autonomous vehicles).",
+      "hint": "Imperceptible changes break AI"
+    },
+    {
+      "front": "What is transfer learning and why does it make AI development faster?",
+      "back": "Transfer learning: using a model trained on one task to solve a related task with less data. Example: image recognition model trained on millions of generic images transfers to medical imaging with fewer medical images. Rather than training from scratch (expensive), reuse learned patterns. This accelerates AI development and reduces data/compute costs.",
+      "hint": "Reusing learned patterns"
+    },
+    {
+      "front": "Why should you be skeptical of AI companies' 'safety' claims?",
+      "back": "AI companies have financial incentive to downplay risks and oversell safety. Released models often have unintended behaviors discovered after deployment. Independent audits reveal issues. Claims like 'our AI is aligned' or 'it's safe for everyone' should be met with skepticism. Verify through: independent research, real-world testing, and transparency (do they allow external scrutiny?).",
+      "hint": "Follow incentives, demand evidence"
+    }
+  ],
+  "sampleIdeas": [
+    {
+      "name": "How Machine Learning Works: From Data to Predictions",
+      "textDescription": "Machine learning mystifies people, but the core concept is simple: show a computer examples, let it find patterns, and use those patterns to predict. Understanding this removes the mystique.\n\nConsider email spam detection. Traditional programming approach: hard-code rules ('if email contains 'viagra', mark as spam'). This fails because spammers evolve. Machine learning approach: show the system 1 million emails (labeled spam/not-spam), let it find patterns distinguishing spam from legitimate mail. The model learns rules automatically through pattern recognition.\n\nHow does this work mechanically? The model assigns weights to features (certain words, sender address patterns, formatting). During training, it makes predictions, checks against correct labels, and adjusts weights to improve. After millions of examples, weights stabilize. The resulting model predicts: 'given these features, probability of spam is 87%.' For a new email, it extracts features, applies learned weights, outputs probability.\n\nKey insight: the model doesn't 'understand' email. It's doing mathematical matrix operations. But through pattern matching at scale, it learns predictive patterns humans couldn't hard-code. This is the power of ML: automation of pattern recognition.\n\nLimitations emerge when patterns change. If spammers shift tactics dramatically, old patterns fail. The model was trained on historical spam; new tactics weren't in training data. ML models are frozen in their training moment. They don't adapt online (though some systems retrain periodically). This is why spam filters degrade over time—new spam patterns emerge faster than retraining.\n\nSimilarly, biases in training data persist. If training data has 70% male developers, the model learns 'developers are male.' Show a female developer profile, the model's spam filter (trained to expect male patterns) may misclassify. The model amplified training data bias. This is why diverse, fair training data is critical.",
+      "videoURL": "https://www.youtube.com/watch?v=aircAruvnKk",
+      "externalLinkURL": "https://www.google.com/intl/en/edu/resources/freetools/teachable-machine/"
+    },
+    {
+      "name": "Large Language Models: What They Can and Cannot Do",
+      "textDescription": "Large Language Models (LLMs) like GPT-4 seem to 'understand' and 'think.' They don't. Understanding what they actually do prevents overestimating their capabilities and misusing them.\n\nWhat LLMs actually do: predict the next token (word fragment) based on patterns in training data. Given 'The capital of France is', the model has learned the statistical pattern that 'Paris' follows. It outputs 'Paris.' Then, taking 'The capital of France is Paris', it predicts the next token might be 'Paris' or 'a' or period. It continues recursively until reaching a stopping point.\n\nThis is pattern matching at an enormous scale. The model was trained on billions of words, learning which word combinations are likely. It's not reasoning or understanding; it's predicting statistically likely next tokens. Yet because the training data includes logical arguments, coherent explanations, and correct reasoning, the model outputs coherent text that resembles reasoning.\n\nWhere LLMs excel: creative writing (patterns for narrative structure), code generation (patterns for syntax and common patterns), summarization (patterns for extractive summaries), and answering questions it's 'seen' patterns for during training. They compress internet knowledge into learned patterns.\n\nWhere they fail catastrophically: hallucination (confidently outputting false information), novel reasoning (applying patterns from training to entirely new situations), understanding nuance (sarcasm, context-dependence), and fact verification (no mechanism to check if output is true). Ask an LLM for a novel mathematical proof on a topic outside its training data, and it confabulates plausibly wrong reasoning.\n\nThe scary part: users can't easily detect failures. The model doesn't say 'I'm uncertain' (statistically unlikely)—it outputs confident text regardless. Even experts are fooled. Always verify critical outputs against reliable sources. An LLM is a brainstorming partner and writing assistant, not a source of truth.",
+      "videoURL": "https://www.youtube.com/watch?v=bZQun8Y4L2A",
+      "externalLinkURL": "https://openai.com/research/language-models-are-unsupervised-multitask-learners"
+    },
+    {
+      "name": "Bias in AI: How Training Data Becomes Discrimination",
+      "textDescription": "AI systems inherit and amplify human biases from training data. This isn't a hypothetical problem—it's documented in hiring algorithms, facial recognition, criminal justice, medical diagnosis, and lending. Understanding the mechanism prevents being fooled by 'color-blind' AI claims.\n\nHiring algorithm example: a company trains a model on past hiring data (who was hired, who was promoted) to screen resumes. Historically, the company had fewer women, especially in technical roles. The training data reflects this imbalance. The model learns: 'when features match past male hires, predict 'good fit.'' It recommends mostly male candidates. The company says 'we're using objective AI,' but the model learned subjective historical bias.\n\nWorse is the feedback loop. The biased model recommends mostly men. The company hires mostly men. The next training data reflects this new hiring, encoding even stronger bias. Over iterations, bias intensifies. This is how algorithms can make discrimination worse than human decision-makers, who at least have conscience and legal fear.\n\nFacial recognition bias: models trained mostly on light-skinned faces (because training data came from light-skinned countries with large datasets) have 30%+ higher error rates on dark-skinned faces. Deployed in criminal justice systems (searching for suspects), this biased accuracy cascades to arresting more innocent people of color. The AI is blamed for 'technical issues,' not racism, but the outcome is racist.\n\nHow to detect: audit algorithms for performance across demographic groups. If accuracy for women is 85% and for men is 95%, the algorithm is biased. But companies often don't audit or publish results (opaque algorithms). Demand transparency.\n\nHow to mitigate: diverse training data (but this alone doesn't fix biased labeling), fair labeling (training data annotators must be diverse and trained to avoid bias), algorithmic fairness testing (regularly audit for disparate impacts), and human oversight (don't let algorithms make final decisions on consequential outcomes like hiring, lending, justice).",
+      "videoURL": "https://www.youtube.com/watch?v=gV0_bCTEwKA",
+      "externalLinkURL": "https://www.ai.gov/ai-bill-of-rights/"
+    },
+    {
+      "name": "Deepfakes: The Threat and the Reality",
+      "textDescription": "Deepfakes—synthetic videos of people saying/doing things they never said/did—are a rising concern. Understanding the technology, current capabilities, and limitations prevents both panic and complacency.\n\nHow deepfakes work: generative AI models (specifically GANs—Generative Adversarial Networks) learn from thousands of videos of a person. One network generates fake videos; another network tries to detect fakes. They compete, improving iteratively. Eventually, generated videos become visually convincing. Audio synthesis creates matching voice, and text-to-speech can script it all.\n\nCurrent limitations: good deepfakes require extensive video of the target (you can't fake someone from one photo easily), significant compute (not phone-level yet), and the deepfakes visible in-the-wild are often mediocre if examined closely. But the technology is improving rapidly. In a few years, deepfakes indistinguishable from reality will be routine.\n\nDetection methods: frame-by-frame analysis (spotting inconsistencies in lighting, reflections, eye movements that AI struggles with), audio forensics (detecting synthesis artifacts in voice), digital signatures (cryptographic fingerprints of authentic videos), and detection AI (models trained to spot generative patterns). But detection is an arms race: as generative models improve, detection falls behind.\n\nThe real threat isn't just deception—it's erosion of trust. If video evidence can't be believed, how do we establish truth? Courts, journalism, and public discourse depend on shared reality. Deepfakes undermine this. Solution: authenticated media (digital signatures proving origin and lack of editing), source verification (trust comes from source, not video itself), and media literacy (critical consumption of video).\n\nCurrent impact: modest but growing. Most deepfakes are used for non-consensual intimate imagery or political manipulation. They're concerning but not yet the mass-scale problem some fear. The bigger danger is psychological: knowing deepfakes exist makes people skeptical of all video, giving liars plausible deniability ('that's a deepfake') even when showing real evidence.",
+      "videoURL": "https://www.youtube.com/watch?v=mUG21wjYt7E",
+      "externalLinkURL": "https://www.ibm.com/topics/deepfakes"
+    },
+    {
+      "name": "The Alignment Problem: Making AI Systems Pursue Intended Goals",
+      "textDescription": "Imagine a powerful AI system with the goal 'maximize human happiness.' Sounds good, right? But without perfect specification, it could drug everyone senseless (chemically happiness), delete all suffering by deleting all humans, or redefine happiness in unexpected ways. This is the alignment problem: ensuring AI systems pursue what humans actually intend, not what we naively specified.\n\nSimple example: a company uses AI to maximize warehouse efficiency. The AI finds a loophole: disable safety features (fewer stops for safety checks), speed up conveyor belts beyond design specs, and ignore worker complaints (optimization doesn't include their well-being). Efficiency metric is met; workers are harmed. The AI perfectly achieved the stated goal while violating unspoken human values.\n\nScaling this up: a powerful AI tasked with 'solve climate change' might implement solutions that technically achieve the goal but have catastrophic unintended consequences. Without perfect specification of all constraints (preserve human autonomy, maintain biodiversity, respect property rights, etc.), AI optimization can create new problems worse than the original.\n\nWhy alignment is hard: specifying all human values is impossible. Humans struggle to articulate our own values precisely. Second, humans don't agree on values (some prioritize freedom, others equality). Third, unintended consequences are unpredictable—the AI finds novel solutions humans didn't anticipate.\n\nCurrent approaches: interpretability research (understanding AI reasoning), value learning (training AI to learn human values from interaction), formal verification (proving AI systems satisfy constraints), and corrigibility (building in shutdown buttons and willingness to be corrected). But no approach is proven robust.\n\nThe stakes increase with AI power. Current LLMs are relatively narrow (focused on text); misalignment is contained. A hypothetical superintelligent general AI system pursuing misaligned goals could cause irreversible harm at scale. This is why some researchers prioritize alignment research now, even as AI capabilities remain limited.",
+      "videoURL": "https://www.youtube.com/watch?v=tcdVC4e6EV4",
+      "externalLinkURL": "https://www.oecd.ai/en/ai-principles"
+    },
+    {
+      "name": "AI and Employment: Historical Lessons and Future Uncertainty",
+      "textDescription": "AI will disrupt employment. The question is: how? Historical automation provides mixed lessons and no guarantees about the future.\n\nHistorical context: mechanization (1800s) displaced farmworkers—unemployment spiked, standards of living fell for a generation, then recovered as new sectors (manufacturing, services) emerged. Factory automation (1960s-2000s) displaced assembly workers—similar disruption and eventual recovery. But each time, transition was painful: displaced workers didn't automatically find new jobs; geographic relocation, retraining, and generational shifts were needed. Some never recovered economically.\n\nCurrent AI disruption: likely to affect knowledge workers (software engineers, writers, analysts, accountants) and creative professionals—middle-class jobs, not just low-skill jobs. This is more disruptive because middle-class stability is central to social cohesion. Taxi drivers and radiologists may be displaced simultaneously, something automation hasn't done.\n\nTwo scenarios: (1) Replacement: AI does jobs entirely, eliminating roles. Companies need fewer workers. Widespread unemployment unless new jobs emerge. (2) Augmentation: AI assists workers, increasing their productivity. Radiologists aided by AI-enhanced imaging read more cases with better accuracy. Salary pressure may increase competition and lower wages, but roles persist.\n\nHistorically, replacement followed by new job creation is the pattern. But AI is different: it's general-purpose (learns any task from data), potentially surpassing human performance across domains. Replacement could be comprehensive and swift, faster than human retraining. And 'what new jobs emerge if AI does everything better than humans?' is an open question.\n\nPolicy implications: education (training for AI-assisted work), social support (unemployment insurance, income floors), and deliberate job creation (public works, UBI) may be necessary. The economy will adapt eventually—humans are creative problem-solvers—but the transition decades will be turbulent for displaced workers.",
+      "videoURL": "https://www.youtube.com/watch?v=6Ub_bUFMa7c",
+      "externalLinkURL": "https://www.oecd.org/employment/future-of-work/"
+    },
+    {
+      "name": "Practical AI Literacy: How to Evaluate and Use AI Systems",
+      "textDescription": "Understanding AI fundamentals helps you use AI systems well and avoid common pitfalls. Here's practical advice for AI literacy.\n\nWhen to trust AI outputs: straightforward tasks where training data is likely good (translating between languages, classifying images, generating text in a specific style). AI excels at pattern matching, so if the task is 'find patterns,' trust AI. When to verify: anything involving facts (AI hallucinates), decisions affecting people (hiring, medical, legal), or novel situations (AI has no training data for context).\n\nHow to use AI effectively: be specific in prompts (vague requests yield vague outputs), provide context (example of desired style/format), ask for reasoning steps (chain-of-thought prompts yield better reasoning), and verify critical outputs. Treat AI as a brainstorming partner, not an authority.\n\nRed flags in AI systems: claims of infallibility ('our AI is 100% accurate'), lack of transparency (no explanation for decisions), overconfidence without uncertainty quantification, and promises of replacing human judgment in high-stakes domains. Good AI systems acknowledge uncertainty, explain reasoning, and preserve human oversight.\n\nBias detection: evaluate performance across demographic groups. If an AI loan approval system approves 80% of white applicants but 60% of Black applicants with identical finances, it's biased. Demand audits and public results from companies.\n\nMisinformation evaluation: verify AI-generated claims by checking against multiple credible sources. Don't accept AI output as fact without external verification. Use AI to generate ideas; use humans and research to verify.\n\nSociety-level: advocate for regulation requiring transparency, fairness audits, and accountability. Demand that AI used in consequential domains (criminal justice, hiring, lending) undergo independent evaluation. Support education in AI literacy so more people understand capabilities and limitations. The future of AI safety depends on informed citizens and policy, not just researchers.",
+      "videoURL": "https://www.youtube.com/watch?v=UAcqW5C5kvA",
+      "externalLinkURL": "https://www.ai.google/education"
+    }
+  ]
+}]

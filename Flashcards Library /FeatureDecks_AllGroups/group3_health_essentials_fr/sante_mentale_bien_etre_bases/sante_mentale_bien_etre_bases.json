@@ -1,0 +1,215 @@
+[
+{
+"name": "Santé Mentale & Bien-être",
+"stableId": "sante_mentale_bien_etre_bases",
+"description": "Comprendre la science de la santé mentale : réponse au stress, hygiène du sommeil, distorsions cognitives, stratégies de résilience et quand consulter un professionnel.",
+"color": "blue",
+"category": "Health",
+"language": "fr",
+"difficulty": "Débutant",
+"tags": [
+"sante_mentale",
+"bien_etre",
+"stress",
+"anxiete",
+"sommeil",
+"resilience"
+],
+"cards": [
+{
+"front": "Comment votre corps réagit-il physiquement au stress et pourquoi c'est utile en situation de danger réel ?",
+"back": "En stress, l'amygdale déclenche la sécrétion de cortisol et adrénaline. Cela provoque : augmentation cardiaque (pomper le sang aux muscles), constriction des vaisseaux (préserver énergie), pupilles dilatées (mieux voir), arrêt de la digestion. C'est le système combat-fuite : optimisé pour courir d'un prédateur. Très utile il y a 10 000 ans. Aujourd'hui : vous restez immobile au bureau sous stress (impossible de combattre le boss), l'énergie reste mobilisée = épuisement. C'est pourquoi l'exercice physique calme l'anxiété : il consomme cette énergie mobilisée.",
+"hint": "Cortisol, adrénaline, combat-fuite"
+},
+{
+"front": "Quelle est la différence entre stress aigu et stress chronique, et pourquoi l'un est utile et l'autre destructeur ?",
+"back": "Stress aigu (examens, présentation) : quelques heures/jours, cortisol élévé temporairement, améliore focus et performance. Pas de dégâts. Stress chronique (travail harassant mois après mois, relation toxique) : cortisol élevé en permanence. Effets : affaiblissement immunitaire (2x plus d'infections), mémorisation détruite (l'hippocampe rétrécit), inflammation chronique, dépression. C'est pourquoi changer de travail peut sauver votre santé mentale. La différence : aigu forge, chronique détruit.",
+"hint": "Durée, hormone cortisol, effets opposés"
+},
+{
+"front": "Comment distinguer l'anxiété normale d'un trouble anxieux nécessitant aide professionnelle ?",
+"back": "Anxiété normale : peur d'un examen demain, inquiétude rationnelle. Elle disparaît après l'événement. Trouble anxieux : peur intense sans danger réel (entrer dans magasin provoque panique), dure > 6 mois, interfère quotidien (éviter situations). Symptômes : palpitations, sueurs, picotement, sentiment mort imminente. Fréquence : crises multiples/semaine. Si vous reconnaissez ça, c'est pathologique. Solutions : thérapie comportementale (90% efficacité), médicaments, relaxation. Consulter un psy est urgent si impacts votre vie quotidienne (travail, relations).",
+"hint": "Rationnelle vs persistante, impact fonctionnel"
+},
+{
+"front": "Qu'est-ce qu'une distorsion cognitive et pourquoi elle amplifie anxiété et dépression ?",
+"back": "Distorsion cognitive : pensée automatique fausse que votre cerveau accepte comme réalité. Exemples courants : (1) Catastrophisme : « Je vais échouer ce projet = je serai viré = ruine personnelle ». (2) Tout-ou-rien : « J'ai raté cette phrase = tout mon discours est pathétique ». (3) Personnalisation : « Il m'a pas salué = il m'aime pas » (vrai : occupé, fatigue). Ces pensées sont fausses mais créent anxiété réelle. La TCC (thérapie cognitive comportementale) enseigne à les débusquer : « Quelles preuves ? ». Remplacer par pensée vraie = anxiété disparaît.",
+"hint": "Pensées automatiques, raccourcis mentaux"
+},
+{
+"front": "Pourquoi l'hygiène du sommeil affecte-t-elle directement votre mood et cognition le jour suivant ?",
+"back": "Sommeil insuffisant < 7h : concentration réduite 40%, créativité -30%, émotivité instable (irritabilité, tristesse amplifiée). Biologie : pendant sommeil, cerveau consolide mémoires et « nettoie » déchets métaboliques (protéine bêta-amyloïde = liée à Alzheimer). Manque de sommeil = accumulation de déchets = cérébral léthargique. Effet cumulatif : une nuit -2h = jour suivant observable. Deux semaines mal dormies = dépression clinique possible. Inverse : une semaine de 8h+ = focus retrouvé, humeur stable. L'hygiène du sommeil est le plus fort levier de santé mentale, plus que médocs parfois.",
+"hint": "Cycle circadien, nettoyage cérébral"
+},
+{
+"front": "Quels sont les principes clés d'une bonne hygiène du sommeil et pourquoi chacun compte ?",
+"back": "(1) Heure fixe coucher/lever (+/- 30min) : règle le cycle circadien. (2) 8h minimales (7-9h optimal). (3) Pas d'écrans 1h avant lit : lumière bleue supprime mélatonine. (4) Température 18-19°C : le cerveau endort-il mieux au frais. (5) Pas de caféine après 14h (demi-vie 5-6h). (6) Exercice 4h avant coucher (augmente somm profond). Ignorer deux points = nuits 40% moins réparatrices. Cumul de 4+ = insomnie chronique. Ces règles ne sont pas « conseils », elles sont neuroscience pures. Votre sommeil ou votre santé mentale payera le prix.",
+"hint": "Régularité, lumière, caféine, température"
+},
+{
+"front": "Pourquoi la rumination (ressasser) amplifie dépression et comment l'interrompre ?",
+"back": "Rumination : boucle de pensées négatives sans fin (« C'est ma faute... j'aurais dû... jamais je vais réussir »). Neurologiquement : elle active circuits de dépression (cortex préfrontal) sans activation de résolution (ce qui demande action). Vous tournez en rond mentalement = dépression s'enfonce. Interruption : (1) Méthode 5-4-3-2-1 : nomme 5 choses visibles, 4 sons, 3 sensations tactiles (ancre au présent). (2) Action physique : marche, douche froids, sports (mobilise cerveau). (3) Parler à quelqu'un (externalise, réduit force). La rumination ne se combat PAS en pensant mieux, mais en ARRÊTANT la pensée par action.",
+"hint": "Boucle mentale négative, ancrer au présent"
+},
+{
+"front": "Quel rôle joue la résilience et comment se construit-elle face aux adversités ?",
+"back": "Résilience : capacité à se rétablir après coup difficile. Pas inné, se construit. Trois piliers : (1) Relations sociales (cercle de confiance, soutien émotionnel, sens d'appartenance). (2) Expérience d'efficacité (petits succès répétés, même mineurs). (3) Sens/narration personnelle (comprendre l'épreuve comme apprentissage, pas comme défaite totale). Exemple : perte emploi. Résilient : déception 2 mois, puis « J'ai appris ça, me repositionne ». Non-résilient : spirale 2 ans de doute. Construire résilience : chercher petites victoires quotidiennes, maintenir liens, relire vos succès antérieurs, réinterpréter échecs comme données, pas identité.",
+"hint": "Relations, succès petits, sens"
+},
+{
+"front": "Qu'est-ce que la pleine conscience (mindfulness) et pourquoi change-t-elle l'activité cérébrale ?",
+"back": "Pleine conscience : attention au présent sans jugement (sensation respiration, sons, sensations corpo) VS rumination sur passé ou futur. Neuroscientifiquement : meditation 10min/jour pendant 8 semaines augmente épaisseur cortex préfrontal (decision, émotion) et réduit amygdale (peur). Bilan : moins d'anxiété automatique, plus de contrôle émotionnel. Pas magique : c'est exercice du cerveau comme gym. Débutant : respiration 4-7-8 (inspirer 4sec, bloquer 7sec, expirer 8sec) 3x/jour. Effet visible : 2-3 semaines pour mieux gérer stress. Pas besoin app coûteuse, juste attention volontaire.",
+"hint": "Attention au présent, plasticit neurale"
+},
+{
+"front": "Pourquoi l'isolement social est aussi dangereux pour la santé que tabac et obésité combinés ?",
+"back": "Étude Harvard 85 ans : loneliness = +26% mortalité précoce. Biologie : isolement chronique suractive stress (cortisol permanent), affaiblit immunité. Socialement : absence retour émotionnel = dépression. Solution : 15min de vraie connexion humaine (conversation, sans téléphone) réduit cortisol de 25%. Pas besoin grandes sorties, juste régularité. Une appel famille/semaine, un café ami/semaine, suffisent. Piège moderne : « Je suis connecté par réseaux sociaux ». Faux. Réseaux amplifient isolement car échange unilatéral (vous regardez, pas vrai dialogue). Vrai social = interaction synchrone.",
+"hint": "Connexion vraie, pas réseaux virtuels"
+},
+{
+"front": "Comment l'exercice physique modifie chimie cérébrale et réduit anxiété/dépression ?",
+"back": "Exercice aérobique 30min : augmente sérotonine (améliore mood, implicitement antidépresseur ISRS), endorphines (bien-être), BDNF (facteur croissance nerveuse = neuroplasticité, création nouvelles connexions). Effets : équivalent antidépresseur pour dépression légère-modérée. Efficacité : 60-70% des gens, vs 50% pour médicaments seuls. Meilleur combo : exercice + therapie + médoc si sévère. Intensité minimale : 150min modéré/semaine (exemple 30min x5 jours). Pas besoin salle gym : marche rapide, escaliers, danse comptent. Délai effets : 2 semaines pour amélioration mood. Pourquoi peu le font : effet immédiat < médicament (jours vs semaines), mais supérieur long terme.",
+"hint": "Sérotonine, endorphines, neuroplasticité"
+},
+{
+"front": "Pourquoi la dépression n'est pas « tristesse », mais désordre de neurotransmetteurs ?",
+"back": "Dépression : pas défaut moral/caractère, mais déséquilibre biochimique (sérotonine, dopamine, norépinéphrine trop basses). Signes : perte intérêt (anhedonia), fatigue même après sommeil, culpabilité intense, concentration impossible, pensée suicidaire. Causes : génétique (50%), stress chronique, carences (vit D, magnésium), sommeil détruit, isolement. Traitement : médicaments (ISRS augmentent sérotonine en 3-4 semaines), thérapie (TCC efficace 60-80%), exercice, sommeil, relations. Pas de « on devrait juste être heureux ». Faux. C'est maladie neuro. Culpabiliser un dépressif = ajouter toxine à poison. Accès à aide : demander GPT d'abord, elle prescrit psy/psy.",
+"hint": "Neurotransmetteurs, déséquilibre biologique"
+},
+{
+"front": "Quel est le lien entre perfection­nisme et anxiété, et comment se briser de cette spirale ?",
+"back": "Perfectionniste : besoin contrôle absolu, erreur = menace identité. Neurologiquement : impossible. Vous ferez toujours erreur (humain) = anxiété permanente. Crise quand échec réel (note 8/10 vs 9/10 esperé = crise). Lien causal : perfectionnisme → attentes impossibles → échec inévitable → honte → rumination → dépression. Sortir : accepter concept « bon assez ». Réframe de l'erreur : « Donnée, pas jugement ». Exercice : faire deliberément chose imparfaite (dessiner mal, demander l'aide publiquement, laisser typo email), sentir que catastrophe n'arrive pas. Cerveau apprend : imperfection = acceptable. Ansiosité diminue 40% après 2 semaines de cet exercice.",
+"hint": "Attentes impossibles, reframe erreur"
+},
+{
+"front": "Pourquoi les pensées suicidaires exigent intervention immédiate et comment créer plan sécurité ?",
+"back": "Pensées suicidaires = urgence médicale, pas honte. Signal : détresse extrême, pas choix permanent. Chiffre : 90% des suicidés regrettent la décision secondes après acte. Intervention immédiate requise : appeler 3114 (numéro national, gratuit, 24/24). Crise internatio SOS Amitié 06-xx. Plan sécurité : identifier déclencheurs (isolement, alcool, anniversaires traumatiques), demander aide (dire à quelqu'un), enlever moyens accès (armes, médicaments toxiques), créer liste ressources (contact psy, amis). Médication antidépressive augmente risque premières semaines (agitation) = surveillance étroite. Pas hoonte, c'est maladie. Parler = sauvetage.",
+"hint": "Urgence, numéro, plan sécurité"
+},
+{
+"front": "Comment identifier si votre trouble anxieux/déprimer est léger (autogéré) ou sévère (professionnel urgent) ?",
+"back": "Léger : quelques jours/semaines difficile, amélioration spontanée, stress clairement identifiable. Autogéré : sommeil 8h, exercice, relations, pleine conscience. Sévère : > 2 semaines sans amélioration, impact travail/relations (absentéisme, isolation), pensées dark persistantes, sentiment vide total, ou antécédent psychiatrique. Sévère = consultation immédiate. Ne pas attendre. Screening : si vous répondez oui à 3+ : (1) Perte intérêt tout, (2) Sentiment inutilité, (3) Pas d'énergie, (4) Sommeil dérangé, (5) Concentration impossible → TEL PRO. Timing : consultation < 1 semaine. Délai = risque aggravation.",
+"hint": "Durée, impact fonctionnel, pensées dark"
+},
+{
+"front": "Pourquoi la TCC (thérapie cognitive comportementale) est considérée la plus efficace pour anxiété et dépression légère-modérée ?",
+"back": "TCC : modèle pensée-émotion-action interconnectés. Si pensée fausse (« Je vais échouer ») → émotion (peur) → action (procrastination) → confirmation pensée. TCC interrompt : identifier pensée, valider preuves, reframer, tester en réalité. Exemple : pensée « Tout le monde me juge ». Test : parlez à étranger, mesurez jugement réel (quasi-zéro). Cerveau apprend : pensée fausse. Anxiété chute. Efficacité : 60-70% remission 12-16 sessions (vs 50% médicaments). Durée courte (3-6 mois) vs thérapies longues (années). Peut être auto-administrée (livre, app) pour léger, pro pour modéré-sévère.",
+"hint": "Pensée-émotion-action, validation preuves"
+},
+{
+"front": "Quel rôle joue la vitamine D et magnésium dans régulation mood et sommeil ?",
+"back": "Vitamine D : 50% population française carencée (hiver, peau foncée, intérieur). Manque = dépression accrue (augmente recepteurs sérotonine dans cerveau). Magnésium : régule tension musculaire, respiration, relâche détente. Carence = hyperactivité nerveuse, insomnie. Recommandé : Vit D 1000-2000 UI/jour (test sanguin if possible), magnésium 300mg/jour. Sources naturelles : soleil 15min/jour (Vit D), noisettes, épinards (magnésium), cacao. Supplement cheap (€10/mois), effets 2-3 semaines. Pas panacée, mais souvent manquant. Si dépression legère + carence = repairer avant Psych.",
+"hint": "Carence, neurotransmetteurs, supplement"
+},
+{
+"front": "Pourquoi demander aide (à ami, famille, psy) augmente résilience plutôt que montrer faiblesse ?",
+"back": "Mythe : « Demander aide = faible ». Réalité : c'est la force. Neurologie : parler challenge rumination (externalise pensée), crée perspective externe (ami voit ce que vous êtes trop proche pour voir), active oxyto­cin (hormone lien social, réduit cortisol). Statistique : personnes qui demandent aide se rétablissent 50% plus vite que solitaires. Risque réel : garde tout en soi = spirale. Demander aide = reconnaître problème (lucidité) + agir (solution). Mettre en pratique : nommer à quelqu'un ce qui suffoque, pas garder secret. Secret = aliment dépression. Ami parfait ? Non, juste présent.",
+"hint": "Externalisation, oxyto­cin, perspective"
+},
+{
+"front": "Comment les routines quotidiennes (structure) préviennent dépression et anxiété ?",
+"back": "Dépression/anxiété : cerveau chaotique (rumination sans fin) + corps chaotique (sommeil erratique, repas sautés) = véritables chaos. Routines : structure externe = stabilité interne. Exemple : 7h réveil, 7h30 exercice, 8h petit déj, 21h coucher (fixe). Effet : prédictibilité réduit peur (peur = de l'imprévu), cortisol se régule, sommeil s'améliore. Autre : noter petites tâches quotidiennes (douche, 20min walk, appel ami) = sentiment contrôle + victoires petites = efficacité personnelle = résilience. Aucune routine ne déprime plus que chaos. Démarrer : une seule routine (coucher fixe) 2 semaines, ajouter après.",
+"hint": "Structure, prédictibilité, petites victoires"
+},
+{
+"front": "Pourquoi l'alcool et drogues empirent anxiété/dépression même si sensation soulagement court terme ?",
+"back": "Court terme : alcool supprime amygdale (peur), sensation soulagement temporaire. Long terme : alcool supprime REM sleep (sommeil où cerveau se « répare »), augmente dépression 48h après (rebond neurochimique), crée dépendance (cerveau oublie réguler lui-même). Cyclique : dépression → alcool pour échapper → pire dépression → plus alcool. Fréquence : > 2 verres/jour augmente dépression 30%. Cannabis similaire : court-terme apaise, long-terme (surtout jeunes < 25) augmente anxiété, altère mémoire. Verdict : zero alcool/drogues si anxieux/déprimé. Cela empire 100% du temps. Ressemble soulagement, c'est pièce.",
+"hint": "Rebound neurochimique, dépendance"
+},
+{
+"front": "Comment distinguer trouble anxieux généralisé d'une anxiété situationnelle normale ?",
+"back": "Anxiété situationnelle : peur examen demain, disparaît après examen. Normale, évolutive. TAG (trouble anxieux généralisé) : inquiétude constante sur multiples domaines (travail, santé, finances, relations) > 6 mois, impossible à contrôler, interfère sommeil/travail. Symptômes physiques persistants : tension musculaire, fatigue, irritabilité. Prévalence : 2-3% population, femmes 2x plus. Traitement : TCC (70% efficacité), ISRS, relaxation. Peut être héréditaire (si parents anxieux, risque 25%). Non traité : s'aggrave. Traité : amélioration visible 2-3 mois. Consulter GPT → psy rapidement, c'est chronique.",
+"hint": "Durée > 6 mois, multiples domaines, persistant"
+},
+{
+"front": "Quel est l'impact du perfectionnisme dans milieu professionnel/scolaire et comment ne pas le nourrir ?",
+"back": "Perfectionniste au travail : burnout probable. Pourquoi : attentes impossibles (zéro erreur) → manques fréquents → culpabilité → travail plus = épuisement. Hors examen/deadline critique, perfectionnisme < productif. Étude : 90% qualité en 10h est meilleur que 95% en 30h (gain temps vs gain marginal qualité). Culture perfectionneuse (école, startup) pousse à ce destructeur. Sauvetage : « Good enough » philosophy. Définir minimale acceptable (85% qualité?) et arrêter là. Reprendre 2-3h loisir = santé mentale. Employeur appreciates productivité, pas auto-destruction. Reframe : erreurs = donnée, pas identité. Essayer imparfait en public 1x/semaine = apprentissage rapide que perfectionnisme tue créativité.",
+"hint": "Good enough, productivité, loisir"
+},
+{
+"front": "Pourquoi l'exposition graduelle aux peurs (désensibilisation) guérit phobies et anxiété sociale ?",
+"back": "Phobie arachnée : voir araignée → amygdale active panique → éviter. Spirale : plus vous éviter, plus peur grandit (cerveau pense danger augmente). Guérison : exposition graduelle. Exemple : regarder image araignée (peur 3/10) → respiration 5min → peur disparaît. Répéter 5x, cerveau apprend : pas danger. Étape : vidéo araignée (peur 5/10) → exposition → habituation. Final : araignée vraie en pièce (peur 2/10, gérable). Étude : 80% phobies disparaissent après 10 séances exposition. Panique d'exposition est temporaire (15min max) mais libère définitive. Clé : graduel (pas d'exposition complète = traumatise plus), patient.",
+"hint": "Habituation, exposition progressive"
+},
+{
+"front": "Comment créer vocabulaire émotionnel (nommer ses émotions) réduit anxiété et améliore santé mentale ?",
+"back": "Études : personnes nommant émotions précises (« Je suis frustré de deadline » vs vague « Je vais mal ») ont 20% moins d'anxiété. Biologie : nommer trouble amygdale, active cortex préfrontal (raisonnement). Activité : journaling 10min/jour (écrire ce que vous sentez, pourquoi) réduit stress mesurable. Exemple : au lieu de « Je suis déprimé », creuser : « Je suis déçu de non-promotion + isolé socialement + fatigué ». Dès vous identifiez causes réelles, solutions deviennent claires (demander feedback pro, appeler amis, dormir plus). Pas nommé = éparpillé = ingérable. Vocabulaire émotionnel = outil puissant. Enfants apprenant nommer émotions = résilience 2x supérieure.",
+"hint": "Spécificité émotionnelle, journaling"
+},
+{
+"front": "Pourquoi les changements saisonniers (hiver) déclenchent souvent dépression saisonnière et comment la traiter ?",
+"back": "Dépression saisonnière (TAS) : hiver sombre → moins lumière → taux sérotonine chute, mélatonine augmente. Symptômes : fatigue extrême, besoin dormir 11h+, dépression, prise poids. Prévalence : 5% Europe nord, 2% sud. Traitement : (1) Luminothérapie 10 000 lux 30min/matin (90% efficacité, résultats 3-5 jours), (2) Vitamine D supplément, (3) Exercice + lumière naturelle. Prévention : commencer septembre (avant chute), continuer mars. Certains nécessitent ISRS hivernal (traitement temporaire). Pas « c'est juste hiver », c'est biologique. Teste : TAS probable si dépression même pattern années consécutives.",
+"hint": "Lumière, sérotonine, luminothérapie"
+},
+{
+"front": "Comment identifier si vous êtes en burnout et distinguer simple fatigue chronique de cas grave ?",
+"back": "Fatigue chronique : travail épuisant mais restez capable. Burnout : épuisement émotionnel (vidé), cynisme (détachement travail), inefficacité (sentiment incompétence malgré efforts). Signes graves : insomnie persistante, maladie fréquente (immunité effondre), pensées quitter tout, dépersonnalisation (sentir hors-corps). Critères sévère : si 2+ : (1) > 1 mois sans amélioration, (2) impact santé physique (migraines, digestion), (3) pensées suicidaires. Si identifié : arrêt obligatoire (congé médicale 4-8 semaines). Tenter pousser = catastrophe mentale. Prevention : limiter heures (< 50/semaine), prendre vacances vraies (zéro travail), chercher sens au travail.",
+"hint": "Épuisement émotionnel, détachement, inefficacité"
+},
+{
+"front": "Pourquoi les relations sociales positives sont le meilleur prédicteur de longévité et bonheur ?",
+"back": "Étude Harvard 85 ans (les plus longues santé mentale) : qualité relations = meilleur prédicteur longévité (plus que génétique, argent, exercice). Mécanisme : relations = oxyto­cin (hormone bien-être), soutien stress, sens appartenance. Isolement = mortalité +26% (équivalent fumer 15 cigarettes/jour). Mais quantité faux : 1 relation vraie profonde > 100 surface. Qualité = absence jugement, support authentique, partage vulnérabilité. Inversion moderne : beaucoup « amis » réseaux, zéro profondeur = augmente isolement perçu. Investissement clé : cultiver 3-5 relations vraies (appels réguliers, déjeuner, partage réels problèmes).",
+"hint": "Oxyto­cin, relation profonde vs surface"
+},
+{
+"front": "Comment l'auto-compassion (vs auto-critique) augmente résilience après échec ?",
+"back": "Après erreur, deux réactions : (1) Auto-critique : « Je suis nul, c'était stupide ». Effet : honte + rumination + dépression. (2) Auto-compassion : « Ça arrive, c'est humain. Qu'est-ce j'apprends ? ». Effet : résilience + apprentissage + moins rumination. Neuralement : auto-critique active amygdale (peur), auto-compassion active insula antérieure (empathie). Étude : auto-compassion = 40% moins d'anxiété après échec. Pratique : après erreur, traiter vous-même comme vous consoleriez ami. Pas « je suis pathétique » mais « J'ai fourni l'effort, j'ai échoué, j'essaie différemment ». Kindness vers vous-même = pas égoïsme, c'est santé mentale.",
+"hint": "Empathie vers soi, pas jugement"
+},
+{
+"front": "Quel est le processus de deuil normal et quand deuil devient pathologique requérant aide ?",
+"back": "Deuil normal (mort proche) : 3-6 mois de tristesse intense, avec phases (déni, colère, marchandage, dépression, acceptation). Graduellement diminue, laisse place souvenirs bienveillants. Pathologique (deuil prolongé) : > 12 mois sans amélioration, culpabilité intense, pensées suicidaires, incapacité fonctionner. Causes : mort soudaine/traumatique, relation ambiguë, deuil antécédent non résolus. Traitement : thérapie spécialisée deuil, rarement médicaments. Soutien : groupe deuil (partage avec pairs), famille, spiritualité. Pas tabou : deuil pas faiblesse. Professionnel si > 6 mois sans amélioration ou pensées dark.",
+"hint": "Durée normale 3-6 mois, phases, évolution"
+},
+{
+"front": "Pourquoi établir limites relationnelles (« non ») est essentiel pour santé mentale ?",
+"back": "Inability dire non = surcharge émotionnelle, resentment. Exemple : ami demande aide constante, vous acceptez toujours = vous épuisez, lui devient dépendant. Savoir dire non = garder énergie pour priorités, sortir relation toxic. Paradoxe : dire non crée relation meilleure (respect mutuel) que « oui » resentant. Pratique : réponse simple « Non, j'ai pas la capacité maintenant » (zéro explication, culpabilité évitée). Expectation : autres demanderont à autre, accepteront refus. Si ami abandonne après refus = relation était transactionnelle, pas vraie. Limites saines = relation saine.",
+"hint": "Droit refuser, priorités, respect mutuel"
+}
+],
+"sampleIdeas": [
+{
+"name": "La science du cortisol : pourquoi le stress chronique vous vieillit prématurément",
+"textDescription": "Le cortisol est l'hormone de survie : utile en crise courte, destructrice en permanence. Quand vous restez sous stress (patron exigeant 8h/jour, relation toxique), le cortisol reste élevé. Effets : 1) Inflammation chronique (arthrite, maladie cardiaque accélérée), 2) Affaiblissement immunitaire (vous tombez malade fréquemment), 3) Destruction hippocampe (mémoire, apprentissage), 4) Accélération vieillissement cellulaire (télomères raccourcissent = vieillissement). Une personne 40 ans sous stress 20 ans ressemble 60 ans biologiquement. Solution : pas éliminer stress (impossible), mais réduire durée/intensité. 30min exercice quotidien réduit cortisol baseline 20-30%. Changement travail toxique = investissement santé gigantesque. Le stress chronique coûte 15 ans d'espérance vie en moyenne. C'est pourquoi quitter relation/job destruc est souvent la meilleure décision thérapeutique.",
+"videoURL": "https://www.youtube.com/c/Inserm",
+"externalLinkURL": "https://www.inserm.fr"
+},
+{
+"name": "Sommeil profond : l'heure la plus importante de votre journée que vous sabotez",
+"textDescription": "Pendant sommeil profond (NREM 3, 1h30 par nuit), votre cerveau nettoie les déchets métaboliques (protéine bêta-amyloïde liée à Alzheimer) et consolide apprentissages. Sans sommeil profond : cumul toxines = démence plus rapide, oublis quotidiens. Un téléphone dans chambre = sommeil profond réduit 40% (lumière bleue supprime melatonine, notifications réveillent partiellement). Résultat : une nuit peut vous coûter 1-2 jours de cognition. Ajouter cette destruction x 365 jours = perte cognitive massive. Différence entre 6h et 8h sommeil : le même écart que être sobre vs légèrement saoul. Comment optimiser : (1) Lumière soleil matins 15min (règle horloge biologique), (2) Écrans off à 21h, (3) Chambre noire, frais, silencieuse, (4) Même coucher/lever (weekends aussi). Changer ce seul paramètre améliore mood, mémoire, immunité plus que plupart suppléments. Le sommeil n'est pas luxe, c'est maintenance cérébrale.",
+"videoURL": "https://www.youtube.com/c/ScienceEtonnante",
+"externalLinkURL": "https://www.psycom.org"
+},
+{
+"name": "Les distorsions cognitives : comment votre cerveau vous ment et comment le débusquer",
+"textDescription": "Votre cerveau cherche patterns pour survie (utile il y a 10 000 ans, inutile aujourd'hui). Exemple de distortion : vous faites petite erreur → cerveau saute à « Je vais être viré → sans emploi → à la rue ». Chaîne de catastrophisation 3 secondes, zéro logique. Autre : quelqu'un regarde de travers → vous interpréter « Il m'aime pas ». Vrai : il pense à son lunch. Ces distortions créent anxiété réelle basée sur faux. TCC enseigne débusquer : quand pensée noire apparaît, demander « Quelles preuves ? ». Erreur = preuve d'incompétence totale ? Non, erreur est donnée (vous apprenez). Personne regarde de travers = certitude qu'il juge ? Non, interpretation sans preuves. Exercice : cette semaine, nommer 3 distortions. Chaque fois vous les nommez, anxiété chute 20-30%. Avec pratique (semaines), cerveau apprend les distortions sans TCC formelle. Plus puissant que tout médicament.",
+"videoURL": "https://www.youtube.com/c/DirtyBiology",
+"externalLinkURL": "https://www.who.int/fr"
+},
+{
+"name": "Pourquoi demander aide n'est pas faiblesse : la neurobiologie du soutien social",
+"textDescription": "Isolation = activation amygdale (peur), vigilance, rumination. Dès vous parlez à quelqu'un de ce qui vous tourmente : amygdale se calme, oxyto­cin se libère (hormone bien-être et confiance), vous obtenez perspective externe. Votre ami ne doit pas résoudre : juste écouter suffit pour réduire votre stress de 25-30%. Étude : personne seule face problème = cortisl élevé, sommeil perturbé. Même problème + soutien social = cortisol diminue, sommeil régulier. Paradoxe : introvertis pensent « Parler coûte énergie », donc isolent. Vrai temporaire (conversation fatigue les introverts), mais faux long terme (isolement coûte 10x plus). Solution : parler brièvement, pas longtemps. 15min de vraie connexion = effet profond. Pire erreur : garden secret « parce qu'on ne voudrait déranger ». Secret = nutrition rumine, perte d'oxyto­cin = spirale dépression. Demander aide n'est pas faiblesse, c'est acte courageux de reconnaissance que vous êtes humain.",
+"videoURL": "https://www.youtube.com/c/Lumni",
+"externalLinkURL": "https://www.inserm.fr"
+},
+{
+"name": "L'exercice physique comme antidépresseur : pourquoi mieux que plupart médicaments",
+"textDescription": "30min jogging à 70% fréquence max : équivalent dose antidépresseur ISRS pour dépression légère-modérée. Biologie : augmente sérotonine (mood), endorphines (bonheur), BDNF (nouvelles connexions nerveuses = plasticité). Effet : moins visible en 1 semaine (médoc aussi demande semaines), mais supérieur long terme. Médoc aide 50% des gens, plafond là. Exercice + médoc = 70-80% efficacité. Meilleur encore : exercice + thérapie (TCC) = 85%+. Pourquoi peu le font : effort immédiat (souffrance musculaire premier jour) vs bénéfice dépendant (2 semaines avant mood bouge). Reframe : exercice n'est pas « pour corps », c'est « médicament cerveau ». Commencer minimal : 15min marche rapide 3x/semaine, augmenter graduellement. Même cette dose = amélioration mood visible 2-3 semaines. Pas salle gym nécessaire : escaliers, danse, sports suffisent. Investissez cela avant psychotropes si dépression légère.",
+"videoURL": "https://www.youtube.com/c/LesBonsProfs",
+"externalLinkURL": "https://www.psycom.org"
+},
+{
+"name": "Pleine conscience : comment 10 minutes de méditation par jour change cerveau",
+"textDescription": "Méditation 10min/jour pendant 8 semaines : résultats mesurables IRM. Épaisseur cortex préfrontal (décision, émotion) augmente (+10%). Amygdale (peur, réaction émotionnelle) diminue de volume. Impact : moins d'anxiété automatique, plus de contrôle face stress. Pas « magique », c'est exercice du cerveau comme gym. Première semaine : difficile (thoughts dispersent), normal. Semaine 3 : plus facile. Semaine 8 : état calmé perceptible. Technique simple : respiration 4-7-8 (inspirer 4sec, bloquer 7sec, expirer 8sec) répété 5x. Ou body scan : passez mentalement du pied à tête, chaque zone consciente. Ou walking meditation (marche consciente sans autre pensée). Pas besoin app coûteuse ni retraite bouddhiste. 10min avant lit + 10min matin = suffit. Effet cumulatif : anxiété baseline baisse 20-30% après 4 semaines. Combiné avec sommeil + exercise : transformation santé mentale visible en 2 mois.",
+"videoURL": "https://inserm.fr",
+"externalLinkURL": "https://www.who.int/fr"
+},
+{
+"name": "Quand consulter un professionnel : signes de pathologie vs stress normal",
+"textDescription": "Stress normal : examen demain (peur passera demain soir), perte d'emploi (tristesse 2 mois, reprise après). Pathologie : même sentiment mais dure > 6 mois, interfère travail/relations (absentéisme, perte amis), pensées suicidaires récurrentes, incapacité dormir malgré fatigue. Screening questionnaire : si oui à 3+, consulter psy : (1) Perte intérêt tout, (2) Sentiment inutilité, (3) Pas d'énergie, (4) Sommeil perturbé, (5) Concentration impossible, (6) Culpabilité intense. Attendre = erreur monumentale. Non traité = aggravation naturelle (dépression s'enfonce). Traité (TCC 12-16 sessions) = 70% remission. Médoc (ISRS) = 50% remission. Combo = 85%+. Délai consultation : < 1 semaine idéal. Si pensées suicidaires = urgence (appeler 3114 ou urgences). Pas honte : consulter psy = intelligent, pas faible. Même les athlètes olympiques ont coach mental.",
+"videoURL": "https://www.psycom.org",
+"externalLinkURL": "https://www.inserm.fr"
+}
+]
+}
+]

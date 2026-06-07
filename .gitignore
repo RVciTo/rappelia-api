@@ -1,0 +1,11 @@
+
+# --- migration checkpoint: regenerable/local, do not sync ---
+.DS_Store
+*-debug.log
+firebase-debug.log
+.claude-flow/
+.claude/projects/
+.claude/settings.local.json
+.claude/skills/
+.claude/worktrees/
+

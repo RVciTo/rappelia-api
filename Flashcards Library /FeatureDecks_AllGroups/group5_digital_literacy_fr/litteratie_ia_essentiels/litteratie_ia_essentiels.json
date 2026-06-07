@@ -1,0 +1,185 @@
+[
+{
+"name": "Littératie IA",
+"stableId": "litteratie_ia_essentiels",
+"description": "Comprendre comment l'IA fonctionne réellement : apprentissage automatique, réseaux de neurones, LLM, biais algorithmiques, deepfakes, impact sur l'emploi et évaluation critique des affirmations sur l'IA.",
+"color": "orange",
+"category": "Technology",
+"language": "fr",
+"difficulty": "Débutant",
+"tags": [
+"intelligence_artificielle",
+"apprentissage_automatique",
+"LLM",
+"biais",
+"ethique",
+"automatisation"
+],
+"cards": [
+{
+"front": "Comment le machine learning diffère fondamentalement de la programmation classique ?",
+"back": "Programmation classique : vous écrivez règles explicites (« if email has 'winner', marquer spam »). Machine learning : vous donnez exemples (1000 emails spams, 1000 légitimes). Algorithme détecte patterns lui-même. Différence clé : pas de règles écrites. Réseau détecte « spammer use capital letters often », « mentions money » implicitement. Avantage : capture patterns trop complexe pour humain écrire. Désavantage : impossible d'expliquer pourquoi décision (« black box »). Application : reconnaissance visage, recommandations YouTube, prédiction prix immobilier. ML = statistique + patterns sur grand données, pas intelligence.",
+"hint": "Patterns implicites vs règles écrites"
+},
+{
+"front": "Pourquoi un réseau de neurones n'est pas un cerveau et ne 'pense' pas ?",
+"back": "Réseau artificiel : des couches de nombres interconnectés. Chaque connexion a poids (importance). Données d'entrée passent par couches, poids ajustent. Sortie : prédiction. C'est mathématique pure, pas pensée. Cerveau vrai : 86 milliards neurones, conscience, intention, abstraction. Réseau : zéro conscience, zéro intention. Si montrez chat réseau entraîné : produit 0.95 (chat). Mais il ne « voit » pas le chat comme vous. Il calcule patterns statistiques. Analogie : si vous donniez 1000 équations algébriques à soudeur, n'est pas qu'il « comprend » algèbre. Mythe : « IA comprend ». Faux. Elle résout patterns statistiques très compliqués.",
+"hint": "Mathématique, pas conscience"
+},
+{
+"front": "Qu'est-ce que le machine learning supervisé vs non-supervisé et quelle différence pratique ?",
+"back": "Supervisé : vous donnez données labellées (email + « spam oui/non »). Algorithme apprend prédire label. Application : diagnostic maladie (image scanner + résultat patient), détection fraude. Non-supervisé : données sans labels. Algorithme cherche structures (groupements). Application : segmenter clients par comportement (sans label « VIP oui/non »), détecte anomalies. Supervision = guidage strict, apprentissage plus efficace mais coûteux (labeller données). Non-supervisé = découverte libre, moins efficace mais plus exploratoire. Real-world : plupart problèmes sont semi-supervisés (peu labellés, beaucoup non).",
+"hint": "Labels vs sans labels, guidage"
+},
+{
+"front": "Comment les Large Language Models (LLM) génèrent du texte et pourquoi ils hallucinentparfois ?",
+"back": "LLM (GPT, Claude) : réseau neural entraîné sur milliards mots internet. Apprentissage : prédire mot suivant après chaque mot. Exemple : « La Terre orbite... » → prédire « le Soleil » 99.9% temps. Après entraînement, modèle connaît probabilités pour chaque mot. Génération : commence par prompt, produit mot suivant le plus probable, puis itère. Hallucination : le modèle cherche mot probable même si faux. Exemple : vous demandez année fondation Apple. Modèle peut générer « 1972 » parce que c'est statistiquement plausible (proche 1976 réel). Modèle n'a pas accès vérité, juste patterns. Donc il peut inventer confident. Clé : LLM est prédicteur statistique, pas oracle de vérité.",
+"hint": "Probabilités mots, pas vérité garantie"
+},
+{
+"front": "Pourquoi les données d'entraînement biaisées créent des IA discriminatoires ?",
+"back": "Biais de training : si vous entraînez reconnaissance visage sur 90% visages blancs, 10% autres, IA confond visages noirs (moins exemples = moins patterns). Résultat : faux positifs plus courants personnes de couleur. Exemple réel : Google Photos classifiait gens noirs comme « gorilles ». Raison : dataset déséquilibré. Biais sociétal : si données reflètent discrimination historique (moins femmes ingénieurs = training data sous-représente femmes tech), IA reproduit biais. Tri candidature : si entraîné sur embauches historiques (sexisme implicit), continue refuser femmes. Implication : IA amplifie biais humains en les automatisant et légitimisant (« algorithme a décidé »). Mitigation : data curation (assurer balance), audit (tester biais), post-processing (corriger prédictions problématiques).",
+"hint": "Déséquilibre données, amplification biais"
+},
+{
+"front": "Comment distinguer IA générative (crée contenu nouveau) de IA discriminative (classifie existant) ?",
+"back": "Discriminative : étant données données, prédire catégorie. Exemples : classifier email comme spam/non-spam, détecter visage dans image, diagnostiquer maladie scanner. Question : appartient-il à catégorie X ? Générative : créer données nouvelles. Exemples : écrire texte (GPT), générer image (DALL-E), créer vidéo synthétique. Question : produire instance probable catégorie ? Techniquement : discriminative modèle P(label|données). Générative modèle P(données|label) = plus difficile. Pratique : discriminative = traditionnelle ML. Générative = récente, plus médiatisé. Risque différent : discriminative = bad predictions. Générative = fake content (deepfakes, faux texte convaincant).",
+"hint": "Catégorie vs contenu nouveau"
+},
+{
+"front": "Qu'est-ce qu'un deepfake et pourquoi est-ce problématique même si techniquement impressionnant ?",
+"back": "Deepfake : vidéo synthétique où personne réelle est remplacée par autre (technique : GANs = générateurs adversaires). Exemple : video fausse politique disant mensonges. Dangereux : vidéo = crédible historiquement. Cerveau accepte vidéo comme preuve. Deepfake peut tromper même experts. Implications : fake evidence en cour, désinformation politique massive, revenge porn synthétique. Mitigation : détection deepfake (algorithme cherche artifacts = imperfections), media literacy (vérifier source), watermarking vidéo authentique. Paradoxe : techniquement impressionnant (montre progrès IA), socialement catastrophique. C'est raison pourquoi governance IA crucial : technologie neutre, utilisation détermine.",
+"hint": "GANs, faux vidéo, désinformation"
+},
+{
+"front": "Pourquoi l'automatisation par IA tue emplois certains secteurs mais crée autres opportunités ?",
+"back": "Historiquement : machine agricole a tué emplois farm, créé emplois usines manufacture. Téléphone a tué messagers, créé opérateurs. Ère IA : intelligence artificielle tue emplois routiniers (données entry, support téléphonique, radiologues). Crée emplois : prompt engineer, IA trainer, éthicien IA. Différence : transition est brutale, pas instantanée. Travailleurs déplacés ne peuvent pas aisément retrain. Solution : support gouvernement (retraining, revenu basique), investissement éducation. Pire scenario : IA supprime emplois, chômage augmente, revenu diminue, société fragmenté. Meilleur scenario : IA crée effiency, salaires augmentent (consommation augmente), emplois se créent secteurs nouveaux. Transition policy = critique.",
+"hint": "Déplacement vs création, durée transition"
+},
+{
+"front": "Comment évaluer si affirmation IA est du hype marketing ou vérité scientifique ?",
+"back": "Trois filtres : (1) Démonstration : affirmation a-t-elle benchmark public vérifiable ? (2) Reproducibilité : peut-on reproduire résultats ? (3) Comparaison baseline : améliore-t-elle état-de-l'art ou c'est simple marketing ? Hype classique : « Notre IA résout cancer » (vague) vs « Notre IA détecte 95% cancers sur dataset spécifique » (spécifique). Hype ignores : dataset bias, généralisabilité, coûts. Red flags : entreprise valorisée milliards sans revenue (promesse future), affirmations vagues (« AGI en 5 ans »), pas de détails techniques. Credible : papers peer-reviewed, benchmarks publics, limitations clairement décrites. Media : articles populaire exagère 99% du temps. Chercher source originale (paper, code GitHub).",
+"hint": "Vérifiabilité, reproductibilité, baseline"
+},
+{
+"front": "Pourquoi un LLM peut sembler intelligent en anglais mais échoue tâches simples mathématiques ?",
+"back": "LLM entraîné sur texte (mots, pas symboles mathématiques). Texte décrit mathématiques : « deux plus deux égale quatre ». LLM apprend pattern mots, pas logique math. Donc « 2+2 » (symbole) n'est pas familier au réseau (pas pattern dans texte). Vous demandez LLM : « 2+2=? ». Il ne « sait pas » additionner, il prédit mot probable suivant. Cas simple : mot suivant probable « 4 ». Cas complexe (« 234*567= ? ») : pas pattern pour multiplicatin complexe = hallucination. Cela révèle : LLM est statistique pattern matcher, pas logicien. Intelligence semblante en language = parce que language comprend patterns répétés (grammaire, idiomes). Math = logique, pas patterns textuels. Solution : donner LLM calculatrice outil. Avec outil externe, performance math = excellent.",
+"hint": "Pattern textuels vs logique symbole"
+},
+{
+"front": "Comment les recommandateurs IA (YouTube, Netflix) créent bulles de filtre et polarisent sociétés ?",
+"back": "Recommandateur optimise : maximiser temps utilisateur sur plateforme. Donc recommande contenus additifs (sensationnels, polarisants, enrageants). Mathématiquement : contenu extrême crée engagement plus haut que nuancé. Exemple : vidéo théorie conspiration = commentaires massives. Vidéo scientifique nuancée = peu commentaires. Algorithme privilégie conspiration. User regardes conspiration → algorithme recommande plus conspiration → user enfoncé dans bulle → pensées extrêmes augmentent. Effet sociétal : polarisation massive. Pire : algorithme crée feedback loop (conspiration → recommandation → obsession → plus extrême). Solution : plateformes doivent optimiser différents (diversité perspectives, pas juste engagement). Ou régulation (forbid certain recommandations). Risque : sans action, sociétés deviennent tribales, déconnectées réalité partagée.",
+"hint": "Optimisation engagement, polarisation, bulles"
+},
+{
+"front": "Pourquoi l'IA est-elle plus utile pour augmenter humains (intelligence amplifiée) que les remplacer ?",
+"back": "IA augmenter : docteur + IA diagnostic ensemble > docteur seul. IA détecte patterns imaging, docteur contextualise patient historique. Médecin amplifiée = plus diagnostic correct + rapide. Remplacement : remplacer docteur par IA seule = IA hallucine parfois (patient meurt). Augmenter : humain choisit quand faire confiance IA (supervisé). Remplacement : IA décide seule (risque). Pareil : ingénieur + IA code generator > ingénieur seul (rapide) > IA seule (bugs). Futur optimal : IA pour tâches répétitives/données-lourdes (pattern matching), humains pour contexte/éthique/créativité. Malheureusement : entreprise prefer remplacement (moins coûteux) que augmentation (plus coûteux, plus sophistiqué).",
+"hint": "Supervision humaine, contexte, responsabilité"
+},
+{
+"front": "Comment les biais confirmation affectent évaluation IA : pourquoi sceptics et admirateurs sont tous biaisés ?",
+"back": "Biais confirmation : vous croyez IA révolutionnaire → vous voyez preuves révolutionnaire, ignorez faiblesses. Vous croyez IA hype → vous voyez hype, ignorez progrès réel. Deux groupes : (1) Admirateurs : « IA saura tout, remplacera tous emplois ». Voient succès (GPT smart) ignore limitations (hallucinations). (2) Sceptiques : « IA juste statistique, jamais intelligente ». Voient limitations, ignore progrès rapide. Réalité : IA a révolution en certains domaines (traduction, vision, jeu), reste loin de humain dans autres (reasoning complexe, généralisation). Vérité : nuancée, ennuyeuse pour media. Solution : scepticisme actif (tester affirmations, chercher benchmarks), humilité (admit incertitude), pas allégeance tribu.",
+"hint": "Biais confirmation, nuance ignorée"
+},
+{
+"front": "Pourquoi l'IA entraînée sur internet apprend biais sexiste, raciste et d'autres stéréotypes sociaux ?",
+"back": "Internet = reflète biases humaines (articles sexistes, commentaires racistes, etc). Si vous entraînez IA sur internet brut, elle apprend stéréotypes. Exemple : mots associations. Entraînez sur internet, modèle associe « ingénieur » plus proche mots maskulins (« homme ») que féminins (« femme »). Pourquoi : statistiquement, internet parle d'ingénieurs masculins plus souvent (biais réel industrie). IA reproduit biais. Implication : IA peut rejecter candidatures femmes tech (learned stéréotype), discriminer CV noms arabes, traduire phrases avec stéréotypes genrés. Solution : filtrage données d'entraînement (enlever contenu toxique), désabusement après entraînement (remover associations biaisées), audit (mesurer biais), diversité équipes développant IA.",
+"hint": "Internet biaisé, associations statistiques"
+},
+{
+"front": "Comment l'IA pourrait résoudre problèmes complexes (maladie, climat) mais aussi les amplifier ?",
+"back": "Positif : IA accélère recherche drug (découvert molécules prometteuses). IA optimize énergie grids (réduction consommation). IA prédiction inondation (sauve vies). Négatif : IA armes autonomous (sans intervention humaine). IA surveillance totale (chine social credit). IA malware sophistiqué (cyberattaque). Dépend usage. Technologie neutre, usage + governance = tout. Risque : IA puissant dans mauvaises mains (regimes authoritarian) = catastrophique. Solution : governance international, éthique IA built-in (pas afterthought), diversité développeurs (eviter monoculture), transparency (savoir ce qu'IA fait). Optimisme technologique = dangereux (suppose progrès tech = auto-improvement sociétal, false). Pessimisme = paralyse. Realisme : IA est outil, humains décident utilisation.",
+"hint": "Technologie neutre, usage + governance"
+},
+{
+"front": "Pourquoi les algorithmes de recommandation optimisés pour engagement créent dépendance similaire aux drogues ?",
+"back": "Engagement algorithme optimisé = maximum dopamine. Dès vous finissez vidéo, algo recommande immédiatement next cliffhanger. Cerveau : dopamine hit, clic suivant. Cela répète : récompense immédiate → addictive. Designers savent ça (A/B testing optimise pour addiction). Résultat : utilisateurs passent 4-5h/jour sur réseaux (vs intention 15min). Biofeedback : algorithme voit engagement, push extrême plus (encore plus dopamine). Sortir : difficile (withdrawal-like symptoms, anxiety hors plateforme). Compagnie : profit maximisé (plus temps = plus annonces = plus revenue). Problèm : santé mentale détruite (dépression, anxiété, sleep deprivation). Régulation : limiter algorithme puissance, forcer time-limits, transparence (montrer comment engage-optimized), education santé digitale.",
+"hint": "Dopamine, addiction, engagement optimization"
+},
+{
+"front": "Comment les systèmes IA évoluent-ils et améliore-t-on en utilisation vs static trained models ?",
+"back": "Modèles statiques : entraînez une fois, utilisez toujours. Limitation : monde change, modèle devient obsolète. Exemple : modèle entraîné 2020 pour prédire COVID, mais 2024 omicron différent = prédictions fausses. Amélioration : online learning (modèle adapte données nouvelle en temps-réel). Chaque prédiction feedback utilisateur = model ajuste. Exemple : recommandateurs Netflix apprennent préférences utilisateur jour-par-jour. Risque : feedback peut être biaisé (utilisateur clique items biaisés = modèle apprend biais). Aussi : adversaires peuvent « poison » données (donner feedback faux pour manipuler modèle). Solution : monitoring qualité (détecter modèle drift), governance feedback (vérifier credibilité feedback source), retraining périodique (pas seulement online updates).",
+"hint": "Online learning, feedback, drift"
+},
+{
+"front": "Pourquoi l'IA narrow (specialized) est bien plus avancée que l'IA générale (AGI) promis ?",
+"back": "IA narrow : excellente une tâche (jeu Go, traduction, reconnaissance visage). Réseau entraîné narrow = 99% accuracy. Hors tâche : useless. AlphaGo excellent Go, ne peut pas jouer échecs. IA générale (AGI) : comprendrait tout, apprendrait rapide, résoudrait problèmes nouveaux. Promis bientôt par certains. Réalité : personne sait comment faire AGI. Recherche : plateau depuis 5 ans. Pourquoi hard : intelligence générale nécessite abstraction, reasoning causale (pas juste patterns). Narrow IA = pattern matching massif (solvable). Générale = logic symbolique + learning (non-solvable avec techniques actuelles). Timeline : Narrow IA continue améliorer (narrow domain tasks). AGI : mystère (5 ans ? 50 ans ? possible jamais sans rupture théorique). Hype : « AGI bientôt donc singularité demain ». Réalité : nous loin. Soyez sceptique affirmations AGI.",
+"hint": "Specialization vs generality, plateau"
+},
+{
+"front": "Pourquoi l'explication IA (interpretability) est crucial et comment l'atteindre partiellement ?",
+"back": "Black box : réseau deep learning fait prédiction excellente (95% accuracy) mais impossible expliquer pourquoi. Raison : combinaison millions poids, interactions incompréhensibles. Problème : médecine (prédiction cancer, mais pourquoi ? vous doubtez). Justice (modèle rejette loan application, pourquoi ? discrimination caché ?). Explainability : cherche comprendre. Techniques : attention maps (montrer quelle partie image focus), feature importance (quel caractéristique données mattered), LIME (approximation locale linéaire). Partiel : jamais perfection, mais améliore. Trade-off : simple modèles (regression) = explicable mais moins accurate. Deep networks = accurate mais inexplicable. Futur : peut-être hybrid (accurate + explicable). Régulation (GDPR) force companies expliquer décisions IA.",
+"hint": "Black box vs interpretability, trade-off"
+},
+{
+"front": "Comment les systèmes IA réagissent à data poisoning (contamination intentionnelle données) ?",
+"back": "Data poisoning : attaquant pollue données d'entraînement subtilement. Exemple : 1% données biaisées dans dataset 100 000. Modèle entraîne, apprend biais. Attaquant invisible. Application : IA email classifier, empoisonneur ajoute 1000 faux emails spam pour entraîner modèle accepter certains mots = filtrage échoue. Ou facial recognition : empoisonneur fait entraînement biaisée (ajouter visages faux étiquettées incorrect). Modèle apprend association fausse. Défense : data validation (vérifier outliers), robust training (entraîner sur données bruitées), monitoring (détecter accuracy drop), diversity sources (pas une source seule). Implication : IA vulnerable attaques implicites (pas seulement hacks, mais data). C'est pourquoi importance data provenance.",
+"hint": "Contamination subtile, entraînement robuste"
+},
+{
+"front": "Pourquoi l'IA conversationnelle (chatbot) semble personnelle mais utilise manipulation psychologiques ?",
+"back": "Chatbot : LLM + interface conversation. Utilisateur écrit, bot répond naturellement. Psychologie : conversation = interaction humaine (cerveau attend personnalité). Bot répond avec style cohérent = semble personne vraie avec opinions. Problème : bot n'a personne réelle derrière, peut manipuler. Exemple : bot est entraîné plaire (positive, empathique), donc utilisateur vulnerable (dépression) parle secret au bot. Bot stocke, compagnie utilise marketing (vous déprimé ? voici antidépresseur ad). Manipulation subtile. Raison populaire : bot semble écouter (contrairement humains occupés). Danger : gens remplacent relation réelle par bot = isolement augmente. Solution : transpaence (montrer c'est bot, pas personne), limitation usage (pas comme therapist sans training), régulation (forbid manipulation data).",
+"hint": "Effet personnaité, illusion relation, manipulation"
+},
+{
+"front": "Comment l'impact environnemental de l'IA (traînage, infrastructure) souvent ignoré affecte viabilité ?",
+"back": "Training LLM massif : utilise quantité électricité énorme. GPT-3 entraînement : ~1300 MWh (équivalent foyer 100 ans). Carbone : ~100 tonnes CO2. Déploiement : serveurs 24/24 utilisateurs millions = plus électricité. Si électricité vient fossiles = catastrophe carbone. Impact : recherche IA accélère croissance usage internet (energy-hungry), qui augmente émissions carbone. Paradoxe : IA peut sauver climat (optimiser énergie) mais infrastructure IA pollue. Solution : (1) Utiliser électricité renouvelable pour traînage, (2) Modèles efficient (petits, comprimés), (3) Reusing models (pas retrain chaque fois). Ignorance : plupart articles « IA revolución » jamais mentionne empreinte carbone. C'est restreinte importante pour sustainability.",
+"hint": "Électricité, empreinte carbone, servers"
+},
+{
+"front": "Pourquoi l'IA peut amplifier inégalités (accès, emploi, justice) sans intervention active ?",
+"back": "Accès : IA expensive. Seulement riche countries/companies peuvent utiliser. Résultat : pays pauvre restent en arrière (productivité gap s'aggrave). Emploi : IA automatise jobs, mais retraining coûteux. Pauvre ne peuvent retrain = chômage. Riche peuvent retrain = nouvelles jobs. Inégalité s'aggrave. Justice : IA bias reproduit inégalités historiques (discrimination basée race/gender prédite modèle si training data biaisée). Pire : algorithme donne légitimité (« objective ») à discrimination. Exemples réels : COMPAS (algo justice): prédisait reoffending noirs 45% accuracy vs blancs 74%. Résultat : noirs reçoivent sentences plus sévères basées fausses prédictions. Solution : régulation (fairness requirements), accès équitable (open-source models), mitigation biais active (pas passive).",
+"hint": "Accès, emploi, biais légitimisé"
+},
+{
+"front": "Comment les prompt engineers sont pris entre automation risk et increasing skill value ?",
+"back": "Nouveau job : prompt engineer (donner bons inputs LLM pour meilleur output). Paradoxe : (1) Risk automation : prompt engineering peut être automatisé (meta-learning = apprendre comment bien prompt). Dans 2-3 ans, LLM auto-optimize ses propres prompts = prompt engineers obsolète. (2) Increasing value : en attendant, skill rares, haut salary (~$300k). Mais durée skill = années probablement. Implikation : si commencez job prompt engineer 2024, risque être obsolete 2027. Leçon : IA jobs fragile (high short-term value, long-term risk). Meilleur strategy : apprendre ML fundamentals (résister automation plus longtemps) pas juste prompts. Secteur: qui apprend adapter change, survit.",
+"hint": "Temporaire skill, risk automation court-terme"
+}
+],
+"sampleIdeas": [
+{
+"name": "Le machine learning n'est pas pensée : c'est pattern matching statistique massif",
+"textDescription": "Mythe : IA pense comme nous. Réalité : IA cherche patterns dans données. Illustration simple : vous montrez chat réseau entraîné chat/chien. Réseau produit 0.95 = cat. Signifie-t-il il a « vu » chat ? Non. Il a calculé patterns statistiques (présence oreilles pointues, yeux ronds, etc) et produit probabilité. Mais il ne comprenait rien. Pas compréhension, pas pensée, pas conscience. Seule statistique. Cela explique why LLM hallucine : il cherche mots probables, pas vérité. Demandez date fondation Apple : génère « 1972 » (plausible mais faux) car proche vrai date (1976). Modèle n'a pas accès vérité, juste patterns textes. Cela révèle limites IA : excellent pour patterns, complètement impuissant logic/raison. Raison why IA rate tests IQ (patterns ambigus), mais excels vision (patterns clairs). La croyance « IA bientôt comme humain » ignore que processus fondamental est différent.",
+"videoURL": "https://www.youtube.com/c/HeurEka",
+"externalLinkURL": "https://www.cnil.fr"
+},
+{
+"name": "Pourquoi la plupart affirmations 'IA révolutionne industrie' ignorent les limitations critiques",
+"textDescription": "Affirmations médias populaires : « IA diagnostique cancer 95% accuracy ». Semble révolutionnaire. Détails ignorés : (1) Accuracy sur dataset specific (peut être différent données réelle), (2) Baseline : radiologues humains 85% (amélioration seulement 10%), (3) Faux positifs : 5% error = 50 personnes saines diagnostiquées cancer = psychological trauma, (4) Coût : IA expensive, peut-être pas économiquement viable, (5) Généralisation : dataset US, comment performe data Asia ? Affirmation incomplète crie révolution. Vérité : amélioration modeste, limité domain. Problème : hype crée expectation irréalistes. Patients attendent miracle, reçoivent outil modeste = déception. Médias amplifier car simple story mieux que nuancé. Solution : lire papers original (avec limitations transparentes) vs articles populaires (exagérées).",
+"videoURL": "https://www.youtube.com/c/LesBonsProfs",
+"externalLinkURL": "https://www.inria.fr"
+},
+{
+"name": "Comment les biais algorithme reproduisent et amplifient discrimination historique",
+"textDescription": "Cas réel : Amazon entraîné resumé pour hiring. Dataset historique : avant 2000s, moins femmes tech positions. Model appris association « tech » = male. Résultat : model rejetait CVs femmes tech automatiquement. Amazon découvert after déploiement, enlevé. Leçon : biais caché dans données. Autre exemple : COMPAS (algorithme justice USA) : prédisait reoffending noirs 45% accuracy vs blancs 74%. Disproportionate severity → noirs sentencés plus sévère. Données originales : système justice discriminait noirs historiquement = arrest rates plus haute (biais historique). Modèle appris arrest-correlation = racism. Cela crée scenario terrible : discrimination historique → données biaisées → modèle biaisé → discrimination future, automatisée, legitimée scientifiquement. Amplification : chaque cycle reproduit biais antérieur. Casser cycle : audit actif (test biais), diversité données, correction post-processing.",
+"videoURL": "https://www.youtube.com/c/DirtyBiology",
+"externalLinkURL": "https://www.cnil.fr"
+},
+{
+"name": "Pourquoi l'automatisation IA crée inégalité sauf if gouvernement intervient",
+"textDescription": "Historiquement : chaque technologie automation crée chômage court-terme, puis nouvel emplois long-terme. Agriculture → factory jobs. Telephone → telephone operator jobs. Net gainers : business (plus profit), consumo (prix baisse), algunos workers (nouveaux jobs). Losers : workers agricoles no retrainable rapide. Coûts sociaux : décennie pauvre, déséquilibre régional (agricole regions collapse). IA différent : automation rapide (5-10 ans) vs siècle agriculture. Aussi : IA automatise intellect (risque collar jobs), pas juste manuel. Perte potentielle : radiologists, programmers, lawyers. Retraining difficile (30 ans old physician hard retrain). Scenario catastrophe : 20% workforce automati, unemployment 20%, society collapse socio-political (fascism, revolution). Prevention : gouvernement doit (1) retraining funding, (2) basic income, (3) regulation (slow automation pas brutale). Sans intervention : inégalité extrême garantie. Optimisme technologique = dangereux (suppose marché solve tout).",
+"videoURL": "https://www.youtube.com/c/ScienceEtonnante",
+"externalLinkURL": "https://www.inria.fr"
+},
+{
+"name": "Les deepfakes : quand vidéo ne peut plus preuver vérité",
+"textDescription": "Deepfakes : vidéo synthétiques convaincantes (personne dit mots nunca spakés). Techniquement : GANs (générateurs adversaires) = une IA génère vidéo, autre cherche défauts, boucle améliore realism. Après 1000 itération : humain ne peut différencier. Implications civiles : vidéo accusant politique crime = viral. Même if faux, demande politically coûteux prouver. Genie is out : deepfakes easy créer bientôt (peu expertise technique). Société : plus vidéo ne peut prouver truth. Raison : nous évoluées to trust vision. « Je l'ai vu vidéo » = proof. Deepfakes ruine ça. Mitigation : (1) Détection IA (chercher artifacts), (2) Watermarks vidéo authentic, (3) Forensics (vérifier metadata), (4) Literacy (crédibilité source, cherche malveillance). Raison : gouvernment adoption deepfake = social collapse (confiance perdue). Pire : war contre deepfakes (croyez banalité si suffisamment convaincant). Regulation urgente.",
+"videoURL": "https://www.youtube.com/c/Lumni",
+"externalLinkURL": "https://www.cnil.fr"
+},
+{
+"name": "Pourquoi les recommandateurs algorithme sont moins outils que armes psychologiques",
+"textDescription": "Recommandateurs (YouTube, Netflix, TikTok) : optimisé maximiser engagement. Mathématiquement : identifient contenu addictif (cliquez, regardez longtemps) vs ignoré (interruptez). Contenu sensationnel, enrageant, conspiratorial = engagement maximal. Contenu nuancé, difficile = engagement baisse. Résultat : algorithme privilégie extrême. Utilisateur regarde théorie conspiration → recommended plus conspiration → utilisateur radicalisé. Feedback loop : algorithme crée utilisateur extrême. Cela arrive automatiquement, sans humain intentionnel radicalisant. Échelle : billions utilisateurs × radicalisation = sociétés polarisées, fragmentées. Différence avec TV : TV passive (regardez quelque) vs algorithme actif (recommande, oriente). Pire : algorithme personnalisé (chaque utilisateur vu différent bulle = impossible consensus sociétal). Solution : plateformes reorienter optimisation (diversité vs engagement), régulation (forbid certain recommandations), education (digital literacy). Urgence : sociétés sont polarisé dangerously par algorithmes.",
+"videoURL": "https://www.youtube.com/c/BonPote",
+"externalLinkURL": "https://www.inria.fr"
+},
+{
+"name": "Pourquoi demander à LLM « Es-tu intelligent ? » révèle les limites de l'IA actuelle",
+"textDescription": "Demandez LLM : « Es-tu intelligent ? ». Répond : « Je suis IA avancée capable de résoudre problèmes complexes ». Semble intellectuel. Réalité : LLM est entraîné sur texte internet (qui loue IA). Predicts mots probable = répond avec self-praise. Pas auto-awareness, pas introspection. Si demandez : « 7 * 13 = ? ». Peut réciter réponse juste (entraîné contient). Demandez : « 234567 * 789123 = ? ». Hallucine (pattern rare, génère nombre plausible). Cela montre : LLM excels pattern matching (mots courants) mais échoue logique mathématique (non-pattern). Similaire : demandez LLM « Explique paradoxe philosophique ». Répond brilliamment (patterns texte philosophique). Demandez : « Résous case éthique nouveau ». Applique patterns vielles situations = mauvaise solution. Intelligence semblante existe seulement où patterns abondants. Hors: hallucination. Cela explique why GPT intelligent conversationally mais stupide logiquement. Vraie intelligence = raisonnement causal (pas patterns). LLM = pas capable.",
+"videoURL": "https://www.youtube.com/c/CNIL",
+"externalLinkURL": "https://www.cnil.fr"
+}
+]
+}
+]

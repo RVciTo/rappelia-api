@@ -1,0 +1,300 @@
+{
+  "stableId": "code_route_ecoconduite_partage_route",
+  "name": "Éco-conduite et partage de la route",
+  "description": "Conduire de façon économique, souple et respectueuse des autres usagers.",
+  "color": "purple",
+  "category": "Driving",
+  "language": "fr",
+  "difficulty": "Beginner",
+  "tags": [
+    "ecoconduite",
+    "partage",
+    "route",
+    "cyclistes",
+    "mobilite"
+  ],
+  "cards": [
+    {
+      "front": "Qu’est-ce que l’éco-conduite ?",
+      "back": "Une conduite souple, anticipée et efficace qui réduit consommation, usure et émissions.",
+      "hint": "Économie + sécurité."
+    },
+    {
+      "front": "Pourquoi l’anticipation réduit-elle la consommation ?",
+      "back": "Parce qu’elle évite les accélérations et freinages inutiles.",
+      "hint": "Voir loin."
+    },
+    {
+      "front": "Pourquoi une conduite souple améliore-t-elle aussi la sécurité ?",
+      "back": "Parce qu’elle laisse plus de temps pour réagir et limite les manœuvres brusques.",
+      "hint": "Fluidité = sécurité."
+    },
+    {
+      "front": "À quoi sert de passer les rapports sans faire monter excessivement le moteur dans les tours ?",
+      "back": "À limiter la consommation de carburant et l’usure mécanique.",
+      "hint": "Régime modéré."
+    },
+    {
+      "front": "Pourquoi un véhicule chargé consomme-t-il plus ?",
+      "back": "Parce qu’il faut plus d’énergie pour le déplacer et le freiner.",
+      "hint": "Poids = énergie."
+    },
+    {
+      "front": "Pourquoi faut-il retirer une galerie ou un coffre de toit inutilisé ?",
+      "back": "Parce qu’ils augmentent la résistance à l’air et donc la consommation.",
+      "hint": "Aérodynamique."
+    },
+    {
+      "front": "Quel effet a une mauvaise pression des pneus sur la consommation ?",
+      "back": "Elle augmente la résistance au roulement et donc la consommation.",
+      "hint": "Pneus sous-gonflés."
+    },
+    {
+      "front": "Pourquoi couper le moteur lors d’un arrêt prolongé peut-il être utile ?",
+      "back": "Parce que laisser tourner inutilement le moteur consomme du carburant et pollue.",
+      "hint": "Ralenti inutile."
+    },
+    {
+      "front": "Pourquoi l’usage excessif de la climatisation augmente-t-il la consommation ?",
+      "back": "Parce qu’elle demande de l’énergie au moteur ou au système électrique.",
+      "hint": "Confort énergivore."
+    },
+    {
+      "front": "Pourquoi regarder loin devant aide-t-il à conduire économiquement ?",
+      "back": "Parce qu’on peut lever le pied tôt et éviter un freinage tardif.",
+      "hint": "Anticiper les événements."
+    },
+    {
+      "front": "Pourquoi vaut-il mieux maintenir une allure régulière ?",
+      "back": "Parce qu’une vitesse stable consomme généralement moins que des variations constantes.",
+      "hint": "Stabilité."
+    },
+    {
+      "front": "Quel lien existe-t-il entre vitesse élevée et consommation ?",
+      "back": "Plus la vitesse augmente, plus la résistance de l’air et la consommation augmentent.",
+      "hint": "L’air freine."
+    },
+    {
+      "front": "Pourquoi l’éco-conduite réduit-elle aussi le bruit ?",
+      "back": "Parce qu’elle évite les hauts régimes, les accélérations brutales et les coups de frein.",
+      "hint": "Moins d’agressivité."
+    },
+    {
+      "front": "Pourquoi entretenir régulièrement le véhicule fait-il partie de l’éco-conduite ?",
+      "back": "Parce qu’un véhicule bien entretenu fonctionne plus efficacement et pollue moins.",
+      "hint": "Entretien = rendement."
+    },
+    {
+      "front": "Pourquoi éviter de transporter des objets inutiles dans le coffre ?",
+      "back": "Parce que le surpoids augmente la consommation.",
+      "hint": "Chaque kilo compte."
+    },
+    {
+      "front": "Quelle attitude adopter dans un embouteillage pour rester éco-conducteur ?",
+      "back": "Garder ses distances, avancer doucement et éviter les à-coups.",
+      "hint": "Souplesse dans le trafic."
+    },
+    {
+      "front": "Pourquoi le covoiturage participe-t-il au partage de la route ?",
+      "back": "Parce qu’il réduit le nombre de véhicules en circulation pour un même déplacement.",
+      "hint": "Moins de voitures."
+    },
+    {
+      "front": "Pourquoi faut-il respecter particulièrement les usagers vulnérables ?",
+      "back": "Parce qu’ils subissent plus gravement les conséquences d’un choc.",
+      "hint": "Piétons, cyclistes, deux-roues."
+    },
+    {
+      "front": "Quelle distance latérale faut-il viser en dépassant un cycliste ?",
+      "back": "Une distance de sécurité suffisante, plus importante hors agglomération.",
+      "hint": "Laisser de l’air."
+    },
+    {
+      "front": "Pourquoi vérifier l’angle mort avant d’ouvrir une portière ?",
+      "back": "Pour ne pas heurter un cycliste ou un deux-roues arrivant.",
+      "hint": "Risque de portière."
+    },
+    {
+      "front": "Pourquoi faut-il éviter de stationner sur une piste cyclable ou un trottoir ?",
+      "back": "Parce que cela met en danger les usagers concernés et gêne leur circulation.",
+      "hint": "Respect des espaces."
+    },
+    {
+      "front": "Pourquoi les piétons âgés ou enfants demandent-ils une vigilance renforcée ?",
+      "back": "Parce que leurs réactions peuvent être plus lentes ou imprévisibles.",
+      "hint": "Fragilité particulière."
+    },
+    {
+      "front": "Comment partager la route avec les motocyclistes ?",
+      "back": "En vérifiant les angles morts, en signalant ses intentions tôt et en gardant des distances adaptées.",
+      "hint": "Deux-roues plus discrets."
+    },
+    {
+      "front": "Pourquoi les poids lourds demandent-ils de la prudence ?",
+      "back": "Parce qu’ils ont des angles morts importants et des distances de freinage élevées.",
+      "hint": "Gabarit et angles morts."
+    },
+    {
+      "front": "Pourquoi ne faut-il pas rester dans l’angle mort d’un poids lourd ?",
+      "back": "Parce que le conducteur peut ne pas vous voir.",
+      "hint": "Invisible pour lui."
+    },
+    {
+      "front": "Quel est l’intérêt d’utiliser les transports collectifs quand c’est possible ?",
+      "back": "Ils réduisent le trafic, les émissions et la pression sur le stationnement.",
+      "hint": "Mobilité partagée."
+    },
+    {
+      "front": "Pourquoi l’éco-conduite est-elle compatible avec le respect des limitations ?",
+      "back": "Parce qu’elle repose justement sur une vitesse adaptée et raisonnable.",
+      "hint": "Pas de performance."
+    },
+    {
+      "front": "Pourquoi un départ progressif est-il préférable à une forte accélération ?",
+      "back": "Parce qu’il consomme moins et préserve l’adhérence.",
+      "hint": "Démarrage doux."
+    },
+    {
+      "front": "Quel comportement adopter en ville pour conduire économiquement ?",
+      "back": "Lire le trafic, profiter du frein moteur et éviter les accélérations inutiles entre deux feux.",
+      "hint": "Ville = anticipation."
+    },
+    {
+      "front": "Pourquoi garder ses distances aide-t-il aussi l’éco-conduite ?",
+      "back": "Parce qu’on peut ralentir progressivement au lieu de freiner fort.",
+      "hint": "Tampon de sécurité."
+    },
+    {
+      "front": "Pourquoi les trajets très courts sont-ils moins efficaces ?",
+      "back": "Parce que le moteur et les systèmes atteignent moins vite leur température optimale.",
+      "hint": "Moteur froid."
+    },
+    {
+      "front": "Comment réduire l’impact environnemental d’un trajet ?",
+      "back": "En choisissant un trajet pertinent, en groupant les déplacements et en conduisant souplement.",
+      "hint": "Moins de kilomètres inutiles."
+    },
+    {
+      "front": "Pourquoi faut-il couper la musique ou les distractions si elles gênent l’attention ?",
+      "back": "Parce qu’une conduite efficace commence par une conduite attentive.",
+      "hint": "Économie sans distraction."
+    },
+    {
+      "front": "Pourquoi une bonne planification du trajet fait-elle partie de l’éco-conduite ?",
+      "back": "Parce qu’elle évite les détours, le stress et certaines phases de conduite inefficaces.",
+      "hint": "Préparer avant partir."
+    },
+    {
+      "front": "Quel rapport entre courtoisie et partage de la route ?",
+      "back": "La courtoisie rend les interactions plus lisibles, réduit le stress et améliore la sécurité globale.",
+      "hint": "Conduite apaisée."
+    },
+    {
+      "front": "Pourquoi faut-il ralentir avant de croiser des piétons ou cyclistes sous pluie ou vent ?",
+      "back": "Parce qu’ils peuvent être déstabilisés et moins protégés.",
+      "hint": "Conditions difficiles."
+    },
+    {
+      "front": "Pourquoi les passages piétons doivent-ils être abordés avec retenue ?",
+      "back": "Parce qu’un piéton peut s’y engager à tout moment et reste prioritaire.",
+      "hint": "Prudence urbaine."
+    },
+    {
+      "front": "En quoi l’éco-conduite réduit-elle l’usure du véhicule ?",
+      "back": "Elle ménage les freins, les pneus, l’embrayage et la mécanique en général.",
+      "hint": "Moins de contraintes."
+    },
+    {
+      "front": "Pourquoi partager la route implique-t-il de communiquer clairement ?",
+      "back": "Parce que des intentions lisibles grâce aux clignotants et au positionnement évitent les conflits.",
+      "hint": "Être prévisible."
+    },
+    {
+      "front": "Quel est l’objectif général de l’éco-conduite et du partage de la route ?",
+      "back": "Réduire l’impact du déplacement tout en circulant de manière sûre, fluide et respectueuse des autres.",
+      "hint": "Économie, sécurité, respect."
+    }
+  ],
+  "sampleIdeas": [
+    {
+      "name": "Fondamentaux de l'éco-conduite",
+      "textDescription": "L'éco-conduite repose sur l'anticipation, la souplesse et la sobriété mécanique. Regarder loin, accélérer progressivement, stabiliser son allure et couper le moteur lors d'arrêts prolongés sont des réflexes qui réduisent consommation et stress.\n\nPasser les rapports tôt, éviter les hauts régimes et maintenir une vitesse constante préservent aussi le moteur. L'idée n'est pas de rouler lentement mais de limiter les pics d'énergie inutiles.\n\nMême dans un embouteillage, on peut rester éco-conducteur : garder ses distances, éviter les coups d'accélérateur, profiter de l'inertie et préparer la reprise.\n\nLes ressources dédiées à l'éco-conduite détaillent ces techniques et donnent des repères chiffrés pour mesurer les gains potentiels.",
+      "videoURL": null,
+      "externalLinkURL": "https://fr.wikipedia.org/wiki/%C3%89co-conduite",
+      "linkedCardIndices": [
+        0,
+        1,
+        2,
+        3,
+        7,
+        8,
+        9,
+        10,
+        11,
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "name": "Poids, entretien et équipements",
+      "textDescription": "Un véhicule entretenu consomme moins : pneus correctement gonflés, filtres propres, vidanges à jour et accessoires inutiles retirés. Chaque kilo superflu ou galerie oubliée sur le toit augmente la résistance à l'air ou au roulement.\n\nLimiter la climatisation, retirer les objets inutiles du coffre et vérifier la pression des pneus sont des gestes simples mais efficaces. Ils améliorent aussi la sécurité en conservant la meilleure adhérence possible.\n\nL'éco-conduite réduit le bruit, l'usure des freins et la fatigue du conducteur. Elle s'inscrit dans une logique d'entretien préventif plutôt que de réparation d'urgence.\n\nConsultez les guides sur la consommation de carburant pour relier chaque réglage (pression, charge, accessoires) à son impact mesurable.",
+      "videoURL": null,
+      "externalLinkURL": "https://fr.wikipedia.org/wiki/Consommation_de_carburant",
+      "linkedCardIndices": [
+        4,
+        5,
+        6,
+        8,
+        12,
+        13,
+        14,
+        15,
+        30,
+        31,
+        37
+      ]
+    },
+    {
+      "name": "Respect des usagers vulnérables",
+      "textDescription": "Partager la route signifie adapter son comportement aux piétons, cyclistes, motocyclistes et poids lourds. Les distances latérales (1 m en ville, 1,5 m hors agglomération) doivent être respectées scrupuleusement.\n\nOn évite d'ouvrir sa portière sans vérifier l'angle mort, on ne s'arrête pas sur une piste cyclable et l'on annonce tôt sa manœuvre. Les piétons âgés ou enfants traversent plus lentement : ralentir d'avance évite les réactions brusques.\n\nLes poids lourds possèdent des angles morts gigantesques : rester dans leur sillage ou les dépasser sans conviction expose à des risques majeurs. Mieux vaut accélérer franchement pour sortir de la zone d'ombre ou rester à distance.\n\nLes dossiers sur la sécurité routière détaillent les précautions pour chaque profil d'usager : combinez-les avec ces cartes pour mémoriser les marges à respecter.",
+      "videoURL": null,
+      "externalLinkURL": "https://fr.wikipedia.org/wiki/S%C3%A9curit%C3%A9_routi%C3%A8re_en_France",
+      "linkedCardIndices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        34,
+        35,
+        36,
+        38
+      ]
+    },
+    {
+      "name": "Planification et mobilité partagée",
+      "textDescription": "L'éco-conduite commence avant de démarrer : choisir un itinéraire fluide, regrouper les déplacements, privilégier le covoiturage ou les transports collectifs quand c'est possible. Les trajets très courts consomment plus car le moteur n'a pas le temps d'atteindre sa température optimale.\n\nPlanifier réduit aussi le stress et laisse le temps d'adapter sa conduite aux conditions locales (pluie, vent, événements). Une bonne communication avec les autres usagers par des signaux clairs renforce la courtoisie et la sécurité.\n\nRéduire l'impact environnemental passe par la modération de la vitesse, la gestion des charges et la limitation des distractions (musique trop forte, téléphone). Cette cohérence globale améliore autant la qualité de vie que le budget carburant.\n\nInspirez-vous des principes de la mobilité durable pour intégrer ces habitudes dans vos trajets quotidiens.",
+      "videoURL": null,
+      "externalLinkURL": "https://fr.wikipedia.org/wiki/Mobilit%C3%A9_durable",
+      "linkedCardIndices": [
+        16,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        39
+      ]
+    }
+  ]
+}
