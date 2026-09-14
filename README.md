@@ -1,8 +1,36 @@
 # rappelia-api
 
 Static JSON content repo for the **Rappelia** iOS app's public deck library.
-This repo is **not a server** — there is no backend, no auth, no build step.
+This repo is **not a server**: there is no backend, no auth, no build step.
 The app fetches two raw JSON files over HTTPS and caches them for 7 days.
+
+## Status
+
+| Owner | Stack | Version | Stage | Live | Last commit | Branch |
+|---|---|---|---|---|---|---|
+| Heva Pulse (Pitsana), backs the Rappelia iOS app | Static JSON, GitHub Pages (reserved), served via raw.githubusercontent.com | n/a (content repo) | Production | Yes, served live to the app via raw.githubusercontent.com | 2026-06-07 | main |
+
+### Production readiness: 90%
+
+Assessed 2026-09-14.
+
+| Stage | Weight | Score | State |
+|---|---|---|---|
+| Spec and feasibility | 5 | 5 | Schema, editorial playbook and content rules are exhaustively documented. |
+| Scaffold | 10 | 10 | Simple, complete structure: two JSON files, a validation script, a CNAME for future use. |
+| Working prototype | 15 | 15 | Files parse and serve correctly to the live app today. |
+| First real use | 10 | 10 | Actively fetched by the published Rappelia iOS app. |
+| MVP complete | 15 | 15 | Content pipeline (add deck, add collection, soft-delete) is complete and in daily use. |
+| Validated by users | 10 | 10 | Real app users pull this data on every 7-day refresh cycle. |
+| Hardening | 20 | 10 | No CI, no automated tests, README says plainly "you are the validator"; validation is a manual local script, not enforced. |
+| Production | 15 | 15 | Live in production, serving the shipped app via raw.githubusercontent.com. |
+
+### Left to finish
+
+1. Add CI to run the README's validation script automatically on push/PR (currently manual, "no review pipeline").
+2. Decide whether `api.pitsana.com` (CNAME, GitHub Pages) is ever activated, or should be removed if permanently unused.
+3. Resolve the `editorial/fr-content-review-2026-04` and `claude/add-premium-onboarding-tVSXq` remote branches (merge or drop).
+4. Consider a lightweight rollback mechanism given edits go live to all users within 7 days with no review pipeline.
 
 > If you change anything here, the JSON you commit **is** what users get on
 > their next refresh. There is no review pipeline. Read this whole README
