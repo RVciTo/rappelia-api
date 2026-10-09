@@ -8,7 +8,7 @@ The app fetches two raw JSON files over HTTPS and caches them for 7 days.
 
 | Owner | Stack | Version | Stage | Live | Last commit | Branch |
 |---|---|---|---|---|---|---|
-| Heva Pulse (Pitsana), backs the Rappelia iOS app | Static JSON, GitHub Pages (reserved), served via raw.githubusercontent.com | n/a (content repo) | Production | Yes, served live to the app via raw.githubusercontent.com | 2026-06-07 | main |
+| Heva Pulse (Pitsana), backs the Rappelia iOS app | Static JSON, served via raw.githubusercontent.com | n/a (content repo) | Production | Yes, served live to the app via raw.githubusercontent.com | 2026-06-07 | main |
 
 ### Production readiness: 90%
 
@@ -17,20 +17,19 @@ Assessed 2026-09-14.
 | Stage | Weight | Score | State |
 |---|---|---|---|
 | Spec and feasibility | 5 | 5 | Schema, editorial playbook and content rules are exhaustively documented. |
-| Scaffold | 10 | 10 | Simple, complete structure: two JSON files, a validation script, a CNAME for future use. |
+| Scaffold | 10 | 10 | Simple, complete structure: two JSON files, a validation script. |
 | Working prototype | 15 | 15 | Files parse and serve correctly to the live app today. |
 | First real use | 10 | 10 | Actively fetched by the published Rappelia iOS app. |
 | MVP complete | 15 | 15 | Content pipeline (add deck, add collection, soft-delete) is complete and in daily use. |
 | Validated by users | 10 | 10 | Real app users pull this data on every 7-day refresh cycle. |
-| Hardening | 20 | 10 | No CI, no automated tests, README says plainly "you are the validator"; validation is a manual local script, not enforced. |
+| Hardening | 20 | 10 | CI runs `scripts/validate.py` on push and pull request; no further automated tests. |
 | Production | 15 | 15 | Live in production, serving the shipped app via raw.githubusercontent.com. |
 
 ### Left to finish
 
-1. Add CI to run the README's validation script automatically on push/PR (currently manual, "no review pipeline").
-2. Decide whether `api.pitsana.com` (CNAME, GitHub Pages) is ever activated, or should be removed if permanently unused.
-3. Resolve the `editorial/fr-content-review-2026-04` and `claude/add-premium-onboarding-tVSXq` remote branches (merge or drop).
-4. Consider a lightweight rollback mechanism given edits go live to all users within 7 days with no review pipeline.
+1. Make the `validate` check required on `main` (repo setting).
+2. Resolve the `editorial/fr-content-review-2026-04` and `claude/add-premium-onboarding-tVSXq` remote branches (merge or drop).
+3. Create the first `content-*` tag after merge (see section 1.1).
 
 > If you change anything here, the JSON you commit **is** what users get on
 > their next refresh. There is no review pipeline. Read this whole README
@@ -48,14 +47,32 @@ Config keys `remote_decks_url` / `remote_collections_url`, defaults below):
 | Decks        | `https://raw.githubusercontent.com/RVciTo/rappelia-api/main/rappelia/sample_decks.json`              |
 | Collections  | `https://raw.githubusercontent.com/RVciTo/rappelia-api/main/rappelia/collections.json`               |
 
-The custom domain `api.pitsana.com` (CNAME at the repo root) points to GitHub
-Pages and is reserved for future use; **all live traffic today goes through
-`raw.githubusercontent.com`**. Do not move files around without updating the
+This repo is content versioning only: there is no site and no custom domain.
+**All live traffic goes through `raw.githubusercontent.com`**. Do not move files around without updating the
 defaults in `Rappelia/Services/RemoteConfigService.swift`.
 
 **Cache:** clients keep a 7-day local cache. Edits propagate within 7 days, or
 immediately for users who tap "Force refresh" in the debug menu. Plan rollouts
 accordingly — never depend on instant propagation.
+
+### 1.1 Rollback to a tagged release
+
+Content releases are tagged `content-YYYY-MM-DD` (for example
+`content-2026-10-09`). The first tag to create after this change merges is
+`content-2026-10-09`, on the merge commit.
+
+To roll back, point the Firebase Remote Config key `remote_decks_url` (and
+`remote_collections_url`) at the tag instead of `main`, by replacing `main` in
+the path with the tag name:
+
+```
+https://raw.githubusercontent.com/RVciTo/rappelia-api/content-2026-10-09/rappelia/sample_decks.json
+https://raw.githubusercontent.com/RVciTo/rappelia-api/content-2026-10-09/rappelia/collections.json
+```
+
+Publish the Remote Config change; clients pick it up on their next refresh
+(up to 7 days, see the cache note above). Clear the two keys to return to the
+`main` defaults.
 
 ---
 
@@ -63,7 +80,8 @@ accordingly — never depend on instant propagation.
 
 ```
 rappelia-api/
-├── CNAME                        # api.pitsana.com (do not edit)
+├── scripts/validate.py          # deck validator (run by CI)
+├── .github/workflows/validate.yml
 ├── README.md                    # this file
 └── rappelia/
     ├── sample_decks.json        # array of decks (the catalog)
@@ -106,7 +124,7 @@ Top-level: `[Deck, Deck, ...]`. Each deck object:
 | ------- | -------- | :------: | ------------------------------------------------------------------ |
 | `front` | `string` |    ✅    | Question/prompt. One idea per card. Avoid lists — split them up.   |
 | `back`  | `string` |    ✅    | Answer. Self-contained — readable without seeing the front.        |
-| `hint`  | `string` |    ✅    | Short nudge (≤ ~60 chars). Use `""` if you really have no hint, but prefer to write one. |
+| `hint`  | `string` |    optional    | Short nudge (≤ ~60 chars). May be omitted (the app treats it as optional), but prefer to write one. |
 
 No HTML, no Markdown rendering — text is shown as-is. Use straight punctuation, but curly quotes (`'` `"`) are acceptable and preserved.
 
@@ -209,60 +227,10 @@ Collections with **zero active member decks** (after applying `isActive` on both
 
 ## 7. Validation before commit
 
-There is no CI. **You are the validator.** Run all of these locally:
+CI runs the same check on every push and pull request. Run it locally first:
 
 ```bash
-# 1. Syntactic JSON validity
-python3 -m json.tool rappelia/sample_decks.json > /dev/null
-python3 -m json.tool rappelia/collections.json   > /dev/null
-
-# 2. Schema + cross-file referential integrity
-python3 - <<'PY'
-import json, sys
-decks = json.load(open('rappelia/sample_decks.json'))
-cols  = json.load(open('rappelia/collections.json'))
-
-required_deck = {'stableId','name','description','color','category','language','difficulty','tags','cards','sampleIdeas'}
-required_card = {'front','back','hint'}
-required_idea = {'name','textDescription','linkedCardIndices'}
-allowed_lang  = {'en','fr'}
-allowed_diff  = {'Beginner','Intermediate','Advanced','Débutant','Intermédiaire','Avancé'}
-allowed_color = {'blue','green','orange','pink','purple','red','yellow','indigo','teal','mint','cyan','brown'}
-
-errors = []
-ids = set()
-for i,d in enumerate(decks):
-    miss = required_deck - d.keys()
-    if miss: errors.append(f'deck[{i}] {d.get("stableId","?")}: missing {miss}')
-    sid = d.get('stableId','')
-    if sid in ids: errors.append(f'duplicate stableId: {sid}')
-    ids.add(sid)
-    if d.get('language') not in allowed_lang: errors.append(f'{sid}: bad language {d.get("language")}')
-    if d.get('difficulty') not in allowed_diff: errors.append(f'{sid}: bad difficulty {d.get("difficulty")}')
-    if d.get('color') not in allowed_color: errors.append(f'{sid}: bad color {d.get("color")}')
-    n = len(d.get('cards',[]))
-    if n < 5: errors.append(f'{sid}: only {n} cards (min 5)')
-    for j,c in enumerate(d.get('cards',[])):
-        if required_card - c.keys(): errors.append(f'{sid} card[{j}]: missing {required_card - c.keys()}')
-    for j,s in enumerate(d.get('sampleIdeas',[])):
-        if required_idea - s.keys(): errors.append(f'{sid} idea[{j}]: missing {required_idea - s.keys()}')
-        for k in s.get('linkedCardIndices',[]):
-            if not isinstance(k,int) or k < 0 or k >= n:
-                errors.append(f'{sid} idea[{j}]: linkedCardIndices {k} out of range (0..{n-1})')
-
-deck_ids = {d['stableId'] for d in decks if d.get('isActive', True)}
-col_ids  = set()
-for c in cols:
-    if c['id'] in col_ids: errors.append(f'duplicate collection id: {c["id"]}')
-    col_ids.add(c['id'])
-    for sid in c.get('stableDeckIds',[]):
-        if sid not in {d['stableId'] for d in decks}:
-            errors.append(f'collection {c["id"]}: unknown stableDeckId {sid}')
-
-if errors:
-    print('\n'.join(errors)); sys.exit(1)
-print(f'OK: {len(decks)} decks, {sum(len(d["cards"]) for d in decks)} cards, {len(cols)} collections')
-PY
+python3 scripts/validate.py
 ```
 
 A passing run prints a single `OK:` line. Any other output blocks the commit.
@@ -316,7 +284,7 @@ Commit messages: imperative, mention the affected `stableId`(s) and collection i
 - **Append-only is safest.** New decks at the end, new cards at the end, new collections at the end.
 - **`stableId` is forever.** Choose carefully.
 - **`linkedCardIndices` is fragile.** Re-verify on every card-list edit.
-- **No CI, no review, no rollback automation.** What you push is what users get within 7 days.
+- **No review pipeline.** CI only validates structure; rollback is manual (section 1.1). What you push is what users get within 7 days.
 - **In doubt, soft-delete (`isActive: false`)** rather than hard-delete.
 
 If a rule here conflicts with reality (a field the app accepts that isn't documented, a category the app rejects, etc.), **fix the README first**, then make the JSON change. The README is the contract.
